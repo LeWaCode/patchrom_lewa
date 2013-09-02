@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Path to the library that contains the device specifiy key handler -->
+    <string name="config_deviceKeyHandlerLib"></string>
+
+    <!-- Name of that key handler class -->
+    <string name="config_deviceKeyHandlerClass"></string>
+
+    <!-- Timeout in MS for how long you have to long-press the back key to
+         kill the foreground app. -->
+    <integer name="config_backKillTimeout">2000</integer>
+
+    <integer-array name="config_autoBrightnessButtonBacklightValues">
+        <item>0</item>
+        <item>102</item>
+        <item>180</item>
+        <item>200</item>
+        <item>210</item>
+        <item>230</item>
+        <item>255</item>
+    </integer-array>
+
+    <!-- Control the behavior when the user long presses the menu button.
+            0 - Nothing
+            1 - Search
+            2 - Custom action set in config_longPressOnMenuAction
+    -->
+    <integer name="config_longPressOnMenuBehavior">2</integer>
+    <string name="config_longPressOnMenuAction">"android.intent.action.ASSIST"</string>
+
+    <integer name="config_extraSwithThumbPadding">0</integer>
+
+    <string-array name="config_standaloneLockscreens">
+        <item>com.miui.mihome2/com.miui.home.lockscreen.LockscreenActivity</item>
+    </string-array>
+    <!-- move from framework-res for patch rom -->
+    <!-- Disable safe volume check for lewa music -->
+    <bool name="config_safe_media_volume_enabled">false</bool>
+</resources>

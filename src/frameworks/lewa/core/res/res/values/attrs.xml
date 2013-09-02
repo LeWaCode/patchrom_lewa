@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PagerHeader">
+        <attr name="activeTextColor" format="color" />
+        <attr name="inactiveTextColor" format="color" />
+        <attr name="tabColor" format="color" />
+        <attr name="tabHeight" format="dimension" />
+        <attr name="tabPadding" format="dimension" />
+        <attr name="paddingPush" format="dimension" />
+        <attr name="fadingEdgeLengthX" format="dimension" />
+        <attr name="fadingEdgeColorHint" format="color" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="showTopShadow" format="boolean" />
+        <attr name="showBottomBar" format="boolean" />
+        <attr name="showTab" format="boolean" />
+        <attr name="android:background" />
+    </declare-styleable>
+
+    <!-- move from framework-res for patch rom -->
+    <!-- Flag indicating whether this window's Action Bar should overlay
+         application content at Bottom. Does nothing if the window would not
+         have an Action Bar. add by LeWa Shenqi -->
+    <attr name="windowActionBarBottomOverlay" format="boolean" />
+
+    <declare-styleable name="Window">
+        <attr name="windowActionBarBottomOverlay" />
+    </declare-styleable>
+
+    <!--add by chenhengheng@20121114-->
+    <declare-styleable name="LockPatternView">
+        <!-- Aspect to use when drawing LockPatternView. Choices are "square"(default), "lock_width"
+             or "lock_height" -->
+        <attr name="lockbackground" format="reference"/>
+    </declare-styleable>
+    <attr name="numberPickerUpButtonStyle" format="reference" />
+    <attr name="numberPickerDownButtonStyle" format="reference" />
+    <attr name="numberPickerInputTextStyle" format="reference" />
+</resources>

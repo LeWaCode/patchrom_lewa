@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<packages>
+
+    <!-- system apps -->
+    <package name="android" />
+    <package name="com.android.phone" />
+    <package name="com.android.systemui" />
+    <package name="com.android.settings" />
+    <package name="com.android.email" />
+    <package name="com.android.deskclock" />
+    <package name="com.lewa.spm" />
+    <package name="com.lewa.intercept" />
+    <package name="com.lewa.PIM" />
+    <package name="com.lewa.netmgr" />
+    <package name="com.lewa.virusdefense" />
+    <package name="com.lewa.cleanmemory" />
+    <package name="com.lewa.weather"/>
+    <package name="com.lewa.antitheft"/>
+    <package name="com.android.defcontainer" reason="get storage info"/>
+    
+    <!-- android providers -->
+    <package name="com.android.providers.calendar" />
+    <package name="com.android.providers.media" />
+    <package name="com.android.providers.downloads" />
+    <package name="com.android.providers.contacts" />
+    <package name="com.android.providers.telephony" />
+    <package name="com.android.providers.drm" />
+
+    <!-- 3rd party apps -->
+    <package name="com.noshufou.android.su" />
+    <package name="com.when.android.calendar365" />
+</packages>

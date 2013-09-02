@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Woody Guo @ 2012/12/03: Add for Jelly Bean -->
+    <!-- BEGIN -->
+    <attr name="mediaRouteButtonStyle" format="reference" added="true" />
+
+    <attr name="accessibilityFocusedDrawable" format="reference" added="true" />
+
+    <attr name="findOnPageNextDrawable" format="reference" added="true" />
+    <attr name="findOnPagePreviousDrawable" format="reference" added="true" />
+
+    <declare-styleable name="MediaRouteButton">
+        <attr name="externalRouteEnabledDrawable" format="reference" added="true" />
+        <attr name="mediaRouteTypes" format="integer" added="true">
+            <enum name="liveAudio" value="0x1" />
+            <enum name="user" value="0x800000" />
+        </attr>
+
+        <attr name="minWidth" />
+        <attr name="minHeight" />
+    </declare-styleable>
+
+    <attr name="numberPickerUpButtonStyle" format="reference" added="true"/>
+    <attr name="numberPickerDownButtonStyle" format="reference" added="true" />
+    <attr name="numberPickerInputTextStyle" format="reference" added="true" />
+    <!-- END -->
+
+    <declare-styleable name="Window">
+        <attr name="windowBackground" />
+        <attr name="windowContentOverlay" />
+        <attr name="windowFrame" />
+        <attr name="windowNoTitle" />
+        <attr name="windowFullscreen" />
+        <attr name="windowIsFloating" />
+        <attr name="windowIsTranslucent" />
+        <attr name="windowShowWallpaper" />
+        <attr name="windowAnimationStyle" />
+        <attr name="windowSoftInputMode" />
+        <attr name="windowDisablePreview" />
+        <attr name="windowNoDisplay" />
+        <attr name="textColor" />
+        <attr name="backgroundDimEnabled" />
+        <attr name="backgroundDimAmount" />
+        <attr name="windowActionBar" />
+        <attr name="windowActionModeOverlay" />
+        <attr name="windowActionBarOverlay" />
+        <attr name="windowSplitActionBar" />
+        <attr name="windowEnableSplitTouch" />
+        <attr name="windowCloseOnTouchOutside" />
+        <attr name="windowMinWidthMajor" />
+        <attr name="windowMinWidthMinor" />
+
+        <!-- Woody Guo @ 2012/12/03: Add for Jelly Bean -->
+        <!-- BEGIN -->
+        <attr name="windowFixedWidthMajor" format="dimension|fraction" added="true" />
+        <attr name="windowFixedHeightMinor" format="dimension|fraction" added="true" />
+        <attr name="windowFixedWidthMinor" format="dimension|fraction" added="true" />
+        <attr name="windowFixedHeightMajor" format="dimension|fraction" added="true" />
+        <!-- END -->
+    </declare-styleable>
+
+    <!--add by chenhengheng@20121114-->
+    <declare-styleable name="LockPatternView">
+        <!-- Aspect to use when drawing LockPatternView. Choices are "square"(default), "lock_width"
+             or "lock_height" -->
+        <attr name="aspect"/>
+    </declare-styleable>
+</resources>

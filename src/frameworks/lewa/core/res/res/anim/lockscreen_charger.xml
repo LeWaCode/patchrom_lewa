@@ -1,0 +1,26 @@
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:oneshot="true"
+  >
+    <item android:drawable="@drawable/charging_breath_1" android:duration="500"></item>
+
+    <item android:drawable="@drawable/charging_breath_3" android:duration="500"></item>
+
+    <item android:drawable="@drawable/charging_breath_5" android:duration="500"></item>
+
+    <item android:drawable="@drawable/charging_breath_7" android:duration="500"></item>
+
+    <item android:drawable="@drawable/charging_breath_9" android:duration="500"></item>
+
+    <item android:drawable="@drawable/charging_breath_11" android:duration="500"></item>
+
+    <item android:drawable="@drawable/charging_breath_13" android:duration="500"></item>
+
+    <item android:drawable="@drawable/charging_breath_15" android:duration="500"></item>
+
+    <item android:drawable="@drawable/charging_breath_17" android:duration="500"></item>
+
+    <item android:drawable="@drawable/charging_breath_19" android:duration="500"></item>
+
+    <item android:drawable="@drawable/charging_breath_21" android:duration="500"></item>
+</animation-list>

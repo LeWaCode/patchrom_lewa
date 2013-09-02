@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Change text color and size -->
+    <style name="Widget.Holo.Light.TextView.ListSeparator" parent="Widget.TextView.ListSeparator">
+        <item name="android:background">@android:drawable/list_section_divider_holo_light</item>
+        <item name="android:textAllCaps">true</item>
+        <!-- <item name="android:textColor">#03b3fb</item> -->
+        <item name="android:textColor">@android:color/listseparator_text_color_light</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Original: 18sp -->
+    <style name="TextAppearance.Medium">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Original: 22sp -->
+    <!--
+       - <style name="TextAppearance.Large">
+       -     <item name="android:textSize">17sp</item>
+       - </style>
+       -->
+
+    <!-- Size of tab text in ActionBar -->
+    <!--
+       - <style name="Widget.Holo.Light.ActionBar.TabText" parent="Widget.Holo.ActionBar.TabText">
+       -     <item name="android:textSize">14sp</item>
+       - </style>
+       -->
+    <style name="Widget.Holo.ActionBar.TabText" parent="Widget.ActionBar.TabText">
+        <item name="android:textAppearance">@style/TextAppearance.Holo.Medium</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <!-- Vertical divider between ActionBar tabs -->
+    <!-- list_divider_holo_light -->
+    <!--
+       - <style name="Widget.Holo.ActionBar.TabBar" parent="Widget.ActionBar.TabBar">
+       -     <item name="android:divider">@android:drawable/tab_ab_divider_holo_light</item>
+       -     <item name="android:showDividers">middle</item>
+       -     <item name="android:dividerPadding">12dip</item>
+       - </style>
+       -->
+
+    <!-- Remove textOn and TextOff on Switch -->
+    <style name="Widget.Holo.CompoundButton.Switch">
+        <item name="android:track">@android:drawable/switch_track_holo_dark</item>
+        <item name="android:thumb">@android:drawable/switch_inner_holo_dark</item>
+        <item name="android:switchTextAppearance">@android:style/TextAppearance.Holo.Widget.Switch</item>
+        <item name="android:textOn">""</item>
+        <item name="android:textOff">""</item>
+        <item name="android:thumbTextPadding">14dip</item>
+        <item name="android:switchMinWidth">8dip</item>
+        <item name="android:switchPadding">0dip</item>
+    </style>
+
+    <style name="Widget.Holo.Light.CompoundButton.Switch" parent="Widget.CompoundButton.Switch">
+        <item name="android:track">@android:drawable/switch_track_holo_light</item>
+        <item name="android:thumb">@android:drawable/switch_inner_holo_light</item>
+        <item name="android:switchTextAppearance">@android:style/TextAppearance.Holo.Widget.Switch</item>
+        <item name="android:textOn">""</item>
+        <item name="android:textOff">""</item>
+        <item name="android:thumbTextPadding">14dip</item>
+        <item name="android:switchMinWidth">8dip</item>
+        <item name="android:switchPadding">0dip</item>
+    </style>
+
+    <style name="Preference.Holo.SwitchPreference">
+        <item name="android:widgetLayout">@android:layout/preference_widget_switch</item>
+        <item name="android:switchTextOn">""</item>
+        <item name="android:switchTextOff">""</item>
+    </style>
+
+    <style name="Widget.Holo.Light.PopupWindow" parent="Widget.PopupWindow">
+        <item name="android:popupBackground">@android:drawable/editbox_dropdown_background</item>
+    </style>
+
+    <style name="Preference.Holo">
+        <item name="android:layout">@android:layout/preference</item>
+    </style>
+
+    <style name="Preference.Holo.Light">
+        <item name="android:layout">@android:layout/preference_holo</item>
+    </style>
+
+    <style name="TextAppearance.Theme.Dialog.AppError">
+        <item name="android:textColor">@android:color/background_holo_dark</item>
+    </style>
+
+    <style name="Theme.Dialog.AppError" parent="Theme.Holo.Light.Dialog.MinWidth">
+        <item name="windowFrame">@null</item>
+        <item name="windowTitleStyle">@android:style/DialogWindowTitle</item>
+        <item name="windowBackground">@android:color/transparent</item>
+        <item name="windowIsFloating">true</item>
+        <item name="windowContentOverlay">@null</item>
+        <item name="textAppearance">@style/TextAppearance.Theme.Dialog.AppError</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+
+    <!-- Woody Guo @ 2012/12/03: Upgrade to Jelly Bean -->
+    <!-- BEGIN -->
+    <!-- 4.1 -> 4.0 -->
+    <style name="Widget.Holo.MediaRouteButton">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:externalRouteEnabledDrawable">@drawable/ic_media_route_holo_dark</item>
+        <item name="android:minWidth">56dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+    <style name="Widget.Holo.Light.MediaRouteButton">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:externalRouteEnabledDrawable">@drawable/ic_media_route_holo_light</item>
+        <item name="android:minWidth">56dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+    <style name="Widget.DeviceDefault.MediaRouteButton" parent="Widget.Holo.MediaRouteButton" />
+    <style name="Widget.DeviceDefault.Light.MediaRouteButton" parent="Widget.Holo.Light.MediaRouteButton" />
+
+
+    <!-- 4.0 -> 4.1 -->
+    <style name="Widget.ImageButton.NumberPickerUpButton">
+        <item name="android:background">@android:drawable/numberpicker_up_btn</item>
+        <item name="android:paddingTop">22dip</item>
+        <item name="android:paddingBottom">22dip</item>
+    </style>
+
+    <style name="Widget.ImageButton.NumberPickerDownButton">
+        <item name="android:background">@android:drawable/numberpicker_down_btn</item>
+        <item name="android:paddingTop">22dip</item>
+        <item name="android:paddingBottom">22dip</item>
+    </style>
+
+    <style name="Widget.EditText.NumberPickerInputText">
+        <item name="android:textAppearance">@style/TextAppearance.Large.Inverse.NumberPickerInputText</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/numberpicker_input</item>
+    </style>
+
+    <style name="Widget.Holo.ImageButton.NumberPickerUpButton">
+        <item name="android:background">@null</item>
+        <item name="android:src">@android:drawable/numberpicker_up_btn_holo_dark</item>
+        <item name="android:paddingTop">16dip</item>
+        <item name="android:paddingBottom">22dip</item>
+    </style>
+
+    <style name="Widget.Holo.ImageButton.NumberPickerDownButton">
+        <item name="android:background">@null</item>
+        <item name="android:src">@android:drawable/numberpicker_down_btn_holo_dark</item>
+        <item name="android:paddingTop">22dip</item>
+        <item name="android:paddingBottom">16dip</item>
+    </style>
+
+    <style name="Widget.Holo.EditText.NumberPickerInputText">
+        <item name="android:paddingTop">13sp</item>
+        <item name="android:paddingBottom">13sp</item>
+        <item name="android:paddingLeft">2sp</item>
+        <item name="android:paddingRight">2sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="Widget.Holo.Light.ImageButton.NumberPickerUpButton" parent="Widget.Holo.ImageButton.NumberPickerUpButton">
+        <item name="android:src">@android:drawable/numberpicker_up_btn_holo_light</item>
+    </style>
+
+    <style name="Widget.Holo.Light.ImageButton.NumberPickerDownButton" parent="Widget.Holo.ImageButton.NumberPickerDownButton">
+        <item name="android:src">@android:drawable/numberpicker_down_btn_holo_light</item>
+    </style>
+
+    <style name="Widget.Holo.Light.EditText.NumberPickerInputText" parent="Widget.Holo.EditText.NumberPickerInputText">
+    </style>
+    <!-- END -->
+    <!-- zhangxianjia 2013/3/7  -->
+    <style name="TextAppearance.StatusBar.EventContent.Title">
+        <item name="android:textColor">@color/background_holo_dark</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- END -->
+</resources>

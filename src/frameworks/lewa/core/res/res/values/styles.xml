@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PagerHeader Styles -->
+    <style name="Widget.PagerHeader" parent="@android:style/Widget">
+        <item name="lewa:activeTextColor">@lewa:color/pagerheader_text_active</item>
+        <item name="lewa:inactiveTextColor">@lewa:color/pagerheader_text_inactive</item>
+        <item name="lewa:tabColor">@android:color/holo_blue_light</item>
+        <item name="lewa:tabHeight">4dip</item>
+        <item name="lewa:tabPadding">10dip</item>
+        <item name="lewa:paddingPush">50dip</item>
+        <item name="lewa:fadingEdgeLengthX">30dip</item>
+        <item name="lewa:showTopShadow">false</item>
+        <item name="lewa:showBottomBar">true</item>
+        <item name="lewa:showTab">true</item>
+        <item name="android:background">@lewa:color/pagerheader_background</item>
+    </style>
+        <!-- <item name="lewa:fadingEdgeColorHint">#000000</item> -->
+        <!-- <item name="lewa:backgroundColor">#000000</item> -->
+
+    <style name="Theme.Holo.Light.Wallpaper" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowShowWallpaper">true</item>
+    </style>
+
+    <style name="Theme.Holo.Light.Wallpaper.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- move from framework-res for patch rom -->
+    <style name="TextAppearance.Holo.Widget.Switch" parent="@android:style/TextAppearance.Small">
+    </style>
+
+    <style name="Widget.Holo.Light.CompoundButton.Switch" parent="@android:style/Widget.CompoundButton">
+        <item name="android:track">@lewa:drawable/switch_track_holo_light</item>
+        <item name="android:thumb">@lewa:drawable/switch_inner_holo_light</item>
+        <item name="android:switchTextAppearance">@lewa:style/TextAppearance.Holo.Widget.Switch</item>
+        <item name="android:textOn">@lewa:string/capital_on</item>
+        <item name="android:textOff">@lewa:string/capital_off</item>
+        <item name="android:thumbTextPadding">12dip</item>
+        <item name="android:switchMinWidth">96dip</item>
+        <item name="android:switchPadding">16dip</item>
+    </style>
+
+    <style name="Widget.Holo.Light.Button.Borderless" parent="@android:style/Widget.Holo.Light.Button">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:paddingLeft">4dip</item>
+        <item name="android:paddingRight">4dip</item>
+    </style>
+
+    <style name="Widget.TextView.ListSeparator" parent="@android:style/Widget.TextView">
+        <item name="android:background">@lewa:drawable/dark_header_dither</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">8dip</item>
+    </style>
+
+    <style name="Widget.Holo.Light.TextView.ListSeparator" parent="Widget.TextView.ListSeparator">
+        <item name="android:background">@lewa:drawable/list_section_divider_holo_light</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+</resources>

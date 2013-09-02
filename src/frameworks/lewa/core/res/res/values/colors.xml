@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PagerHeader background -->
+    <color name="pagerheader_background">#e7e7e7</color>
+    <color name="pagerheader_text_active">@*android:color/background_holo_dark</color>
+    <color name="pagerheader_text_inactive">#848484</color>
+
+    <!-- Colors of different types of file -->
+    <color name="app_files">#00c6ff</color>
+    <color name="pic_files">#01d84d</color>
+    <color name="music_files">#fdca1f</color>
+    <color name="download_files">#e05410</color>
+    <color name="other_files">#aaaaaa</color>
+
+    <color name="doc_files">#dc3000</color>
+    <color name="video_files">#ef5c19</color>
+    <color name="theme_files">#01b941</color>
+    <color name="apk_files">#0285c9</color>
+    <color name="zip_files">#8e8e8e</color>
+    <color name="empty_files">#d4d4d4</color>
+    <!-- move from framework-res for patch rom -->
+    <color name="bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="bright_foreground_holo_light">@*android:color/background_holo_dark</color>
+    <color name="transparent">#00000000</color>
+    <color name="background_holo_dark">@*android:color/background_holo_dark</color>
+    <color name="dim_foreground_holo_light">#323232</color>
+    <!-- Woody Guo @ 2012-12-05: FaceLock: Add for Jelly Bean -->
+    <color name="facelock_color_background">#000000</color>
+</resources>

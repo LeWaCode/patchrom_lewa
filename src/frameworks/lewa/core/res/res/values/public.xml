@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <private-symbols package="com.lewa.internal" />
+
+    <java-symbol type="drawable" name="ic_bullet_key_permission_light" />
+    <java-symbol type="drawable" name="ic_text_dot_light" />
+    <java-symbol type="drawable" name="jog_dial_bg_rev" />
+    <java-symbol type="drawable" name="jog_dial_bg_rev_down" />
+    <java-symbol type="drawable" name="jog_dial_dimple_dim_rev" />
+    <java-symbol type="drawable" name="jog_dial_dimple_rev" />
+    <java-symbol type="drawable" name="lense_square_bg" />
+
+    <java-symbol type="dimen" name="expanded_height" />
+    <java-symbol type="dimen" name="normal_height" />
+    <java-symbol type="drawable" name="dnd_list_drag" />
+    <java-symbol type="string" name="fixed_line" />
+
+    <!-- lewa lockscreen -->
+    <java-symbol type="array" name="chineseDateNames" />
+    <java-symbol type="array" name="chineseMonthNames" />
+    <java-symbol type="drawable" name="ic_lock_screenshot" />
+    <java-symbol type="drawable" name="ic_lock_reboot" />
+    <java-symbol type="integer" name="config_backKillTimeout" />
+    <java-symbol type="string" name="back_killed_message" />
+    <java-symbol type="string" name="config_deviceKeyHandlerClass" />
+    <java-symbol type="string" name="config_deviceKeyHandlerLib" />
+    <java-symbol type="string" name="global_action_reboot" />
+    <java-symbol type="string" name="global_action_screenshot" />
+    <java-symbol type="string" name="global_action_screenshot_status" />
+    <java-symbol type="string" name="global_action_reboot" />
+
+    <!-- lewa powermenu-->
+    <java-symbol type="array" name="shutdown_reboot_actions" />
+    <java-symbol type="array" name="shutdown_reboot_options" />
+    <java-symbol type="string" name="reboot_progress" />
+    <java-symbol type="string" name="reboot_reboot" />
+    <java-symbol type="string" name="reboot_system" />
+
+    <!-- ActionBarContextView -->
+    <java-symbol type="layout" name="action_bar_title_item_with_spinner" />
+    <java-symbol type="id" name="action_bar_spinner" />
+    <java-symbol type="string" name="selectNone" />
+    <java-symbol type="string" name="data_usage_warning_body" />
+
+    <java-symbol type="array" name="config_autoBrightnessButtonBacklightValues" />
+
+    <!-- Long pressing the MENU key -->
+    <java-symbol type="integer" name="config_longPressOnMenuBehavior" />
+    <java-symbol type="string" name="config_longPressOnMenuAction" />
+
+    <!-- Silient mode toggle -->
+    <java-symbol type="string" name="global_action_toggle_silent_mode" />
+    <java-symbol type="drawable" name="ic_lock_silent_mode_on" />
+    <java-symbol type="drawable" name="ic_lock_silent_mode_off" />
+
+    <!-- Airplane mode toggle -->
+    <java-symbol type="string" name="global_actions_toggle_airplane_mode" />
+    <java-symbol type="drawable" name="ic_lock_airplane_mode" />
+    <java-symbol type="drawable" name="ic_lock_airplane_mode_off" />
+
+    <!-- Power off mode toggle -->
+    <java-symbol type="string" name="global_action_power_off" />
+    <java-symbol type="string" name="power_off" />
+    <java-symbol type="string" name="shutdown_progress" />
+    <java-symbol type="string" name="shutdown_confirm" />
+    <java-symbol type="drawable" name="ic_lock_power_off" />
+
+    <java-symbol type="integer" name="config_extraSwithThumbPadding" />
+
+    <java-symbol type="xml" name="autostarts_intents" />
+    <java-symbol type="xml" name="apps_to_keep" />
+
+    <java-symbol type="array" name="config_standaloneLockscreens" />
+
+    <!-- Public attrs -->
+    <!-- PagerHeader -->
+    <public type="attr" name="activeTextColor" id="0x09010000" />
+    <public type="attr" name="inactiveTextColor" />
+    <public type="attr" name="tabColor" />
+    <public type="attr" name="tabHeight" />
+    <public type="attr" name="tabPadding" />
+    <public type="attr" name="paddingPush" />
+    <public type="attr" name="fadingEdgeLengthX" />
+    <public type="attr" name="fadingEdgeColorHint" />
+    <public type="attr" name="backgroundColor" />
+    <public type="attr" name="showTopShadow" />
+    <public type="attr" name="showBottomBar" />
+    <public type="attr" name="showTab" />
+
+    <!-- Public IDs -->
+    <!-- DragableListView -->
+    <public type="id" name="grabber" id="0x09020000" />
+
+    <public type="id" name="button_title" />
+    <public type="id" name="button_left" />
+    <public type="id" name="button_right" />
+
+    <!-- Public styles -->
+    <!-- PagerHeader -->
+    <public type="style" name="Widget.PagerHeader" id="0x09030000" />
+
+    <!-- Wallpaper behind -->
+    <public type="style" name="Theme.Holo.Light.Wallpaper" />
+    <public type="style" name="Theme.Holo.Light.Wallpaper.NoTitleBar" />
+
+    <!-- Public strings -->
+    <public type="string" name="selectNone" id="0x09040000" />
+
+    <!-- Public colors -->
+    <public type="color" name="app_files" id="0x09050000" />
+    <public type="color" name="pic_files" />
+    <public type="color" name="music_files" />
+    <public type="color" name="other_files" />
+
+    <public type="color" name="doc_files" />
+    <public type="color" name="video_files" />
+    <public type="color" name="theme_files" />
+    <public type="color" name="apk_files" />
+    <public type="color" name="zip_files" />
+    <public type="color" name="empty_files" />
+
+    <public type="color" name="download_files" />
+
+    <!-- Public drawables -->
+    <!-- Drawable of menu selection -->
+    <public type="drawable" name="ic_menu_done" id="0x09080000" />
+    <public type="drawable" name="ic_menu_clear_select" />
+    <public type="drawable" name="ic_menu_select_all" />
+
+    <!-- add by zhangxianjia -->
+    <!-- <public type="drawable" name="stat_sys_data_usb" /> -->
+    <java-symbol type="drawable" name="flashlight_background_sos_on" />
+    <java-symbol type="drawable" name="rounded_corner_top_right" />
+    <java-symbol type="drawable" name="rounded_corner_top_left" />
+    <java-symbol type="drawable" name="rounded_corner_bottom_right" />
+    <java-symbol type="drawable" name="rounded_corner_bottom_left" />
+    <!-- END -->
+
+    <!-- DragableListView -->
+    <public type="drawable" name="ic_grabber" />
+
+    <public type="drawable" name="btn_code_lock_default_settings_holo" />
+
+    <public type="drawable" name="action_mode_spinner_holo_light" />
+
+    <public type="drawable" name="sim1_large" />
+    <public type="drawable" name="sim1_medium" />
+    <public type="drawable" name="sim1_small" />
+    <public type="drawable" name="sim2_large" />
+    <public type="drawable" name="sim2_medium" />
+    <public type="drawable" name="sim2_small" />
+
+    <public type="drawable" name="ic_menu_cancel" />
+    <public type="drawable" name="ic_menu_next" />
+    <public type="drawable" name="ic_menu_up" />
+
+    <!-- Public layouts -->
+    <public type="layout" name="stateful_preference_holo_light" id="0x09090000" />
+    <public type="layout" name="preference_widget_switch_noclickable" />
+
+    <public type="layout" name="preference_holo_fixed_icon_size" />
+    <public type="layout" name="buttons_with_title" />
+    <!-- move from framework-res for patch rom -->
+    <!-- Woody Guo @ 2012/12/05: Add for Lewa added resources -->
+    <java-symbol type="string" name="hour" />
+    <java-symbol type="string" name="minute" />
+
+    <java-symbol type="layout" name="preference_holo" />
+    <java-symbol type="layout" name="screen_action_bar_bottom_overlay" />
+
+    <java-symbol type="drawable" name="expander_close_holo_light" />
+    <java-symbol type="drawable" name="expander_open_holo_light" />
+    <!-- lewa filemanager -->
+<!--     <java-symbol type="drawable" name="list_selected_holo_light" /> -->
+    <!-- lewa music -->
+    <java-symbol type="color" name="primary_text_holo_light" />
+    <!-- lewa theme -->
+    <java-symbol type="color" name="background_holo_dark" />
+    <java-symbol type="color" name="dim_foreground_holo_light" />
+
+    <!-- Public styles -->
+    <!-- add by zhangxianjia, holo light switch to public -->
+    <public type="style" name="Widget.Holo.Light.CompoundButton.Switch" />
+
+    <!-- Borderless Button -->
+    <public type="style" name="Widget.Holo.Light.Button.Borderless" />
+
+    <public type="style" name="Widget.Holo.Light.TextView.ListSeparator" />
+
+    <public type="drawable" name="item_background_holo_light" />
+    <public type="drawable" name="stat_sys_data_usb" />
+    <public type="drawable" name="list_selected_holo_light" />
+      <!-- Public attrs -->
+    <!-- add by Lewa shenqi for new style -->
+    <public type="attr" name="windowActionBarBottomOverlay" />
+    <public type="attr" name="lockbackground" />
+
+    <java-symbol type="drawable" name="ic_dialog_alert" />
+    <java-symbol type="drawable" name="ic_dialog_info" />
+    <java-symbol type="drawable" name="quickcontact_badge_overlay_dark" />
+</resources>

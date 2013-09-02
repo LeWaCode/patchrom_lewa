@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="grabber" />
+    <item type="id" name="button_title" />
+    <item type="id" name="button_left" />
+    <item type="id" name="button_right" />    
+</resources>

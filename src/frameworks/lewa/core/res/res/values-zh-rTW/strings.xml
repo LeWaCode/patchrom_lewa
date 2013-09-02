@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="reboot_system" product="tablet">"重啟平板"</string>
+    <string name="reboot_system" product="default">"重啟手機"</string>
+    <string name="global_action_screenshot">"截屏"</string>
+    <string name="global_action_screenshot_status">"長按音量下鍵+電源鍵截屏"</string>
+    <string name="reboot_reboot">"重啟"</string>
+    <string name="reboot_recovery">"恢復"</string>
+    <string name="reboot_bootloader">"引導"</string>
+    <string name="reboot_bootmenu">"引導菜單"</string>
+    <string name="reboot_fastboot">"快速啟動"</string>
+    <string name="reboot_download">"下載"</string>
+    <string name="reboot_progress">"正在重啟..."</string>
+    <string name="reboot_confirm">"您的手機会重啟。"</string>
+    <string name="global_action_reboot">"重啟"</string>
+    <string-array name="shutdown_reboot_options">
+        <item>重啟模式</item>
+        <item>刷機模式</item>
+        <item>引導模式</item>
+    </string-array>
+    <!-- move from framework-res for patch rom -->
+    <string name="hours">"小時"</string>
+    <string name="minute">"分鐘"</string>
+    <string name="capital_on">"開啟"</string>
+    <string name="capital_off">"關閉"</string>
+    <string name="global_action_power_off">"關機"</string>
+    <string name="global_actions_toggle_airplane_mode">"飛航模式"</string>
+    <string name="power_off">"關機"</string>
+    <string name="shutdown_progress">"關機中..."</string>
+    <string name="shutdown_confirm" product="tablet">"您的平板電腦將會關機。"</string>
+    <string name="shutdown_confirm" product="default">"手機即將關機。"</string>
+</resources>

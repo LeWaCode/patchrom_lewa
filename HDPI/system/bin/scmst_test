@@ -1,0 +1,7 @@
+# Script to start "scmst_test" on the device, which has a very rudimentary
+# shell.
+#
+base=/system
+export CLASSPATH=$base/framework/scmst_test.jar
+exec app_process $base/bin org.codeaurora.scmst_test.ScmstTest "$@"
+
