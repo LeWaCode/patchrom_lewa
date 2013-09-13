@@ -63,4 +63,8 @@
         <item name="android:background">@lewa:drawable/list_section_divider_holo_light</item>
         <item name="android:textAllCaps">true</item>
     </style>
+
+    <style name="Widget.LockPatternView" parent="@android:style/Widget">
+        <item name="lewa:lockbackground">@lewa:drawable/btn_code_lock_default_settings_holo</item>
+    </style>
 </resources>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SpectrumVisualizer">
+        <attr name="alpha_width" format="integer" />
+        <attr name="sliding_dot_bar" format="reference" />
+        <attr name="sliding_panel" format="reference" />
+        <attr name="sliding_shadow_dot_bar" format="reference" />
+        <attr name="update_enable" format="boolean" />
+        <attr name="care_streamactive" format="boolean" />
+        <attr name="symmetry" format="boolean" />
+    </declare-styleable>
+    
+    <!-- lunarHolidays -->
+    <string name="the_spring_festival">春节</string>
+    <string name="lantern_festival">元宵节</string>
+    <string name="the_dragon_boat_festival">端午节</string>
+    <string name="double_seventh_day">七夕</string>
+    <string name="the_mid_autumn_festival">中秋节</string>
+    <string name="the_double_ninth_festival">重阳节</string>
+    <string name="the_laba_rice_porridge_festival">腊八</string>
+    
+    <!-- solarHolidays -->
+    <string name="new_years_day">元旦</string>
+    <string name="valentines_day">情人节</string>
+    <string name="international_womens_day">妇女节</string>
+    <string name="arbor_day">植树节</string>
+    <string name="fools_day">愚人节</string>
+    <string name="labour_day">劳动节</string>
+    <string name="chinese_youth_day">青年节</string>
+    <string name="childrens_day">儿童节</string>
+    <string name="partys_day">建党节</string>
+    <string name="the_armys_day">建军节</string>
+    <string name="teachers_day">教师节</string>
+    <string name="national_day">国庆节</string>
+    <string name="christmas_day">圣诞节</string>
+    
+    <!-- solarHolidays_TW -->
+    <string name="national_father_day">國父誕辰</string>
+    
+    <!-- solarTerms -->
+    <string name="slight_cold">小寒</string>
+    <string name="great_cold">大寒</string>
+    <string name="spring_begins">立春</string>
+    <string name="the_rains">雨水</string>
+    <string name="insects_awaken">惊蛰</string>
+    <string name="vernal_equinox">春分</string>
+    <string name="clear_and_bright">清明</string>
+    <string name="grain_rain">谷雨</string>
+    <string name="summer_begins">立夏</string>
+    <string name="grain_buds">小满</string>
+    <string name="grain_in_ear">芒种</string>
+    <string name="summer_solstice">夏至</string>
+    <string name="slight_heat">小暑</string>
+    <string name="great_heat">大暑</string>
+    <string name="autumn_begins">立秋</string>
+    <string name="stopping_the_heat">处暑</string>
+    <string name="white_dews">白露</string>
+    <string name="autumn_equinox">秋分</string>
+    <string name="cold_dews">寒露</string>
+    <string name="hoar_frost_falls">霜降</string>
+    <string name="winter_begins">立冬</string>
+    <string name="light_snow">小雪</string>
+    <string name="heavy_snow">大雪</string>
+    <string name="winter_solstice">冬至</string>
+    
+    <!-- luna -->
+    <string name="lunar_calendar">农历</string>
+    <string name="lunar_zheng">正</string>
+    <string name="lunar_yi">一</string>
+    <string name="lunar_er">二</string>
+    <string name="lunar_san">三</string>
+    <string name="lunar_si">四</string>
+    <string name="lunar_wu">五</string>
+    <string name="lunar_liu">六</string>
+    <string name="lunar_qi">七</string>
+    <string name="lunar_ba">八</string>
+    <string name="lunar_jiu">九</string>
+    <string name="lunar_shi">十</string>
+    <string name="lunar_shi_yi">冬</string>
+    <string name="lunar_shi_er">腊</string>
+    
+    <string name="lunar_chu_shi">初十</string>
+    <string name="lunar_er_shi">二十</string>
+    <string name="lunar_san_shi">三十</string>
+    
+    <string name="lunar_chu">初</string>
+    <string name="lunar_leap">闰</string>
+    <string name="lunar_ling">O</string>
+    <string name="lunar_nian">廿</string>
+    <string name="lunar_year">年</string>
+    <string name="lunar_yue">月</string>
+    
+    <java-symbol type="drawable" name="sliding_panel_visualization_bg" />
+    <java-symbol type="drawable" name="sliding_panel_visualization_dot_bar" />
+    <java-symbol type="drawable" name="sliding_panel_visualization_shadow_dot_bar" />
+
+    <java-symbol type="attr" name="alpha_width" />
+    <java-symbol type="attr" name="sliding_dot_bar" />
+    <java-symbol type="attr" name="sliding_panel" />
+    <java-symbol type="attr" name="sliding_shadow_dot_bar" />
+    <java-symbol type="attr" name="update_enable" />
+    <java-symbol type="attr" name="care_streamactive" />
+    <java-symbol type="attr" name="symmetry" />
+
+    <java-symbol type="string" name="the_spring_festival" />
+    <java-symbol type="string" name="lantern_festival" />
+    <java-symbol type="string" name="the_dragon_boat_festival" />
+    <java-symbol type="string" name="double_seventh_day" />
+    <java-symbol type="string" name="the_mid_autumn_festival" />
+    <java-symbol type="string" name="the_double_ninth_festival" />
+    <java-symbol type="string" name="the_laba_rice_porridge_festival" />
+    <java-symbol type="string" name="new_years_day" />
+    <java-symbol type="string" name="valentines_day" />
+    <java-symbol type="string" name="international_womens_day" />
+    <java-symbol type="string" name="arbor_day" />
+    <java-symbol type="string" name="fools_day" />
+    <java-symbol type="string" name="labour_day" />
+    <java-symbol type="string" name="chinese_youth_day" />
+    <java-symbol type="string" name="childrens_day" />
+    <java-symbol type="string" name="partys_day" />
+    <java-symbol type="string" name="the_armys_day" />
+    <java-symbol type="string" name="teachers_day" />
+    <java-symbol type="string" name="national_day" />
+    <java-symbol type="string" name="christmas_day" />
+    <java-symbol type="string" name="national_father_day" />
+    <java-symbol type="string" name="slight_cold" />
+    <java-symbol type="string" name="great_cold" />
+    <java-symbol type="string" name="spring_begins" />
+    <java-symbol type="string" name="the_rains" />
+    <java-symbol type="string" name="insects_awaken" />
+    <java-symbol type="string" name="vernal_equinox" />
+    <java-symbol type="string" name="clear_and_bright" />
+    <java-symbol type="string" name="grain_rain" />
+    <java-symbol type="string" name="summer_begins" />
+    <java-symbol type="string" name="grain_buds" />
+    <java-symbol type="string" name="grain_in_ear" />
+    <java-symbol type="string" name="summer_solstice" />
+    <java-symbol type="string" name="slight_heat" />
+    <java-symbol type="string" name="great_heat" />
+    <java-symbol type="string" name="autumn_begins" />
+    <java-symbol type="string" name="stopping_the_heat" />
+    <java-symbol type="string" name="white_dews" />
+    <java-symbol type="string" name="autumn_equinox" />
+    <java-symbol type="string" name="cold_dews" />
+    <java-symbol type="string" name="hoar_frost_falls" />
+    <java-symbol type="string" name="winter_begins" />
+    <java-symbol type="string" name="light_snow" />
+    <java-symbol type="string" name="heavy_snow" />
+    <java-symbol type="string" name="winter_solstice" />
+    <java-symbol type="string" name="lunar_calendar" />
+    <java-symbol type="string" name="lunar_zheng" />
+    <java-symbol type="string" name="lunar_yi" />
+    <java-symbol type="string" name="lunar_er" />
+    <java-symbol type="string" name="lunar_san" />
+    <java-symbol type="string" name="lunar_si" />
+    <java-symbol type="string" name="lunar_wu" />
+    <java-symbol type="string" name="lunar_liu" />
+    <java-symbol type="string" name="lunar_qi" />
+    <java-symbol type="string" name="lunar_ba" />
+    <java-symbol type="string" name="lunar_jiu" />
+    <java-symbol type="string" name="lunar_shi" />
+    <java-symbol type="string" name="lunar_shi_yi" />
+    <java-symbol type="string" name="lunar_shi_er" />
+    <java-symbol type="string" name="lunar_chu_shi" />
+    <java-symbol type="string" name="lunar_er_shi" />
+    <java-symbol type="string" name="lunar_san_shi" />
+    <java-symbol type="string" name="lunar_chu" />
+    <java-symbol type="string" name="lunar_leap" />
+    <java-symbol type="string" name="lunar_ling" />
+    <java-symbol type="string" name="lunar_nian" />
+    <java-symbol type="string" name="lunar_year" />
+    <java-symbol type="string" name="lunar_yue" />
+</resources>
