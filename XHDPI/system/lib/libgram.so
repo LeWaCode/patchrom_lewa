@@ -1,0 +1,884 @@
+
+$dianhua =
+办公室 |
+办公室电话 |
+办公室号码 |
+家庭电话 |
+家庭号码 |
+工作电话 |
+工作号码 |
+手机 |
+号码 |
+手机号码 |
+座机 |
+座机号码 |
+固话 |
+固定电话 |
+电话;
+
+$action_dianhua =
+打电话 |
+打电话给 |
+打电话到 |
+拨电话 |
+拨电话给 |
+拨电话到 |
+打个电话 |
+打个电话给 |
+打个电话到 |
+打手机给 |
+打手机到 |
+拨个电话 |
+拨个电话给 |
+拨个电话到 |
+拨号 |
+拨号给 |
+拨号到 |
+拨 |
+拨给 |
+拨到 |
+打 |
+打给 |
+打到 |
+拨打 |
+拨打给 |
+拨打到 |
+拨打电话给 |
+拨打个电话给 |
+拨打一个电话给 |
+联系 |
+致电 |
+连线 |
+呼叫 |
+呼唤 |
+拨叫 |
+拨通 |
+接通 |
+帮我接通 |
+给我接通 |
+电话给 |
+电话到 |
+电话联系 |
+我想跟 |
+我想给 |
+快速拨号给 |
+我现在联系;
+
+
+$action_dianhua2 =
+打电话 |
+打个电话 |
+打通电话 |
+去个电话 |
+来个电话 |
+回电话 |
+回个电话 |
+拨个电话 |
+整个电话 |
+打一下 |
+拨一下 |
+打一个 |
+拨一个 |
+打下 |
+拨下;
+
+$name_to =
+给 |
+请给 |
+想给 |
+麻烦给 |
+现在给 |
+我想给 |
+我要给 |
+我需要给 |
+我现在给 |
+我现在需要给 |
+和 |
+请和 |
+想和 |
+麻烦和 |
+现在和 |
+我想和 |
+我要和 |
+我需要和 |
+我现在和 |
+我现在需要和 |
+跟 |
+请跟 |
+想跟 |
+麻烦跟 |
+现在跟 |
+我想跟 |
+我要跟 |
+我需要跟 |
+我现在跟 |
+我现在需要跟 |
+同 |
+请同 |
+想同 |
+麻烦同 |
+现在同 |
+我想同 |
+我要同 |
+我需要同 |
+我现在同 |
+我现在需要同;
+
+$duanxin =
+短信 |
+短信息 |
+短消息 |
+消息 |
+短讯息 |
+讯息 |
+简讯;
+
+$dianhua2 =
+电话 |
+手机号码 |
+手机;
+
+$action_duanxin =
+编 |
+编个 |
+编条 |
+编下 |
+编写 |
+发 |
+发个 |
+发条 |
+发下 |
+发送 |
+发送一条 |
+回 |
+回复 |
+回下 |
+回复下 |
+回一下 |
+回一条 |
+传 |
+传下 |
+传条 |
+传一下 |
+传一条 |
+创建 |
+创建条 |
+创建一条 |
+写 |
+写下 |
+写条 |
+输入 |
+输入个 |
+输入条 |
+输入下 |
+输入一条;
+
+$action_duanxin2 =
+发 |
+发条 |
+发送;
+
+$duanxin_to2 =
+给;
+
+$app_attribute =
+应用 |
+APP |
+本地应用 |
+本地APP |
+本地的 |
+本机的 |
+本机APP |
+本机应用;
+
+$app_attribute2 =
+这个应用 |
+应用 |
+这个APP |
+APP;
+
+$action_app_help =
+请 |
+帮我 |
+请帮我;
+
+$action_app_start =
+打开 |
+调用 |
+使用 |
+启动 |
+唤起 |
+玩 |
+玩会 |
+我要发 |
+进入 |
+开 |
+开启 |
+运行 |
+登陆 |
+弄个 |
+出来;
+
+$action_app_xiezai =
+卸载了 |
+卸了 |
+卸载 |
+卸掉 |
+卸载掉 |
+删除 |
+移除 |
+干掉 |
+删了 |
+清除掉 |
+清除 |
+删掉;
+
+$action_lingsheng =
+设置 |
+修改 |
+更改 |
+设定 |
+调整 |
+更换 |
+换 |
+改 |
+调节;
+
+$lingsheng_attribute =
+手机的 |
+本机的 |
+我的 |
+我 |
+本机;
+
+$lingsheng =
+手机铃声 |
+铃声 |
+手机铃音 |
+铃音 |
+来电铃声 |
+来电铃音 |
+电话铃音 |
+电话铃声 |
+手机的铃声 |
+手机的铃音 |
+来电的铃声 |
+来电的铃音 |
+电话的铃声 |
+电话的铃音 |
+手机的来电铃声 |
+手机的来电铃音 |
+本机的铃声 |
+本机的铃音 |
+本机的来电铃声 |
+通知铃声 |
+本机的来电铃音;
+
+$duanxinyin =
+短信音 |
+短信声音 |
+短信铃声 |
+短信铃音 |
+信息铃声 |
+信息声 |
+信息声音 |
+手机的短信音 |
+手机的短信声音 |
+手机的信息声音 |
+短信的声音 |
+短信的铃声 |
+信息的铃声 |
+信息的声音;
+
+
+$action_pingmuxuanzhuan_open =
+打开 |
+开启 |
+启动 |
+设置 |
+设定 |
+自动 |
+开开;
+
+$action_pingmuxuanzhuan_close =
+关上 |
+关掉 |
+关闭 |
+取消 |
+取消掉 |
+关了;
+
+$action_pingmuxuanzhuan2 =
+设定 |
+设置;
+
+
+$pingmuxuanzhuan =
+屏幕旋转 |
+转屏 |
+旋转屏幕 |
+旋转;
+
+$action_liangdu =
+调节 |
+设置 |
+设定 |
+调整 |
+修改 |
+调一下 |
+调亮 |
+调高 |
+调暗 |
+调低 |
+降低 |
+升高 |
+调的;
+
+$liangdu =
+亮度 |
+屏幕亮度 |
+液晶屏亮度 |
+手机亮度 |
+手机的亮度 |
+屏幕的亮度 |
+显示亮度 |
+显示的亮度 |
+背光亮度 |
+背光 |
+屏幕;
+
+$action_liangdu2 =
+亮点 |
+亮一点 |
+暗点 |
+暗一点 |
+小点 |
+小一点 |
+大点 |
+大一点;
+
+
+$action_suoping =
+设置 |
+设定 |
+修改 |
+更改 |
+更换 |
+进入 |
+打开 |
+切换 |
+调整 |
+调节;
+
+$suoping_attribute =
+密码 |
+数字 |
+声纹 |
+热词 |
+热歌 |
+滑动 |
+一般;
+
+$suoping =
+解锁 |
+锁屏 |
+手机的锁屏 |
+锁屏方式 |
+锁屏的方式 |
+手机的锁屏方式;
+
+
+$action_time =
+设置 |
+设定 |
+修改 |
+更改 |
+更换 |
+调节 |
+调整 |
+调;
+
+$time =
+日期 |
+时间 |
+本机时间 |
+本机日期 |
+时间格式 |
+日期格式 |
+手机日期 |
+手机时间 |
+手机的时间 |
+手机的日期 |
+本机的时间 |
+本机的日期;
+
+
+$action_jingyin_open =
+设置 |
+设定 |
+打开 |
+实现 |
+调节 |
+开启 |
+开开 |
+弄成 |
+开始 |
+切换到;
+
+$action_jingyin_close =
+关上 |
+关掉 |
+关闭 |
+关了 |
+取消 |
+取消掉 |
+去掉;
+
+$action_jingyin2 =
+设置 |
+设定;
+
+$jingyin =
+静音 |
+静音模式 |
+手机静音 |
+手机的静音 |
+手机的静音模式;
+
+
+$action_wifi_open =
+打开 |
+开启 |
+连接 |
+启动 |
+开开;
+
+$action_wifi_close =
+关上 |
+关掉 |
+关闭 |
+断开 |
+关了;
+
+$action_wifi_set =
+设置 |
+修改 |
+设定 |
+更改 |
+修改 |
+更换 |
+调整 |
+调节 |
+调;
+
+$action_wifi2 =
+设置 |
+设定;
+
+$wifi =
+无线网络 |
+无线 |
+WIFI |
+WLAN |
+无线网 |
+无线连接 |
+无线网络连接;
+
+
+$action_help =
+打开 |
+查看 |
+了解 |
+看 |
+看看 |
+开 |
+看一看;
+
+$help_how =
+怎么样 |
+怎样 |
+如何;
+
+$action_help2 =
+使用 |
+用 |
+玩 |
+说 |
+调侃 |
+聊天;
+
+$help_xuci =
+啊 |
+呢 |
+呀 |
+嘛 |
+么;
+
+$help =
+帮助 |
+介绍 |
+帮助介绍 |
+帮助信息 |
+使用帮助 |
+说明 |
+使用说明 |
+指令 |
+指令说法 |
+操作指南 |
+操作方法;
+
+$action_yijianfankui =
+打开 |
+发表 |
+说 |
+表达;
+
+$yijianfankui =
+意见 |
+反馈 |
+意见反馈 |
+感受 |
+感想 |
+想法 |
+我的想法 |
+我的感受;
+
+$action_tts_open =
+打开 |
+开启 |
+启动 |
+开开;
+
+$action_tts_close =
+关上 |
+关闭 |
+关掉;
+
+$action_tts2 =
+设置 |
+设定;
+
+$tts =
+TTS |
+语音 |
+语音播报 |
+语音播放 |
+播报 |
+TTS设置 |
+朗读 |
+语音朗读 |
+朗读模式 |
+声音播报 |
+播报声音 |
+播报开关;
+
+
+$yixia =
+一下 |
+下;
+
+
+$ba =
+要把 |
+请把 |
+把 |
+要将 |
+请将 |
+将 |
+麻烦把 |
+快把;
+
+
+$as =
+为 |
+成 |
+成为;
+
+$de =
+的;
+
+$action_alarm =
+打开 |
+查看;
+
+$alarm =
+提醒 |
+提醒列表;
+
+$action_setting_open =
+打开 |
+开启 |
+开开;
+
+$action_setting_close =
+关上 |
+关闭 |
+关掉 |
+关了;
+
+$bluetooth =
+蓝牙 |
+手机的蓝牙 |
+手机蓝牙 |
+手机上的蓝牙 |
+蓝牙功能 |
+蓝牙开关;
+
+$gps =
+GPS |
+定位 |
+手机定位 |
+手机的定位 |
+定位功能;
+
+$flymode =
+飞行模式;
+
+$SIL =
+sil;
+
+########
+
+#0-5 call
+( $SIL $action_dianhua $name_CORE $SIL )
+( $SIL $action_dianhua $name_CORE $dianhua $SIL )
+( $SIL $action_dianhua $name_CORE $de $dianhua $SIL )
+( $SIL $name_to $name_CORE $action_dianhua2 $SIL )
+( $SIL $name_to $name_CORE $dianhua $action_dianhua2 $SIL )
+( $SIL $name_to $name_CORE $de $dianhua $action_dianhua2 $SIL )
+
+#6-13 send sms
+( $SIL $action_duanxin $duanxin $duanxin_to2 $name_CORE $SIL )
+( $SIL $action_duanxin $duanxin $duanxin_to2 $name_CORE $dianhua2 $SIL )
+( $SIL $action_duanxin $duanxin $duanxin_to2 $name_CORE $de $dianhua2 $SIL )
+( $SIL $name_to $name_CORE $action_duanxin2 $duanxin $SIL )
+( $SIL $name_to $name_CORE $dianhua2 $action_duanxin2 $duanxin $SIL )
+( $SIL $name_to $name_CORE $de $dianhua2 $action_duanxin2 $duanxin $SIL )
+( $SIL $action_duanxin $duanxin_to2 $name_CORE $duanxin $SIL )
+( $SIL $action_duanxin $duanxin_to2 $name_CORE $de $duanxin $SIL )
+
+#14-26 open app
+( $SIL $app_CORE $SIL )
+( $SIL $app_attribute $app_CORE $SIL )
+( $SIL $app_CORE $app_attribute2 $SIL )
+( $SIL $action_app_start $app_CORE $SIL )
+( $SIL $action_app_start $app_attribute $app_CORE $SIL )
+( $SIL $action_app_start $app_CORE $app_attribute2 $SIL )
+( $SIL $app_CORE $action_app_start $SIL )
+( $SIL $app_attribute $app_CORE $action_app_start $SIL )
+( $SIL $ba $app_CORE $action_app_start $SIL )
+( $SIL $ba $app_attribute $app_CORE $action_app_start $SIL )
+( $SIL $action_app_help $action_app_start $app_CORE $SIL )
+( $SIL $action_app_help $action_app_start $app_attribute $app_CORE $SIL )
+( $SIL $action_app_help $action_app_start $app_CORE $app_attribute2 $SIL )
+
+#27-36 uninstall app
+( $SIL $action_app_xiezai $app_CORE $SIL )
+( $SIL $action_app_xiezai $app_attribute $app_CORE $SIL )
+( $SIL $action_app_xiezai $app_CORE $app_attribute2 $SIL )
+( $SIL $app_CORE $action_app_xiezai $SIL )
+( $SIL $app_attribute $app_CORE $action_app_xiezai $SIL )
+( $SIL $ba $app_CORE $action_app_xiezai $SIL )
+( $SIL $ba $app_attribute $app_CORE $action_app_xiezai $SIL )
+( $SIL $action_app_help $action_app_xiezai $app_CORE $SIL )
+( $SIL $action_app_help $action_app_xiezai $app_attribute $app_CORE $SIL )
+( $SIL $action_app_help $action_app_xiezai $app_CORE $app_attribute2 $SIL )
+
+#37-48 ringtong
+( $SIL $action_lingsheng $lingsheng $SIL )
+( $SIL $lingsheng $action_lingsheng $SIL )
+( $SIL $action_lingsheng $yixia $lingsheng $SIL )
+( $SIL $lingsheng $action_lingsheng $yixia $SIL )
+( $SIL $lingsheng_attribute $lingsheng $action_lingsheng $SIL )
+( $SIL $lingsheng_attribute $lingsheng $action_lingsheng $yixia $SIL )
+( $SIL $action_lingsheng $duanxinyin $SIL )
+( $SIL $duanxinyin $action_lingsheng $SIL )
+( $SIL $action_lingsheng $yixia $duanxinyin $SIL )
+( $SIL $duanxinyin $action_lingsheng $yixia $SIL )
+( $SIL $lingsheng_attribute $duanxinyin $action_lingsheng $SIL )
+( $SIL $lingsheng_attribute $duanxinyin $action_lingsheng $yixia $SIL )
+
+#49-57 screen orientation on
+( $SIL $action_pingmuxuanzhuan_open $pingmuxuanzhuan $SIL )
+( $SIL $action_pingmuxuanzhuan_open $yixia $pingmuxuanzhuan $SIL )
+( $SIL $pingmuxuanzhuan $action_pingmuxuanzhuan_open $SIL )
+( $SIL $pingmuxuanzhuan $action_pingmuxuanzhuan_open $yixia $SIL )
+( $SIL $pingmuxuanzhuan $action_pingmuxuanzhuan2 $as $action_pingmuxuanzhuan_open $SIL )
+( $SIL $action_pingmuxuanzhuan2 $pingmuxuanzhuan $as $action_pingmuxuanzhuan_open $SIL )
+( $SIL $ba $pingmuxuanzhuan $action_pingmuxuanzhuan_open $SIL )
+( $SIL $ba $pingmuxuanzhuan $action_pingmuxuanzhuan_open $yixia $SIL )
+( $SIL $ba $pingmuxuanzhuan $action_pingmuxuanzhuan2 $as $action_pingmuxuanzhuan_open $SIL )
+
+#58-66 screen orientation off
+( $SIL $action_pingmuxuanzhuan_close $pingmuxuanzhuan $SIL )
+( $SIL $action_pingmuxuanzhuan_close $yixia $pingmuxuanzhuan $SIL )
+( $SIL $pingmuxuanzhuan $action_pingmuxuanzhuan_close $SIL )
+( $SIL $pingmuxuanzhuan $action_pingmuxuanzhuan_close $yixia $SIL )
+( $SIL $pingmuxuanzhuan $action_pingmuxuanzhuan2 $as $action_pingmuxuanzhuan_close $SIL )
+( $SIL $action_pingmuxuanzhuan2 $pingmuxuanzhuan $as $action_pingmuxuanzhuan_close $SIL )
+( $SIL $ba $pingmuxuanzhuan $action_pingmuxuanzhuan_close $SIL )
+( $SIL $ba $pingmuxuanzhuan $action_pingmuxuanzhuan_close $yixia $SIL )
+( $SIL $ba $pingmuxuanzhuan $action_pingmuxuanzhuan2 $as $action_pingmuxuanzhuan_close $SIL )
+
+#67-73 screen brightness
+( $SIL $action_liangdu $liangdu $SIL )
+( $SIL $liangdu $action_liangdu $SIL )
+( $SIL $action_liangdu $yixia $liangdu $SIL )
+( $SIL $liangdu $action_liangdu $yixia $SIL )
+( $SIL $liangdu $action_liangdu2 $SIL )
+( $SIL $liangdu $action_liangdu $action_liangdu2 $SIL )
+( $SIL $ba $liangdu $action_liangdu $action_liangdu2 $SIL )
+
+#74-82 lock screen
+( $SIL $action_suoping $suoping $SIL )
+( $SIL $action_suoping $yixia $suoping $SIL )
+( $SIL $suoping $action_suoping $SIL )
+( $SIL $suoping $action_suoping $yixia $SIL )
+( $SIL $action_suoping $suoping_attribute $suoping $SIL )
+( $SIL $action_suoping $yixia $suoping_attribute $suoping $SIL )
+( $SIL $action_suoping $as $suoping_attribute $suoping $SIL )
+( $SIL $suoping_attribute $suoping $action_suoping $SIL )
+( $SIL $suoping_attribute $suoping $action_suoping $yixia $SIL )
+
+#83-86 time setting
+( $SIL $action_time $time $SIL )
+( $SIL $time $action_time $SIL )
+( $SIL $action_time $yixia $time $SIL )
+( $SIL $time $action_time $yixia $SIL )
+
+#87-95 sound mute
+( $SIL $action_jingyin_open $jingyin $SIL )
+( $SIL $jingyin $action_jingyin_open $SIL )
+( $SIL $action_jingyin_open $yixia $jingyin $SIL )
+( $SIL $jingyin $action_jingyin_open $yixia $SIL )
+( $SIL $ba $jingyin $action_jingyin_open $SIL )
+( $SIL $ba $jingyin $action_jingyin_open $yixia $SIL )
+( $SIL $action_jingyin2 $jingyin $as $action_jingyin_open $SIL )
+( $SIL $ba $jingyin $action_jingyin2 $as $action_jingyin_open $SIL )
+( $SIL $jingyin $action_jingyin2 $as $action_jingyin_open $SIL )
+
+#96-104 sound on
+( $SIL $action_jingyin_close $jingyin $SIL )
+( $SIL $jingyin $action_jingyin_close $SIL )
+( $SIL $action_jingyin_close $yixia $jingyin $SIL )
+( $SIL $jingyin $action_jingyin_close $yixia $SIL )
+( $SIL $ba $jingyin $action_jingyin_close $SIL )
+( $SIL $ba $jingyin $action_jingyin_close $yixia $SIL )
+( $SIL $action_jingyin2 $jingyin $as $action_jingyin_close $SIL )
+( $SIL $ba $jingyin $action_jingyin2 $as $action_jingyin_close $SIL )
+( $SIL $jingyin $action_jingyin2 $as $action_jingyin_close $SIL )
+
+#105-113 wifi open
+( $SIL $action_wifi_open $wifi $SIL )
+( $SIL $wifi $action_wifi_open $SIL )
+( $SIL $action_wifi_open $yixia $wifi $SIL )
+( $SIL $wifi $action_wifi_open $yixia $SIL )
+( $SIL $action_wifi2 $wifi $as $action_wifi_open $SIL )
+( $SIL $wifi $action_wifi2 $as $action_wifi_open $SIL )
+( $SIL $ba $wifi $action_wifi_open $SIL )
+( $SIL $ba $wifi $action_wifi_open $yixia $SIL )
+( $SIL $ba $wifi $action_wifi2 $as $action_wifi_open $SIL )
+
+#114-122 wifi close
+( $SIL $action_wifi_close $wifi $SIL )
+( $SIL $wifi $action_wifi_close $SIL )
+( $SIL $action_wifi_close $yixia $wifi $SIL )
+( $SIL $wifi $action_wifi_close $yixia $SIL )
+( $SIL $action_wifi2 $wifi $as $action_wifi_close $SIL )
+( $SIL $wifi $action_wifi2 $as $action_wifi_close $SIL )
+( $SIL $ba $wifi $action_wifi_close $SIL )
+( $SIL $ba $wifi $action_wifi_close $yixia $SIL )
+( $SIL $ba $wifi $action_wifi2 $as $action_wifi_close $SIL )
+
+#123-126 wifi setting
+( $SIL $action_wifi_set $wifi $SIL )
+( $SIL $wifi $action_wifi_set $SIL )
+( $SIL $action_wifi_set $yixia $wifi $SIL )
+( $SIL $wifi $action_wifi_set $yixia $SIL )
+
+#127-130 help
+( $SIL $action_help $help $SIL )
+( $SIL $help $SIL )
+( $SIL $help_how $action_help2 $SIL )
+( $SIL $help_how $action_help2 $help_xuci $SIL )
+
+#131-136 feedback
+( $SIL $action_yijianfankui $yijianfankui $SIL )
+( $SIL $action_yijianfankui $yixia $yijianfankui $SIL )
+( $SIL $yijianfankui $action_yijianfankui $SIL )
+( $SIL $yijianfankui $action_yijianfankui $yixia $SIL )
+( $SIL $ba $yijianfankui $action_yijianfankui $SIL )
+( $SIL $ba $yijianfankui $action_yijianfankui $yixia $SIL )
+
+#137-145 tts open
+( $SIL $action_tts_open $tts $SIL )
+( $SIL $action_tts_open $yixia $tts $SIL )
+( $SIL $tts $action_tts_open $SIL )
+( $SIL $tts $action_tts_open $yixia $SIL )
+( $SIL $ba $tts $action_tts_open $SIL )
+( $SIL $ba $tts $action_tts_open $yixia $SIL )
+( $SIL $action_tts2 $tts $as $action_tts_open $SIL )
+( $SIL $tts $action_tts2 $as $action_tts_open $SIL )
+( $SIL $ba $tts $action_tts2 $as $action_tts_open $SIL )
+
+#146-154 tts close
+( $SIL $action_tts_close $tts $SIL )
+( $SIL $action_tts_close $yixia $tts $SIL )
+( $SIL $tts $action_tts_close $SIL )
+( $SIL $tts $action_tts_close $yixia $SIL )
+( $SIL $ba $tts $action_tts_close $SIL )
+( $SIL $ba $tts $action_tts_close $yixia $SIL )
+( $SIL $action_tts2 $tts $as $action_tts_close $SIL )
+( $SIL $tts $action_tts2 $as $action_tts_close $SIL )
+( $SIL $ba $tts $action_tts2 $as $action_tts_close $SIL )
+
+# 155-155 alarm
+( $SIL $action_alarm $alarm $SIL )
+
+# 156-161 bluetooth open
+( $SIL $action_setting_open $bluetooth $SIL )
+( $SIL $action_setting_open $yixia $bluetooth $SIL )
+( $SIL $bluetooth $action_setting_open $SIL )
+( $SIL $bluetooth $action_setting_open $yixia $SIL )
+( $SIL $ba $bluetooth $action_setting_open $SIL )
+( $SIL $ba $bluetooth $action_setting_open $yixia $SIL )
+
+# 162-167 bluetooth close
+( $SIL $action_setting_close $bluetooth $SIL )
+( $SIL $action_setting_close $yixia $bluetooth $SIL )
+( $SIL $bluetooth $action_setting_close $SIL )
+( $SIL $bluetooth $action_setting_close $yixia $SIL )
+( $SIL $ba $bluetooth $action_setting_close $SIL )
+( $SIL $ba $bluetooth $action_setting_close $yixia $SIL )
+
+# 168-173 gps open
+( $SIL $action_setting_open $gps $SIL )
+( $SIL $action_setting_open $yixia $gps $SIL )
+( $SIL $gps $action_setting_open $SIL )
+( $SIL $gps $action_setting_open $yixia $SIL )
+( $SIL $ba $gps $action_setting_open $SIL )
+( $SIL $ba $gps $action_setting_open $yixia $SIL )
+
+# 174-179 gps close
+( $SIL $action_setting_close $gps $SIL )
+( $SIL $action_setting_close $yixia $gps $SIL )
+( $SIL $gps $action_setting_close $SIL )
+( $SIL $gps $action_setting_close $yixia $SIL )
+( $SIL $ba $gps $action_setting_close $SIL )
+( $SIL $ba $gps $action_setting_close $yixia $SIL )
+
+# 180-185 flymode open
+( $SIL $action_setting_open $flymode $SIL )
+( $SIL $action_setting_open $yixia $flymode $SIL )
+( $SIL $flymode $action_setting_open $SIL )
+( $SIL $flymode $action_setting_open $yixia $SIL )
+( $SIL $ba $flymode $action_setting_open $SIL )
+( $SIL $ba $flymode $action_setting_open $yixia $SIL )
+
+# 186-191 flymode close
+( $SIL $action_setting_close $flymode $SIL )
+( $SIL $action_setting_close $yixia $flymode $SIL )
+( $SIL $flymode $action_setting_close $SIL )
+( $SIL $flymode $action_setting_close $yixia $SIL )
+( $SIL $ba $flymode $action_setting_close $SIL )
+( $SIL $ba $flymode $action_setting_close $yixia $SIL )

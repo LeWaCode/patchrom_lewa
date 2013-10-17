@@ -23,4 +23,6 @@
 
     <add-resource type="string" name="def_date_format" />
     <string name = "def_date_format">yyyy-MMM-d-EE</string>
+    <!-- Default screen brightness, from 0 to 255.  175 is 69%. -->
+    <integer name="def_screen_brightness">175</integer>
 </resources>

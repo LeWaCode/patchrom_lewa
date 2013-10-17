@@ -36,4 +36,7 @@
     <!-- move from framework-res for patch rom -->
     <!-- Disable safe volume check for lewa music -->
     <bool name="config_safe_media_volume_enabled">false</bool>
+
+    <!-- Disable magnifier when input -->
+    <bool name="enable_magnifier_when_input">false</bool>
 </resources>

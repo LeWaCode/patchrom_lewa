@@ -33,6 +33,34 @@
         <attr name="aspect" format="string" />
         <attr name="lockbackground" format="reference"/>
     </declare-styleable>
+    <declare-styleable name="Switch">
+        <!-- Drawable to use as the "track" that the switch thumb slides within when on. -->
+        <attr name="trackActive" format="reference" />
+        <!-- Drawable to cover whole control. -->
+        <attr name="forceground" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="V5.Theme">
+        <attr name="lewa_ui_version" format="integer" />
+        <attr name="lewa_windowContentOverlay" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SlidingButton">
+        <attr name="buttonBarOff" format="reference" />
+        <attr name="buttonBarOn" format="reference" />
+        <attr name="buttonFrame" format="reference" />
+        <attr name="buttonMask" format="reference" />
+        <attr name="buttonOffDisable" format="reference" />
+        <attr name="buttonOnDisable" format="reference" />
+        <attr name="buttonSlider" format="reference" />
+        <attr name="buttonSliderPressed" format="reference" />
+    </declare-styleable>
+    
+    <declare-styleable name="V5spinner">
+        <attr name="isV5Spinner" format="boolean" />
+        <attr name="isHideInputKeyBoard" format="boolean" />
+    </declare-styleable>
+
     <attr name="numberPickerUpButtonStyle" format="reference" />
     <attr name="numberPickerDownButtonStyle" format="reference" />
     <attr name="numberPickerInputTextStyle" format="reference" />

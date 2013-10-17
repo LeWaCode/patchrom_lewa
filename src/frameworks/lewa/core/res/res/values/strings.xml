@@ -82,4 +82,16 @@
     <!-- Shutdown Confirmation Dialog.  When the user chooses to power off the phone, there will
          be a confirmation dialog.  This is the message. -->
     <string name="shutdown_confirm" product="default">Your phone will shut down.</string>
+    <string name="text_pastelist">Clipboard</string>
+    <string name="select">Select</string>
+
+    <string name="lewa_date_picker_label_day"></string>
+    <string name="lewa_date_picker_label_month"></string>
+    <string name="lewa_date_picker_label_year"></string>
+    <string name="lewa_time_picker_label_hour"></string>
+    <string name="lewa_time_picker_label_minute"></string>
+    <string name="title_actionbar_selected_items"><xliff:g id="name">%s</xliff:g> selected</string>
+    <string name="inadvertmode_title">Prevent misoperation</string>
+    <string name="inadvertmode_tip_msg1">"Don't cover the top of screen"</string>
+    <string name="inadvertmode_force_quit">"Force to quit:press 'Home'+'Volume Up' key"</string>
 </resources>

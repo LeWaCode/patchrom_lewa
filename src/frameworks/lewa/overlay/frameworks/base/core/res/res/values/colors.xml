@@ -1,20 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Activity background; original: #ffffff -->
-    <drawable name="screen_background_light">#fff4f4f4</drawable>
+    <drawable name="screen_background_light">#ffffffff</drawable>
 
     <!-- primary_text_holo_light; original: #ff000000 -->
-    <color name="background_holo_dark">#3a3a3a</color>
-    <color name="bright_foreground_disabled_holo_light">#cccccc</color>
-
+    <color name="background_holo_dark">#38445c</color>
+    <color name="bright_foreground_disabled_holo_light">#cbcbcb</color>
+    <color name="bright_foreground_holo_light">#38445c</color>
+    <color name="background_holo_light">#ffffff</color>
+    
     <!-- secondary_text_holo_light; original: #323232 -->
-    <color name="dim_foreground_holo_light">#9e9e9e</color>
-    <color name="dim_foreground_disabled_holo_light">#cccccc</color>
+    <color name="dim_foreground_holo_light">#a6aab3</color>
+    <color name="dim_foreground_disabled_holo_light">#cbcbcb</color>
 
     <!-- color of hint text; original: 808080 -->
     <color name="hint_foreground_holo_light">#9e9e9e</color>
 
-    <color name="holo_blue_light">#349dee</color>
     <add-resource type="color" name="listseparator_text_color_light" />
-    <color name="listseparator_text_color_light">#349dee</color>
+    <color name="listseparator_text_color_light">@android:color/dim_foreground_holo_light</color>
+
+    <color name="holo_blue_light">#349dee</color>
+
+    <!-- Woody Guo @ 2012-12-05: FaceLock: Add for Jelly Bean -->
+    <color name="facelock_color_background">#000000</color>
+
+    <color name="holo_gray_light_primary">#d7d9dd</color>
+    <color name="holo_gray_light_secondary">#e1e2e6</color>
+
+    <color name="holo_black_light_primary">#38445c</color>
+    <color name="holo_black_light_secondary">#a6aab3</color>
+    <color name="holo_black_light_disabled">#cbcbcb</color>
+    <color name="holo_light_divider_color">#dadee6</color> 
+    <color name="button_cancel_color">#798191</color>
 </resources>

@@ -31,4 +31,8 @@
     <string name="shutdown_progress">"關機中..."</string>
     <string name="shutdown_confirm" product="tablet">"您的平板電腦將會關機。"</string>
     <string name="shutdown_confirm" product="default">"手機即將關機。"</string>
+    <string name="text_pastelist">剪貼板</string>
+    <string name="select">選擇</string>
+
+    <string name="title_actionbar_selected_items">已選擇<xliff:g id="name">%s</xliff:g>个</string>
 </resources>

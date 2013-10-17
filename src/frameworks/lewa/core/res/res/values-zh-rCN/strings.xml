@@ -128,4 +128,16 @@
     <string name="shutdown_progress">"正在关机..."</string>
     <string name="shutdown_confirm" product="tablet">"您的平板电脑会关闭。"</string>
     <string name="shutdown_confirm" product="default">"您的手机会关机。"</string>
+    <string name="text_pastelist">剪贴板</string>
+    <string name="select">选择</string>
+
+    <string name="lewa_date_picker_label_day">日</string>
+    <string name="lewa_date_picker_label_month">月</string>
+    <string name="lewa_date_picker_label_year">年</string>
+    <string name="lewa_time_picker_label_hour">时</string>
+    <string name="lewa_time_picker_label_minute">分</string>
+    <string name="title_actionbar_selected_items">已选择<xliff:g id="name">%s</xliff:g>个</string>
+    <string name="inadvertmode_title">口袋防误触模式</string>
+    <string name="inadvertmode_tip_msg1">请勿遮挡屏幕顶端</string>
+    <string name="inadvertmode_force_quit">强制退出:同时按住"home"和"音量+"键</string>
 </resources>

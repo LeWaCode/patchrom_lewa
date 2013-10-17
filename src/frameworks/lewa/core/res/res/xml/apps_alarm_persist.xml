@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<packages>
+    <package name="com.android.deskclock" />
+    <package name="com.lewa.netmgr" />
+</packages>

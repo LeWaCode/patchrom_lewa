@@ -9,5 +9,8 @@
 
     <string name="lockscreen_plugged_in" msgid="8057762828355572315">"正在充电 (<xliff:g id="NUMBER">%d</xliff:g><xliff:g id="PERCENT">%%</xliff:g>) "</string>
 
-    <string name="storage_internal" msgid="7556050805474115618">"内部存储"</string>
+    <string name="storage_internal" msgid="7556050805474115618">"内部存储"</string>	
+    <string name="storage_phone" >"内部存储"</string>
+    <string name="data_usage_restricted_title" msgid="5965157361036321914">"夜深了，流量防盗为您打开"</string>
+    <string name="data_usage_restricted_body" msgid="6741521330997452990">"1:00 - 7:00 自动关闭2G/3G后台联网"</string>
 </resources>

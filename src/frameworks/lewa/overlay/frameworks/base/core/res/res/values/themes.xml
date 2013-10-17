@@ -1306,8 +1306,8 @@ please see themes_device_defaults.xml.
         <item name="windowFullscreen">false</item>
         <item name="windowIsFloating">false</item>
         <!-- Woody Guo @ 2012/11/14: No window content overlay -->
-        <!-- <item name="android:windowContentOverlay">@android:drawable/ab_solid_shadow_holo</item> -->
-        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowContentOverlay">@android:drawable/ab_solid_shadow_holo</item>
+        <!-- <item name="android:windowContentOverlay">@null</item> -->
         <item name="windowShowWallpaper">false</item>
         <item name="windowTitleStyle">@android:style/WindowTitle.Holo</item>
         <item name="windowTitleSize">25dip</item>

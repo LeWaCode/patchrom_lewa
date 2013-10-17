@@ -35,11 +35,11 @@
         <item name="android:track">@lewa:drawable/switch_track_holo_light</item>
         <item name="android:thumb">@lewa:drawable/switch_inner_holo_light</item>
         <item name="android:switchTextAppearance">@lewa:style/TextAppearance.Holo.Widget.Switch</item>
-        <item name="android:textOn">@lewa:string/capital_on</item>
-        <item name="android:textOff">@lewa:string/capital_off</item>
-        <item name="android:thumbTextPadding">12dip</item>
-        <item name="android:switchMinWidth">96dip</item>
-        <item name="android:switchPadding">16dip</item>
+        <item name="android:textOn">""</item>
+        <item name="android:textOff">""</item>
+        <item name="android:thumbTextPadding">14dip</item>
+        <item name="android:switchMinWidth">8dip</item>
+        <item name="android:switchPadding">0dip</item>
     </style>
 
     <style name="Widget.Holo.Light.Button.Borderless" parent="@android:style/Widget.Holo.Light.Button">
@@ -66,5 +66,69 @@
 
     <style name="Widget.LockPatternView" parent="@android:style/Widget">
         <item name="lewa:lockbackground">@lewa:drawable/btn_code_lock_default_settings_holo</item>
+    </style>
+
+    <style name="TextViewFloatPanelButton">
+        <item name="android:singleLine">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:shadowColor">#ccffffff</item>
+        <item name="android:shadowRadius">0.2</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:textColor">@color/textview_floatpanel_button_text_color</item>
+        <item name="android:minWidth">60dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">38dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/textview_floatpanel_button_bg</item>
+        <item name="android:textSize">14dip</item>
+    </style>
+
+    <style name="Widget.SlidingButton" parent="@android:style/Widget">
+        <item name="lewa:buttonBarOff">@drawable/lewa_sliding_btn_off</item>
+        <item name="lewa:buttonBarOn">@drawable/lewa_sliding_btn_on</item>
+        <item name="lewa:buttonFrame">@drawable/lewa_sliding_btn_frame</item>
+        <item name="lewa:buttonMask">@drawable/lewa_sliding_btn_mask</item>
+        <item name="lewa:buttonOffDisable">@drawable/lewa_sliding_btn_off_disable</item>
+        <item name="lewa:buttonOnDisable">@drawable/lewa_sliding_btn_on_disable</item>
+        <item name="lewa:buttonSlider">@drawable/lewa_sliding_btn_slider</item>
+        <item name="lewa:buttonSliderPressed">@drawable/lewa_sliding_btn_slider_pressed</item>
+    </style>
+    
+    <style name="V5spinner" parent="android:Widget.Holo.Spinner">
+        <item name="android:background">@drawable/spinner_selector</item>
+        <item name="android:dropDownWidth">match_parent</item>
+        <item name="android:popupBackground">@drawable/spinner_popuwindow_bottom_bg</item>
+        <item name="android:dropDownVerticalOffset">@lewa:dimen/spinner_v5_vertical_offset</item>
+        <item name="lewa:isV5Spinner">true</item>
+        <item name="lewa:isHideInputKeyBoard">true</item>
+    </style>
+
+    <style name="V5.Widget.Holo.Light.ActionBar.Solid" parent="android:Widget.Holo.Light.ActionBar.Solid">
+        <!-- <item name="android:backgroundSplit">@null</item> -->
+    </style>
+
+    
+    <style name="V5.AlertDialog.Holo.Light" parent="@*android:style/AlertDialog.Holo.Light">
+        <item name="android:layout">@lewa:layout/alert_dialog_holo</item>
+    </style>
+
+    <style name="V5.Widget.Holo.Light.Button.Borderless" parent="Widget.Holo.Light.Button.Borderless">
+        <item name="android:textColor">@lewa:color/primary_text_holo_light</item>
+    </style>
+    
+    <style name="V5.Widget.Holo.Light.Button.Borderless.Left">
+        <item name="android:background">@lewa:drawable/button_background_holo_light_left</item>
+        <item name="android:textColor">@lewa:color/primary_text_holo_light_cancel</item>
+    </style>
+
+    <style name="V5.Widget.Holo.Light.Button.Borderless.Right" parent="Widget.Holo.Light.Button.Borderless">
+        <item name="android:background">@lewa:drawable/button_background_holo_light_right</item>
+        <!-- <item name="android:textColor">?android:attr/textColorPrimary</item> -->
+    </style>
+
+    <style name="V5.Widget.Holo.Light.Button.Borderless.Bottom" parent="Widget.Holo.Light.Button.Borderless">
+        <item name="android:background">@lewa:drawable/button_background_holo_light_bottom</item>
+        <!-- <item name="android:textColor">?android:attr/textColorPrimary</item> -->
     </style>
 </resources>

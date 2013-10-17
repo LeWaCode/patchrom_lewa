@@ -7,4 +7,5 @@
 
     <!-- Storage description for internal storage. [CHAR LIMIT=NONE] -->
     <string name="storage_internal">Internal storage</string>
+    <string name="storage_phone" >"Internal Storage"</string>
 </resources>

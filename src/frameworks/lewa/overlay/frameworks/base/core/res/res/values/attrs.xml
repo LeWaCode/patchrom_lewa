@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Flag indicating whether this window's Action Bar should overlay
+         application content at Bottom. Does nothing if the window would not
+         have an Action Bar. add by LeWa Shenqi -->
+    <attr name="windowActionBarBottomOverlay" format="boolean" />
+
     <!-- Woody Guo @ 2012/12/03: Add for Jelly Bean -->
     <!-- BEGIN -->
     <attr name="mediaRouteButtonStyle" format="reference" added="true" />
@@ -44,6 +49,9 @@
         <attr name="windowActionBar" />
         <attr name="windowActionModeOverlay" />
         <attr name="windowActionBarOverlay" />
+        <!-- add by shenqi -->
+        <attr name="windowActionBarBottomOverlay" />
+        <!-- end add by shenqi -->
         <attr name="windowSplitActionBar" />
         <attr name="windowEnableSplitTouch" />
         <attr name="windowCloseOnTouchOutside" />
@@ -64,5 +72,6 @@
         <!-- Aspect to use when drawing LockPatternView. Choices are "square"(default), "lock_width"
              or "lock_height" -->
         <attr name="aspect"/>
+        <attr name="lockbackground" format="reference"/>
     </declare-styleable>
 </resources>

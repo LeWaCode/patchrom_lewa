@@ -4,4 +4,6 @@
          flag. This may be set to false for situations where space is
          extremely limited. -->
     <bool name="config_allowActionMenuItemTextWithIcon">true</bool>
+    <!-- Disable safe volume check for lewa music -->
+    <bool name="config_safe_media_volume_enabled">false</bool>
 </resources>

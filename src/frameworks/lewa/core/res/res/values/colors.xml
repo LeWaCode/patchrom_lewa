@@ -26,4 +26,9 @@
     <color name="dim_foreground_holo_light">#323232</color>
     <!-- Woody Guo @ 2012-12-05: FaceLock: Add for Jelly Bean -->
     <color name="facelock_color_background">#000000</color>
+    <color name="lewa_number_picker_text_bg">#7f000000</color>
+    <color name="lewa_number_picker_text_label">#7f000000</color>
+    <color name="lewa_number_picker_text_fg">#0087f9</color>
+    <color name="holo_light_divider_color">#dadee6</color>
+
 </resources>

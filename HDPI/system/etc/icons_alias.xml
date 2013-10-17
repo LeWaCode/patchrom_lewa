@@ -23,6 +23,4 @@
     <icon name="com_android_settings" addself="true">com_android_providers_settings</icon>
     <icon name="com_android_settings" addself="true">com_android_systemui</icon>
     <icon name="com_lewa_themechooser" addself="true">com_lewa_thememanager</icon>
-    <icon name="com_lewa_search" addself="true">com_baidu_searchbox</icon>
-    
 </lewa_Icons_Alias>
