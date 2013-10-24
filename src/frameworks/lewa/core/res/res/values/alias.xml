@@ -133,8 +133,11 @@
     <item type="id" name="android_month">@*android:id/month</item>
     <item type="id" name="android_year">@*android:id/year</item>
     <item type="id" name="android_pickers">@*android:id/pickers</item>
-    <item type="id" name="android_calendar_view">@*android:id/amPm</item>
-
+    <item type="id" name="android_calendar_view">@*android:id/calendar_view</item>
+    <item type="id" name="android_status">@*android:id/status</item>
+    <item type="id" name="android_option1">@*android:id/option1</item>
+    <item type="id" name="android_option2">@*android:id/option2</item>
+    <item type="id" name="android_option3">@*android:id/option3</item>
 
     <item type="integer" name="android_config_lowBatteryCloseWarningLevel">@*android:integer/config_lowBatteryCloseWarningLevel</item>
     <item type="integer" name="android_config_lowBatteryWarningLevel">@*android:integer/config_lowBatteryWarningLevel</item>
@@ -177,7 +180,8 @@
     <item type="layout" name="android_action_menu_item_layout">@*android:layout/action_menu_item_layout</item>
     <item type="layout" name="android_select_dialog_singlechoice_holo">@*android:layout/select_dialog_singlechoice_holo</item>
     <item type="layout" name="android_simple_list_item_1">@*android:layout/simple_list_item_1</item>
-    
+    <item type="layout" name="android_global_actions_item">@*android:layout/global_actions_item</item>
+    <item type="layout" name="android_global_actions_silent_mode">@*android:layout/global_actions_silent_mode</item>
 
     <item type="xml" name="android_apns">@*android:xml/apns</item>
 

@@ -16,7 +16,7 @@
         <attr name="android:background" />
     </declare-styleable>
 
-    <!-- move from framework-res for patch rom -->
+    <!--BEGIN to move from framework-res for patch rom -->
     <!-- Flag indicating whether this window's Action Bar should overlay
          application content at Bottom. Does nothing if the window would not
          have an Action Bar. add by LeWa Shenqi -->
@@ -33,6 +33,8 @@
         <attr name="aspect" format="string" />
         <attr name="lockbackground" format="reference"/>
     </declare-styleable>
+    <!--END to move from framework-res for patch rom -->
+
     <declare-styleable name="Switch">
         <!-- Drawable to use as the "track" that the switch thumb slides within when on. -->
         <attr name="trackActive" format="reference" />

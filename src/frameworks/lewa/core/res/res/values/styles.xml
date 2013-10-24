@@ -105,7 +105,7 @@
     </style>
 
     <style name="V5.Widget.Holo.Light.ActionBar.Solid" parent="android:Widget.Holo.Light.ActionBar.Solid">
-        <!-- <item name="android:backgroundSplit">@null</item> -->
+        <item name="android:backgroundSplit">@lewa:drawable/ab_bottom_solid_light_holo</item>
     </style>
 
     
@@ -122,13 +122,17 @@
         <item name="android:textColor">@lewa:color/primary_text_holo_light_cancel</item>
     </style>
 
-    <style name="V5.Widget.Holo.Light.Button.Borderless.Right" parent="Widget.Holo.Light.Button.Borderless">
+    <style name="V5.Widget.Holo.Light.Button.Borderless.Right">
         <item name="android:background">@lewa:drawable/button_background_holo_light_right</item>
         <!-- <item name="android:textColor">?android:attr/textColorPrimary</item> -->
     </style>
 
-    <style name="V5.Widget.Holo.Light.Button.Borderless.Bottom" parent="Widget.Holo.Light.Button.Borderless">
+    <style name="V5.Widget.Holo.Light.Button.Borderless.Bottom">
         <item name="android:background">@lewa:drawable/button_background_holo_light_bottom</item>
         <!-- <item name="android:textColor">?android:attr/textColorPrimary</item> -->
+    </style>
+
+    <style name="V5.Widget.Holo.ActionBar.TabView" parent="android:Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@lewa:drawable/tab_indicator_ab_holo</item>
     </style>
 </resources>

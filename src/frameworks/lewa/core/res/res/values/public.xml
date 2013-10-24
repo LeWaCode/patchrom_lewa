@@ -172,6 +172,10 @@
     <public type="id" name="android_calendar_view" />
     <public type="id" name="android_action_bar_title" />
     <public type="id" name="android_action_bar_subtitle" />
+    <public type="id" name="android_status" />
+    <public type="id" name="android_option1" />
+    <public type="id" name="android_option2" />
+    <public type="id" name="android_option3" />
 
     <!-- Public styles -->
     <!-- PagerHeader -->
@@ -405,6 +409,9 @@
     <public type="drawable" name="android_ic_bullet_key_permission" />
     <public type="drawable" name="android_expander_close_holo_dark" />
     <public type="drawable" name="android_expander_open_holo_dark" />
+    <public type="drawable" name="ab_bottom_solid_light_holo" />
+    <public type="drawable" name="tab_indicator_ab_holo" />
+    <public type="drawable" name="ic_menu_cc" />
 
     <!-- Public layouts -->
     <public type="layout" name="stateful_preference_holo_light" id="0x09090000" />
@@ -448,6 +455,8 @@
     <public type="layout" name="android_action_menu_item_layout" />
     <public type="layout" name="android_select_dialog_singlechoice_holo" />
     <public type="layout" name="android_simple_list_item_1" />
+    <public type="layout" name="android_global_actions_item" />
+    <public type="layout" name="android_global_actions_silent_mode" />
 
     <!-- Public bool -->
     <public type="bool" name="android_config_automatic_brightness_available" id="0x090a0000" />

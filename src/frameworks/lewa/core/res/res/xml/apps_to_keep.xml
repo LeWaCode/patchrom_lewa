@@ -8,11 +8,9 @@
     <package name="com.android.systemui" />
     <package name="com.android.settings" />
     <package name="com.android.email" />
-    <package name="com.android.deskclock" />
     <package name="com.lewa.spm" />
     <package name="com.lewa.intercept" />
     <package name="com.lewa.PIM" />
-    <package name="com.lewa.netmgr" />
     <package name="com.lewa.virusdefense" />
     <package name="com.lewa.cleanmemory" />
     <package name="com.lewa.weather"/>
@@ -30,4 +28,5 @@
     <!-- 3rd party apps -->
     <package name="com.noshufou.android.su" />
     <package name="com.when.android.calendar365" />
+    <package name="com.zdworks.android.zdclock" />
 </packages>
