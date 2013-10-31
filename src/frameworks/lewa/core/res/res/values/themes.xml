@@ -16,6 +16,9 @@
         <item name="android:borderlessButtonStyle">@lewa:style/V5.Widget.Holo.Light.Button.Borderless</item>
         <item name="lewa_windowContentOverlay">@lewa:drawable/ab_solid_shadow_holo</item>
         <!-- <item name="android:actionModeSplitBackground">@null</item> -->
+        <item name="android:actionBarTabStyle">@lewa:style/V5.Widget.Holo.ActionBar.TabView</item>
+
+        <item name="android:preferenceInformationStyle">@lewa:style/V5.Preference.Holo.Information</item>
     </style>
 
     <style name="V5.Theme.Holo" />

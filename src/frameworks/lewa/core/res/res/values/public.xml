@@ -24,7 +24,7 @@
     <java-symbol type="drawable" name="rounded_corner_bottom_right" />
     <java-symbol type="drawable" name="rounded_corner_bottom_left" />
     <!-- END -->
-
+    <java-symbol type="drawable" name="ic_lock_shutdown" />
     <java-symbol type="layout" name="preference_holo" />
 
     <!-- Woody Guo @ 2012/12/05: Add for Lewa added resources -->
@@ -64,6 +64,7 @@
     <java-symbol type="drawable" name="textview_panel_arrow_down" />
     <java-symbol type="drawable" name="textview_list_bg" />
     <java-symbol type="drawable" name="textview_panel_button_bg_pressed" />
+    <java-symbol type="drawable" name="action_bar_tab_indicator" />
     <java-symbol type="layout" name="text_copy_float_panel" />
     <java-symbol type="layout" name="text_insertion_float_panel" />
     <java-symbol type="layout" name="text_list_float_panel_item" />
@@ -72,6 +73,8 @@
     <java-symbol type="dimen" name="text_handle_visible_height" />
     <java-symbol type="dimen" name="float_panel_arrow_top_offset" />
     <java-symbol type="dimen" name="float_panel_arrow_bottom_offset" />
+    <java-symbol type="dimen" name="spinner_v5_width_offset" />
+    <java-symbol type="dimen" name="spinner_v5_vertical_offset" />
     <java-symbol type="color" name="textview_floatpanel_button_text_color" />
     <java-symbol type="style" name="TextViewFloatPanelButton" />
     <java-symbol type="id" name="panel" />
@@ -112,6 +115,7 @@
     <public type="attr" name="buttonSlider" />
     <public type="attr" name="buttonSliderPressed" />
     <public type="attr" name="isV5Spinner" />
+    <public type="attr" name="isHideInputKeyBoard" />
     <!-- Public IDs -->
     <!-- DragableListView -->
     <public type="id" name="grabber" id="0x09020000" />
@@ -211,7 +215,8 @@
     <public type="style" name="V5.Widget.Holo.Light.Button.Borderless.Bottom"/>
     <public type="style" name="Widget.SlidingButton" />
     <public type="style" name="V5spinner" />
-
+    <public type="style" name="V5.Theme.Holo.Light.Panel"/>
+    <public type="style" name="V5.Theme.Holo.Light.Dialog.NoActionBar"/>
     <!-- Public strings -->
     <public type="string" name="selectNone" id="0x09040000" />
     <!-- add for alias.xml -->
@@ -439,8 +444,6 @@
     <public type="layout" name="lewa_time_picker"/>
     <!-- ActionBar -->
     <public type="layout" name="action_menu_layout" />
-    <public type="layout" name="v5_screen_action_bar_overlay" />
-    <public type="layout" name="v5_screen_action_bar" />
     <public type="layout" name="action_bar_title_item" />
     <public type="layout" name="action_bar_title_item_multichoice" />
     <public type="layout" name="action_mode_right_item" />
@@ -449,7 +452,6 @@
     <public type="layout" name="preference_widget" />
     <public type="layout" name="screen_inadvert_view" />
     <public type="layout" name="screen_action_bar_bottom_overlay" />
-    <public type="layout" name="v5_screen_action_bar_bottom_overlay" />
     <public type="layout" name="action_bar_title_item_with_spinner" />
     <public type="layout" name="android_transient_notification" />
     <public type="layout" name="android_action_menu_item_layout" />
@@ -457,6 +459,8 @@
     <public type="layout" name="android_simple_list_item_1" />
     <public type="layout" name="android_global_actions_item" />
     <public type="layout" name="android_global_actions_silent_mode" />
+    <public type="layout" name="screen_action_bar_overlay" />
+    <public type="layout" name="screen_action_bar" />
 
     <!-- Public bool -->
     <public type="bool" name="android_config_automatic_brightness_available" id="0x090a0000" />

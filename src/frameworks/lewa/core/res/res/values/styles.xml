@@ -135,4 +135,8 @@
     <style name="V5.Widget.Holo.ActionBar.TabView" parent="android:Widget.Holo.ActionBar.TabView">
         <item name="android:background">@lewa:drawable/tab_indicator_ab_holo</item>
     </style>
+
+    <style name="V5.Preference.Holo.Information" parent="@*android:style/Preference.Holo.Information">
+        <item name="android:widgetLayout">@null</item>
+    </style>
 </resources>
