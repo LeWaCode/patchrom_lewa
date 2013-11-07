@@ -138,6 +138,10 @@
     <item type="id" name="android_option1">@*android:id/option1</item>
     <item type="id" name="android_option2">@*android:id/option2</item>
     <item type="id" name="android_option3">@*android:id/option3</item>
+    <item type="id" name="android_keyboard">@*android:id/keyboard</item>
+    <item type="id" name="android_passwordEntry">@*android:id/passwordEntry</item>
+    <item type="id" name="android_pinDel">@*android:id/pinDel</item>
+    <item type="id" name="android_switch_ime_button">@*android:id/switch_ime_button</item>
 
     <item type="integer" name="android_config_lowBatteryCloseWarningLevel">@*android:integer/config_lowBatteryCloseWarningLevel</item>
     <item type="integer" name="android_config_lowBatteryWarningLevel">@*android:integer/config_lowBatteryWarningLevel</item>
@@ -163,6 +167,8 @@
     <item type="string" name="android_lockscreen_access_pattern_detected">@*android:string/lockscreen_access_pattern_detected</item>
     <item type="string" name="android_lockscreen_access_pattern_start">@*android:string/lockscreen_access_pattern_start</item>
     <item type="string" name="android_usb_storage_activity_title">@*android:string/usb_storage_activity_title</item>
+    <item type="string" name="android_lockscreen_password_wrong">@*android:string/lockscreen_password_wrong</item>
+    <item type="string" name="android_lockscreen_too_many_failed_attempts_countdown">@*android:string/lockscreen_too_many_failed_attempts_countdown</item>
 
     <item type="layout" name="android_always_use_checkbox">@*android:layout/always_use_checkbox</item>
     <item type="layout" name="android_notification_template_base">@*android:layout/notification_template_base</item>
@@ -182,6 +188,8 @@
     <item type="layout" name="android_simple_list_item_1">@*android:layout/simple_list_item_1</item>
     <item type="layout" name="android_global_actions_item">@*android:layout/global_actions_item</item>
     <item type="layout" name="android_global_actions_silent_mode">@*android:layout/global_actions_silent_mode</item>
+    <item type="layout" name="android_keyguard_screen_password_portrait">@*android:layout/keyguard_screen_password_portrait</item>
+    <item type="layout" name="android_keyguard_screen_password_landscape">@*android:layout/keyguard_screen_password_landscape</item>
 
     <item type="xml" name="android_apns">@*android:xml/apns</item>
 

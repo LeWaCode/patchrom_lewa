@@ -180,6 +180,10 @@
     <public type="id" name="android_option1" />
     <public type="id" name="android_option2" />
     <public type="id" name="android_option3" />
+    <public type="id" name="android_keyboard" />
+    <public type="id" name="android_passwordEntry" />
+    <public type="id" name="android_pinDel" />
+    <public type="id" name="android_switch_ime_button" />
 
     <!-- Public styles -->
     <!-- PagerHeader -->
@@ -254,6 +258,8 @@
     <public type="string" name="android_lockscreen_access_pattern_detected" id="0x0904001f" />
     <public type="string" name="android_lockscreen_access_pattern_start" id="0x09040020" />
     <public type="string" name="android_usb_storage_activity_title" id="0x09040021" />
+    <public type="string" name="android_lockscreen_password_wrong" id="0x09040022" />
+    <public type="string" name="android_lockscreen_too_many_failed_attempts_countdown" id="0x09040023" />
 
     <!-- Public colors -->
     <public type="color" name="app_files" id="0x09050000" />
@@ -461,6 +467,8 @@
     <public type="layout" name="android_global_actions_silent_mode" />
     <public type="layout" name="screen_action_bar_overlay" />
     <public type="layout" name="screen_action_bar" />
+    <public type="layout" name="android_keyguard_screen_password_portrait" />
+    <public type="layout" name="android_keyguard_screen_password_landscape" />
 
     <!-- Public bool -->
     <public type="bool" name="android_config_automatic_brightness_available" id="0x090a0000" />
