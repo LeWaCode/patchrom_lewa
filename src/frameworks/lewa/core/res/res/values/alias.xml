@@ -88,6 +88,11 @@
     <item type="drawable" name="android_ic_bullet_key_permission">@*android:drawable/ic_bullet_key_permission</item>
     <item type="drawable" name="android_expander_close_holo_dark">@*android:drawable/expander_close_holo_dark</item>
     <item type="drawable" name="android_expander_open_holo_dark">@*android:drawable/expander_open_holo_dark</item>
+    <item type="drawable" name="android_btn_keyboard_key_fulltrans">@*android:drawable/btn_keyboard_key_fulltrans</item>
+    <item type="drawable" name="android_code_lock_left">@*android:drawable/code_lock_left</item>
+    <item type="drawable" name="android_code_lock_top">@*android:drawable/code_lock_top</item>
+    <item type="drawable" name="android_ic_lock_idle_lock">@*android:drawable/ic_lock_idle_lock</item>
+    <item type="drawable" name="android_ic_menu_moreoverflow_holo_dark">@*android:drawable/ic_menu_moreoverflow_holo_dark</item>
 
     <item type="id" name="android_action_context_bar">@*android:id/action_context_bar</item>
     <item type="id" name="android_alertTitle">@*android:id/alertTitle</item>
@@ -142,11 +147,14 @@
     <item type="id" name="android_passwordEntry">@*android:id/passwordEntry</item>
     <item type="id" name="android_pinDel">@*android:id/pinDel</item>
     <item type="id" name="android_switch_ime_button">@*android:id/switch_ime_button</item>
+<!--     <item type="id" name="android_lockPattern">@*android:id/lockPattern</item> -->
+    <item type="id" name="android_forgotPatternButton">@*android:id/forgotPatternButton</item>
 
     <item type="integer" name="android_config_lowBatteryCloseWarningLevel">@*android:integer/config_lowBatteryCloseWarningLevel</item>
     <item type="integer" name="android_config_lowBatteryWarningLevel">@*android:integer/config_lowBatteryWarningLevel</item>
     <item type="integer" name="android_config_criticalBatteryWarningLevel">@*android:integer/config_criticalBatteryWarningLevel</item>
     <item type="integer" name="android_config_screenBrightnessDim">@*android:integer/config_screenBrightnessDim</item>
+    <item type="integer" name="android_preference_fragment_scrollbarStyle">@*android:integer/preference_fragment_scrollbarStyle</item>
 
     <item type="array" name="android_config_mobile_hotspot_provision_app">@*android:array/config_mobile_hotspot_provision_app</item>
     <item type="array" name="android_config_virtualKeyVibePattern">@*android:array/config_virtualKeyVibePattern</item>
@@ -169,6 +177,9 @@
     <item type="string" name="android_usb_storage_activity_title">@*android:string/usb_storage_activity_title</item>
     <item type="string" name="android_lockscreen_password_wrong">@*android:string/lockscreen_password_wrong</item>
     <item type="string" name="android_lockscreen_too_many_failed_attempts_countdown">@*android:string/lockscreen_too_many_failed_attempts_countdown</item>
+    <item type="string" name="android_lockscreen_forgot_pattern_button_text">@*android:string/lockscreen_forgot_pattern_button_text</item>
+    <item type="string" name="android_lockscreen_pattern_wrong">@*android:string/lockscreen_pattern_wrong</item>
+    <item type="string" name="android_lockscreen_pattern_instructions">@*android:string/lockscreen_pattern_instructions</item>
 
     <item type="layout" name="android_always_use_checkbox">@*android:layout/always_use_checkbox</item>
     <item type="layout" name="android_notification_template_base">@*android:layout/notification_template_base</item>
@@ -190,6 +201,8 @@
     <item type="layout" name="android_global_actions_silent_mode">@*android:layout/global_actions_silent_mode</item>
     <item type="layout" name="android_keyguard_screen_password_portrait">@*android:layout/keyguard_screen_password_portrait</item>
     <item type="layout" name="android_keyguard_screen_password_landscape">@*android:layout/keyguard_screen_password_landscape</item>
+    <item type="layout" name="android_keyguard_screen_unlock_portrait">@*android:layout/keyguard_screen_unlock_portrait</item>
+    <item type="layout" name="android_keyguard_screen_unlock_landscape">@*android:layout/keyguard_screen_unlock_landscape</item>
 
     <item type="xml" name="android_apns">@*android:xml/apns</item>
 
@@ -197,4 +210,5 @@
     <style name="android.Animation.ZoomButtons" parent="@*android:style/Animation.ZoomButtons"></style>
     <style name="android.Theme.Dialog.Alert" parent="@*android:style/Theme.Dialog.Alert"></style>
     <style name="android.Theme.Holo.Light.Dialog.Alert" parent="@*android:style/Theme.Holo.Light.Dialog.Alert"></style>
+    <style name="android.Widget.Button.Transparent" parent="@*android:style/Widget.Button.Transparent"></style>
 </resources>

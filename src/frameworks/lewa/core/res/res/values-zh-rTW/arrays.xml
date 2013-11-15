@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="mobile_operator_display_names" translatable="true">
+        <item>"中國移動"</item>
+        <item>"中國聯通"</item>
+        <item>"中國移動"</item>
+        <item>"中國電信"</item>
+        <item>"中國電信"</item>
+        <item>"中國聯通"</item>
+        <item>"中國移動"</item>
+        <item>"中國電信"</item>
+        <item>"遠傳電信"</item>
+        <item>"亞太電信"</item>
+        <item>"威寶電信"</item>
+        <item>"中華電信"</item>
+        <item>"台灣大哥大"</item>
+    </string-array>
+</resources>

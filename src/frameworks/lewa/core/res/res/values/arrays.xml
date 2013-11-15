@@ -14,4 +14,52 @@
         <item>recovery</item>
         <!-- <item>bootloader</item> -->
     </string-array>
+
+    <string-array name="mobile_operator_numeric_values" translatable="false">
+        <item>"46000"</item>
+        <item>"46001"</item>
+        <item>"46002"</item>
+        <item>"46003"</item>
+        <item>"46005"</item>
+        <item>"46006"</item>
+        <item>"46007"</item>
+        <item>"46009"</item>
+        <item>"46601"</item>
+        <item>"46605"</item>
+        <item>"46689"</item>
+        <item>"46692"</item>
+        <item>"46697"</item>
+    </string-array>
+
+    <string-array name="mobile_operator_display_names" translatable="true">
+        <item>"China Mobile"</item>
+        <item>"China Unicom"</item>
+        <item>"China Mobile"</item>
+        <item>"China Telecom"</item>
+        <item>"China Telecom"</item>
+        <item>"China Unicom"</item>
+        <item>"China Mobile"</item>
+        <item>"China Telecom"</item>
+        <item>"FarEasTone"</item>
+        <item>"Asia Pacific"</item>
+        <item>"Vibo"</item>
+        <item>"Chungwa"</item>
+        <item>"Taiwan Mobile"</item>
+    </string-array>
+
+    <string-array name="mobile_operator_numeric_equivalencies" translatable="false">
+        <item>"46000"</item>
+        <item>"46001"</item>
+        <item>"46000"</item>
+        <item>"46003"</item>
+        <item>"46003"</item>
+        <item>"46001"</item>
+        <item>"46000"</item>
+        <item>"46003"</item>
+        <item>"46601"</item>
+        <item>"46605"</item>
+        <item>"46689"</item>
+        <item>"46692"</item>
+        <item>"46697"</item>
+    </string-array>
 </resources>

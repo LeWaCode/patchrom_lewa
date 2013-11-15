@@ -70,5 +70,23 @@
         <item name="*android:dialogTitleDecorLayout">@lewa:layout/dialog_title_holo</item>
         <item name="android:alertDialogTheme">@lewa:style/V5.Theme.Holo.Light.Dialog.Alert</item>
     </style>
-    
+
+    <!-- Theme for translucent activities (on API level 10 and lower). That is, windows
+         that allow you to see through them to the windows behind.  This sets up the translucent
+         flag and appropriate animations for your windows.  -->
+    <style name="V5.Theme.Translucent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Note that we use the base animation style here (that is no
+             animations) because we really have no idea how this kind of
+             activity will be used. -->
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+
+    <!-- Variant of {@link #Theme_Translucent} with no title bar -->
+    <style name="V5.Theme.Translucent.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
 </resources>
