@@ -271,6 +271,8 @@
     <public type="string" name="android_lockscreen_forgot_pattern_button_text" id="0x09040024" />
     <public type="string" name="android_lockscreen_pattern_wrong" id="0x09040025" />
     <public type="string" name="android_lockscreen_pattern_instructions" id="0x09040026" />
+    <public type="string" name="config_initial_charge_times_ac" id="0x09040027" />
+    <public type="string" name="config_initial_charge_times_usb" id="0x09040028" />
 
     <!-- Public colors -->
     <public type="color" name="app_files" id="0x09050000" />
@@ -534,6 +536,8 @@
     <public type="array" name="mobile_operator_display_names" id="0x090d0005" />
     <public type="array" name="mobile_operator_numeric_equivalencies" id="0x090d0006" />
     <public type="array" name="mobile_operator_numeric_values" id="0x090d0007" />
+    <public type="array" name="detailed_am_pm_segments" id="0x090d0008" />
+    <public type="array" name="detailed_am_pm_names" id="0x090d0009" />
 
     <!-- Public xml -->
     <public type="xml" name="android_apns" id="0x090e0000" />
