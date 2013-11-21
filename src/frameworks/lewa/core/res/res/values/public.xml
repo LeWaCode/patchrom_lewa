@@ -228,7 +228,8 @@
 
     <public type="style" name="android.Widget.Button.Transparent" id="0x0903001d" />
     <public type="style" name="TextAppearance.Holo.Widget.Switch" id="0x0903001e" />
-
+    <public type="style" name="V5.Widget.Holo.Light.ProgressBar.Horizontal" id="0x0903001f" />
+    
     <!-- Public strings -->
     <public type="string" name="selectNone" id="0x09040000" />
     <!-- add for alias.xml -->
