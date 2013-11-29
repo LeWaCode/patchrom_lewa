@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_large">30dp</dimen>
+    <dimen name="text_medium">22sp</dimen>
+    <dimen name="text_unit">18sp</dimen>
+    <dimen name="chart_cycle_width">38dp</dimen>
+    <dimen name="indicator_height">26dp</dimen>
+    <dimen name="indicator_width">18dp</dimen>
+    <dimen name="chart_side">375dp</dimen>
+    <dimen name="chart_margin">55dp</dimen>
+</resources>

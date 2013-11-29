@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<set xmlns:android="http://schemas.android.com/apk/res/android" 
+android:interpolator="@android:anim/accelerate_interpolator"> 
+<!-- rotate旋转动画，围绕着文本的中心旋转一圈 --> 
+<rotate 
+	android:fromDegrees="0.0" 
+	android:toDegrees="360" 
+	android:pivotY="50%" 
+	android:pivotX="50%" 
+	android:duration="5000" /> 
+	<!-- translate代表着移动动画，改动画将文本从当前所分配的显示空间的顶部移动到底部 --> 
+	<translate 
+	android:fromYDelta="-100%" 
+	android:toYDelta="0" 
+	android:duration="10000" /> 
+	<!-- alpha代表着可见度渐变动画,从不可见，变为完全可见 --> 
+	<alpha 
+	android:fromAlpha="0.0" 
+	android:toAlpha="1.0" 
+	android:duration="3000" /> 
+</set> 

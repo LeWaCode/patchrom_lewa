@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+	<dimen name="main_on_margin">10dp</dimen>
+	<dimen name="button_big_dimen">155dp</dimen>
+	<dimen name="item_margin_button">16dp</dimen>
+	
+<!-- 	
+	<dimen name="blue_button_width">300dp</dimen>
+    <dimen name="blue_button_width_half">171dp</dimen>
+    <dimen name="blue_button_space">21dp</dimen>
+    <dimen name="blue_button_height">64dp</dimen>
+-->
+</resources>

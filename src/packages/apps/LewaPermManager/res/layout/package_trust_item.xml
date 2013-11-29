@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="@dimen/list_height"
+   android:descendantFocusability="blocksDescendants"
+   android:paddingLeft="@dimen/item_padding_side"
+   android:paddingRight="@dimen/item_padding_side" >
+   
+	<RelativeLayout
+	    android:id="@+id/texts"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/icon"
+        android:layout_centerVertical="true">
+	    <TextView
+	        android:id="@+id/textTitle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:text="@string/trust"
+	        style="@style/Text.Medium.Black"/>
+	    
+	 	 <TextView
+	        android:id="@+id/textTitleSub"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:layout_below="@id/textTitle"
+			android:text="@string/trust_type_yes"
+			style="@style/Text.Small.Gray"/>
+ 	 </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true">
+
+        <lewa.internal.v5.widget.SlidingButton
+            android:id="@+id/switchTrust"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+   </RelativeLayout>
+</RelativeLayout>

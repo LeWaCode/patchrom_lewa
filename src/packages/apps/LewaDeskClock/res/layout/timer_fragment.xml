@@ -1,0 +1,157 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/timer_background" >
+
+    <com.android.deskclock.timer.TimerIndicate
+        android:id="@+id/timer_indicate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="@dimen/timer_time_padding_left"
+        android:paddingRight="@dimen/timer_time_padding_right"
+        android:paddingTop="@dimen/timer_time_padding_top" >
+
+        <include
+            android:id="@+id/remain_time"
+            layout="@layout/timer" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="@dimen/timer_start_pause_cancel_padding_top" >
+
+        <Button
+            android:id="@+id/timer_init_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/timer_start_init"
+            android:text="@string/timer_init_start"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/timer_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/timer_start_selector"
+            android:text="@string/start"
+            android:textColor="@color/white" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/timer_pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/timer_start_selector"
+                android:text="@string/pause"
+                android:textColor="@color/white"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/timer_ring"
+        android:layout_centerHorizontal="true" >
+
+        <Button
+            android:id="@+id/timer_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/timer_cancel_selector"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/quick_time_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/one_minute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/timer_set_selector"
+                android:text="@string/one_minute"
+                android:textSize="@dimen/minute_text_size"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/five_minute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dip"
+                android:background="@drawable/timer_set_selector"
+                android:text="@string/five_minute"
+                android:textSize="@dimen/minute_text_size"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/ten_minute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dip"
+                android:background="@drawable/timer_set_selector"
+                android:text="@string/ten_minute"
+                android:textSize="@dimen/minute_text_size"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/timer_ring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="@dimen/timer_ring_padding_bottom"
+        android:src="@drawable/timer_ring_selector" />
+
+    <TextView
+        android:id="@+id/timer_ring_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="@dimen/timer_ring_text_padding_bottom"
+        android:paddingLeft="@dimen/timer_ring_paddingleft_right"
+        android:text="@string/timer_ring"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dip"
+        android:layout_toRightOf="@id/timer_ring_title"
+        android:paddingBottom="@dimen/timer_ring_text_padding_bottom"
+        android:paddingRight="@dimen/timer_ring_paddingleft_right" >
+
+        <TextView
+            android:id="@+id/timer_ring_uri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:singleLine="true"
+            android:text="@string/timer_ring"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

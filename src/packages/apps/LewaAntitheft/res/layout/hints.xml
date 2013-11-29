@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hint"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white" >
+
+    <TextView
+        android:id="@+id/textCommandTitle"
+        style="@style/Text.Small.Black.Command"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/red_line_out_width"
+        android:text="@string/command_title" />
+
+    <View
+        android:id="@+id/divider1"
+        style="@style/divider.main"
+        android:layout_below="@id/textCommandTitle" />
+
+    <TextView
+        android:id="@+id/textLockPhone"
+        style="@style/Text.Small.Black.Command"
+        android:layout_below="@id/divider1"
+        android:layout_marginLeft="@dimen/red_line_out_width"
+        android:text="@string/command_lock_phone" />
+
+    <TextView
+        android:id="@+id/textLockPhoneSub"
+        style="@style/Text.Small.Blue.Command"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textLockPhone"
+        android:layout_marginLeft="@dimen/item_margin"
+        android:layout_toRightOf="@id/textLockPhone"
+        android:text="@string/command_lock_phone_hint_sub" />
+
+    <View
+        android:id="@+id/divider2"
+        style="@style/divider.main"
+        android:layout_below="@id/textLockPhoneSub" />
+
+    <TextView
+        android:id="@+id/textGetLocation"
+        style="@style/Text.Small.Black.Command"
+        android:layout_below="@id/divider2"
+        android:layout_marginLeft="@dimen/red_line_out_width"
+        android:text="@string/command_get_location" />
+
+    <TextView
+        android:id="@+id/textGetLocationSub"
+        style="@style/Text.Small.Blue.Command"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textGetLocation"
+        android:layout_marginLeft="@dimen/item_margin"
+        android:layout_toRightOf="@id/textGetLocation"
+        android:text="@string/command_get_location_hint_sub" />
+
+    <View
+        android:id="@+id/divider3"
+        style="@style/divider.main"
+        android:layout_below="@id/textGetLocation" />
+
+    <TextView
+        android:id="@+id/textDeleteData"
+        style="@style/Text.Small.Black.Command"
+        android:layout_below="@id/divider3"
+        android:layout_marginLeft="@dimen/red_line_out_width"
+        android:text="@string/command_delete_data" />
+
+    <TextView
+        android:id="@+id/textDeleteDataSub"
+        style="@style/Text.Small.Blue.Command"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textDeleteData"
+        android:layout_marginLeft="@dimen/item_margin"
+        android:layout_toRightOf="@id/textDeleteData"
+        android:text="@string/command_delete_data_hint_sub" />
+
+    <View
+        android:id="@+id/divider4"
+        style="@style/divider.main"
+        android:layout_below="@id/textDeleteDataSub" />
+
+    <TextView
+        android:id="@+id/textRetrivePassword"
+        style="@style/Text.Small.Black.Command"
+        android:layout_below="@id/divider4"
+        android:layout_marginLeft="@dimen/red_line_out_width"
+        android:paddingBottom="@dimen/item_margin"
+        android:text="@string/command_retrieve_password" />
+
+    <TextView
+        android:id="@+id/textRetrivePasswordSub"
+        style="@style/Text.Small.Blue.Command"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textRetrivePassword"
+        android:layout_marginLeft="@dimen/item_margin"
+        android:layout_toRightOf="@id/textRetrivePassword"
+        android:text="@string/command_retrieve_password_hint_sub" />
+
+    <include
+        android:id="@+id/redLine"
+        android:layout_width="@dimen/red_line_out_width"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/textRetrivePassword"
+        android:layout_alignTop="@id/textCommandTitle"
+        layout="@layout/redline" />
+
+</RelativeLayout>

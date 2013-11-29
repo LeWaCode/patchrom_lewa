@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    android:background="@drawable/bv_tool_bg_1_on" >
+
+    <TextView
+        android:id="@+id/noalarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/noalarm"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:drawablePadding="3dip"
+        android:drawableLeft="@drawable/add"
+         />
+    
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="68dp"
+            android:layout_marginTop="8dip"
+            android:src="@drawable/bv_tool_up" />
+
+        <ImageView
+            android:id="@+id/down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="6dip"
+            android:layout_marginLeft="68dp"
+            android:src="@drawable/bv_tool_down" />
+        
+        <com.lewa.birdview.widget.ScrollLayout
+            android:id="@+id/scrollLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dip"
+            android:layout_marginTop="3dip" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

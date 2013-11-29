@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<com.lewa.PIM.contacts.dialpad.DialpadContainerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/dialpad_horizontal_margin"
+    android:paddingRight="@dimen/dialpad_horizontal_margin">
+
+    <include
+        android:id="@+id/dialpad_empty_view"
+		layout="@layout/dialpad_list_empty_text"/>        
+
+    <com.lewa.PIM.widget.PimExtentListView
+        android:id="@+id/list_view"
+        android:divider="@null"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+	<include 
+        android:id="@+id/dialpadAdditionalButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+		layout="@layout/dialpad_under_button"/>
+    <!--com.lewa.PIM.mediatek.contacts.widget.DialpadAdditionalButtons
+        android:id="@+id/dialpadAdditionalButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/dial_underbutton_bg" /-->
+        
+    <!--View
+        android:id="@+id/dialpadDivider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialpad_vertical_margin"
+        android:layout_above="@id/dialpadAdditionalButtons"
+        android:background="#66000000"/-->
+        
+    <!-- Keypad section -->
+    <include
+        android:id="@+id/dialpad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/dialpadAdditionalButtons"
+        android:paddingLeft="0dip"
+        android:paddingRight="0dip"
+		layout="@layout/dialpad"/>        
+
+    <!--View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialpad_vertical_margin"
+        android:layout_above="@id/dialpad"
+        android:background="#66000000"/-->
+
+    <ListView android:id="@+id/lv_menu_items"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_weight="1"
+        android:cacheColorHint="@null"
+        android:layout_above="@id/dialpad"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/digits_container"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="0dp"
+        android:layout_above="@id/dialpad"
+        android:gravity="center"
+        android:background="@drawable/dialpad_edittext_background" >
+
+		<RelativeLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_gravity="center"
+			android:paddingLeft="16dp"
+			android:paddingRight="16dp"
+			android:gravity="center" >
+			
+            <TextView
+                android:id="@+id/digits_location"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:background="@null"
+                android:textColor="@color/dialpad_location_color"
+                android:ellipsize="end"
+                android:paddingRight="8dp"
+                android:paddingTop="2dp"
+                android:layout_alignParentLeft="true"
+                android:singleLine="true"
+                android:textSize="12sp"/>   		    
+
+	        <com.lewa.PIM.contacts.dialpad.DigitsEditText
+	            android:id="@+id/digits"
+	            android:background="@null"
+	            android:paddingLeft="2dp"
+	            android:layout_alignParentRight="true"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"	            
+	            android:gravity="right|center_vertical"
+	            android:layout_toRightOf="@id/digits_location"
+	            android:textAppearance="@style/DialtactsDigitsTextAppearance"
+	            android:textColor="#38445c"
+	            android:singleLine="true"/>
+   		        
+	         <!--ImageButton 
+	             android:id="@+id/deleteButton"
+	             android:layout_width="48dip"
+	             android:layout_height="match_parent"
+	             android:layout_gravity="right"
+	             android:background="?android:attr/selectableItemBackground"
+	             android:contentDescription="@string/description_delete_button"
+	             android:nextFocusLeft="@id/digits"
+	             android:src="@drawable/ic_dial_action_delete" /-->
+         </RelativeLayout>
+
+    </FrameLayout>
+
+    <View
+        android:id="@+id/digits_shadow"
+        android:layout_width="match_parent"
+		android:layout_height="5px"
+		android:background="@drawable/dialpad_shadow"
+		android:layout_above="@id/digits_container"/>
+
+    <!-- "Dialpad chooser" UI, shown only when the user brings up the
+         Dialer while a call is already in progress.
+         When this UI is visible, the other Dialer elements
+         (the textfield/button and the dialpad) are hidden. -->
+    <ListView android:id="@+id/dialpadChooser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:visibility="gone"
+    />
+
+    <include
+        android:id="@+id/dial_key_tip_layout"
+		layout="@layout/dualsim_button_tip"/>        
+
+</com.lewa.PIM.contacts.dialpad.DialpadContainerLayout>

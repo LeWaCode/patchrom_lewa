@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_padding_side">8dip</dimen>
+    <dimen name="fragment_padding_side">16dp</dimen>
+    <dimen name="button_padding_side">10dp</dimen>
+    <dimen name="check_button_side">32dp</dimen>
+    <dimen name="check_button_padding">2dp</dimen>
+    <dimen name="chart_side">270dp</dimen>
+    <dimen name="chart_padding">26dp</dimen>
+    <dimen name="chart_margin">55dp</dimen>
+    <dimen name="chart_cycle_width">30dp</dimen>
+    <dimen name="widget_icon">28dp</dimen>
+    <dimen name="widget_height">34dp</dimen>
+    <dimen name="text_large">19dp</dimen>
+    <dimen name="text_unit">16sp</dimen>
+    <dimen name="text_medium">18sp</dimen>
+    <dimen name="text_widget">12sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_number">11sp</dimen>
+    <dimen name="indicator_height">22dp</dimen>
+    <dimen name="indicator_width">16dp</dimen>
+    <dimen name="data_usage_chart_height">252dip</dimen>
+    <dimen name="data_usage_chart_optimalWidth">440dip</dimen>
+    <dimen name="list_height">64dp</dimen>
+    
+    <integer name="preference_fragment_scrollbarStyle">0x02000000</integer>
+    
+    <dimen name="data_plan_dialog_width">300dp</dimen>
+    <dimen name="data_plan_dialog_height">300dp</dimen>
+</resources>

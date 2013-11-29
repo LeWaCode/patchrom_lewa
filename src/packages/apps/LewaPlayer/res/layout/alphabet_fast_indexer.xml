@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:layout_marginTop="32dip"
+    >
+
+    <TextView 
+            android:id="@+id/fast_indexer_pop_text_view"
+            android:layout_width="48dip" 
+            android:layout_height="48dip"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="60dip"
+            android:gravity="center"
+            android:textSize="32sp"
+            android:textColor="?android:attr/textColorPrimaryInverse"
+            android:background="@android:color/holo_blue_light"
+            android:visibility="gone" />
+    <com.lewa.player.ui.view.AlphabetFastIndexer
+        android:id="@+id/fast_indexer"
+        android:layout_width="20dip"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"/>
+
+</FrameLayout>

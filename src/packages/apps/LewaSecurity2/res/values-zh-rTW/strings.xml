@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">安全中心</string>
+    <string name="main_page">首頁</string>
+    <string name="details">詳情</string>
+    <string name="app_virus_difense">病毒防護</string>
+    <string name="app_intercept">安全攔截</string>
+    <string name="app_clearance">垃圾清掃</string>
+    <string name="app_auto_start">自啓動管理</string>
+    <string name="app_notification_manager">通知管理</string>
+    <string name="app_antitheft">手機防盜</string>
+    <string name="app_perm_manager">授權管理</string>
+    <string name="intercept_details">電話：%1$s 短信 : %2$s</string>
+    <string name="clearance_details">%1$s已用 %2$s</string>
+    <string name="clearance_checking">正在掃描垃圾文件&#8230;</string>
+    <string name="auto_start_details">%1$s個應用建議關閉</string>
+    <string name="auto_start_check_info">%1$s個自啓動項可禁止</string>
+    <string name="auto_start_checing">正在檢測自啓動項&#8230;</string>
+    <string name="perm_manager_details">%1$s個應用涉及敏感權限</string>
+    <string name="notification_manager_open">雲攔截已開啓</string>
+    <string name="notification_manager_close">雲攔截已關閉</string>
+    <string name="notification_black_number">%1$d個應用通知被攔截</string>
+    <string name="antitheft_close">預防手機丟失,建議立即開啓</string>
+    <string name="antitheft_open">已開啓</string>
+    <string name="gap_notice">上次病毒掃描時間:%s前</string>
+    <string name="virus_details">檢測到%1$d個病毒</string>
+    <string name="virus_has_been_deleted">%1$d個病毒已被清除</string>
+    <string name="virus_has_been_scanned">已完成病毒掃描</string>
+    <string name="virus_checking">正在進行病毒掃描</string>
+    <string name="virus_optimizing_progress">正在掃描 %s</string>
+    <string name="first_use">您的手機未進行過病毒掃描</string>
+    <string name="scan_just_now">剛剛進行了掃描</string>
+    <string name="days">天</string>
+    <string name="hours">小時</string>
+    <string name="minutes">分鍾</string>
+    <string name="state_optimizing">正在優化&#8230;</string>
+    <string name="state_detecting">正在檢測&#8230;</string>
+    <string name="goto_details">查看詳情</string>
+    <string name="oneclick_optimize">一鍵優化</string>
+    <string name="clearance_calculate_state">檢測到%s</string>
+    <string name="clearance_garbage_size">%1$s垃圾文件可清理 </string>
+    <string name="clearance_garbage_cleared">%1$s垃圾文件已清理 </string>
+    <string name="dialog_title">安全中心提醒</string>
+    <string name="dialog_message_check">系統正在檢測您的手機。確定結束並退出手機安全檢測?</string>
+    <string name="dialog_message_optimize">系統正在優化您的手機。確定結束並退出手機安全檢測?</string>
+    <string name="dialog_finish">立即結束</string>
+    <string name="dialog_continue_scan">繼續檢測</string>
+    <string name="dialog_continue_optimize">繼續優化</string>
+    <string name="optimized_complete_hint">恭喜，已優化至最佳狀態</string>
+    <string name="complte_hint_safe">檢測完成，您的手機一切正常</string>
+    <string name="complte_hint_risk">檢測完成，請盡快優化</string>
+    <string name="complte_hint_danger">檢測完成,急需優化</string>
+
+</resources>

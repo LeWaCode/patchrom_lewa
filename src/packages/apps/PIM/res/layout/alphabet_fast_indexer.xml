@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView
+        android:id="@+id/fast_indexer_pop_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="140dip"
+        android:layout_marginRight="140dip"
+        android:gravity="center"
+        android:textColor="#088cff"
+        android:background="@drawable/fast_character_bg"
+        android:textSize="32sp"
+        android:visibility="gone" />
+    <com.lewa.PIM.widget.AlphabetFastIndexer
+        android:id="@+id/fast_indexer"
+        android:layout_width="22dip"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"/>
+</FrameLayout>

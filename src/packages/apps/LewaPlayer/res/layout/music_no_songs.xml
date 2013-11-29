@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="50dip"
+    android:gravity="center"
+    android:id="@+id/view_no_songs">
+    
+    <ImageView
+        android:id="@+id/image_no_songs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/music_no_songs" />
+    
+    <TextView android:id="@+id/text_no_songs"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:textColor="#D3D3D3"/>
+    
+</LinearLayout>

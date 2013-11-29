@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/history_bg"
+    android:orientation="vertical" >
+    
+    <ListView
+        android:id="@+id/history_list"
+        android:listSelector="@drawable/list_selector" 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/port_history_list_height"
+        android:layout_marginLeft="@dimen/port_history_list_margin_left"
+        android:layout_marginRight="@dimen/port_history_list_margin_right"
+        android:layout_marginTop="@dimen/port_history_list_margin_top"/>
+
+    <LinearLayout
+    	android:id="@+id/history_bt_group"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="@dimen/port_history_bt_ll_margin_left"
+        android:layout_marginRight="@dimen/port_history_bt_ll_margin_right"
+        android:layout_marginTop="@dimen/port_history_bt_ll_margin_top"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/goback_bt"
+            android:layout_width="@dimen/port_history_bt_width"
+            android:layout_height="@dimen/port_history_bt_height"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+			android:layout_marginBottom="10dip"
+            android:background="@drawable/blue_button_selector"
+            android:src="@drawable/goback_his_port"
+            />
+
+        <ImageButton
+            android:id="@+id/clear_bt"
+            android:layout_width="@dimen/port_history_bt_width"
+            android:layout_height="@dimen/port_history_bt_height"
+            android:layout_marginLeft="@dimen/port_history_bt_margin_left"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+			android:layout_marginBottom="10dip"
+            android:background="@drawable/blue_button_selector"
+            android:src="@drawable/clear_his_port" />
+    </LinearLayout>
+
+</LinearLayout>

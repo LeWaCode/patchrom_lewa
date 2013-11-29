@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="80dip"
+        android:layout_marginTop="0.0dip"
+        android:src="@drawable/ic_top" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_new_version"
+            android:layout_width="match_parent"
+            android:layout_height="45.0dip"
+            android:layout_marginLeft="45.0dip"
+            android:layout_marginRight="45.0dip"
+            android:layout_marginTop="15.0dip"
+            android:background="@drawable/bg_btn_blue"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_cur_version"
+            android:layout_width="match_parent"
+            android:layout_height="45.0dip"
+            android:layout_marginLeft="45.0dip"
+            android:layout_marginRight="45.0dip"
+            android:layout_marginTop="15.0dip"
+            android:background="@drawable/bg_btn_white" />
+        
+        <TextView 
+            android:id="@+id/msg_cannot_ota_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="45.0dip"
+            android:layout_marginRight="45.0dip"
+            android:layout_marginTop="50.0dip"
+            android:text="@string/msg_cannot_ota_update"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="56dip"
+        android:layout_gravity="bottom"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="#ffd8d8d8" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="#ffffffff" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="54dip"
+            android:layout_gravity="bottom"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_check_update"
+                android:layout_width="138dip"
+                android:layout_height="40dip"
+                android:layout_gravity="center"
+                android:layout_marginLeft="9.0dip"
+                android:layout_marginRight="4.5dip"
+                android:background="@drawable/bg_btn_blue"
+                android:gravity="center"
+                android:text="@string/check_update"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_install_from_sd"
+                android:layout_width="138dip"
+                android:layout_height="40dip"
+                android:layout_gravity="center"
+                android:layout_marginLeft="4.5dip"
+                android:layout_marginRight="9.0dip"
+                android:background="@drawable/bg_btn_white"
+                android:gravity="center"
+                android:text="@string/install_from_sd" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

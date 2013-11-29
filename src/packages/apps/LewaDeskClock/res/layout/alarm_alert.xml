@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/title"
+        style="?android:attr/windowTitleStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="@dimen/alert_dialog_title_height"
+        android:text="@string/alarm_list_title"
+        android:textSize="22sp" />
+
+    <View
+        android:id="@+id/titleDividerTop"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_below="@id/title"
+        android:background="@lewa:color/holo_light_divider_color" />
+
+    <RelativeLayout
+        android:id="@+id/digitalClock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleDividerTop" >
+
+        <com.android.deskclock.DigitalClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dip"
+            android:baselineAligned="true"
+            android:paddingBottom="20dp" >
+
+            <com.android.deskclock.AndroidClockTextView
+                android:id="@+id/timeDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?android:attr/textColorPrimary"
+                android:textSize="40dp"
+                useClockTypeface="false"
+                android:textStyle="bold" />
+
+            <com.android.deskclock.AndroidClockTextView
+                android:id="@+id/am_pm"
+                android:layout_width="40dip"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/timeDisplay"
+                android:layout_toRightOf="@id/timeDisplay"
+                useClockTypeface="false"
+                android:textColor="?android:attr/textColorPrimary"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </com.android.deskclock.DigitalClock>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_below="@id/digitalClock"
+        android:background="?android:attr/dividerHorizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider"
+        android:divider="?android:attr/dividerVertical"
+        android:orientation="horizontal"
+        android:showDividers="middle" >
+
+        <Button
+            android:id="@+id/dismiss"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="@string/close_alarm" />
+
+        <Button
+            android:id="@+id/snooze"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom|center_horizontal"
+            android:paddingBottom="16dp"
+            android:text="@string/snooze" />
+    </LinearLayout>
+
+</RelativeLayout>

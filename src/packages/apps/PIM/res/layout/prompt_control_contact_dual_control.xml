@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/ic_call_mms_tip_pop"
+    android:paddingLeft="@dimen/prompt_padding_left_right"
+    android:paddingRight="@dimen/prompt_padding_left_right"
+    android:paddingTop="@dimen/prompt_padding_top"
+    android:paddingBottom="@dimen/prompt_padding_bottom" >
+    
+    <TextView 
+        android:id="@+id/text_prompt_line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="?android:attr/textColorPrimaryInverse"
+        android:text="@string/prompt_contact_dual_control_1" />
+    <TextView 
+        android:id="@+id/text_prompt_line2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="?android:attr/textColorPrimaryInverse"
+        android:text="@string/prompt_contact_dual_control_2" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_call_mms_tip_pop_content"
+        />
+</LinearLayout>

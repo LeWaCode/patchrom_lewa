@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"Perakam Bunyi"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"Rakam mesej anda"</string>
+    <string name="message_recorded" msgid="381539460921872233">"Mesej telah dirakam"</string>
+    <string name="review_message" msgid="201616012287839474">"Semak mesej"</string>
+    <string name="recording" msgid="4426791467211376099">"Merakam"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"Rakaman dihentikan"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"Storan penuh"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"Panjang maksimum telah dicapai"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="8212754638456591792">"Sila lekapkan storan USB"</string>
+    <string name="insert_sd_card" product="default" msgid="2251831579676114197">"Sila masukkan kad SD"</string>
+    <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> min tersedia"</string>
+    <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g> tersedia"</string>
+    <string name="accept" msgid="1888285552128743656">"Selesai"</string>
+    <string name="discard" msgid="761613433029406319">"Buang"</string>
+    <string name="button_ok" msgid="3004911343723076226">"OK"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"Rakaman anda"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"Rakaman audio"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"Rakaman saya"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="7292601458300337571">"Tidak boleh mengakses storan USB"</string>
+    <string name="error_sdcard_access" product="default" msgid="8005660724361043509">"Tidak boleh mengakses kad SD"</string>
+    <string name="error_app_internal" msgid="2365923237657572011">"Ralat aplikasi dalaman"</string>
+    <string name="error_mediadb_new_record" msgid="2225774949947938064">"Tidak boleh menyimpan rakaman audio"</string>
+
+    <string name="error_app_recorder_occupied">Perakam sedang digunakan oleh aplikasi lain</string>
+    <string name="error_app_failed_title">Kegagalan rakaman</string>       
+     
+    <!-- Added by yanqiang.hu@archermin.com for tips -->
+    <string name="tell_save_record_success">"Berjaya menyimpan."</string>
+    <string name="save_record">"Simpan"</string>
+    <!-- Added by yanqiang.hu@archermin.com end -->
+    <!-- Low-memory dialog message -->
+    <string name="spaceIsLow_content">"Kad SD anda kehabisan ruang. Berhenti merakam atau padam item daripada kad SD."</string>
+    <string name="unknown_artist_name" msgid="5567811106415855219">"Artis tidak dikenali"</string>  
+<string name="cancel">Batal</string>
+<string name="select_recording_format">Pilih format rakaman</string>
+<string name="recording_format_high">Tinggi</string>
+<string name="recording_format_mid">Sederhana</string>
+<string name="recording_format_low">Rendah</string>
+<string name="recorder_can_not_be_used">Perakam Suara tidak boleh diguna sekarang.</string>
+    <string name="no_recording_file">(Tiada fail rakaman)</string>  
+    <string name="recording_file_list">Senarai fail rakaman</string>  
+    <string name="recording_paused">Rakaman dijeda</string>
+    <string name="alert_delete_multiple">Item ini akan dipadamkan</string>  
+    <string name="alert_delete_single">Item ini akan dipadamkan</string>  
+    <string name="delete">Padam</string>  
+    <string name="deleting">Memadam</string>  
+    <string name="ok">OK</string>  
+</resources>

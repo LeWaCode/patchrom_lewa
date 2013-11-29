@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/item_padding_side"
+    android:columnCount="2"
+    android:rowCount="2">
+
+    <Spinner
+        android:id="@android:id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_gravity="center_vertical"
+        android:entries="@array/detail_times"
+        style="@style/Spinner.Lewa" />
+    
+    <RelativeLayout
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|center_vertical"
+        android:background="@drawable/button"
+        >
+        <CheckBox
+        android:id="@+id/toggle_all"
+        android:background="@drawable/toggle_rect_mobile"
+        android:layout_centerInParent="true"
+        style="@style/Checkbox.Net"
+        android:clickable="false"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_height="1dip"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnSpan="2"
+        android:layout_marginTop="5dip"
+        android:background="@color/blue" />
+
+</GridLayout>

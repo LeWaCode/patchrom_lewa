@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal" >
+
+    <include
+        android:id="@+id/seprator_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginRight="0dip"
+        android:layout_marginTop="5dip"
+        layout="@layout/action_bar_seprator" />
+
+    <RelativeLayout
+        android:id="@+id/update_tip_layout"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/seprator_line"
+        android:visibility="gone"
+        android:gravity="center_vertical|right" >
+
+        <ImageView
+            android:id="@+id/update_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/title_menu_update"
+            android:contentDescription="@string/image_content" />
+
+        <TextView
+            android:id="@+id/update_count"
+            android:layout_width="@dimen/update_count_width"
+            android:layout_height="@dimen/update_count_height"
+            android:layout_alignRight="@+id/update_image"
+            android:layout_alignTop="@+id/update_image"
+            android:background="@drawable/update_number"
+            android:gravity="center"
+            android:textColor="@color/color_ffffff"
+            android:textSize="@dimen/sp_10"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/search_button"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/update_tip_layout"
+        android:contentDescription="@string/image_content"
+        android:drawableLeft="@drawable/title_menu_search"
+        android:src="@drawable/title_menu_search" />
+
+</RelativeLayout>

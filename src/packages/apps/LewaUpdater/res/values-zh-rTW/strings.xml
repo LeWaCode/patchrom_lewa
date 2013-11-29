@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">版本升級</string>
+    <string name="discover_new_version">發現新版本:</string>
+    <string name="new_version">新版本:</string>
+    <string name="cur_version">當前版本:</string>
+    <string name="check_update">檢查升級</string>
+    <string name="install_from_sd">從SD卡安裝</string>
+    <string name="error_empty">文件夾中沒有需要安裝的包</string>
+    <string name="select_file">請選中要更新的文件</string>
+    <string name="download_failure">下載失敗</string>
+    <string name="file_list_title">從SD卡安裝</string>
+    <string name="conn_error">親，連接數據出錯，請重試</string>
+    <string name="net_error">木有聯網，木有信息(T_T)</string>
+    <string name="error_no_msg">木有信息(T_T)</string>
+    <string name="new_version_error">恭喜，您已經是最新版本啦(^m^)</string>
+    <string name="new_version_error_twice">真沒有新的版本了，有的話會通知你哦^_^</string>
+    <string name="new_version_error_third">再點屏就會點壞啦(T_T)</string>
+    <string name="new_version_error_fourth">囧</string>
+    <string name="new_version_error_fifth">=_=凸</string>
+    <string name="curr_version_error">您當前版本過舊，無法通過OTA升級，請下載到SD卡手動升級</string>
+    <string name="download_file_exist">當前版本的更新包已存在</string>
+    <string name="net_data_error">親，連接數據出錯，請重試</string>
+    <string name="currversion_old_error">妳當前的版本暫不能升級，去下個完整包升級吧</string>
+    <string name="upgrade_now">開始升級</string>
+    <string name="upgrade_later">稍後更新</string>
+    <string name="download_now">下載新版本</string>
+    <string name="downloading">升級包下載中</string>
+    <string name="sdcard_not_exists">SD卡未挂載，請挂載SD卡後再下載</string>
+    <string name="dlg_update_package_md5_error_title">更新包驗證錯誤</string>
+    <string name="dlg_update_package_md5_error_msg">您下載的更新包與服務器上的不壹致，請重新下載</string>
+    <string name="btn_retry_download">重新下載</string>
+    <string name="btn_cancel_download">暫不下載</string>
+    <string name="wifi_not_active">Wifi沒有連接，請連接好Wifi再下載</string>
+    <string name="notification_update_succ_title">恭喜您，升級成功</string>
+    <string name="notification_update_succ_content">您當前版本爲:</string>
+    <string name="notification_update_error_title">很遺憾，您升級失敗了</string>
+    <string name="notification_update_error_content">您升級失敗，當前版本爲:</string>
+    <string name="dlg_update_ota_wifi_off_title">升級包下載</string>
+    <string name="dlg_update_ota_wifi_off_msg">您當前未在WiFi狀態下，升級包容量較大，是否要繼續？</string>
+    <string name="dlg_update_package_wifi_off_title">完整包下載</string>
+    <string name="dlg_update_package_wifi_off_msg">您當前未在WiFi狀態下，完整包容量較大，是否要繼續？</string>
+    <string name="dlg_reboot_update_complete_title">開始升級</string>
+    <string name="dlg_reboot_update_complete_msg">升級需要重啓手機，是否繼續？</string>
+    <string name="dlg_sdcard_not_remount_title">存儲卡不可訪問</string> 
+    <string name="dlg_sdcard_not_remount_msg">請確認存儲卡存在,且手機不在數據傳輸模式。</string>
+    <string name="dlg_sdcard_not_memory_title">存儲提醒</string>
+    <string name="dlg_sdcard_not_memory_msg">您的SD卡存儲空間不足！</string>
+    <string name="dlg_delete_all_file_title">刪除ROM包</string>
+    <string name="dlg_delete_all_file_msg">您確定要刪除此ROM包嗎？</string>
+    <string name="btn_confirm">確定</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_pause">暫停</string>
+    <string name="btn_continue">繼續</string>
+    <string name="notification_new_version">您有新版本，請點擊進入更新</string>
+    <string name="model_not_match">當前選擇的包與您的機型不匹配，請選擇其它包</string>
+    <string name="version_not_match">當前選擇的包版本過舊，刷入會有風險</string>
+    <string name="download_all_new_version">下載完整包:</string>
+    <string name="msg_cannot_ota_update">當前版本過舊，只能使用完整包升級，完整包容量較大，建議使用wifi升級</string>
+    <string name="net_data_error_pause_download">網絡錯誤，下載暫停</string>
+    <string name="notification_net_data_error_pause_download">網絡錯誤，下載暫停</string>
+    <string name="notification_user_click_pause_download">升級包下載暫停</string>
+    <string name="notification_net_data_complete_download">升級包下載完成</string>
+    <string name="notification_net_data_complete_download_content">請點擊進行重啟升級</string>
+    <string name="dlg_cancel_download_title">取消下載</string>
+    <string name="dlg_cancel_download_msg">是否確認取消下載？取消下載是不能斷點續傳的</string>
+    <string name="dlg_cotinue_download_title">升級包下載</string>
+    <string name="dlg_cotinue_download_msg">您當前未在WiFi狀態下，是否要繼續下載？</string>
+    <string name="push_msg_notification_title">您當前有新的係統更新了</string>
+    <string name="push_msg_notification_msg">係統更新新版本號為：</string>
+    <string name="pregress_get_new_version_msg">正在穫取新版本信息，請稍候..</string>
+    <string name="pregress_reboot_phone_title">重啟昇級</string>
+    <string name="pregress_reboot_phone_msg">正在準備重啟，請稍候...</string>
+    <string name="stable_version">(穩定版)</string>
+    <string name="dev_version">(開發版)</string>
+
+    <string name="menu_download_newest_full">下載最新完整包</string>
+    <string name="default_version_summary">歡迎使用樂蛙OS</string>
+    <string name="download_progress">0%</string>
+    <string name="tag_v">v </string>
+    <string name="error_can_not_get_update_version">親，未獲取到最新版本</string>
+    <string name="error_cannot_download_full_package">親，沒有完整包可下載</string>
+    <string name="error_webview_no_msg">木有信息(T_T)</string>
+    <string name="error_http_timeout">無法連接到服務器，請重試！</string>
+    <string name="tag_new_version">【新版本】</string>
+
+    <!-- add by zenghuaying -->
+    <string name="realize_more">瞭解更多</string>
+    <string name="progress_check_update_msg">正在檢查更新，請稍候...</string>
+    <string name="progress_check_update_title">正在檢查更新</string>
+    <string name="refresh">刷新</string>
+    <string name="download_ota">下載</string>
+    <string name="download_full_package">下載完整包</string>
+    <string name="share">分享</string>
+    <string name="reboot_update">重啟升級</string>
+    <string name="find_new_version">新版本</string>
+    <string name="current_version">當前版本</string>
+    <string name="download_full_package_error">您已經是最新版本啦！無需下載最新升級包！</string>
+    <string name="buffering">緩衝中</string>
+    <string name="dlg_cancel_update_title">取消升級</string>
+    <string name="dlg_cancel_update_msg">是否要暫不升級上一個版本？別擔心，下載完的文件已經存在SD卡上啦</string>
+    <string name="dlg_cancel_update_msg_not_finish">您之前的版本還未完全下載，是否取消下載乃獲取最新信息？</string>
+    <string name="reboot_to_recovery">重啟到刷機模式</string>
+    <string name="reboot_to_recovery_msg">到刷機模式要重啟手機，是否要繼續？</string>
+    <string name="share_version_info">分享新版本升級信息</string>
+    <string name="share_to_sina_weibo">分享至新浪微博</string>
+    <string name="download_sina_weibo">新浪微博（點擊下載）</string>
+    <string name="share_to_tencent_weibo">分享至騰訊微博</string>
+    <string name="download_tencent_weibo">騰訊微博（點擊下載）</string>
+    <string name="share_to_renren">分享至人人網</string>
+    <string name="download_renren">人人網（點擊下載）</string>
+    <string name="share_to_qzone">分享至QQ空間</string>
+    <string name="download_qzone">QQ空間（點擊下載）</string>
+    <string name="no_share_app_find">很遺憾，您未安裝供分享的應用，您可以下載后再分享</string>
+    <!-- <string name="share_with_friends">.快与你的朋友分享吧！^_^</string> -->
+    <string name="share_with_friends">快與你的朋友分享吧！(^_^)∠※</string>
+    <string name="share_to_weibo_content_start">#樂蛙升級#我成功升級到</string>
+    <string name="share_to_weibo_content_end">樂蛙Rom啦！詳情快戳http://www.lewaos.com/features.html</string>
+
+    <string name="share_to_weibo_content0">#樂蛙升級#扶床宿醉無人陪，寂寞屌絲玩機機。只要樂蛙Rom出新包馬上開刷，不刷心裡癢癢。升級到樂蛙v<xliff:g id="name">%s</xliff:g>，快乐天天有，快看<xliff:g id="address">%s</xliff:g></string>  
+    <string name="share_to_weibo_content1">#樂蛙升級#一周的高潮就是等著週五16點大姨媽來臨時，跟著時代腳本永遠是樂蛙Rom最新版本。升級到樂蛙v<xliff:g id="name">%s</xliff:g>，快樂天天有，快看<xliff:g id="address">%s</xliff:g></string>
+    <string name="share_to_weibo_content2">#樂蛙升級#沒女友，沒錢，沒房，只有自行車。只對手機感興趣，所以我天天搞機。升級到樂蛙<xliff:g id="name">%s</xliff:g>，快樂天天有，快看<xliff:g id="address">%s</xliff:g></string>
+    <string name="share_to_weibo_content3">#樂蛙升級#不斷安裝應用，卸載應用。有rom就開刷，一下午就這麼過去了。升級到樂蛙<xliff:g id="name">%s</xliff:g>，快樂天天有，快看<xliff:g id="address">%s</xliff:g></string>
+    <string name="share_to_weibo_content4">#樂蛙升級# 一個可以聯絡的人都沒有，永遠只有運營商和銀行信用卡的信息，最喜歡的體位是蹲在角落里畫圈……升級到樂蛙<xliff:g id="name">%s</xliff:g>，快樂天天有，快看<xliff:g id="address">%s</xliff:g></string>
+    <string name="share_to_weibo_content5">#樂蛙升級#屌絲與否，要看誰能笑到最後。終於用上夢寐以求的IOS，卻發現，現在流行的是安卓系統和樂蛙Rom了。升級到樂蛙<xliff:g id="name">%s</xliff:g>，快樂天天有，快看<xliff:g id="address">%s</xliff:g></string>
+    <string name="share_to_weibo_content6">#樂蛙升級#一直以為，在夢中無數次回放的場面，會是“屌絲命天註定”永恆悲情的注解；卻想不到，有時候，逆襲也輪到自己頭上，我升級到了樂蛙最新版本v<xliff:g id="name">%s</xliff:g>！！，快樂天天有，快看<xliff:g id="address">%s</xliff:g></string>
+    <string name="share_to_weibo_content7">#樂蛙升級#一心向著目標前進，整個世界都會讓路”屌絲總是很執著，因為我們除了時間一無所有！升級到樂蛙<xliff:g id="name">%s</xliff:g>，快樂天天有，快看<xliff:g id="address">%s</xliff:g></string>
+    <string name="share_to_weibo_content8">#樂蛙升級#屌絲宅男，不是！！升級到樂蛙v<xliff:g id="name">%s</xliff:g>，快樂天天有，快看<xliff:g id="address">%s</xliff:g></string>
+    <string name="share_to_weibo_content9">#樂蛙升級#想讓世界變好的人，他們是一群待世界變好了才出門的人。升級到樂蛙v<xliff:g id="name">%s</xliff:g>，快樂天天有，快看<xliff:g id="address">%s</xliff:g></string>
+    <string name="share_to_weibo_content10">#樂蛙升級#屌絲命，天註定，屌絲夢，自己造！如果想走上那條“上位高富帥，抱得白富美”的神秘之路，就要堅信：車到山前必有路，屌絲必有逆襲日。升級到樂蛙<xliff:g id="name">%s</xliff:g>，快樂天天有，快看<xliff:g id="address">%s</xliff:g></string>
+    <string name="share_to_weibo_content11">#樂蛙升級# 一直以為，在夢中無數次回放的場面，會是“屌絲命天註定”永恆悲情的注解；卻想不到，有時候，逆襲也輪到自己頭上。升級到樂蛙<xliff:g id="name">%s</xliff:g>，快樂天天有，快看<xliff:g id="address">%s</xliff:g></string>
+    <string name="share_to_weibo_content12">#樂蛙升級#每個屌絲心中都有一個搞機夢。搬磚，做五毛黨只是爲了有一天可以買手機刷樂蛙，完成華麗逆襲。屌絲樂無窮，屌絲趣味多，屌絲碉堡了！升級到樂蛙<xliff:g id="name">%s</xliff:g>，快樂天天有，快看<xliff:g id="address">%s</xliff:g></string>
+    <string name="share_to_weibo_content13">#樂蛙升級#你有你的IOS，MIUI，這又如何？我有兩張SIM卡，還是雙卡雙待、四核大屏安卓手機，關鍵是……只要998！樂蛙ROM讓你屌到不行。升級到樂蛙<xliff:g id="name">%s</xliff:g>，快樂天天有，快看<xliff:g id="address">%s</xliff:g></string>
+    <string name="share_to_weibo_content14">#樂蛙升級#屌絲命，天註定，屌絲夢，自己造！如果想走上那條“上位高富帥，抱得白富美”的神秘之路，就要堅信：車到山前必有路，屌絲必有逆襲日。v<xliff:g id="name">%s</xliff:g>，快樂天天有，快看<xliff:g id="address">%s</xliff:g></string>
+    <string name="share_to_weibo_content15">#樂蛙升級#現實中嚴重缺乏存在感的屌絲們，只有通過刷屏才能博得一點關注和罵聲。感受到一絲欣慰，現實中的他們每到這個時候嘴角會微微上揚45°拿起手邊的營養快線，默默滴，笑而不語。升級到樂蛙<xliff:g id="name">%s</xliff:g>，快樂天天有，快看<xliff:g id="address">%s</xliff:g></string>
+    <string name="share_to_weibo_content16">#樂蛙升級#每一個成功的女神背後總有那麼一個默默的為她付出一切的屌絲。升級到樂蛙<xliff:g id="name">%s</xliff:g>，快樂天天有，快看<xliff:g id="address">%s</xliff:g></string>
+    <string name="share_to_weibo_content17">#樂蛙升級#女神嫁給高富帥后就不再是高富帥和屌絲的女神，但是嫁個屌絲后，依然是高富帥和屌絲的女神。升級到樂蛙<xliff:g id="name">%s</xliff:g>，快樂天天有，快看<xliff:g id="address">%s</xliff:g></string>
+    <string name="share_to_weibo_content18">#樂蛙升級#安靜了一天的手機總有振動了！……他是在提醒我有最新版本樂蛙Rom可以刷了%%)_(%%升級到樂蛙<xliff:g id="name">%s</xliff:g>，快樂天天有，快看<xliff:g id="address">%s</xliff:g></string>
+    <string name="share_to_weibo_content19">#樂蛙升級#20. 終於，有個女孩願意和我聊天，被我調戲了！……她的名字叫語音助手。升級到樂蛙<xliff:g id="name">%s</xliff:g>，快樂天天有，快看<xliff:g id="address">%s</xliff:g></string>
+    <string name="share_to_weibo_content21">#樂蛙升級#打開電腦上Q，進空間看妹子，看右下角彈出的新聞（專挑三俗的看），搜板磚找薪水高的工作，跟機油打CF僵尸模式。作為非一般的屌絲，還要等著每週五一次大姨媽，刷樂蛙ROM。升級到樂蛙<xliff:g id="name">%s</xliff:g>，快樂天天有，快看<xliff:g id="address">%s</xliff:g></string>
+    <!-- add end -->
+    <string name="dlg_low_power_notify_title">低電量升級提醒</string>
+    <string name="dlg_low_power_notify_msg">目前電量低於30%，進行版本升級可能有風險，建議進行充電后再進行版本升級。</string>
+    <string name="btn_ignore">忽略</string>
+
+</resources>

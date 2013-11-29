@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dip"
+        android:layout_marginTop="11dip"
+        android:text="@string/theme_count" />
+
+    <GridView
+        android:id="@+id/gv_info"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="7dip"
+        android:horizontalSpacing="5dip"
+        android:numColumns="2"
+        android:paddingLeft="@dimen/theme_info_margin"
+        android:paddingRight="@dimen/theme_info_margin"
+        android:scrollbarStyle="outsideOverlay"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dip" />
+
+</LinearLayout>

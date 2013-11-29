@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="66dip"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:baselineAligned="false">
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="66dip"
+        android:gravity="center_vertical"
+        android:ignoreGravity="@+id/icon"
+        android:paddingLeft="8dip">
+
+        <include layout="@layout/track_list_item_common" />
+
+    </RelativeLayout>
+
+</LinearLayout>

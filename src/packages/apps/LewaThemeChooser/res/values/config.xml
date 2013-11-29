@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Percent of the available memory. -->
+    <integer name="config_image_cache_capacity">25</integer>
+
+    <!-- Whether the process should be created with a large Dalvik heap. -->
+    <bool name="config_enable_large_heap">true</bool>
+    <bool name="show_custom_theme">true</bool>
+    <bool name="config_font_reboot">false</bool>
+    <bool name="config_onekeywallpaper_online_download">true</bool>
+    <bool name="config_onekeywallpaper_change_in_order">false</bool>
+    <bool name="config_onekeywallpaper_widget_enabled">true</bool>
+    <bool name="config_onekeywallpaper_shortcut_enabled">false</bool>
+    <bool name="config_onekeyfont_widget_enabled">false</bool>
+    <bool name="config_onekeytheme_widget_enabled">false</bool>
+
+</resources>

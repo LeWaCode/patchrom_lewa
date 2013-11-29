@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+	
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+	    <LinearLayout
+	        android:id="@+id/operateLayout"
+	        android:layout_width="fill_parent"
+	        android:layout_height="56dip"
+	        android:layout_alignParentBottom="true"
+	        android:layout_gravity="bottom"
+	        android:orientation="vertical"
+	        android:visibility="gone" >
+	        <View
+	            android:layout_width="match_parent"
+	            android:layout_height="1dip"
+	            android:background="#ffd8d8d8" />
+	
+	        <View
+	            android:layout_width="match_parent"
+	            android:layout_height="1dip"
+	            android:background="#ffffffff" />
+	        <LinearLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="54dip"
+	            android:layout_gravity="bottom"
+	            android:orientation="horizontal" >
+	            <Button
+	                android:id="@+id/btn_install_ver"
+	                android:layout_width="fill_parent"
+	                android:layout_height="50dip"
+	                android:layout_gravity="center"
+	                android:layout_marginLeft="87dip"
+	                android:layout_marginRight="87dip"
+	                android:gravity="center"
+	                android:text="@string/upgrade_now" />
+	        </LinearLayout>
+    	</LinearLayout>
+	    <ListView
+	        android:id="@android:id/list"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="2.0dip"
+	        android:layout_alignParentTop="true"
+	        android:layout_above="@id/operateLayout"
+	        android:cacheColorHint="@android:color/transparent"
+	        android:drawSelectorOnTop="false"
+	        android:visibility="gone" />
+	    
+	
+	    <FrameLayout
+	        android:id="@+id/list_empty"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_above="@id/operateLayout"
+	        android:visibility="gone" >
+	
+	        <LinearLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:gravity="center"
+	            android:orientation="vertical" >
+	
+	            <ImageView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:gravity="center"
+	                android:src="@drawable/ic_ota_empty" />
+	
+	            <TextView
+	                android:id="@+id/list_empty_text"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:gravity="center"
+	                android:text="@string/error_empty"
+	                android:textAppearance="?android:textAppearanceMedium"
+	                android:textColor="@color/empty_text_font_color" />
+	        </LinearLayout>
+	    </FrameLayout>
+    </RelativeLayout>
+
+</merge>

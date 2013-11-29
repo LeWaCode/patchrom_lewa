@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/local_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_dark" >
+
+    <LinearLayout
+        android:id="@+id/ll_theme"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:orientation="vertical" >
+
+        <com.lewa.themechooser.widget.LewaImageView
+            android:id="@+id/theme_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_info" />
+
+        <TextView
+            style="@style/DetailInfoText"
+            android:id="@+id/theme_info_detail"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dip"
+            android:text="@string/theme_info_detail" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_theme"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp" >
+
+        <TableRow android:id="@+id/tr_name">
+
+            <TextView
+                style="@style/DetailInfoText"
+                android:layout_marginRight="@dimen/theme_detail_padding"
+                android:text="@string/theme_name" />
+
+            <TextView
+                style="@style/DetailInfoText"
+                android:id="@+id/theme_name" />
+        </TableRow>
+
+        <TableRow android:id="@+id/tr_author">
+
+            <TextView
+                style="@style/DetailInfoText"
+                android:id="@+id/theme_author"
+                android:layout_marginRight="@dimen/theme_detail_padding"
+                android:text="@string/theme_author" />
+
+            <TextView
+                style="@style/DetailInfoText"
+                android:id="@+id/theme_info_author" />
+        </TableRow>
+
+        <TableRow android:id="@+id/tr_size">
+
+            <TextView
+                style="@style/DetailInfoText"
+                android:layout_marginRight="@dimen/theme_detail_padding"
+                android:text="@string/theme_size" />
+
+            <TextView
+                style="@style/DetailInfoText"
+                android:id="@+id/theme_info_size" />
+        </TableRow>
+
+        <TableRow android:id="@+id/tr_version">
+
+            <TextView
+                style="@style/DetailInfoText"
+                android:text="@string/theme_version" />
+
+            <TextView
+                style="@style/DetailInfoText"
+                android:id="@+id/theme_info_version" />
+        </TableRow>
+
+        <TableRow android:id="@+id/tr_date">
+
+            <TextView
+                style="@style/DetailInfoText"
+                android:id="@+id/theme_date"
+                android:text="@string/theme_date" />
+
+            <TextView
+                style="@style/DetailInfoText"
+                android:id="@+id/theme_info_date" />
+        </TableRow>
+
+        <TableRow android:id="@+id/tr_count">
+
+            <TextView
+                style="@style/DetailInfoText"
+                android:id="@+id/theme_download_count"
+                android:text="@string/theme_download_count" />
+
+            <TextView
+                style="@style/DetailInfoText"
+                android:id="@+id/theme_info_download_count" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

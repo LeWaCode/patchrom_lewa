@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="port_history_list_height">385dp</dimen>
+    
+    <dimen name="port_history_bt_ll_margin_top">35dp</dimen> 
+    
+    <dimen name="port_control_bt_margin_top">32dp</dimen>
+    
+    <dimen name="medium_button_width">64dp</dimen>
+    <dimen name="medium_button_height">62dp</dimen>
+    
+    <dimen name="large_button_width">91dp</dimen>
+    <dimen name="large_button_height">65dp</dimen>
+</resources>

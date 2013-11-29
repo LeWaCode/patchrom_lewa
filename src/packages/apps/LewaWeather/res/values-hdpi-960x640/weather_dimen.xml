@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!--
+		Copyright (C) 2009 The Android Open Source Project Licensed under the
+		Apache License, Version 2.0 (the "License"); you may not use this file
+		except in compliance with the License. You may obtain a copy of the
+		License at http://www.apache.org/licenses/LICENSE-2.0 Unless required
+		by applicable law or agreed to in writing, software distributed under
+		the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+		CONDITIONS OF ANY KIND, either express or implied. See the License for
+		the specific language governing permissions and limitations under the
+		License.
+	-->
+
+<resources>
+	<!-- height of a normal list item in edit playlist mode -->
+	<dimen name="weather_normal_height">50dip</dimen>
+	<!-- height of an expanded list item in edit playlist mode -->
+	<dimen name="weather_expanded_height">70dip</dimen>
+	<dimen name="normal_height">48dip</dimen>
+    <!-- height of an expanded list item in edit playlist mode -->
+    <dimen name="expanded_height">96dip</dimen>
+    <dimen name="setting_marginleft">140dip</dimen>
+    <dimen name="search_view_width">360dip</dimen>
+    <dimen name="app_bg_height">460dip</dimen>
+    <dimen name="app_bg_icon_height">230dip</dimen>
+    <dimen name="app_bg_setting_width">45dip</dimen>
+    <dimen name="app_bg_setting_margin">2dip</dimen>
+    <dimen name="app_bg_city_margin">10dip</dimen>
+    <dimen name="app_bg_icon_margin">70dip</dimen>
+    <dimen name="app_bg_condition_margin">10dip</dimen>
+    <dimen name="app_bg_pubdate_margin">20dip</dimen>
+    <dimen name="app_gridview_height">160dip</dimen>
+    
+    <dimen name="widget_width">298.6dp</dimen>
+    <dimen name="widget_height">136dp</dimen>
+    <dimen name="widget_first_bg_height">97.3dp</dimen>
+    <dimen name="widget_time_marginleft">18dip</dimen>
+    <dimen name="widget_ptm_margintop">22dip</dimen>
+    <dimen name="widget_ptm_frame_marginleft">10dip</dimen>
+    <dimen name="widget_pm_text_marginleft">23dip</dimen>
+    <dimen name="widget_pm_textsize">14sp</dimen>
+    <dimen name="widget_temp_marginleft">5dip</dimen>
+    <dimen name="widget_temp_width">65dip</dimen>
+    <dimen name="widget_weather_margintop">35dip</dimen>
+    <dimen name="widget_weather_marginright">15dip</dimen>
+    <dimen name="widget_second_bg_height">38.7dp</dimen>
+    <dimen name="widget_calendar_marginleft">21dip</dimen>
+    <dimen name="widget_calendar_margintop">4dip</dimen>
+    <dimen name="widget_city_marginright">25dip</dimen>
+    <dimen name="widget_calendar_textsize">16sp</dimen>
+    <dimen name="widget_time_textsize">36sp</dimen>
+    <dimen name="widget_weather_nonet_margintop">5dip</dimen>
+    <dimen name="widget_weather_nonet_marginright">5dip</dimen>
+    <dimen name="widget_ptm_nonet_margintop">12dip</dimen>
+    <dimen name="widget_weather_pb_marginright">15dip</dimen>
+    <dimen name="widget_padding_top">10dip</dimen>
+    <dimen name="widget_time_width_divider">32dp</dimen>
+</resources> 

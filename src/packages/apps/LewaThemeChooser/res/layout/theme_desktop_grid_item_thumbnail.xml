@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    >
+
+    <com.lewa.themechooser.widget.LewaImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="fill_parent"
+        android:layout_height="125dip"
+        android:scaleType="fitXY" />
+
+    <com.lewa.themechooser.widget.LewaImageView
+        android:id="@+id/status_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top" />
+
+    <TextView
+        android:id="@+id/theme_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="middle"
+        android:layout_gravity="left|bottom"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+</FrameLayout>

@@ -1,0 +1,46 @@
+<!--
+  Copyright 2012 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+    <integer name="hot_grid_height">130</integer>
+    <integer name="translate_test_in_fromy">130</integer>
+    <integer name="translate_test_in_toy">-65</integer>
+    <integer name="translate_test_fromy">0</integer>
+    <integer name="translate_test_toy">-150</integer>
+    
+    
+    <integer name="v5_widget_hour_text_size">220</integer>
+    <integer name="v5_widget_solar_text_size">50</integer>
+    <integer name="v5_widget_lunar_text_size">45</integer>
+    <integer name="v5_widget_solar_transy">16</integer>
+    <integer name="v5_widget_transy">15</integer>
+    <integer name="v5_widget_weather_temp_size">46</integer>
+    <integer name="v5_widget_weather_temp_transy">16</integer>
+    <integer name="v5_widget_weather_city_size">40</integer>
+    <integer name="v5_widget_weather_city_transy">15</integer>
+    <integer name="v5_widget_weather_pm_size">40</integer>
+    <integer name="v5_widget_weather_pm_transy">15</integer>
+    <integer name="v5_widget_shadow_radius">2</integer>
+    <integer name="v5_widget_shadow_dx">1</integer>
+    <integer name="v5_widget_shadow_dy">3</integer>
+    <integer name="v5_widget_anim_pmtoy_up">-10</integer>
+    <integer name="v5_widget_anim_pmtoy_down">10</integer>
+    <integer name="v5_widget_nonet_text_transy">10</integer>
+    <integer name="v5_widget_nonet_text_size">35</integer>
+    <integer name="v5_widget_time_shadow_radius">8</integer>
+    <integer name="v5_widget_time_shadow_dx">4</integer>
+    <integer name="v5_widget_time_shadow_dy">3</integer>
+</resources>

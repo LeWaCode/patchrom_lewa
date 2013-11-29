@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- Display settings.  The delay in inactivity before the screen is turned off. These are shown ain a list dialog. -->
+<!-- Do not translate. -->
+    <string-array name="sp_mode">
+    <item >"超长待机"</item>
+    <item >"睡眠待机"</item>
+  </string-array>
+  
+  <string-array name="screen_timeout_entries">  
+        <item>15 秒</item>  
+        <item>30 秒</item>  
+        <item>1 分钟</item>  
+        <item>2 分钟</item>  
+        <item>5 分钟</item>  
+        <item>10 分钟</item>  
+        <item>30 分钟</item>    
+</string-array> 
+
+ <string-array name="screen_timeout_values" translatable="false">
+        <!-- Do not translate. -->
+        <item>15000</item>
+        <!-- Do not translate. -->
+        <item>30000</item>
+        <!-- Do not translate. -->
+        <item>60000</item>
+        <!-- Do not translate. -->
+        <item>120000</item>
+        <!-- Do not translate. -->
+        <item>300000</item>
+        <!-- Do not translate. -->
+        <item>600000</item>
+        <!-- Do not translate. -->
+        <item>1800000</item>
+    </string-array> 
+  
+</resources>

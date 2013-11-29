@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+    android:background="@drawable/log_item_bg" >
+    
+    <ImageView
+        android:id="@+id/item_back"
+        android:layout_width="fill_parent"
+        android:layout_height="200px"
+        android:background="@drawable/log_item_bg"
+        android:visibility="invisible" />
+    <TextView 
+        android:id="@+id/scan_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="9dip"
+        android:paddingLeft="54dip"
+        android:textSize="13sp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView 
+        android:id="@+id/virus_counts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textSize="12sp"
+        android:layout_below="@id/scan_date"
+        android:paddingLeft="54dip"
+        android:paddingTop="7dip" />
+
+    <TextView 
+        android:id="@+id/caution_counts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scan_date"
+        android:layout_toRightOf="@id/virus_counts"
+        android:textSize="12sp"
+        android:paddingLeft="40dip"
+        android:paddingTop="7dip" />
+        
+    <TextView 
+        android:id="@+id/clear_counts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textSize="12sp"
+        android:layout_below="@id/caution_counts"
+        android:layout_marginTop="7dip"
+        android:paddingLeft="54dip" />
+        
+    <TextView 
+        android:id="@+id/unhandle_counts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/caution_counts"
+        android:textSize="12sp"
+        android:layout_marginTop="7dip"
+        android:layout_toRightOf="@id/clear_counts"
+        android:paddingLeft="40dip"
+        android:textColor="#FF2626" />
+</RelativeLayout>

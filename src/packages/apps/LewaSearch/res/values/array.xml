@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ids_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <!-- <item>5</item> -->
+        <!-- <item>6</item> -->
+    </string-array>
+    
+    <string-array name="chinese_name_array">
+        <item>通话设置</item>
+        <!-- <item>桌面设置</item>  -->
+        <item>百变主题</item>
+        <item>安全拦截</item>
+        <item>版本升级</item>
+        <item>语音电话设置</item>
+        <!-- <item>PIM设置</item> -->
+       
+    </string-array>
+    
+    <string-array name="english_name_array">
+        <item>Call settings</item>
+       <!--  <item>LeWa Home Settings</item> -->
+        <item>Theme Chooser</item>
+        <item>Intercept</item>
+        <item>Updater</item>
+        <item>Voice call settings</item>
+        <!-- <item>PIM settings</item> -->
+        
+    </string-array>
+    
+    <string-array name="action_name_array">
+        <item>android.intent.action.MAIN</item>
+        <!-- <item>android.intent.action.MAIN</item> -->
+        <item>android.intent.action.MAIN</item>
+        <item>android.intent.action.MAIN</item>
+        <item>android.intent.action.MAIN</item>
+        <item>android.intent.action.MAIN</item>
+        <!-- <item>android.intent.action.MAIN</item> -->
+    </string-array>
+    
+    <string-array name="package_name_array">
+        <item>com.android.phone/.CallFeaturesSetting</item>
+        <!-- <item>com.lewa.launcher/.preference.MyLauncherSettings</item> -->
+        <item>com.lewa.themechooser/.ThemeChooser</item>
+        <item>com.lewa.intercept/.MainActivity</item>
+        <item>com.lewa.updater/.UpdaterActivity</item>
+        <!-- item>com.lewa.feedback/.AndroidFeedbackActivity</item-->
+        <item>com.android.phone/.CallFeaturesSetting</item>
+        <!-- <item>com.lewa.PIM/.mms.ui.MessagingPreferenceActivity</item> -->
+    </string-array>
+    
+    <string-array name="ignore_activity_array">
+        <item>com.android.settings.Settings$WifiPrioritySettingsActivity</item>
+        <item>com.android.settings.Settings$WifiGprsSelectorActivity</item>
+        <item>com.android.settings.Settings$AccountSyncSettingsActivity</item>
+        <item>com.android.settings.Settings$DataUsageSummaryActivity</item>
+        <item>com.android.settings.Settings$WapPushSettings</item>
+        <item>com.android.settings.Settings$SimDataRoamingSettings</item>
+        <item>com.android.settings.Settings$SimManagementActivity</item>
+        <item>com.android.settings.Settings$SetAlarmActivity</item>
+        <item>com.android.settings.Settings$SimListEntranceActivity</item>
+        <item>com.android.settings.Settings$AndroidBeamSettingsActivity</item>
+    </string-array>
+</resources>

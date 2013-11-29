@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <!--
+    ! Excerpted from "Hello, Android!", ! published by The Pragmatic Bookshelf. ! Copyrights apply to this code. It may
+    not be used to create training material, ! courses, books, articles, and the like. Contact us if you are in doubt. !
+    We make no guarantees that this code is fit for any purpose. ! Visit http://www.pragmaticprogrammer.com/titles/eband
+    for more book information.
+  -->
+<LinearLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" 
+  android:orientation="vertical">
+  <!-- Note built-in ids for 'list' and 'empty' -->
+  <LinearLayout 
+    android:id="@+id/LinearLayout01" 
+    android:layout_width="match_parent" 
+    android:layout_weight="1" 
+    android:layout_height="match_parent">
+    
+    <ListView 
+        android:id="@+id/quick_text_list" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:scrollbarStyle="insideOverlay"
+        android:background="@null"
+        android:divider="@null"/>
+  </LinearLayout>
+
+  <LinearLayout 
+      android:id="@+id/LinearLayout02" 
+      android:layout_width="match_parent" 
+      android:layout_gravity="bottom"
+      android:layout_height="wrap_content">
+      <EditText 
+          android:id="@+id/new_quick_text" 
+          android:layout_gravity="left" 
+          android:layout_width="match_parent" 
+          android:layout_weight="1" 
+          android:typeface="normal" 
+          android:visibility="gone"
+          android:hint="@string/type_to_compose_text_or_leave_blank" 
+          android:layout_height="match_parent"
+          android:textColor="?android:textColorPrimary" 
+          android:maxLength="128"/>
+      
+     <LinearLayout android:id="@+id/buttonPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dip"
+        android:orientation="vertical"
+        android:divider="?android:attr/dividerHorizontal"
+        android:showDividers="beginning"
+        android:dividerPadding="0dip"
+        android:layout_alignParentBottom="true">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            style="?android:attr/buttonBarStyle">
+            
+            <Button android:id="@+id/quickText_add_button"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceMediumInverse"
+                android:text="@string/add_quick_text"
+                style="?android:attr/buttonBarButtonStyle"/>
+        </LinearLayout>
+    </LinearLayout>       
+  </LinearLayout>
+</LinearLayout>

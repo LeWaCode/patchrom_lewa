@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Preference
+        android:key="pref_data_pack"
+        android:persistent="false"
+        android:title="@string/pref_data_pack" />
+    <Preference
+        android:key="pref_monthly_usage"
+        android:persistent="false"
+        android:title="@string/pref_monthly_usage" />
+    <Preference
+        android:key="pref_data_warning"
+        android:persistent="false"
+        android:title="@string/pref_data_warning" />
+    <ListPreference
+        android:key="pref_daily_usage"
+        android:entries="@array/pref_daily_warning_array"
+        android:entryValues="@array/pref_daily_warning_array"
+        android:persistent="true"
+        android:summary="@string/not_set"
+        android:title="@string/daily_usage_warning_title" />
+    
+     <Preference
+        android:key="pref_adjust_settings"
+        android:persistent="false"
+        android:title="@string/pref_adjust_settings"/>
+    
+    <ListPreference
+        android:entries="@array/pref_adjust_interval"
+        android:entryValues="@array/pref_adjust_interval_values"
+        android:key="pref_adjust_regularly"
+        android:persistent="false"
+        android:title="@string/pref_adjust_regularly" />
+
+    <PreferenceCategory android:title="@string/pref_category_common" >
+        
+        <SwitchPreference
+            android:key="pref_background_antitheft"
+            android:persistent="true"
+            android:title="@string/pref_background_antitheft"
+            android:summary="@string/pref_background_antitheft_summary"
+            android:defaultValue="true" />
+        
+        <SwitchPreference   
+            android:key="pref_background_warning"       
+            android:persistent="true"       
+            android:title="@string/pref_background_warning"     
+            android:summary="@string/pref_background_warning_summary"       
+            android:defaultValue="true" />      
+        
+        <SwitchPreference
+        android:title="@string/usagedata_setting"
+        android:key="netusage_setting"
+        android:persistent="false">
+        </SwitchPreference>
+        
+        <SwitchPreference
+           android:title="@string/netspeed_setting"
+           android:key="netspeed_setting"
+           android:persistent="false">
+        </SwitchPreference>
+        <Preference
+            android:key="pref_clear_history"
+            android:persistent="false"
+            android:title="@string/pref_clear_history" />
+        
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2010 The Android Open Source Project
+      Copyright (c) 2010-2012, The Linux Foundation. All rights reserved.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label" msgid="3070921713463294774">"下载管理"</string>
+    <string name="download_title_sorted_by_date" msgid="5898014492155434221">"下载内容 - 按日期排序"</string>
+    <string name="download_title_sorted_by_size" msgid="1417193166677094813">"下载内容 - 按大小排序"</string>
+    <string name="no_downloads" msgid="1029667411186146836">"无下载内容"</string>
+    <string name="no_downloading">"无正在下载内容"</string>
+    <string name="no_downloaded">"无已下载内容"</string>
+    <string name="missing_title" msgid="830115697868833773">"&lt;未知&gt;"</string>
+    <string name="button_sort_by_size" msgid="7331549713691146251">"按大小排序"</string>
+    <string name="button_sort_by_date" msgid="8800842892684101528">"按日期排序"</string>
+    <string name="download_queued" msgid="104973307780629904">"等待中"</string>
+    <string name="download_running" msgid="4656462962155580641">"正在下载"</string>
+    <string name="download_success" msgid="7006048006543495236">"已完成"</string>
+    <string name="download_error" msgid="8081329546008568251">"下载失败"</string>
+    <string name="dialog_title_not_available" msgid="5746317632356158515">"下载失败"</string>
+    <string name="download_pause">已暂停</string>
+    <string name="dialog_failed_body" msgid="587545111677064427">"您想要稍后重新尝试下载该文件，还是将其从队列中删除？"</string>
+    <string name="dialog_title_queued_body" msgid="6760681913815015219">"文件尚不可用"</string>
+    <string name="dialog_queued_body" msgid="708552801635572720">"该文件已加入队列，供以后下载。"</string>
+    <string name="dialog_file_missing_body" msgid="3223012612774276284">"未找到已下载的文件。"</string>
+    <string name="dialog_insufficient_space_on_external" msgid="8692452156251449195">"无法完成下载，外部存储器的空间不足。"</string>
+    <string name="dialog_insufficient_space_on_cache" msgid="6313630206163908994">"无法完成下载，内部下载存储器的空间不足。"</string>
+    <string name="dialog_cannot_resume" msgid="8664509751358983543">"下载中断，无法继续进行。"</string>
+    <string name="dialog_file_already_exists" msgid="8308563940663449590">"无法下载，目标文件已存在。"</string>
+    <string name="dialog_media_not_found" msgid="4468088418758018765">"无法下载，未安装外部媒体。"</string>
+    <string name="download_no_application_title" msgid="7024782176657362251">"无法打开文件"</string>
+    <string name="remove_download" msgid="6372920256257247857">"删除"</string>
+    <string name="delete_download" msgid="76629022653866471">"删除"</string>
+    <string name="keep_queued_download" msgid="5144882786014818569">"保留"</string>
+    <string name="cancel_running_download" msgid="5232704030969221112">"取消"</string>
+    <string name="retry_download" msgid="7617100787922717912">"重试"</string>
+    <string name="deselect_all" msgid="6348198946254776764">"取消全选"</string>
+    <string name="select_all" msgid="634074918366265804">"全选"</string>
+    <string name="selected_count" msgid="2101564570019753277">"已选择 <xliff:g id="NUMBER">%1$d</xliff:g> 个"</string>
+    <string name="download_share_dialog" msgid="3355867339806448955">"分享方式"</string>
+    <string name="download_percent" msgid="6029710962459481088">"<xliff:g id="NUMBER">%d</xliff:g><xliff:g id="PERCENT">%%</xliff:g>"</string>
+    <!-- resume or pause dialog title,body message -->
+    <string name="dialog_title">下载</string>
+    <string name="paused_dialog_msg">暂停下载吗？</string>
+    <string name="resume_dialog_msg">恢复下载吗？</string>
+
+    <!-- Status messages -->
+    <string name="download_error_insufficient_memory">存储空间不足</string>
+    <string name="download_error_invalid_descriptor">下载描述文件无效</string>
+    <string name="download_error_invalid_ddversion">版本错误</string>
+    <string name="download_error_attribute_mismatch">类型不匹配</string>
+    <string name="download_paused">已暂停</string>
+
+    <!-- Dialog messages -->
+    <!-- ALert dialog title to show authenticate -->
+    <string name="authenticate_dialog_title">请输入用户名和密码。</string>
+    <string name="username">姓名</string>
+    <string name="password">密码</string>
+    <string name="action">"登录"</string>
+    <string name="cancel">"取消"</string>
+    <string name="ok">确定</string>
+
+    <!-- Prompt dialog to show oma download information -->
+    <string name="confirm_oma_download_title">是否进行下载？</string>
+    <string name="oma_download_name">名称:</string>
+    <string name="oma_download_vendor">提供商:</string>
+    <string name="oma_download_type">类型:</string>
+    <string name="oma_download_size">大小:</string>
+    <string name="oma_download_description">说明:</string>
+    <string name="oma_download_content_not_supported" product="tablet">设备不支持该内容。找不到打开此类文件的应用程序。是否仍要下载？</string> 
+    <string name="oma_download_content_not_supported" product="default">手机不支持该内容。找不到打开此类文件的应用程序。是否仍要下载？</string>
+    <string name="confirm_oma_download_next_url">下载完成，是否打开URL地址？</string>
+
+    <!-- Add to support Reusme download  -->
+    <string name="pause">暂停</string>
+    <string name="resume">恢复</string>
+
+    <!-- Add to show delete download failed  -->
+    <string name="delete_failed_with_SDcard">SD卡不可用，删除下载文件失败。</string>
+
+    <string name="share_download">分享</string>
+
+    <!-- Add to show share failed -->
+    <string name="share_failed_with_download_error">遇到下载失败的文件，无法继续分享。</string>
+
+	<string name="downloading_title">下载中</string>
+    <string name="downloaded_title">已下载</string>
+    <string name="menu_setting">设置</string>
+    <string name="menu_pause_all">全部暂停</string>
+    <string name="menu_resume_all">全部继续</string>
+    <string name="menu_clear_all">清空下载记录</string>
+    <string name="message_open_app_fail">打开应用失败</string>
+    <string name="network_choice">下载网络选择</string>
+    <string name="only_wifi_title">仅通过Wi-Fi下载</string>
+    <string name="only_wifi_summary">节省数据流量</string>
+    <string name="download_remind_title">2G/3G网络下载提醒</string>
+    <string name="close_mobile_dialog_title">温馨提示</string>
+    <string name="close_mobile_dialog_content">关闭提醒后，通过2G/3G网络下载将不再进行提示，可能会产生流量资费。\r\n\r\n确定关闭2G/3G网络下载提醒？</string>
+    <string name="close_mobile_dialog_positive">确定</string>
+    <string name="close_mobile_dialog_negative">取消</string>
+    <string name="download_dialog_title">下载提示</string>
+    <string name="mobile_dialog_content_prefix">确定使用2G/3G网络下载：\r\n</string>
+    <string name="mobile_dialog_content_suffix">\r\n下载以上文件可能会产生流量资费</string>
+    <string name="mobile_dialog_positive">立即下载</string>
+    <string name="mobile_dialog_negative">连接Wi-Fi再下载</string>
+    <string name="wifi_dialog_content">您已开启仅通过Wi-Fi下载，若您希望继续完成本次下载，需要关闭仅通过Wi-Fi下载。\r\n\r\n确定关闭仅通过Wi-Fi下载并使用2G/3G网络下载：\r\n"</string>
+    <string name="wifi_dialog_positive">确定</string>
+    <string name="wifi_dialog_negative">取消</string>
+    <string name="delete_dialog_title">删除</string>
+    <string name="delete_dialog_content">确定要删除所选的 <xliff:g id="DELETE_NUMBER">%1$d</xliff:g> 条下载吗？</string>
+    <string name="delete_dialog_content3">确定取消并删除所选的 <xliff:g id="DELETE_NUMBER">%1$d</xliff:g> 条下载吗？\r\n</string>
+    <string name="delete_dialog_content2">同时删除已下载的文件</string>
+    <string name="delete_dialog_positive">确定</string>
+    <string name="delete_dialog_negative">取消</string>
+    <string name="status_pending">等待中</string>
+    <string name="status_pause">已暂停</string>
+    <string name="delete_all_dialog_title">清空下载记录</string>
+    <string name="delete_all_dialog_content">确定要删除所有下载记录？</string>
+    <string name="delete_all_dialog_positive">确定</string>
+    <string name="delete_all_dialog_negative">取消</string>
+    <string name="net_work_disconnect">无法连接网络-_-!</string>
+    <string name="today">今天</string>
+    <string name="yesterday">昨天</string>
+    <string name="last_month">上个月</string>
+    <string name="older">更早</string>
+
+    <string name="status_pause_for_network">等待网络连接</string>
+</resources>

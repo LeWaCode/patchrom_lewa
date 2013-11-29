@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <com.android.deskclock.LewaAnalogClock
+        android:id="@+id/analogclock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="25dip"
+        android:paddingBottom="20dip"
+        android:paddingTop="20dip" />
+
+    <LinearLayout
+        android:id="@+id/cityInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+        android:paddingRight="27dip"
+        android:paddingTop="16dip" >
+
+        <ImageView
+            android:id="@+id/localcity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/localcity" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/cityname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:textAppearance="?android:attr/textAppearanceMedium" >
+        </TextView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/cityInfo"
+        android:paddingRight="27dip" >
+
+        <com.android.deskclock.DigitalClock
+            android:id="@+id/digitalClock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <com.android.deskclock.AndroidClockTextView
+                android:id="@+id/timeDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                useClockTypeface="false"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <com.android.deskclock.AndroidClockTextView
+                android:id="@+id/am_pm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/timeDisplay"
+                android:layout_toRightOf="@id/timeDisplay"
+                useClockTypeface="false"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+        </com.android.deskclock.DigitalClock>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/digitalClock"
+            android:layout_below="@id/digitalClock" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/cityInfo"
+        android:layout_marginTop="5dip"
+        android:paddingRight="38dip"
+        android:src="@drawable/delete" />
+
+</RelativeLayout>

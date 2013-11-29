@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ids_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <!-- item>29</item -->
+    </string-array>
+    
+    <string-array name="chinese_name_array">
+        <item>飞行模式</item>
+        <item>移动网络</item>
+        <item>Wi-Fi</item>
+        <item>蓝牙</item>
+        <item>绑定与便携式热点</item>
+        <item>VPN</item>
+        <item>声音和振动</item>
+        <item>显示</item>
+        <item>桌面</item>
+        <item>主题</item>
+        <item>壁纸</item>
+        <item>通知栏</item>
+        <item>账号与同步</item>
+        <item>位置与安全</item>
+        <item>日期和时间</item>
+        <item>语言和输入</item>
+        <item>性能</item>
+        <item>按键</item>
+        <item>存储</item>
+        <item>辅助功能</item>
+        <item>流量监控</item>
+        <item>安全拦截</item>
+        <item>版本升级</item>
+        <item>意见反馈</item>
+        <!-- item>关于手机</item -->
+        <item>恢复出厂设置</item>
+        <item>安装开发调试</item>
+        <item>应用管理</item>
+        <item>通话</item>
+        <item>信息</item>
+    </string-array>
+    
+    <string-array name="english_name_array">
+        <item>Airplane mode</item>
+        <item>Mobile networks</item>
+        <item>Wi-Fi</item>
+        <item>Bluetooth</item>
+        <item>Tethering &amp; portable hotspot</item>
+        <item>VPN</item>
+        <item>Sound &amp; Vibration</item>
+        <item>Display</item>
+        <item>Home</item>
+        <item>Themes</item>
+        <item>Wallpaper</item>
+        <item>Toggle</item>
+        <item>Accounts &amp; sync</item>
+        <item>Location &amp; security</item>
+        <item>Date &amp; time</item>
+        <item>Language &amp; Input</item>
+        <item>Performance</item>
+        <item>Keypad</item>
+        <item>Storage</item>
+        <item>Accessibility</item>
+        <item>Data Monitor</item>
+        <item>Block settings</item>
+        <item>Version update</item>
+        <item>Feedback</item>
+        <!-- item>About phone</item -->
+        <item>Factory data reset</item>
+        <item>Development</item>
+        <item>Manage applications</item>
+        <item>Call</item>
+        <item>Messages</item>
+    </string-array>
+    
+    <string-array name="action_name_array">
+        <item>android.intent.action.MAIN</item>
+        <item>android.intent.action.MAIN</item>
+        <item>android.intent.action.MAIN</item>
+        <item>android.intent.action.MAIN</item>
+        <item>android.intent.action.MAIN</item>
+        <item>android.intent.action.MAIN</item>
+        <item>android.intent.action.MAIN</item>
+        <item>android.intent.action.MAIN</item>
+        <item>android.intent.action.MAIN</item>
+        <item>android.intent.action.MAIN</item>
+        <item>android.intent.action.MAIN</item>
+        <item>android.intent.action.MAIN</item>
+        <item>android.settings.SYNC_SETTINGS</item>
+        <item>android.intent.action.MAIN</item>
+        <item>android.intent.action.MAIN</item>
+        <item>android.intent.action.MAIN</item>
+        <item>android.intent.action.MAIN</item>
+        <item>android.intent.action.MAIN</item>
+        <item>android.intent.action.MAIN</item>
+        <item>android.intent.action.MAIN</item>
+        <item>android.intent.action.MAIN</item>
+        <item>android.intent.action.MAIN</item>
+        <item>android.intent.action.MAIN</item>
+        <item>android.intent.action.MAIN</item>
+        <!-- item>android.intent.action.MAIN</item -->
+        <item>android.intent.action.MAIN</item>
+        <item>android.intent.action.MAIN</item>
+        <item>android.intent.action.MAIN</item>
+        <item>android.intent.action.MAIN</item>
+        <item>android.intent.action.MAIN</item>
+    </string-array>
+    
+    <string-array name="package_name_array">
+        <item>com.android.settings/.Settings</item>
+        <item>com.android.phone/.Settings</item>
+        <item>com.android.settings/.wifi.WifiSettings</item>
+        <item>com.android.settings/.bluetooth.BluetoothSettings</item>
+        <item>com.android.settings/.TetherSettings</item>
+        <item>com.android.settings/.vpn.VpnSettings</item>
+        <item>com.android.settings/.SoundSettings</item>
+        <item>com.android.settings/.DisplaySettings</item>
+        <item>com.lewa.launcher/.MylauncherSettings</item>
+        <item>com.lewa.face/.PkgMain</item>
+        <item>com.android.settings/.LewaWallpaperSettings</item>
+        <item>com.android.settings/.SwitchWidgetSettings</item>
+        <item>com.android.providers.subscribedfeeds/com.android.settings.ManageAccountsSettings</item>
+        <item>com.android.settings/.SecuritySettings</item>
+        <item>com.android.settings/.DateTimeSettings</item>
+        <item>com.android.settings/.LanguageSettings</item>
+        <item>com.android.settings/.LewaPerformanceSettings</item>
+        <item>com.android.settings/.LewaKeypadSettings</item>
+        <item>com.android.settings/.deviceinfo.Memory</item>
+        <item>com.android.settings/.AccessibilitySettings</item>
+        <item>com.android.systemui/.statusbar.DatamonitorMainActivity</item>
+        <item>com.lewa.intercept/.MainActivity</item>
+        <item>com.lewa.updater/.UpdaterActivity</item>
+        <item>com.lewa.feedback/.AndroidFeedbackActivity</item>
+        <!-- item>com.android.settings/.DeviceInfoSettings</item -->
+        <item>com.android.settings/.MasterClear</item>
+        <item>com.android.settings/.ApplicationSettings</item>
+        <item>com.android.settings/.ManageApplications</item>
+        <item>com.android.phone/.CallFeaturesSetting</item>
+        <item>com.lewa.PIM/.mms.ui.MessagingPreferenceActivity</item>
+    </string-array>
+</resources>

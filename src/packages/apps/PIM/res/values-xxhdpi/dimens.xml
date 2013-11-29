@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pager_header_text_size">5sp</dimen>
+    <!-- begin, single_hand -->
+    <dimen name="dialpad_single_height">260dip</dimen>             
+    <dimen name="dialpad_default_height">260dip</dimen>             
+    <dimen name="dialpad_corrected_value_height">5dip</dimen>             
+    <dimen name="dialpad_item_default_height">60dip</dimen>             
+    <dimen name="dual_buttons_margin">65dip</dimen>
+    <dimen name="dual_buttons_scalemargin">120dip</dimen>
+    <dimen name="dual_single_buttons_margin">54dip</dimen>
+    <dimen name="dual_single_buttons_scalemargin">53.5dip</dimen>    
+    <dimen name="dual_single_weight">180dip</dimen>
+    <dimen name="dual_single_dialpad_top">74.5dip</dimen>
+    <dimen name="dual_dialpad_top">34.5dip</dimen>
+    <dimen name="dual_single_dialpad_text_padding_right">10dip</dimen>
+    <dimen name="dual_dialpad_text_padding_right">30dip</dimen>
+    <dimen name="dual_single_dialpad_text_padding_left">4dip</dimen>
+    <dimen name="dual_dialpad_text_padding_left">8dip</dimen>
+    <dimen name="dialpad_digits_container_height">54dip</dimen>
+    <dimen name="dialpad_under_buttons_padding">15dip</dimen>
+    <dimen name="dialpad_under_buttons_line_height">0.5dip</dimen>      
+    <!-- end -->        
+</resources>

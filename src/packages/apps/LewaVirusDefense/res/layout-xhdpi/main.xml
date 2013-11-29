@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/scan_back"
+        android:layout_width="fill_parent"
+        android:layout_height="507px"
+        android:background="@drawable/scan_shape" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="25dip"
+        android:src="@drawable/animation_bg" />
+    
+    <TextView
+        android:id="@+id/control1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:paddingTop="360px"
+        android:text="@string/defense_monitor_open"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/control2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:paddingTop="340px"
+        android:text="@string/defense_monitor_close1"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/control3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:paddingTop="375px"
+        android:text="@string/defense_monitor_close2"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/pointer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="25dip"
+        android:src="@drawable/animation_ct" />
+
+    <TextView
+        android:id="@+id/phone_state1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scan_back"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:paddingTop="80dp"
+        android:text="@string/first_use1"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="29px" />
+    
+    <TextView
+        android:id="@+id/phone_state2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone_state1"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="@string/first_use2"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="29px" />
+
+    <Button
+        android:id="@+id/scan_start"
+        android:layout_width="293px"
+        android:layout_height="107px"
+        android:layout_below="@id/phone_state2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67px"
+        android:background="@drawable/bg_button"
+        android:text="@string/scanner_title"
+        android:textColor="#FFFFFF"
+        android:textSize="32px" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="16px"
+        android:src="@drawable/tencent" />
+
+</RelativeLayout>

@@ -1,0 +1,3 @@
+<resources>
+    <bool name="config_w11_nosdcard">false</bool>
+</resources>

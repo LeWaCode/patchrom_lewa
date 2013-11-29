@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/history_bg_land">
+
+    <ListView
+        android:id="@+id/history_list"
+        android:listSelector="@drawable/list_selector" 
+        android:layout_marginTop="@dimen/land_history_list_margin_top"
+        android:layout_marginLeft="@dimen/land_history_list_margin_left"
+        android:layout_marginRight="@dimen/land_history_list_margin_right"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/land_history_list_height" 
+        />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/land_history_bt_ll_margin_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/land_history_bt_ll_margin_left"
+        android:layout_marginRight="@dimen/land_history_bt_ll_margin_right"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/goback_bt"
+            android:layout_width="@dimen/land_history_bt_width"
+            android:layout_height="@dimen/land_history_bt_height"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button_selector"
+            android:src="@drawable/goback_his_land"
+            />
+
+        <ImageButton
+            android:id="@+id/clear_bt"
+            android:layout_width="@dimen/land_history_bt_width"
+            android:layout_height="@dimen/land_history_bt_height"
+            android:layout_marginLeft="@dimen/land_history_bt_margin_left"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button_selector"
+            android:src="@drawable/clear_his_land" />
+    </LinearLayout>
+
+</LinearLayout>

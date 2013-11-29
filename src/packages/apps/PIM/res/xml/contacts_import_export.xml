@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preferce_import">
+        <Preference
+            android:key="import_from_sdcard"
+            android:title="@string/import_from_sdcard"
+            android:summary="@string/import_from_sdcard_vcf"
+            android:widgetLayout="@null" />
+        <Preference
+            android:key="import_from_sim"
+            android:layout="@lewa:layout/stateful_preference_holo_light"
+            android:title="@string/import_from_sim"
+            android:summary="@string/import_from_sim_contacts"
+            android:widgetLayout="@null" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/preferce_export">
+        <Preference
+            android:key="export_to_sdcard"
+            android:title="@string/export_to_sdcard"
+            android:summary="@string/export_to_sdcard_vcf"
+            android:widgetLayout="@null" />
+       <Preference
+            android:key="export_to_sim"
+            android:layout="@lewa:layout/stateful_preference_holo_light"
+            android:title="@string/export_to_sim"
+            android:summary="@string/export_to_sim_contacts"
+            android:widgetLayout="@null" /> 
+       <Preference
+            android:key="share_visible_contacts"
+            android:title="@string/share_visible_contacts"
+            android:widgetLayout="@null" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

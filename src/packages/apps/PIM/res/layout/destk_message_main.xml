@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="@dimen/mms_pop_width"
+    android:layout_height="wrap_content"
+    android:background="@drawable/destk_main"
+    android:orientation="vertical">
+    
+    <LinearLayout
+        android:layout_width="fill_parent"      
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@null"> 
+         
+    <RelativeLayout 
+        android:layout_width="fill_parent"      
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="0dip"
+        android:background="@null" >
+        
+        <FrameLayout android:id="@+id/contact_sticker_photos"
+            android:layout_width="46dip"
+            android:layout_height="46dip"           
+            android:layout_alignParentLeft="true">
+            
+            <ImageView android:id="@+id/user_icon" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_contact_picture_holo_light" />    
+                
+           <ImageView android:id="@+id/imessage_status"
+               android:layout_width="wrap_content"
+               android:layout_marginLeft="2dip"
+               android:layout_height="fill_parent" 
+               android:layout_gravity="bottom|right"
+               android:layout_toRightOf="@id/user_icon" 
+               android:visibility="gone"/>                                      
+        </FrameLayout>                          
+        
+        <LinearLayout android:id="@+id/contact_button_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_marginRight="4dip"
+            android:layout_marginLeft="4dip"
+            android:layout_alignTop="@id/contact_sticker_photos"
+            android:layout_alignBottom="@id/contact_sticker_photos"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+            
+	        <LinearLayout  android:id="@+id/delmsg_icon" 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" 
+	            android:layout_weight="1.0"
+                android:gravity="center_horizontal"
+	            android:layout_gravity="center_vertical"
+	            android:background="?android:attr/listChoiceBackgroundIndicator">
+	                        
+	            <ImageView
+	                android:layout_width="wrap_content" 
+	                android:layout_height="wrap_content"
+	                android:layout_marginRight="5dip"
+                    android:layout_marginLeft="5dip"
+	                android:src="@drawable/ic_menu_contact_trash_white" />
+            </LinearLayout>
+            
+            <LinearLayout android:id="@+id/cancel_btn"
+                android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1.0" 
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_vertical"	            
+	            android:background="?android:attr/listChoiceBackgroundIndicator">  
+	                   
+	            <ImageView 
+	               android:layout_width="wrap_content" 
+	               android:layout_height="wrap_content"
+                   android:layout_marginRight="5dip"
+                   android:layout_marginLeft="5dip"
+	               android:src="@drawable/bg_message_popup_cancel"/> 		                           	            
+            </LinearLayout>                     
+        </LinearLayout>
+        
+            
+        <LinearLayout android:id="@+id/contact_name_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="12dip"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_toLeftOf="@id/contact_button_layout" 
+            android:layout_toRightOf="@id/contact_sticker_photos"  
+            android:orientation="vertical">
+            
+            <TextView android:id="@+id/user_name" 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ff38445c"
+                android:textAppearance="?android:attr/textAppearanceLarge" 
+                android:singleLine="true"
+                android:ellipsize="end" />
+                                
+            <TextView android:id="@+id/location" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true" 
+		        android:textAppearance="?android:attr/textAppearanceSmall"
+		        android:textColor="#ffa6aab3"
+                android:ellipsize="end" />
+        </LinearLayout>            
+    </RelativeLayout>         
+    </LinearLayout>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffdadee6" />  
+
+    <LinearLayout
+        android:layout_width="fill_parent"      
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="16dip"
+        android:background="@null">
+         
+	    <RelativeLayout
+	        android:layout_width="wrap_content"      
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dip"
+	        android:layout_marginRight="10dip"
+	        android:background="@null">
+	    
+		    <LinearLayout android:id="@+id/imessage_status_layout"
+		        android:layout_width="wrap_content"      
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical"
+		        android:gravity="center"
+		        android:layout_centerVertical="true"
+		        android:background="@null">  
+		        
+	           <ImageView android:id="@+id/sms_popup_prev"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:background="@drawable/sms_popup_prev"/>  	        
+		    </LinearLayout>
+		    
+            <LinearLayout android:id="@+id/sms_popup_next_layout"
+                android:layout_width="wrap_content"      
+                android:layout_height="wrap_content"  
+                android:gravity="center"                
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true">
+               
+               <ImageView android:id="@+id/sms_popup_next"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" 
+                   android:background="@drawable/sms_popup_next"/>                        
+            </LinearLayout>                
+		        		        
+		    
+		    <LinearLayout android:id="@+id/sms_text_viewPager_layout"
+	            android:layout_width="fill_parent"      
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical"
+	            android:gravity="center"
+	            android:layout_toRightOf="@id/imessage_status_layout"
+	            android:layout_toLeftOf="@id/sms_popup_next_layout"
+	            android:paddingLeft="5dip"
+	            android:paddingRight="5dip"
+	            android:background="@null">
+	             
+		        <android.support.v4.view.ViewPager
+		            android:id="@+id/sms_text_viewPager"          
+		            android:layout_width="fill_parent"
+		            android:layout_weight="1.0"
+		            android:layout_height="@dimen/mms_pop_text_viewpage_height"/>
+	         </LinearLayout>
+		        
+	    </RelativeLayout>
+    </LinearLayout> 
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffdadee6" />
+    
+    <LinearLayout
+        android:layout_width="@dimen/mms_pop_width"      
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dip"
+        android:layout_marginBottom="4dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:gravity="center_horizontal"
+        android:background="@null">   
+        
+        <LinearLayout android:id="@+id/reply_area_layout" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+	        android:layout_marginTop="0dip"
+            android:layout_weight="1.0"
+            android:orientation="vertical" 
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal">               
+            
+            <com.lewa.PIM.widget.PimMmsTextEditor android:id="@+id/reply_area" 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMediumInverse"
+                android:capitalize="sentences"
+                android:maxLines="2"
+                android:inputType="textShortMessage|textAutoCorrect|textCapSentences|textMultiLine"
+                android:imeOptions="actionDone|flagNoEnterAction"
+                android:textColor="#000000"                             
+                android:hint="@string/hint" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="0dip"
+            android:layout_marginTop="0dip"
+            android:gravity="center_vertical"
+            android:layout_marginRight="5dip"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/content_indicator"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FF808080"
+                android:layout_centerVertical="true"
+                android:textSize="12sp"
+                android:gravity="center"                
+                android:visibility="gone"/>
+                
+			<com.lewa.PIM.widget.DualButtonsControl
+			    android:id="@+id/dualcontrol5"
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="center_vertical"
+			    android:layout_centerVertical="true">
+		                        
+	            <ImageView
+	                android:id="@+id/reply_btn"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:background="@drawable/bg_msg_normal_send" />
+            </com.lewa.PIM.widget.DualButtonsControl> 
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

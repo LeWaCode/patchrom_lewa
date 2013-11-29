@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_grid_layout_button_width">160px</dimen>
+    <dimen name="button_grid_layout_button_height">60dip</dimen>
+
+    <dimen name="dialpad_additional_button_width">160px</dimen>
+    <dimen name="dialpad_additional_button_height">94px</dimen>
+
+    <dimen name="dialer_search_list_view_min_height">260px</dimen>
+    <dimen name="dialer_search_list_view_max_height">595px</dimen>
+
+    <dimen name="dialpad_divider_height">24dip</dimen>
+    <dimen name="dialpad_divider_width">1dip</dimen>
+
+    <dimen name="dual_buttons_margin">65dip</dimen>
+    <dimen name="dual_buttons_scalemargin">120dip</dimen>
+    
+    <!-- begin, single_hand -->
+    <dimen name="dialpad_single_height">260dip</dimen>             
+    <dimen name="dialpad_default_height">260dip</dimen>             
+    <dimen name="dialpad_corrected_value_height">5dip</dimen>             
+    <dimen name="dialpad_item_default_height">60dip</dimen>             
+    <dimen name="dual_single_buttons_margin">54dip</dimen>
+    <dimen name="dual_single_buttons_scalemargin">53dip</dimen>
+    <dimen name="dual_single_weight">180dip</dimen>
+    <dimen name="dual_single_dialpad_top">74.5dip</dimen>
+    <dimen name="dual_dialpad_top">34.5dip</dimen>
+    <dimen name="dual_single_dialpad_text_padding_right">10dip</dimen>
+    <dimen name="dual_dialpad_text_padding_right">30dip</dimen>
+    <dimen name="dual_single_dialpad_text_padding_left">4dip</dimen>
+    <dimen name="dual_dialpad_text_padding_left">8dip</dimen>   
+    <dimen name="dialpad_digits_container_height">54dip</dimen> 
+    <dimen name="dialpad_under_buttons_padding">15dip</dimen>
+    <dimen name="dialpad_under_buttons_line_height">0.5dip</dimen>      
+    <!-- end -->
+    
+    <!-- jxli -->
+    <dimen name="prompt_import_layout_bottom">60dip</dimen>
+    <dimen name="prompt_dual_control_x">156dip</dimen>
+    <dimen name="prompt_dual_control_y">213dip</dimen>
+    <dimen name="pager_header_text_size">7sp</dimen>
+    <!-- end -->
+    
+    <!-- begin, mms -->
+    <dimen name="mms_attachment_viewPager_height">155.5dip</dimen>
+    <dimen name="mms_lewa_smiley_viewPager_height">132dip</dimen> 
+    <dimen name="mms_common_smiley_viewPager_height">122.5dip</dimen>    
+    <dimen name="contact_detail_head_height">225dip</dimen>
+    <dimen name="conversion_list_item_height">75dip</dimen>
+    <dimen name="contact_detail_head_height_correction_value">3dip</dimen>  
+    <dimen name="mms_attachment_point_right">8dip</dimen>             
+    <!-- end -->      
+</resources>

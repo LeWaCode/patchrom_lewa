@@ -1,0 +1,6 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+	android:minWidth="300dp" android:minHeight="48dp"
+	android:updatePeriodMillis="86400000" 
+	android:previewImage="@drawable/search"
+	android:initialLayout="@layout/search_widget">
+</appwidget-provider>

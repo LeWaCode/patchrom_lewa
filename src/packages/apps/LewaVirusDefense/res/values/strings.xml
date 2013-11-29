@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="virus_defense_title">VirusDefense</string>
+    <string name="viruskill_title">Antivirus</string> 
+    <string name="viruskill_log_title">Antivirus log</string> 
+    <string name="permession_manage_title">Access control </string> 
+    <string name="check_database_update">Check for updates</string> 
+    <string name="delete">Delete</string> 
+    <string name="install_monitor">Install monitor</string> 
+    <string name="timer_scan">Scheduled Virus Scan</string>
+    <string name="omission">Coming soon</string>
+    <string name="logo_engine">Antivirus Engine of Tencent Mobile Manager</string>
+    <string name="logo_notice">Powered by Tencent Mobile Manager</string>
+
+<!--     scan part -->    
+    <string name="select">selected</string>
+    <string name="first_use1">Your phone has not been scanned</string>
+    <string name="first_use2">Please scan right now</string>
+    <string name="state_normal">Scan your phone regularly to eliminate security risks</string>
+    <string name="need_to_kill1">Your phone have not been scanned for %s days</string>
+    <string name="need_to_kill2">Please scan right now</string>
+    <string name="is_cancel1">Suggest you rescan</string>
+    <string name="is_cancel2">Scan canceled，phone security can not be judged</string>
+    <string name="scanner_title">Phone scan</string>
+    <string name="init_scan">0%</string>
+    <string name="gap_notice">Scaned %s ago</string>
+    <string name="gap_error_notice">Last scan date is:%s</string>
+    <string name="scan_just_now">Scan just a moment ago</string>
+    <string name="defense_monitor_open">Monitor has opened</string>
+    <string name="defense_monitor_close1">Parts of monitor not open</string>
+    <string name="defense_monitor_close2">Under risking</string>
+    <string name="scan_counts">Scanned:</string>
+    <string name="scan_time">Time:</string>
+    <string name="viruse_counts">Virus:</string>
+    <string name="caution_counts">Caution:</string>
+    <string name="scan_continue">Continue scan</string>
+    <string name="scan_cancel">Cancel scan</string> 
+    <string name="scan_pause">Pause Scan</string>
+    <string name="scan_pause_log">Scan already pause</string>
+    <string name="scan_finish">Finish scan</string>
+    <string name="clear_now">Clear now</string>
+    <string name="scan_warm_tips">Notice</string>
+    <string name="scan_dialog_content">Virus scanning is not finished, do you really want to stop scanning?</string>
+    <string name="scan_of_clound">Cloud-kill</string> 
+    <string name="scan_state_safe">Scanning finish,your phone is safe</string>
+    <string name="scan_state_risk">It is in risk, please scan on time.</string> 
+    <string name="scan_state_cloud_fail">Scan finished,but cloud scan error!</string>
+    <string name="scan_result_Congratulate">Congratulations</string> 
+    <string name="scan_result_tips">Your cell phone is virus-free, keep up.</string> 
+    <string name="scan_result_suggestion">Tip:Remove</string>
+    <string name="scan_result_suggestion_del">Tip:Del</string>
+    <string name="scan_virus_soft">Virus</string> 
+    <string name="scan_caution_soft">Security risk</string>
+    <string name="defense_notification">Virus scan reminder</string>
+    <string name="defense_risk_notification">This app has a security risk</string>
+    <string name="defense_virus_notification">This app contains a virus</string>
+    <string name="defense_safe_notification">This app is safe</string>
+    <string name="scan_interrupt">Stop scanning</string>
+    <string name="scan_interrupt_notifiction1">Virus scan stopped</string>
+    <string name="scan_interrupt_notifiction2">We recommend scanning your phone again</string>
+    <string name="already_clear">Risk has clean up  Phone is health</string>
+    <string name="scan_state_start">Scanning...</string>
+    <string name="scan_state_cloud">Cloud scanning...</string>
+    <string name="scan_state_end">Virus scan completed</string>
+    <string name="scan_schedule_notice">Scan Notice</string>
+    <string name="scan_schedule_notice_summary">Begin scanning your phone for viruses?</string>
+    <string name="delete_notice">Delete this file?</string>
+    <string name="cloud_scan_error">Cloud scan error!</string>
+    <string name="scan_init">Initing engine…</string>
+    <string name="scan_pause_init">Pausing scan，please wait…</string>
+
+<!--     update part -->
+    <string name="update_title">Virus library update</string> 
+    <string name="update_auto">Auto Update</string> 
+    <string name="update_toast">Checking for update, please wait...</string>
+    <string name="update_wait">Updating virus library, please wait...</string>
+    <string name="network_error">Network error</string>
+    <string name="connect_error">Please check network settings</string>
+    <string name="update_tone">Attention!</string>
+    <string name="update_note_version">The current virus library %s is out of date!</string>
+    <string name="update_notice">Please update to the latest version:</string> 
+    <string name="update_note_size">Update size: %s</string>
+    <string name="update_note_already_latest">You already have the latest virus library</string>
+    <string name="update_note_known">Done</string>
+    <string name="update_tips">Remember to update your virus library regularly to detect the latest threats</string>
+    <string name="unupdate_tips">You have not updated your virus library for a long time. We recommend updating it now.</string>
+    <string name="update_version">Version:%s</string>
+
+<!--     log part	 -->
+    <string name="log_list_empty">No previous virus scans</string>
+    <string name="log_virus_counts">Virus:%s</string>
+    <string name="log_caution_counts">Risky:%s</string>
+    <string name="log_clear_counts">Cleaned:%s</string>
+    <string name="log_unhandle_counts">Untreated:%s</string>
+    <string name="log_clear_all">Delete</string>
+    <string name="log_if_clear_all">Sure to delete %s scan results?</string>
+    <string name="menu_actionbar_selected_items">%s selected</string>
+
+<!--     setting part -->
+    <string name="setting">Virus Scan Settings</string>
+    <string name="setting_install_monitor">Monitor settings</string> 
+    <string name="setting_unknown_costs">Monitor malicious behavior</string>
+    <string name="setting_unknown_costs_summary">Detect app behavior that may incur hidden charges</string>
+    <string name="setting_defense">Scan settings</string>
+    <string name="setting_scan_of_clound">Cloud-kill</string> 
+    <string name="setting_cloud_kill_summary">Conduct a secondary virus scan with the latest online virus library</string>
+    <string name="setting_timer_scan_summary">Schedule when you scan for viruses</string>
+    <string name="setting_time">Time</string> 
+    <string name="setting_defense_schedule">Scanning plan</string> 
+    <string name="setting_everyday">every day</string> 
+    <string name="setting_everyweek">every week</string> 
+    <string name="setting_defense_schedule_date">Scheduled date</string>
+    <string name="setting_update">Update settings</string> 
+    <string name="setting_auto_update">Auto Update</string> 
+    <string name="setting_data_update">Update Virus Library</string>
+    <string name="setting_auto_update_summary">Go online to update virus library</string>
+    <string name="setting_install_monitor_summary">Scan app for viruses immediately after being installed</string>
+    <string name="last_one_notice">Please choose at least one day</string>
+
+
+	<string name="minute">minute</string> 
+	<string name="second">s</string> 
+	<string name="monday">Monday</string> 
+	<string name="tuesday">Tuesday</string> 
+	<string name="wednesday">Wednesday</string> 
+	<string name="thursday">Thursday</string> 
+	<string name="friday">Friday</string> 
+	<string name="saturday">Saturday</string> 
+	<string name="sunday">Sunday</string> 
+	<string name="sure">Confirm</string> 
+	<string name="cancel">Cancel</string> 
+	<string name="every_day">"Every day"</string> 
+	<string name="never">"Never"</string> 
+	<string name="day_concat">", "</string> 
+        <string name="days">days</string>
+    	<string name="hours">hours</string>
+    	<string name="minutes">minutes</string>
+</resources>

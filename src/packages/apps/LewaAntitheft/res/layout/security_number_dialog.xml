@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/Text.Medium.Black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/dialog_security_number" />
+
+    <TextView
+        android:id="@+id/textContactName"
+        style="@style/Text.Small.Gray.ContactName"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" />
+
+    <EditText
+        android:id="@+id/editSecurityNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="phone" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editSecurityNumber"
+        android:text="@string/dialog_security_number_hint" />
+
+    <com.lewa.antitheft.mainui.LinkedText
+        android:id="@+id/textChange"
+        style="@style/Text.Small.Blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="@dimen/item_margin"
+        android:text="@string/dialog_security_number_change" />
+
+</RelativeLayout>

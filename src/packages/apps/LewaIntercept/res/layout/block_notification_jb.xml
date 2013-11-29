@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="64dip" >
+
+    <RelativeLayout
+        android:id="@+id/intercept_view"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/notify_panel_notification_icon_bg"
+        android:paddingBottom="5dip"
+        android:paddingLeft="11dip"
+        android:paddingTop="15dip" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:layout_marginLeft="8dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/block_notification_icon" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="7dip"
+        android:layout_toRightOf="@id/intercept_view"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:singleLine="true"
+        style="@style/NotificationTitle"/>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/title"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dip"
+        style="@style/NotificationTime" />
+
+    <TextView
+        android:id="@+id/block_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/title"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="2dip"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/block_summmary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/block_number"
+        android:layout_toRightOf="@+id/block_number"
+        android:layout_alignRight="@id/title"
+        android:layout_marginRight="10dip"
+        android:ellipsize="end"
+        android:fadingEdge="horizontal"
+        android:singleLine="true"
+        android:textSize="12sp" />
+
+</RelativeLayout>

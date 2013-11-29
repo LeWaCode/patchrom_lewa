@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Document   : clean_dialog.xml
+    Created on : 2012年6月8日, 上午9:41
+    Author     : chenliang
+    Description:
+        Purpose of the document follows.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/cleancount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dip"
+            android:textColor="?android:attr/textColorPrimary"
+            android:minHeight="48dip"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:textSize="16sp" />
+
+        <!-- <Button
+            android:id="@+id/cleanmoredetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/click_more_detail" /> -->
+    </RelativeLayout>
+
+    <!-- <include
+        android:id="@+id/clean_detail_line"
+        android:layout_width="fill_parent"
+        android:layout_height="3px"
+        layout="@layout/v_cate_seprator"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/cleandetail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <ListView
+            android:id="@+id/cleanedlist"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:dividerHeight="0px"
+            android:gravity="center"
+            android:fadingEdge="none"
+            android:footerDividersEnabled="true"
+            android:headerDividersEnabled="true" />
+    </LinearLayout> -->
+
+</LinearLayout>

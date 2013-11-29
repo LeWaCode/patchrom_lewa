@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="search_setting"
+    android:orderingFromXml="true" >
+
+<!--     <ListPreference
+        android:defaultValue="true"
+        android:key="select_browser"
+        android:title="@string/select_browser" /> -->
+
+    <Preference
+        android:key="select_info"
+        android:title="@string/app_setting_info" >
+   
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.lewa.filemanager.LewaSearchInfoSettingActivity"
+            android:targetPackage="com.lewa.filemanager" />
+    </Preference>
+    <!-- android:targetPackage="com.lewa.search"  -->
+    
+<!--     <Preference
+        android:key="about"
+        android:title="@string/app_setting_about" >
+        
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.lewa.search.LewaSearchAboutActivity"
+            android:targetPackage="com.lewa.search" />
+    </Preference> -->
+
+</PreferenceScreen>

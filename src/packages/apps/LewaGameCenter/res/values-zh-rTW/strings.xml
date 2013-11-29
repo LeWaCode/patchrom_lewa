@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:ns0="urn:oasis:names:tc:xliff:document:1.2">
+  <item name="tag_always_vertical" type="id" />
+  <item name="tag_adjuse_height" type="id" />
+  <item name="tag_scale_type" type="id" />
+  <string name="game_center">遊戲中心</string>
+  <string name="game_update">遊戲更新</string>
+  <integer name="category_grid_num_columns">2</integer>
+  <integer name="rating_bar_total_star">5</integer>
+  <string name="app_download">下載次數: </string>
+  <string name="app_size">大小: </string>
+  <string name="app_source">來源: </string>
+  <string name="image_content">image</string>
+  <string name="app_old_tip">當前版本: </string>
+  <string name="app_new_tip">可更新到: </string>
+  <string name="app_size_tip">大小: </string>
+  <string name="load_tip">載入中...</string>
+  <string name="topic_review">專題導讀</string>
+  <string name="share_title">分享給好友</string>
+  <string name="share_content">我在遊戲中心發現一款非常好玩的遊戲\"<ns0:g id="app_name">%1$s</ns0:g>\", Join it now~<ns0:g id="app_url">%2$s</ns0:g>
+  </string>
+  <string name="clear_search_history">清除歷史記錄</string>
+  <string name="message_loading_app_to_share">正在獲取資訊，稍後分享吧~</string>
+  <string name="message_get_app_fail_to_share">獲取遊戲失敗，無法分享哦~</string>
+  <string name="message_net_work_disconnect">無法連接網路-_-!</string>
+  <string name="message_download_error_url_error">獲取下載位址失敗，可能網路錯誤-_-!</string>
+  <string name="message_download_error">下載出錯-_-!</string>
+  <string name="message_install_error">安裝出錯-_-!</string>
+  <string name="message_no_more">沒有更多了哦~</string>
+  <string name="message_response_fail">獲取資料失敗-_-!</string>
+  <string name="message_response_error">返回資料出錯-_-!</string>
+  <string name="message_sd_not_available">SD卡不可用-_-!</string>
+  <string name="message_sd_available">SD卡恢復可用，可以下載遊戲了~</string>
+  <string name="message_sd_not_available_for_image">SD卡不可用，無法下載遊戲，無法顯示遊戲縮略圖-_-!</string>
+  <string name="message_sd_not_enough">SD卡空間不足，請釋放空間-_-!</string>
+  <string name="message_big_apk_tip">安裝包大於5M，建議在wifi網路下載~</string>
+  <string name="message_no_search_result">沒有找到相關的遊戲-_-!</string>
+  <string name="message_no_search_word">試試輸入內容開始搜索~</string>
+  <string name="message_open_app_fail">打開失敗-_-!</string>
+  <string name="noti_install_app_fail">安裝失敗，可能需要先卸載才能成功安裝</string>
+  <string name="noti_install_app_fail_invalid_apk">安裝失敗，無法解析安裝包</string>
+  <string name="noti_install_app_fail_insufficient_storage">安裝失敗，可能存儲空間不足</string>
+  <string name="noti_install_app_fail_no_file">安裝失敗，安裝包不存在</string>
+  <string name="noti_install_app_installing">安裝中</string>
+  <string name="noti_install_app_begin">開始安裝</string>
+  <string name="noti_title_install_app_success">安裝成功</string>
+  <string name="noti_install_app_success">安裝成功,點擊啟動</string>
+  <string name="update_no_more">您的遊戲都已經很新了哦~</string>
+  <string name="noti_noti_update_suffix">遊戲中心<ns0:g id="app_name">%1$s</ns0:g> games can update</string>
+  <string name="noti_noti_update_suffix2">可升級</string>
+  <string name="source_official">官方</string>
+  <string name="app_praise">頂 <ns0:g id="app_name">%1$s</ns0:g>
+  </string>
+  <string name="app_praise_topic">頂<ns0:g id="app_name">%1$s</ns0:g>
+  </string>
+  <string name="app_status_download">下載</string>
+  <string name="app_status_pending">等待</string>
+  <string name="app_status_downloading">下載中</string>
+  <string name="app_status_open">打開</string>
+  <string name="app_status_install">安裝</string>
+  <string name="app_status_installing">安裝中</string>
+  <string name="app_status_load_pause">暫停</string>
+  <string name="app_status_installed">打開</string>
+  <string name="app_status_new_version">更新</string>
+  <string name="app_status_pause">暫停</string>
+  <string name="app_status_pausing">暫停中</string>
+  <string name="app_status_resume">繼續</string>
+  <string name="app_status_cancel">取消</string>
+  <string name="number_yi">億+</string>
+  <string name="number_wan">萬+</string>
+  <string name="number_qian">千+</string>
+  <string name="network_text">網路連接失敗</string>
+  <string name="network_setting">網路設置</string>
+  <string name="network_refresh">刷新重試</string>
+  <string name="message_pause_error">暫停下載失敗-_-!</string>
+  <string name="message_resume_error">繼續下載失敗-_-!</string>
+  <string name="update_all">全部更新</string>
+  <string name="drop_down_list_header_default_text">點擊可以刷新</string>
+  <string name="drop_down_list_header_pull_text">下拉可以刷新</string>
+  <string name="drop_down_list_header_release_text">鬆開可以刷新</string>
+  <string name="drop_down_list_header_loading_text">載入中...</string>
+  <string name="drop_down_list_footer_default_text">更多</string>
+  <string name="drop_down_list_footer_loading_text">載入中...</string>
+  <string name="drop_down_list_footer_no_more_text">沒有更多了</string>
+</resources>

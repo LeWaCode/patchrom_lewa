@@ -1,0 +1,4 @@
+<resources>
+    <integer name="folder_arrow_shadow_height">3</integer>
+    <integer name="folder_arrow_height">26</integer>
+</resources>

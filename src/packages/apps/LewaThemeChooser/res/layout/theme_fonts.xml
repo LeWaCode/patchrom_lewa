@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+android:id/widget_frame"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minHeight="?android:attr/listPreferredItemHeight" >
+
+    <com.lewa.themechooser.widget.LewaImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="112dip"
+        android:layout_height="37.33dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="13.33dip"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/theme_name"
+        android:layout_width="160dip"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="13.33dip"
+        android:layout_toRightOf="@id/thumbnail"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <com.lewa.themechooser.widget.LewaImageView
+        android:id="@+id/status_flag"
+        android:layout_width="64dip"
+        android:layout_height="48dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>

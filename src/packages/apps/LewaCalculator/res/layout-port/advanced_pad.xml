@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2011, The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:attrs="http://schemas.android.com/apk/res/com.android.calculator2"
+    android:id="@+id/advancedPad"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/port_advanced_pad_padding_left"
+    android:paddingTop="@dimen/port_advanced_pad_padding_top">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.android.calculator2.ColorButton
+            android:id="@+id/sin"
+            style="@style/large_button_style"
+            android:text="@string/sin"
+            android:textColor="@color/advanced_button_text"
+            android:textSize="@dimen/port_advanced_pad_long_symbol_textsize"/>
+
+        <com.android.calculator2.ColorButton
+            android:id="@+id/cos"
+            style="@style/large_button_style"
+            android:text="@string/cos"
+            android:textColor="@color/advanced_button_text"
+            android:textSize="@dimen/port_advanced_pad_long_symbol_textsize" />
+
+        <com.android.calculator2.ColorButton
+            android:id="@+id/tan"
+            style="@style/large_button_style"
+            android:text="@string/tan"
+            android:textColor="@color/advanced_button_text"
+            android:textSize="@dimen/port_advanced_pad_long_symbol_textsize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.android.calculator2.ColorButton
+            android:id="@+id/ln"
+            style="@style/large_button_style"
+            android:text="@string/ln" 
+            android:textColor="@color/advanced_button_text"
+            android:textSize="@dimen/port_advanced_pad_long_symbol_textsize"/>
+
+        <com.android.calculator2.ColorButton
+            android:id="@+id/lg"
+            style="@style/large_button_style"
+            android:text="@string/lg"
+            android:textColor="@color/advanced_button_text"
+            android:textSize="@dimen/port_advanced_pad_long_symbol_textsize" />
+
+        <com.android.calculator2.ColorButton
+            android:id="@+id/factorial"
+            style="@style/large_button_style"
+            android:text="@string/factorial" 
+            android:textColor="@color/advanced_button_text"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <com.android.calculator2.ColorButton
+            android:id="@+id/pi"
+            style="@style/large_button_style"
+            android:text="@string/pi"
+            attrs:src="@drawable/pi_port"/>
+
+        <com.android.calculator2.ColorButton
+            android:id="@+id/e"
+            style="@style/large_button_style"
+            android:text="@string/e"
+            attrs:src="@drawable/e_port"/>
+
+        <com.android.calculator2.ColorButton
+            android:id="@+id/power"
+            style="@style/large_button_style"
+            android:text="@string/power"
+            attrs:src="@drawable/power_port"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.android.calculator2.ColorButton
+            android:id="@+id/leftParen"
+            style="@style/large_button_style"
+            android:text="@string/leftParen" 
+            android:textColor="@color/advanced_button_text"/>
+
+        <com.android.calculator2.ColorButton
+            android:id="@+id/rightParen"
+            style="@style/large_button_style"
+            android:text="@string/rightParen" 
+            android:textColor="@color/advanced_button_text"/>
+
+        <com.android.calculator2.ColorButton
+            android:id="@+id/sqrt"
+            style="@style/large_button_style"
+            android:text="@string/sqrt"
+            attrs:src="@drawable/sqrt_port" />
+    </LinearLayout>
+
+</LinearLayout>

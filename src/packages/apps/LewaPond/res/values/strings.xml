@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ACCOUNT_TYPE">com.lewa.pond</string>
+    <string name="ACCOUNT_LABEL">Lewa Pond</string>
+    <string name="app_name">Lewa Pond</string>
+    
+    <string name="placeholder">(temporary string)</string>
+    
+    <string name="dialog_authentication_email_sent">An authentication email will be sent to your email address</string>
+    <string name="dialog_check_your_registration_email">Almost done! Please check your email and click on the link sent from LewaTek to complete your registration</string>
+	<string name="dialog_check_your_email_change">Please check your email and click on the link sent from LeWaTek to verify your new email address</string>
+	<string name="dialog_check_your_email">Almost done! Please check your email and click on the link sent from LewaTek</string>
+	<string name="dialog_enter_password">Please enter your current password</string>
+	<string name="dialog_change_password_success">Your password has been changed successfully</string>
+	<string name="dialog_password_reset_success">Your password has been reset. Please check your email to retreive your temporary password</string>
+	<string name="dialog_logged_in">You are logged in</string>
+	<string name="dialog_resetting_password">Resetting password...</string>
+	<string name="dialog_resend_verification_email">Resend verification email to the following address</string>
+	<string name="dialog_reset_password_email">Send password reset email to the following address</string>
+	<string name="dialog_loading">Loading...</string>
+	<string name="dialog_saving_changes">Saving changes...</string>
+	<string name="dialog_already_registered">You have already signed in. If you want use another ID, please sign out first</string>
+	<string name="dialog_account_info_not_changed">Your account information has not changed</string>
+	<string name="dialog_your_email_address_is_your_signin">Your email address is your sign-in ID</string>
+	<string name="dialog_enter_valid_password">Please enter a password 6-20 characters in length</string>
+	
+    <string name="error_already_registered">This email address is already registered</string>
+    <string name="error_internet_connectivity">You are not connected to the internet</string>
+    <string name="error_cannot_register_internet_connection">Sorry, we cannot start your registration process. Please connect and try again</string>
+    <string name="error_cannot_login_internet_connection">Sorry, we cannot start your login process. Please connect and try again</string>
+    <string name="error_email_invalid">Please enter a valid email address</string>
+    <string name="error_captcha_invalid">Verification code is invalid</string>
+    <string name="error_password_invalid">Password must be at least 6-20 characters long</string>
+    <string name="error_password_incorrect">Password is incorrect</string>
+    <string name="error_email_not_found">Email does not exist, please enter the correct e-mail address</string>
+    <string name="error_connect_server_exception">Server communication error</string>
+    
+    <string name="label_login">Login</string>
+    <string name="label_register">Register</string>
+    <string name="label_my_account">My Account</string>
+    <string name="label_register_sms">SMS registration</string>
+    <string name="label_almost_done">Almost done!</string>
+    <string name="label_internet_connection">Internet connection</string>
+    <string name="label_email">Email</string>
+    <string name="label_email_address">Email address</string>
+    <string name="label_email_verification">Email verification</string>
+    <string name="label_password">Password</string>
+    <string name="label_reset_password">Reset password</string>
+    <string name="label_enter_password">Enter password</string>
+    <string name="label_new_password">New password</string>
+    <string name="label_reenter">Confirm password</string>
+    <string name="label_captcha">Are you human?</string>
+    <string name="label_ok">Ok</string>
+    <string name="label_back">Back</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_retry">Retry</string>
+    <string name="label_close">Close</string>
+    <string name="label_save_change">Save changes</string>
+    <string name="label_cancel_change">Cancel changes</string>
+    <string name="label_account_password_hint">New password</string>
+    <string name="label_sendsms">Send SMS</string>
+    <string name="label_check_email">Check email</string>
+    <string name="label_go_to_inbox">Go to email inbox</string>
+    <string name="label_later">Later</string>
+    <string name="label_switch_users">Switch users</string>
+    
+    <!-- Account Preferences (Sync Provider) -->
+    <string name="header_data_and_synchronization">Data &amp; synchronization</string>
+    <string name="labi_sync_title">Sync Contact</string>    
+    <string name="labi_sync_summary">Sync Contact to Labi</string>
+    <string name="labi_recovery_title">Recover Contact</string>
+    <string name="labi_recovery_summary">Recover Contact from Labi</string>
+    <string name="account_settings_title">Account Settings</string>
+    <string name="account_manage_title">Modify account info</string>
+    
+    <string name="account_info_change">Modify account information</string>
+    
+    <!-- lewa ad 2012-04-16-->
+    <string name="label_lewa_html_ad_blod">Experience</string>
+    <string name="label_lewa_html_ad_title"> Cloud Service.</string>
+    <string name="label_lewa_html_ad_content">Login to LeWa\'s BBS with this account.</string>
+    <string name="label_lewa_forum_user_can_use_eamil_login">LeWa BBS users can use their LeWa account to login</string>
+    <string name="label_forget_passwd_click_here">Forgot your password? Tap here</string>
+    <string name="label_have_not_received_email">Did not receive a verification eMail?</string>
+    <string name="label_click_here">Tap here</string>
+    <string name="label_security_code">Verification code</string>
+    <string name="label_please_input_security_code">Enter verification code</string>
+    <string name="label_change_security_code">Unclear, show me another code</string>
+    <string name="progress_dialog_loading_data">Loading, please wait\.\.\.</string>
+    <string name="progress_dialog_logining">Logging in, please wait\.\.\.</string>
+    <string name="alert_dialog_login_failed">Login failed</string>
+    <string name="alert_dialog_login_failed_result">Please check your account</string>
+    <string name="error_email_is_not_null">Please enter eMail address</string>
+    <string name="error_password_is_not_equals">Passwords do not match</string>
+    <string name="error_captcha_is_not_null">Please enter verification code</string>
+    <string name="error_captcha_input_wrong">Verification code not valid</string>  
+
+</resources>

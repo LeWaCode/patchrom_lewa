@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <ImageView 
+         android:id="@+id/baidu_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.7"
+        android:src="@drawable/baidumusic_small_60per"
+        android:baselineAlignBottom="true"
+        android:visibility="invisible"
+        android:paddingBottom="20dp"
+        android:layout_gravity="center_horizontal|bottom"
+        />
+     <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+  
+     <ListView 
+         android:id="@android:id/list"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_weight="100"
+         android:dividerHeight="5dp"
+         android:visibility="gone"
+         ></ListView>
+   </LinearLayout>
+   
+   <LinearLayout 
+       android:id="@+id/ranklist_loading"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+       android:layout_gravity="center_horizontal"
+       android:paddingTop="190dp"
+       >
+       
+        <ProgressBar 
+           android:id="@id/hint_pb"
+           android:layout_width="20dp"
+           android:layout_height="20dp"
+           /> 
+       <TextView 
+           android:id="@id/hint_tv"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/info_loading"
+           android:textColor="#ffffff"
+           />
+   </LinearLayout>
+   
+    
+
+</FrameLayout>

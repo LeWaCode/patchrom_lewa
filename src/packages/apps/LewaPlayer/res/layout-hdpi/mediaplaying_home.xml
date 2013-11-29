@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dream_color"
+    
+    android:id="@+id/media_page" >
+        
+    <LinearLayout       
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dip"
+        android:orientation="vertical">
+        
+        <include layout="@layout/pager_header" />
+        
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="100">
+        </android.support.v4.view.ViewPager>
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="0dip"
+            android:orientation="vertical">
+            
+            <SeekBar
+                android:id="@+id/playingseekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="2dip"
+                android:maxHeight="2dip"
+                android:thumbOffset="-2dip"
+                android:progressDrawable="@drawable/seekbar"
+                android:thumb="@drawable/seek_progress_button" >
+            </SeekBar>        
+            
+            <RelativeLayout 
+                android:layout_width="match_parent"             
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dip"
+                android:layout_marginRight="16dip"
+                android:layout_gravity="top"
+                android:layout_weight="1"
+                >
+            
+                <TextView android:id="@+id/currenttime" 
+                    android:background="@android:color/transparent" 
+                    android:textColor="#FFFFFF"
+                    android:textSize="12dip" 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                
+                <TextView android:id="@+id/totaltime" 
+                    android:background="@android:color/transparent" 
+                    android:textColor="#FFFFFF"
+                    android:textSize="12dip" 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" 
+                    android:gravity="right"
+                    android:layout_alignRight="@+id/currentduration"
+                    android:layout_alignParentRight="true" />               
+            </RelativeLayout>
+            
+            <RelativeLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dip"
+                android:layout_marginRight="16dip"              
+                android:orientation="horizontal" 
+                android:layout_marginTop="10dip"
+                android:layout_marginBottom="10dip">
+            
+                <ImageView android:id="@+id/previous"           
+                    android:layout_width="wrap_content" 
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/previous_selector"
+                    android:layout_alignParentLeft="true">
+                </ImageView>
+                
+                <ImageView 
+                    android:id="@+id/play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" 
+                    android:background="@drawable/play"         
+                    android:layout_centerHorizontal="true">
+                </ImageView>
+                
+                <ImageView 
+                    android:id="@+id/next"          
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" 
+                    android:background="@drawable/next_selector"            
+                    android:layout_alignParentRight="true">
+                </ImageView>
+            </RelativeLayout> 
+            
+        </LinearLayout>    
+    
+    </LinearLayout>
+    
+</FrameLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lewa.security.MainView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="@dimen/animator_view_size"
+        android:layout_height="@dimen/animator_view_size"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/animator_margin"
+        android:layout_marginTop="@dimen/animator_margin"
+        android:background="@drawable/animator_bg1" >
+
+        <ImageView
+            android:id="@+id/circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/animator_running" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/animator_bg2" />
+
+        <TextView
+            android:id="@+id/textScore"
+            style="@style/Text.Score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/red" />
+
+        <TextView
+            android:id="@+id/textScanning"
+            style="@style/Text.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/state_detecting"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llyt_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textVirus"
+            style="@style/TextInfo"
+            android:drawableLeft="@drawable/ic_safe"
+            android:ellipsize="end"
+            android:text="@string/gap_notice" />
+
+        <TextView
+            android:id="@+id/textNotification"
+            style="@style/TextInfo"
+            android:drawableLeft="@drawable/ic_safe" />
+
+        <TextView
+            android:id="@+id/textAutoStart"
+            style="@style/TextInfo"
+            android:drawableLeft="@drawable/ic_safe"
+            android:text="@string/gap_notice" />
+
+        <TextView
+            android:id="@+id/textClearance"
+            style="@style/TextInfo"
+            android:drawableLeft="@drawable/ic_safe"
+            android:text="@string/gap_notice" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textHint"
+            style="@style/Text.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/button"
+            android:textSize="14sp"
+            android:layout_width="168dp"
+            android:layout_height="58dp"
+            android:layout_marginBottom="@dimen/fragment_padding"
+            android:layout_marginTop="@dimen/main_button_margin_top"
+            android:gravity="center"
+            android:text="@string/state_detecting" />
+    </LinearLayout>
+
+</com.lewa.security.MainView>

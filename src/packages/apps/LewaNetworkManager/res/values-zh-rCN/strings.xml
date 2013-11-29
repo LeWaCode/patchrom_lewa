@@ -1,0 +1,150 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">流量监控</string>
+    <string name="app_summary">流量监控\u00a9 乐蛙科技.</string>
+
+    <string name="settings_safetylegal_activity_loading">正在努力加载中\u2026</string>
+    <string name="no_applications">无应用程序。</string>
+    <string name="process_kernel_label">操作系统</string>
+    <string name="uninstalled_apps">已删除的应用程序</string>
+    <string name="tethering">网络共享</string>
+    <string name="not_set">未设置</string>
+
+    <string name="mobile">2G/3G</string>
+    <string name="wifi">WLAN</string>
+
+    <string name="mobile_usage">显示2G/3G 流量</string>
+    <string name="wifi_usage">显示WLAN 流量</string>
+
+    <string name="metered">后台</string>
+    <string name="card">卡</string>
+    <string name="zero">0B</string>
+    <plurals name="day">
+        <item quantity="other"><xliff:g id="count">%d</xliff:g>天</item>
+    </plurals>
+    <string name="monthday">号</string>
+    
+    <string name="time_today">今日排行</string>
+    <string name="time_month">本月排行</string>
+    <string name="time_yesterday">昨日排行</string>
+
+    <string name="error_input">数值输入有误，请重新输入</string>
+
+    <string name="usage_title">流量监控</string>
+    <string name="usage_today_usage">今日已用</string>
+    <string name="usage_daily_remain">日均可用</string>
+    <string name="usage_day_remain">距结算日</string>
+    <string name="usage_cycle_day">结算日</string>
+    <string name="usage_cycle">流量使用周期</string>
+    <string name="usage_exceed">超出流量</string>
+    <string name="usage_remain">剩余流量</string>
+    <string name="usage_nocard">无数据卡</string>
+    <string name="usage_total">已用流量</string>
+    <string name="usage_plan">设置套餐</string>
+    <string name="usage_adjust">流量校准</string>
+    <string name="usage_adjusting">校准中</string>
+    <string name="usage_adjust_success">校准成功</string>
+    <string name="usage_adjust_failure">校准失败</string>
+    <string name="usage_adjust_later">请稍后校准</string>
+    <string name="usage_default">(默认数据卡)</string>
+
+    <string name="detail_title">统计详情</string>
+    <string name="ranking_title">流量排行</string>
+    <string name="firewall_title">防火墙</string>
+    <plurals name="firewall_list_title">
+        <item quantity="other"><xliff:g id="count">%d</xliff:g>个应用有联网权限</item>
+    </plurals>
+    
+    <string name="pref_title">流量设置</string>
+    <string name="pref_alert_title">温馨提示</string>
+    <string name="pref_data_pack">包月套餐</string>
+    <string name="pref_data_pack_title">设置包月流量套餐</string>
+    <string name="pref_data_pack_summary"><xliff:g id="CARRIER">%1$s</xliff:g>，可用 <xliff:g id="REMAIN">%2$s</xliff:g>，月结算日 <xliff:g id="CYCLE_DAY">%3$s</xliff:g></string>
+    <string name="pref_monthly_usage">本月已用</string>
+    <string name="pref_adjust_settings">流量校准信息</string>
+    <string name="pref_adjust_regularly">流量定期校准</string>
+    <string name="background_warning_title">后台流量提醒</string>
+    <string name="background_warning_content">后台使用流量超过 1 MB\n，建议关闭</string>
+    <string name="background_warning_close_content">关闭后台流量提醒后，系统将不再提示您应用后台运行联网情况，可能造成流量无故损失和浪费。确定要关闭后台流量提醒？</string>
+    
+    <string name="pref_data_warning">月流量剩余不足提醒</string>
+    <string name="notify_data_warning">您的剩余流量已不足</string>
+    <string name="pref_data_warning_prepend">包月流量不足</string>
+    <string name="pref_data_warning_append">\u0020时提醒我</string>
+    <string name="pref_data_warning_unset">请先设置包月流量套餐，以便系统为您计算每月流量剩余提醒值。</string>
+    <string name="pref_category_common">通用设置</string>
+    <string name="pref_clear_history">清空统计数据</string>
+    <string name="pref_background_antitheft">流量防盗</string>
+    <string name="pref_background_antitheft_summary">1:00 - 7:00 自动关闭2G/3G后台联网</string>
+    <string name="pref_background_warning">后台流量提醒</string>
+    <string name="pref_background_warning_summary">2G/3G下应用后台运行流量超过1MB时提醒我</string>
+    <string name="pref_clear_history_confirm">清除全部流量统计数据需要重启,确认重启?</string>
+    <string name="reboot">重启</string>
+    
+    <string name="widget_disabled_mobile">已停用移动数据</string>
+    <string name="widget_today_usage">今日</string>
+    <string name="widget_exceed">超出</string>
+    <string name="widget_remain">剩余</string>
+    <string name="widget_data_pack_warning">请设置流量套餐</string>
+
+    <string name="notify_data_pack_title">流量校准提醒</string>
+    <string name="notify_data_pack_summary">请设置流量套餐，避免超额扣费。</string>
+    
+    <string name="permlab_manageNetworkPolicy">管理联网防火墙</string>
+    <string name="permdesc_manageNetworkPolicy">允许应用管理联网防火墙和定义专门针对应用的规则。</string>
+    
+    <string name="data_usage_sweep_warning"><font size="21">"<xliff:g id="NUMBER">^1</xliff:g>"</font>" "<font size="9">"<xliff:g id="UNIT">^2</xliff:g>"</font>\n<font size="12">"警告"</font></string>
+    <string name="data_usage_sweep_limit"><font size="21">"<xliff:g id="NUMBER">^1</xliff:g>"</font>" "<font size="9">"<xliff:g id="UNIT">^2</xliff:g>"</font>\n<font size="12">"限制"</font></string>
+    <string name="data_usage_total_during_range">"<xliff:g id="RANGE">%2$s</xliff:g>：已使用约 <xliff:g id="TOTAL">%1$s</xliff:g>"</string>
+    <string name="data_usage_disclaimer">"由您的手机计算而得。您的运营商对于数据流量的计算可能有所不同。"</string>
+    <string name="data_usage_empty">"没有任何应用程序在此期间产生过数据流量。"</string>
+    <string name="data_usage_label_foreground">"前台"</string>
+    <string name="data_usage_label_background">"后台"</string>
+    <string name="data_usage_app_settings">"查看应用程序设置"</string>
+    <string name="data_usage_app_info">查看应用信息</string>
+    <string name="data_usage_menu_restrict_background">"限制后台数据"</string>
+    <string name="data_usage_menu_show_wifi">"显示 WLAN 使用情况"</string>
+    <string name="data_usage_enable_mobile">"移动数据"</string>
+    <string name="data_usage_disable_mobile">"要停用移动数据吗？"</string>
+    <string name="data_usage_disable_mobile_limit">"设置移动数据流量限制"</string>
+    <string name="data_usage_app_block_mobile">限制移动数据</string>
+    <string name="data_usage_app_block_wifi">限制WLAN数据</string>
+    <string name="data_usage_app_restrict_background">"限制后台数据"</string>
+    <string name="data_usage_app_restrict_background_summary">"仅在使用移动数据网络时停用后台数据。系统会尽量使用 WLAN 连接。"</string>
+    <string name="data_usage_app_restrict_background_summary_disabled">"要限制此应用程序使用后台数据，请先设置移动数据上限。"</string>
+    <string name="data_usage_restrict_denied_dialog">"您只有在设置移动数据上限后才能限制后台数据。"</string>
+    <string name="data_usage_restrict_background_title">提示</string>
+  <string name="data_usage_restrict_background">"如果您禁止了后台移动数据，一些应用和服务将无法在2G/3G模式下运行，您确定要禁止吗？"</string>
+    <string name="data_usage_app_restrict_dialog">如果关闭后台数据,在通过2G/3G联网时,部分程序或服务可能无法运行,确定要关闭吗?</string>
+    <string name="data_config_title">联网权限管理</string>
+    <string name="data_config_mobile">2G/3G</string>
+    <string name="data_config_background">后台运行时联网</string>
+    <string name="data_config_background_detail">前台:%1$s 后台:%2$s</string>
+    <string name="data_config_wifi">WLAN</string>
+    
+    <string name="data_plan_set_title">流量使用提醒</string>
+    <string name="data_plan_set_message">您的移动数据使用量已超过1M,在月流量剩余不足提醒没有流量包月的情况下会产生费用,已关闭建议您设置流量套餐或关闭移动数据。</string>
+    <string name="data_plan_button_set">设置套餐</string>
+    <string name="data_plan_button_close">直接关闭(%d)</string>
+    <string name="usagedata_setting">下拉通知栏显示流量统计</string>
+    <string name="netspeed_setting">状态栏显示当前网速</string>
+    
+    <string name="daily_usage_warning_title">日已用流量提醒</string>
+    <string name="daily_usage_warning_message">今天您的移动数据使用量为%1$s,已超过日均可用量,建议查看应用流量使用详情并进行管理。</string>
+    <string name="daily_usage_warning_summary_unset">请先设置流量套餐</string>
+    <string name="daily_usage_no_warning">不提醒</string>
+    <string name="daily_usage_recommand">(推荐)</string>
+    <string name="continue_use">继续使用</string>
+    <string name="daily_remain_suffix">(自动日均可用值)</string>
+    <string name="see_details">查看</string>
+    <string name="data_default">默认</string>
+    <string name="show_system_app">显示系统应用</string>
+    <string name="donot_show_system_app">不显示系统应用</string>
+    <string name="adjust_interval_none">无</string>
+    <string name="correct_failed">流量校准失败。可能由于您使用了特殊套餐、主副卡业务或当地运营商不支持短信校准。</string>
+    <string name="correct_success">已获取运营商数据，成功校准流量</string>
+    <string-array name="pref_adjust_interval">
+        <item>@string/adjust_interval_none</item>
+        <item>每日</item>
+        <item>每周</item>
+    </string-array>
+</resources>

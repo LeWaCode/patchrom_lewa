@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <WebView
+            android:id="@+id/web_note"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="0dip"
+            android:layout_marginRight="0dip"
+            android:layout_weight="1.0"
+            />
+    <!-- 
+    <LinearLayout
+            android:id="@+id/notes_operate"
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+
+        <RelativeLayout
+                android:id="@+id/layout_download_progress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+            <Button
+                    android:id="@+id/cancel_download"
+                    android:layout_width="54.0dip"
+                    android:layout_height="34.0dip"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_marginRight="5.0dip"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/btn_click_bg"
+                    android:text="@string/btn_cancel"
+                    android:textColor="@drawable/btn_notes_color"/>
+
+            <ProgressBar
+                    android:id="@+id/download_progress"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="250dip"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/cancel_download"
+                    android:layout_marginLeft="5.0dip"
+                    android:max="100"/>
+
+            <TextView
+                    android:id="@+id/progress_persent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/download_progress"
+                    android:layout_below="@id/download_progress"
+                    android:layout_marginRight="2.0dip"/>
+
+            <TextView
+                    android:id="@+id/progress_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/download_progress"
+                    android:layout_marginLeft="2.0dip"
+                    android:layout_toRightOf="@id/progress_persent"/>
+
+            <Button
+                    android:id="@+id/pause_download"
+                    android:layout_width="54.0dip"
+                    android:layout_height="34.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginRight="5.0dip"
+                    android:layout_toRightOf="@id/download_progress"
+                    android:background="@drawable/btn_click_bg"
+                    android:text="@string/btn_pause"
+                    android:textColor="@drawable/btn_notes_color"/>
+            <Button
+                    android:id="@+id/continue_download"
+                    android:layout_width="54.0dip"
+                    android:layout_height="34.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginRight="5.0dip"
+                    android:layout_toRightOf="@id/download_progress"
+                    android:background="@drawable/btn_click_bg"
+                    android:text="@string/btn_continue"
+                    android:textColor="@drawable/btn_notes_color"
+                    android:visibility="gone"
+                    />
+        </RelativeLayout>
+
+        <Button android:id="@+id/btn_install"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMediumInverse"
+
+                android:shadowColor="#ffffffff"
+                android:shadowDx="1.0"
+                android:shadowDy="-1.2"
+                android:shadowRadius="1.0"
+                android:text="@string/download_now"
+		style="?android:attr/buttonBarButtonStyle"/>
+    </LinearLayout> -->
+
+</LinearLayout>

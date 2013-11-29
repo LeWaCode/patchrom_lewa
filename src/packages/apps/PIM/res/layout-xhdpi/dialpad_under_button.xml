@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialpad_under_buttons"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#ffedf1f7" >
+                                
+    <LinearLayout
+        android:id="@+id/dialpad_under_single_left"
+        android:layout_width="@dimen/dual_single_weight"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:visibility="gone" 
+        android:gravity="right"       
+        android:orientation="horizontal" >        
+        <LinearLayout
+            android:layout_width="0.5dip"
+            android:layout_height="fill_parent"
+            android:background="#ffdadee6" />                    
+    </LinearLayout>     
+    
+    <LinearLayout  android:id="@+id/dialpad_under_buttons_layout"
+	    android:layout_width="fill_parent"
+	    android:layout_weight="1"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+        android:background="@null" >
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:background="#ffdadee6" />         
+        
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="15dip"
+	        android:layout_marginBottom="15dip"        
+	        android:orientation="horizontal" >
+        
+		    <ImageView
+	            android:id="@+id/dialpadButton"
+	            android:layout_width="wrap_content" 
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="0px"
+	            android:layout_marginRight="0.0px"
+				android:layout_weight="100"
+		        android:src="@drawable/ic_dialpad_holo_dark" />
+		
+		    <com.lewa.PIM.widget.DualButtonsControl
+	            android:id="@+id/dualcontrol"
+	            android:layout_width="wrap_content" 
+	            android:layout_height="match_parent" 
+				android:layout_weight="1"
+	            android:layout_marginLeft="0.0px"
+	            android:layout_marginRight="0.0px"
+	            android:layout_marginTop="0.0px"
+	            android:layout_marginBottom="0.0px" >
+	            
+		       <LinearLayout
+		       		android:id="@+id/dialButton"
+			        android:layout_width="wrap_content"
+			        android:layout_height="match_parent"
+			        android:gravity="center_horizontal">
+			        
+			       <ImageView
+		               android:id="@+id/dialIcon"
+		               android:src="@drawable/icon_call"
+		               android:layout_width="wrap_content"
+		               android:layout_height="match_parent"/>
+			       
+		           <TextView
+		                android:id="@+id/dialText"
+		                android:layout_width="wrap_content" 
+		                android:layout_height="wrap_content"
+						android:layout_marginLeft="6dp"
+			            android:singleLine="true"
+	                    android:gravity="center_vertical"
+	                    android:layout_gravity="center_vertical"			            
+		                android:textAppearance="?android:attr/textAppearanceSmall"
+			        	android:textColor="@android:color/white"
+						android:ellipsize="none" />	        
+				</LinearLayout>
+			</com.lewa.PIM.widget.DualButtonsControl>   
+		
+			<LinearLayout
+		        android:id="@+id/dialButtonSIM1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:visibility="gone"
+			    android:gravity="center_horizontal"
+			    android:background="@drawable/dial_sim1_button_bg" >
+		       
+               <ImageView
+                   android:id="@+id/dialIcon"
+                   android:src="@drawable/icon_call_sim1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"/>			    
+			    
+			    <TextView
+			        android:id="@+id/dialTextSIM1"
+		            android:layout_width="wrap_content" 
+		            android:layout_height="wrap_content"
+		            android:includeFontPadding="false" 
+		            android:singleLine="true"
+		            android:maxWidth="56dp"
+		            android:gravity="center_vertical"
+		            android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="6dp"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+		        	android:textColor="@android:color/white"
+					android:ellipsize="end"
+					android:maxEms="4" />
+		   	 </LinearLayout>
+		
+			<LinearLayout
+		        android:id="@+id/dialButtonSIM2"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="6dip"
+				android:layout_weight="1"
+				android:gravity="center_horizontal"
+			    android:visibility="gone"
+			    android:background="@drawable/dial_sim2_button_bg" >
+			    
+               <ImageView
+                   android:id="@+id/dialIcon"
+                   android:src="@drawable/icon_call_sim2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"/>               
+			    			    
+			    <TextView
+			        android:id="@+id/dialTextSIM2"
+		            android:layout_width="wrap_content" 
+		            android:layout_height="wrap_content"
+		            android:includeFontPadding="false" 
+					android:layout_marginLeft="6dp"
+					android:singleLine="true"
+					android:maxWidth="56dp"
+					android:layout_gravity="center_vertical"
+					android:gravity="center_vertical"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+		        	android:textColor="@android:color/white"
+					android:ellipsize="end"
+					android:maxEms="4" />
+		   	 </LinearLayout>
+		
+		    <ImageView
+	            android:id="@+id/deleteButton"
+	            android:layout_width="wrap_content" 
+	            android:layout_height="wrap_content"
+				android:layout_weight="100"
+	            android:layout_marginTop="0px"
+	            android:layout_marginRight="0.0px"
+		        android:src="@drawable/ic_dial_action_delete" />
+        </LinearLayout>
+    </LinearLayout> 
+     
+    <LinearLayout
+        android:id="@+id/dialpad_under_single_right"
+        android:layout_width="@dimen/dual_single_weight"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:visibility="gone"        
+        android:orientation="horizontal">        
+        <LinearLayout
+            android:layout_width="0.5dip"
+            android:layout_height="fill_parent"
+            android:background="#ffdadee6" />                    
+    </LinearLayout>  
+    
+</LinearLayout>

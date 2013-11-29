@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pinned_header_list_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<!--
+    <include android:id="@+id/searchView"
+        layout="@layout/search_bar"/>
+
+    <TextView android:id="@+id/emptyText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/no_matched_songs"
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:padding="15dip"
+          android:lineSpacingMultiplier="0.92"
+      />
+  -->  
+    
+    <ListView android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fastScrollEnabled="true"
+    />
+    
+</LinearLayout>

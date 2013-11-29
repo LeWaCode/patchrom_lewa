@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="app_name">File Manager</string>
+    <string name="desktop_name">File Manager</string>
+    <string name="lewa_name">Lewa SDManager</string>
+    <string name="tab_category">Categories</string>
+    <string name="category">Categories</string>
+    <string name="tab_sdcardlist">SD Card List</string>
+    <string name="nofile">No files in this folder</string>
+    <string name="sd_name">SD Card</string>
+    <string name="copy_title">Choose the folder you want to copy</string>
+    <string name="copy_button">Copy here</string>
+    <string name="choose_path">Choose folder</string>
+    <string name="folder_name">Enter folder name</string>
+    <string name="really_delete">Do you really want to delete %s ？</string>
+    <string name="paste">Paste</string>
+    <string name="cancel">Cancel</string>
+    <string name="cut">Cut</string>
+    <string name="delete">Delete</string>
+    <string name="copy">Copy</string>
+    <string name="select_all">All</string>
+    <string name="home">Home</string>
+    <string name="menu_new_folder">New Folder Name</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_rename">Rename</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_open">Open</string>
+    <string name="menu_move">Cut</string>
+    <string name="menu_copy">Copy</string>
+    <string name="menu_fileinfo">Details</string>
+    <string name="menu_sort">Sort</string>
+    <string name="menu_new_dir">Create folder</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_sort_name">Name</string>
+    <string name="menu_sort_size">Size</string>
+    <string name="menu_sort_time">Time</string>
+    <string name="menu_sort_type">Type</string>
+    <string name="folder_renamed">Folder already renamed</string>
+    <string name="file_renamed">File already renamed</string>
+    <string name="error_renaming_folder">Cannt rename folder</string>
+    <string name="error_renaming_file">Cannt rename file</string>
+    <string name="music">Music</string>
+    <string name="video">Videos</string>
+    <string name="image">Pictures</string>
+    <string name="doc">Docs</string>
+    <string name="app">Apps</string>
+    <string name="sdcardcapa_default">0 G</string>
+    <string name="sdcardcapa_total">Total：</string>
+    <string name="sdcardcapa_available">Avail：</string>
+    <string name="sure_delete">Permanently remove this %s?</string>
+    <string name="sure_mass_delete">Delete selected items?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="copiing">Copying files...</string>
+    <string name="cutting">Cutting files...</string>
+    <string name="deleting">Deleting files...</string>
+    <string name="copy_continuecopy">Copy</string>
+    <string name="cut_continuecut">Cut</string>
+    <string name="overwrite_confirm">Do you really want to overwrite %s files?</string>
+    <string name="overwrite_continue">Overwrite</string>
+    <string name="cancelcopy">Cancel</string>
+    <string name="cancelcut">Cancel</string>
+    <string name="child_invalidoperation">Operation cancelled, destination folder is subfolder of %s file</string>
+    <string name="cannt_rename_same_name">Unable to rename the file with the same name</string>
+    <string name="find_no_associated_app">Unable to find associated app</string>
+    <string name="path_choice">Choose Folder</string>
+    <string name="sdcard_unavailable">SD card unavailable, please check</string>
+    <string name="disselect_all">Unselect All</string>
+    <string name="copyof">Copy of \s</string>
+    <string name="same_name_files_operation_cancel">Operation cancelled, files have the same name</string>
+    <string name="detail_name">Name：</string>
+    <string name="detail_size">Size：</string>
+    <string name="detail_location">Path：</string>
+    <string name="detail_lastmodifiedtime">Time：</string>
+    <string name="detail_readable">Readable：</string>
+    <string name="detail_writable">Writable：</string>
+    <string name="detail_hidden">Hidden：</string>
+    <string name="title_detail">Hidden：</string>
+    <string name="computing">Processing...</string>
+    <string name="currCategoryNoFile">No file in current category</string>
+    <string name="used_percent_default_text">Used: </string>
+    <string name="gmail">gMail</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="sms">SMS</string>
+    <string name="notrenameforyou">Name not changed</string>
+    <string name="loadingfiles">Loading... Please wait</string> 
+    <string name="position_dir">Folder</string>   
+    <string name="position_category">Category</string>   
+    <string name="share">Send</string>
+    <string name="privacy_home">Privacy Home</string>
+    <string name="move_to_privacy_box">Move in privacy box</string>
+    <string name="cancel_move">Cancel moving</string>
+    <string name="tab_privacy">Privacy</string>
+    <string name="moving_to_privacy">Moving to privacy box...</string>
+    <string name="isloading">  \s   Loading</string>
+    <string name="target_name_is_not_allow_null">Target name cannt be empty</string>
+    <string name="rename_fail">The name contains invalid character.</string>
+    <string name="sure">ok</string>
+    <string name="feedback_confirm">Wifi is now unavailable.One picture you want to send is larger than 300k,which will cause some fee on data flow.\n \nContinue to send ?</string>
+    <string name="reminder">Reminder</string>
+    <string name="directly_install">Directly install</string>
+    <string name="appInstallStartTicker">Start to install...</string>
+    <string name="firstAppIsInstalling">First Program is installing...</string>
+    <string name="nowInstallingForYou">now installing for you</string>
+    <string name="appInstallSuccessHint">installed</string>
+    <string name="appInstallFailureHint">not installed</string>
+    <string name="totalInstallFinishedHint">Programs installation finished.</string>
+    <string name="installing">Installing</string>
+    <string name="success">Success:</string>
+    <string name="failure">Failure:</string>
+    <string name="unhandled">Unhandled:</string>
+    <string name="toInstallSum">All:</string>
+    <string name="already"></string>
+    <string name="theme">theme</string>
+    <string name="available">Available</string>
+    <string name="sdcardhome">SD card</string>
+    <string name="memory">Memory</string>
+    <string name="scan_finish_toast">Update done</string>
+    <string name="scaning_toast">During scanning %s</string>
+    <string name="scaning">Scanning %s</string>
+    <string name="scan_finish_all_toast">All categories updated</string>
+    <string name="up_to_date">uptodate</string>
+    <string name="uninstalled">uninstalled</string>
+    <string name="upgrade"> upgrade available</string>
+    <string name="installed">installed</string>
+    <string name="version">version :</string>
+    <string name="renaming">updating categoies for you,please wait</string>
+    <string name="unknown">unknown</string>
+    <string name="copied">sd is full，copied files: %s</string>
+    <string name="uncopied">uncopied: %s</string>
+    <string name="ringtone_clock">Set as Default Clock</string>
+    <string name="ringtone_sms">Set as Default Notification</string>
+    <string name="ringtone_comingcall">Set as Default Call</string>
+    <string name="ringtone_set">ringtone set</string>
+    <string name="ringtone_set_success">Ringtone set successful</string>
+    <string name="ifShowHiddenFile">Show hidden files</string>
+    <string name="remember_my_choice">Remmember my choice</string>
+    <string name="oneKeyCleanEmptyFolder">One key clear all empty folders</string>
+    <string name="oneKeyCleanEmptyFolder_detail">clearn all unused empty folders in your SD card,all apps out-of-date ones are within targets</string>
+    <string name="oneKeyCleanEmptyFolder_sure">This will remove all empty directoris under your SDcard Path, include third party app\'s generated folders,sure to perform?</string>
+    <string name="oneKeyCleanEmptyFolder_result_hint">%s folders done removed!</string>
+    
+    <string name="filtersize_pic_level">Larger than %s </string>
+    <string name="setup">setup</string>
+    <string name="music_default_album">music</string>
+    <string name="music_unknown">unknown</string>
+    <string name="music_album">album</string>
+    <string name="music_artist">artist</string>
+    <string name="menu_file_sort">file sort</string>
+    <string name="longtime_update">it will take several minutes to update %s info.please wait</string>
+    <string name="detail_album">album：</string>
+    <string name="detail_artist">artist：</string>
+    <string name="i_got_it">I got it</string>
+    <string name="cannt_find_matched_result">Cannt find matched result</string>
+    <string name="menu_onekeyclean">Clean Empty Directories</string>
+    <string name="operate">More</string>
+    <string name="prefer_memory">To phone memory</string>
+    <string name="prefer_sdcard">To SD card</string>
+    <string name="prefer_system">I don\'t care</string>
+    <string name="donot_show_it_again">Don\'t show it again</string>
+    <string name="setupto">Location</string>
+    <string name="unexpectedlyStop">Setup interupted cause unexpectedly exition</string>
+    <string name="cleanstarted">Clean Begin</string>
+    <string name="cleanfinished">Clean Finished</string>
+    <string name="cleancount">%s folders clean done</string>
+    <string name="click_more_detail">Click for more detail</string>
+    <string name="click_hide_detail">Hide detail</string>
+    <string name="show_hidden_file">Show hidden files</string>
+    <string name="file_name">File Name</string>
+    <string name="dont">Don\'t</string>
+    <string name="menu_my_pic_size">My pic size</string>
+    <string name="filter_pic_size">Filter pic by size</string>
+    
+    <string name="batch_install">Install selected apks</string>
+    <string name="cancel_install">Cancel select</string>
+    <string name="directory">directory</string>
+    <string name="file">file</string>
+    <string name="prohibetRepeatingExectuing">Apks being installed...wait a minute</string>
+    <string name="install_stoped_by_app_exit">Installation stopped</string>
+
+    <!-- <string name="added_favorite">Added to Favorites</string> -->
+    <string name="category_all">All</string>
+    <string name="category_apk">Apks</string>
+    <string name="category_document">Docs</string>
+    <!-- <string name="category_favorite">Favorites</string> -->
+    <string name="category_music">Music</string>
+    <string name="category_other">Misc</string>
+    <string name="category_picture">Pictures</string>
+    <string name="category_theme">Themes</string>
+    <string name="category_video">Videos</string>
+    <string name="category_zip">Zips</string>
+    <string name="confirm">OK</string>
+    <string name="confirm_know">OK</string>
+    <string name="error_info_cant_send_folder">Unable to send the folder</string>
+    <string name="fail_to_create_folder">Failed to create the folder</string>
+    <string name="fail_to_rename">Failed to rename the file or folder</string>
+    <string name="file_info_canread">Readable:</string>
+    <string name="file_info_canwrite">Writable:</string>
+    <string name="file_info_ishidden">Hidden:</string>
+    <string name="file_info_location">Path:</string>
+    <string name="file_info_modified">Modified:</string>
+    <string name="file_info_size">Size:</string>
+    <string name="file_size">%d Bytes</string>
+    <string name="install_failed">Installation failed</string>
+    <string name="install_successful">Installation successful</string>
+    <string name="menu_item_sort">Sort by</string>
+    <string name="menu_item_sort_date">Date</string>
+    <string name="menu_item_sort_name">Name</string>
+    <string name="menu_item_sort_size">Size</string>
+    <string name="menu_item_sort_type">Type</string>
+    <string name="new_folder_name">New folder</string>
+    <string name="no_file">No files</string>
+    <string name="operation_cancel">Cancel</string>
+    <string name="operation_cancel_selectall">Deselect All</string>
+    <string name="operation_copy">Copy</string>
+    <string name="operation_copy_path">Copy file path</string>
+    <string name="operation_create_folder">New folder</string>
+    <string name="operation_create_folder_message">Enter folder name</string>
+    <string name="operation_delete">Delete</string>
+    <string name="operation_delete_confirm_message">Confirm Deletion?</string>
+    <string name="operation_hide_sys">Hide hidden files</string>
+    <string name="operation_info">Details</string>
+    <string name="operation_move">Move</string>
+    <string name="operation_moving">Moving...</string>
+    <string name="operation_paste">Paste</string>
+    <string name="operation_pasting">Pasting...</string>
+    <string name="operation_refresh">Refresh</string>
+    <string name="operation_rename">Rename</string>
+    <string name="operation_rename_message">Enter a new name</string>
+    <string name="operation_selectall">Select All</string>
+    <string name="operation_send">Send</string>
+    <string name="operation_show_sys">Show hidden files</string>
+    <string name="sd_folder">SD card</string>
+    <string name="search_hint">Search Files</string>
+    <string name="search_title">Search Files</string>
+    <string name="start_server">Start Service</string>
+    <string name="stop_server">Stop Service</string>
+    <string name="storage_warning">External storage is not available or cannot be read</string>
+    <string name="dialog_select_type">Select file type</string>
+    <string name="dialog_type_text">Text</string>
+    <string name="dialog_type_audio">Audio</string>
+    <string name="dialog_type_video">Video</string>
+    <string name="dialog_type_image">Image</string>
+    <string name="multi_select_title">Selected <xliff:g id="number">%1$s</xliff:g> item(s)</string>
+    <string name="menu_setting">Preferences</string>
+    <string name="menu_exit">Exit</string>
+    <string name="preference_title">General Settings</string>
+    <string name="pref_primary_folder">Home folder</string>
+    <string name="pref_read_root">Read root</string>
+    <string name="pref_show_real_path">Display real path</string>
+    <string name="default_primary_folder">/mnt/sdcard2</string>
+    <string name="pref_primary_folder_summary">The folder that appears when the app starts, and current value is <xliff:g id="string">%1$s</xliff:g></string>
+    <string name="pref_show_real_path_summary">Show real path in navigation bar</string>
+    
+    <!-- Search Strings -->
+    <!-- <string name="app_name">Search</string> -->
+    <string name="app_name1">Search</string>
+    <string name="app_setting">Search setting</string>
+    <string name="app_setting_info">Searchable item</string>
+    <string name="app_setting_about">About</string>
+    
+    <string name="system_app">System program</string>
+    <string name="user_app">Application program</string>
+    <string name="system_setting">System setting</string>
+    
+    
+    <string name="web_search">Internet search</string>
+    <string name="app_search">Application search</string>
+    
+    <!-- <string name="find_no_associated_app">Can not find related program!</string> -->
+    <string name="enter_app_error_prefix">This</string>
+    <string name="enter_app_error_suffix">无法打开</string>
+    
+	<string name="web_search_prefix">Search from Internet "</string>
+   	<string name="web_search_suffix">" Related information</string>
+    
+	<string name="app_search_prefix">Search from Internet "</string>
+   	<string name="app_search_suffix">" Related applications</string>
+   	
+	<string name="select_browser">Search browser</string>
+   	<string name="choose_browser">Choose browser</string>
+
+   	
+   	<string name="info_setting_message">Message</string>
+   	<string name="info_setting_message_str">Message content</string>
+   	
+   	<string name="info_setting_app">Application</string>
+   	<string name="info_setting_app_str">Installed applications</string>
+   	
+   	<string name="info_setting_image">Image</string>
+   	<string name="info_setting_image_str">Picture</string>
+   	
+   	<string name="info_setting_contact">Contact</string>
+   	<string name="info_setting_contact_str">Contacter information</string>
+   	
+   	<string name="info_setting_music">Music Player</string>
+   	<string name="info_setting_music_str">Music files</string>
+   	
+   	<string name="info_setting_setting">System setting</string>
+   	<string name="info_setting_setting_str">Detail setting page</string>
+   	
+   	<string name="info_setting_file">Local</string>
+   	<string name="info_setting_file_str">Other local files</string>
+   	
+   	<string name="no_default_browser">No default browser</string>   	
+
+    <string name="rom_size">System Storage: <xliff:g id="total_size">%1$s</xliff:g></string>
+    <string name="rom_available">Available: <xliff:g id="available_size">%1$s</xliff:g></string>
+    <string name="sd_card_size">SD Card: <xliff:g id="total_size">%1$s</xliff:g></string>
+    <string name="sd_card_available">Available: <xliff:g id="available_size">%1$s</xliff:g></string>
+    <string name="external_sd_card_size">SD Card: <xliff:g id="total_size">%1$s</xliff:g></string>
+    <string name="external_sd_card_available">Available: <xliff:g id="available_size">%1$s</xliff:g></string>
+    <string name="internal_sd_card_size">Internal Storage: <xliff:g id="total_size">%1$s</xliff:g></string>
+    <string name="internal_sd_card_available">Available: <xliff:g id="available_size">%1$s</xliff:g></string>
+    <string name="usb_otg_card_size">USB Storage: <xliff:g id="total_size">%1$s</xliff:g></string>
+    <string name="usb_otg_card_available">Available: <xliff:g id="available_size">%1$s</xliff:g></string>
+    <string name="hide_file">Hide files</string>
+    <string name="file_doesnt_exist">File does not exist</string>
+    <string name="file_deleted">Deleted</string>
+    <string name="file_pasted">Pasted</string>
+    
+    <string name="menu_select_sdcard">SD Card filter</string>
+    <string name="menu_show_internal_sdcard">Only show Internal Storage files</string>
+    <string name="menu_show_external_sdcard">Only show SDcard files</string>
+    <string name="menu_show_all_sdcard">Show All SDcard files</string>
+    <string name="tab_builtInsdcardlist">Internal Storage</string>
+    <string name="tab_externalsdcardlist">SD Card</string>
+    <string name="sdcard">SD Card </string>
+    <string name="built_in_sdcard">Internal Storage </string>
+    <string name="external_sdcard">SDCard</string>
+    <string name="hint_findFiles">Look for files</string>
+    
+    <string name="category_all_apk">All Apks</string>
+    <string name="category_all_document">All Documents</string>
+    <string name="category_all_music">All Music</string>
+    <string name="category_all_picture">All Pictures</string>
+    <string name="category_all_theme">All Themes</string>
+    <string name="category_all_video">All Videos</string>
+    <string name="theme_path">LEWA/theme</string>
+    
+    <string name="apk_installed">Installed</string>
+    <string name="apk_uninstalled">Uninstalled</string>
+    <string name="apk_installed_update">Update</string>
+    <string name="apk_version">Version: </string>
+    <string name="apk_installed_unknown">Unknow Status</string>
+    <string name="apk_version_unknown">Unknow Version</string>
+    <string name="operation_cleaning">Cleaning...</string>
+    <string name="filtersize_pic_title">Filter pictures by sizes</string>
+    <string name="atleast">larger than</string>
+    <string name="upperthan">KB</string>
+    <string name="filtersize_pic_summary">Filter pictures by sizes</string>
+    <string name="filtersize_pic_preference">0</string>
+    <string name="pic_exceed_max">The size exceed the max value.</string>
+    
+    <string name="size_index_01">Less than 500KB</string>
+    <string name="size_index_02">500KB - 1MB</string>
+    <string name="size_index_03">1MB - 5MB</string>
+    <string name="size_index_04">5MB – 10MB</string>
+    <string name="size_index_05">Larger than 10MB</string>
+    
+    <string name="date_index_01">Today</string>
+    <string name="date_index_02">Yesterday</string>
+    <string name="date_index_03">In one week</string>
+    <string name="date_index_04">In one month</string>
+    <string name="date_index_05">Much earlier</string>
+    <string name="name_index_head">#</string>
+    <string name="name_index_tail">Other</string>
+    <string name="space_limit">Storage is not enough for Pasting</string>
+    <string name="file_info_status">Status</string>
+    <string name="usbotg_title">USB OTG</string>
+    <string name="usbotg_name">USB OTG</string>
+       <string name="sdcard_io_error">Sdcard error</string>
+         <string name="FileListDateFormat">yyyy/MM/dd</string>
+</resources>

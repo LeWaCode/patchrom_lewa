@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="preview_icon_selected_width">250dip</dimen>
+    <dimen name="preview_icon_selected_height">445dip</dimen>
+    
+    <dimen name="theme_info_margin">42dip</dimen>
+    <dimen name="theme_info_space">42dip</dimen>
+    <dimen name="gallery_padingTop">30dip</dimen>
+    <dimen name="theme_grid_paddingTop">16dip</dimen>
+    <dimen name="theme_grid_padding">43dip</dimen>
+    <dimen name="theme_grid_spacing">22dip</dimen>
+    <dimen name="theme_image_height">165dip</dimen>
+    <dimen name="screen_width">426dip</dimen>
+    <dimen name="screen_height">640dip</dimen>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<com.lewa.launcher.FolderIcon
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true">
+    <LinearLayout android:id="@+id/folder_icon_zone"  
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal">
+        <LinearLayout android:id="@+id/preview_background"  
+            android:layout_width="@dimen/app_icon_size"
+            android:layout_height="@dimen/app_icon_size"
+            android:orientation="vertical"
+            android:padding="7dip">
+            <LinearLayout android:layout_width="fill_parent" 
+                android:layout_height="fill_parent" 
+                android:layout_weight="1.0">
+                <ImageView android:id="@+id/item1" style="@style/FolderCoverIcon"/>
+                <ImageView android:id="@+id/item2" style="@style/FolderCoverIcon"/>
+                <ImageView android:id="@+id/item3" style="@style/FolderCoverIcon"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" 
+                android:layout_height="fill_parent" 
+                android:layout_weight="1.0">
+                <ImageView android:id="@+id/item4" style="@style/FolderCoverIcon"/>
+                <ImageView android:id="@+id/item5" style="@style/FolderCoverIcon"/>
+                <ImageView android:id="@+id/item6" style="@style/FolderCoverIcon"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" 
+                android:layout_height="fill_parent" 
+                android:layout_weight="1.0">
+                <ImageView android:id="@+id/item7" style="@style/FolderCoverIcon"/>
+                <ImageView android:id="@+id/item8" style="@style/FolderCoverIcon"/>
+                <ImageView android:id="@+id/item9" style="@style/FolderCoverIcon"/>
+            </LinearLayout>
+        </LinearLayout>
+	    <TextView android:id="@+id/folder_icon_name"
+            style="@style/WorkspaceIcon"
+            android:layout_width="match_parent" />
+    </LinearLayout>
+    <ImageView android:id="@+id/app_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"         
+        android:visibility="invisible"
+        android:duplicateParentState="true"
+        android:src="@drawable/floating_selected" />
+    <TextView android:id="@+id/folder_unread"
+        style="@style/MsgHintAppearance" />
+</com.lewa.launcher.FolderIcon>

@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/mobiledataview_item_paddingbottom"
+    android:paddingTop="@dimen/mobiledataview_item_paddingtop" >
+
+    <TextView
+        android:id="@+id/percentage"
+        android:layout_width="40dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="@dimen/percentage_pading_top"
+        android:paddingLeft="2dip"
+        android:paddingRight="2dip"
+        android:drawableBottom="@drawable/bv_percent"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+
+    <com.lewa.birdview.widget.PercentageView
+        android:id="@+id/percentage_show"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:padding="1dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="1dp" />
+
+    <TextView
+        android:id="@+id/mb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="22dip"
+        android:layout_marginTop="6dip"
+        android:layout_toLeftOf="@id/percentage"
+        android:gravity="center"
+        android:paddingBottom="4dip"
+        android:text="@string/mb"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/mb"
+        android:layout_alignBottom="@id/mb"
+        android:gravity="right"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:maxLines="1"
+        />
+
+    <TextView
+        android:id="@+id/used"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/mb"
+        android:layout_below="@id/mb"
+        android:gravity="center"
+        android:text="@string/used"
+        android:textColor="@color/white"
+        android:textSize="12dp" />
+
+    <ImageView
+        android:id="@+id/online"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/used"
+        android:layout_marginRight="2dp"
+        android:layout_toLeftOf="@id/used"
+        android:src="@drawable/bv_clean_online" />
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <!-- To prevent the search view from getting the initial focus.  -->
+    <View
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="1px"
+        android:layout_height="1px" >
+        <requestFocus />
+    </View>
+    <SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:iconifiedByDefault="false"
+        android:inputType="textCapWords"
+        android:imeOptions="flagNoExtractUi|flagNoFullscreen|actionDone"
+         />
+
+</FrameLayout>
+
+

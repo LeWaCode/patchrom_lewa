@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="category_item_font">#505050</color>
+    <color name="list_title_item_font">#212121</color>
+    <color name="list_content_item_font">#3a3a3a</color>
+    <color name="image_corner">#ffffff</color>
+    <color name="loading_font">#888888</color>
+    <color name="color_000000">#000000</color>
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_111111">#111111</color>
+    <color name="color_222222">#222222</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_3a3a3a">#3a3a3a</color>
+    <color name="color_444444">#444444</color>
+    <color name="color_gray">#aaaaaa</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_d5d5d5">#d5d5d5</color>
+    <color name="bottom_drawable">#33b5e5</color>
+
+    <!-- drop down list header font color -->
+    <color name="drop_down_list_header_font_color">#000000</color>
+    <!-- drop down list header second font color -->
+    <color name="drop_down_list_header_second_font_color">#000000</color>
+    <!-- drop down list footer font color -->
+    <color name="drop_down_list_footer_font_color">#000000</color>
+</resources>

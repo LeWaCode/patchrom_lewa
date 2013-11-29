@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="preview_icon_selected_width">200dip</dimen>
+    <dimen name="preview_icon_selected_height">333dip</dimen>
+    <dimen name="gallery_padingTop">0dip</dimen>
+    <dimen name="theme_grid_padding">7dip</dimen>
+    <dimen name="theme_grid_spacing">5dip</dimen>
+    <dimen name="theme_grid_paddingTop">8dip</dimen>
+    <dimen name="theme_image_height">165dip</dimen>
+    <dimen name="fragment_margin">15dp</dimen>
+    <dimen name="icon_padding">25dp</dimen>
+    <dimen name="cell_width">120dp</dimen>
+    <dimen name="cell_height">120dp</dimen>
+    <dimen name="gap_vertical">10dp</dimen>
+    <dimen name="gap_horizontal">15dp</dimen>
+    <dimen name="screen_width">320dip</dimen>
+    <dimen name="screen_height">480dip</dimen>
+    <dimen name="thumb_disp_width">78dip</dimen>
+    <dimen name="thumb_disp_height">128dip</dimen>
+    <dimen name="widget_layout_margin_bottom">3dp</dimen>
+    <dimen name="widget_tv_margin_top">0dp</dimen>
+    <dimen name="widget_tv_size">13sp</dimen>
+    <dimen name="modify_wallpapaer_padding">8dip</dimen>
+    <dimen name="theme_detail_padding">20dip</dimen>
+    <dimen name="modify_wallpaper_height">144dip</dimen>
+    <dimen name="modify_wallpaper_fl_width">78dip</dimen>
+    <dimen name="modify_wallpaper_fl_height">128dip</dimen>
+    <dimen name="modify_wallpaper_fl_bottom">8dip</dimen>
+    <dimen name="modify_wallpaper_fl_top">8dip</dimen>
+    <dimen name="modify_wallpaper_fl_left">4dip</dimen>
+    <dimen name="modify_wallpaper_text_left">22dip</dimen>
+    <dimen name="modify_wallpaper_text_size">16sp</dimen>
+    <dimen name="onekey_wallpaper_remoteview_font_size">13sp</dimen>
+    <dimen name="onekey_wallpaper_remoteview_gap">0dp</dimen>
+</resources>

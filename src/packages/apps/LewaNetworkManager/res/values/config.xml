@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array translatable="false" name="iface_wifi">
+        <item>wlan+</item>
+    </string-array>
+    <string-array translatable="false" name="iface_mobile">
+        <item>ccmni+</item>
+        <item>rmnet+</item>
+    </string-array>
+    <integer name="default_tab">1</integer>
+</resources>

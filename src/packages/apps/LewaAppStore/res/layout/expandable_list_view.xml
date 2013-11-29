@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExpandableListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/expandable_list_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/list_divider_holo_light"
+    android:drawSelectorOnTop="false"
+    android:paddingLeft="@dimen/list_padding_left"
+    android:paddingRight="@dimen/list_padding_right"
+    android:scrollbarStyle="outsideOverlay" />

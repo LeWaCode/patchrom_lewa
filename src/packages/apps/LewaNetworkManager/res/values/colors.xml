@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#00a6ec</color>
+    <color name="shadow">#22000000</color>
+    <color name="indicator">#ffd84848</color>
+    
+    <color name="window_bg_start">#00000000</color>
+    <color name="window_bg_end">#0a000000</color>
+
+    <color name="gradient_start">#90ffffff</color>
+    <color name="gradient_center">#90ffffff</color>
+    <color name="gradient_end_outer">#90e0e0e0</color>
+    <integer name="gradient_centerX">70</integer>
+    
+    <color name="text_summary">@android:color/tertiary_text_dark</color>
+    <color name="text_widget">@lewa:color/android_background_holo_dark</color>
+    <color name="text_shadow">#80eeeeee</color>
+    <color name="text_title">#444444</color>
+</resources>

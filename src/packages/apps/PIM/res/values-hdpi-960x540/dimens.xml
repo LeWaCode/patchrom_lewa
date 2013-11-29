@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_grid_layout_button_width">160px</dimen>
+    <dimen name="button_grid_layout_button_height">60dip</dimen>
+
+    <dimen name="dialpad_additional_button_width">160px</dimen>
+    <dimen name="dialpad_additional_button_height">94px</dimen>
+
+    <dimen name="dialer_search_list_view_min_height">260px</dimen>
+    <dimen name="dialer_search_list_view_max_height">595px</dimen>
+
+    <dimen name="dialpad_divider_height">24dip</dimen>
+    <dimen name="dialpad_divider_width">1dip</dimen>
+    
+    <!-- begin, single_hand -->
+    <dimen name="dialpad_under_buttons_padding">15.5dip</dimen>
+    <dimen name="dialpad_under_buttons_line_height">1dip</dimen>           
+    <!-- end -->        
+    
+    <!-- jxli -->
+    <dimen name="prompt_import_layout_bottom">60dip</dimen>
+    <dimen name="prompt_dual_control_x">160dip</dimen>
+    <dimen name="prompt_dual_control_y">216dip</dimen>
+    <!-- end -->
+	
+	<!-- begin, mms -->
+    <dimen name="contact_detail_head_height">225dip</dimen>
+    <dimen name="conversation_detail_head_height">142dip</dimen>
+    <dimen name="conversion_list_item_height">80dip</dimen>
+    <dimen name="contact_detail_head_height_correction_value">-2dip</dimen>         
+    <!-- end -->  	
+</resources>

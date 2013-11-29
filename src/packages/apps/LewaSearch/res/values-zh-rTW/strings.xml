@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">搜尋</string>
+    <string name="app_setting">搜尋設置</string>
+    <string name="app_setting_info">可搜尋項</string>
+    <string name="app_setting_about">關於</string>
+    
+    <string name="system_app">系統程序</string>
+    <string name="user_app">應用程序</string>
+    <string name="system_setting">系統設置</string>
+    
+    
+    <string name="web_search">網絡搜尋</string>
+    <string name="app_search">應用搜尋</string>
+    
+    <string name="find_no_associated_app">找不到關聯的程序</string>
+    <string name="enter_app_error_prefix">該</string>
+    <string name="enter_app_error_suffix">無法打開</string>
+    
+    <string name="web_search_prefix">從網絡上搜尋“</string>
+   	<string name="web_search_suffix">”相關信息</string>
+    
+    <string name="app_search_prefix">從網絡上搜尋“</string>
+   	<string name="app_search_suffix">”相關應用</string>
+   	
+   	<string name="select_browser">搜尋瀏覽器</string>
+   	<string name="choose_browser">選擇默認搜索瀏覽器</string>
+   	
+   	<string name="info_setting_message">信息</string>
+   	<string name="info_setting_message_str">信息的文本</string>
+   	
+   	<string name="info_setting_app">應用程序</string>
+   	<string name="info_setting_app_str">已安裝的應用程序</string>
+   	
+   	<string name="info_setting_image">圖片</string>
+   	<string name="info_setting_image_str">圖片文件</string>
+   	
+   	<string name="info_setting_contact">聯繫人</string>
+   	<string name="info_setting_contact_str">聯繫人名稱</string>
+   	
+   	<string name="info_setting_music">音樂播放器</string>
+   	<string name="info_setting_music_str">音樂文件</string>
+   	
+   	<string name="info_setting_setting">系統設置</string>
+   	<string name="info_setting_setting_str">具體設置頁面</string>
+   	
+   	<string name="info_setting_file">本地</string>
+   	<string name="info_setting_file_str">本地其他文件</string>
+   	
+   	<string name="no_default_browser">未設置用於網路搜索的默认裝瀏覽器</string>
+   	
+   	<string name="sdcard_status_changed_title">存儲卡當前不可用</string>
+   	<string name="sdcard_status_changed_msg">存儲卡不存在或處于數據存儲模式</string>
+   	<string name="type_ok">確定</string>
+   	<string name="no_browser">未安裝瀏覽器</string>
+</resources>

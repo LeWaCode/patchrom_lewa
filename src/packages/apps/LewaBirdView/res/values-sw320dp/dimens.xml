@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- scrollview_item -->
+	<dimen name="scrollview_item_icon_width">48dp</dimen>
+	<dimen name="scrollview_item_icon_paddingtop">10dp</dimen>
+	<dimen name="scrollview_item_lock_width">10dp</dimen>
+	<dimen name="scrollview_item_lock_paddingtop">8dp</dimen>
+	
+	<dimen name="scrollview_fadingEdgeLength">25dp</dimen>
+	
+	<dimen name="scrollview_item_width">80dp</dimen>
+	<dimen name="scrollview_width">150dip</dimen>
+	<dimen name="widget_width">180dip</dimen>
+		<dimen name="widget_margin_top">50dip</dimen>
+	<dimen name="widget_width_pading_right">10dip</dimen>
+	<dimen name="clean_pading_left">13dip</dimen>
+	<dimen name="clean_pading_bottom">18dip</dimen>
+	
+	<dimen name="percentage_pading_top">9dip</dimen>
+</resources>

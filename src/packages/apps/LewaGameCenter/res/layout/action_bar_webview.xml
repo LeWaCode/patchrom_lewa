@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal" >
+
+    <include
+        android:id="@+id/seprator_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginRight="0dip"
+        android:layout_marginTop="5dip"
+        layout="@layout/action_bar_seprator" />
+
+    <ImageButton
+        android:id="@+id/update_button"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/seprator_line"
+        android:contentDescription="@string/image_content"
+        android:src="@drawable/title_menu_update" />
+
+    <ImageButton
+        android:id="@+id/search_button"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/update_button"
+        android:contentDescription="@string/image_content"
+        android:drawableLeft="@drawable/title_menu_search"
+        android:src="@drawable/title_menu_search" />
+
+</RelativeLayout>

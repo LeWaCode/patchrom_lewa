@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title"
+    android:layout_width="fill_parent"
+    android:layout_height="50dip"
+    android:background="@drawable/weather_wh_title_bg" >
+
+    <ImageView
+        android:id="@+id/title_right_button"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/weather_button_selector"
+        android:scaleType="center"
+        android:src="@drawable/weather_locate" >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/title_left_button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/title_right_button"
+        android:scaleType="center"
+        android:src="@drawable/weather_v_line" >
+    </ImageView>
+
+    <Button
+        android:id="@+id/title_text_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dip"
+        android:background="@null"
+        android:drawablePadding="8dip"
+        android:gravity="left|center_vertical"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20dip">
+    </Button>
+
+    <ImageView
+        android:id="@+id/here_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/title_text_button"
+        android:layout_marginLeft="10dip"
+        android:scaleType="center"
+        android:src="@drawable/weather_here"
+        android:visibility="gone" >
+    </ImageView>
+
+</RelativeLayout>

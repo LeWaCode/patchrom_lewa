@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <LinearLayout 
+        android:id="@+id/eqChooseLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dip"
+        android:layout_marginRight="4dip"
+        android:orientation="vertical">        
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dip"
+            android:layout_marginTop="4dip"
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+            android:id="@+id/current_eq_hint"
+            android:text="@string/eq_current"/>
+        
+        <Spinner 
+            android:id="@+id/eqChoose"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_below="@+id/current_eq_hint"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:drawSelectorOnTop="true" />       
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/volSet"
+        android:layout_below="@+id/eqChooseLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="0dip"        
+        android:orientation="horizontal">
+        
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:src="@drawable/volume"/>
+        
+        <SeekBar 
+            android:id="@+id/volSetSeekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dip"
+            android:minHeight="3dip"
+            android:maxHeight="3dip"
+            android:thumb="@drawable/volume_seek_btn"
+            android:progressDrawable="@drawable/vol_seekbar"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/eqSet"
+        android:layout_below="@+id/volSet"        
+        android:layout_width="wrap_content"
+        android:layout_height="380dp"
+        android:layout_marginBottom="4dip"
+         android:gravity="center_vertical"
+        android:background="@drawable/eqseekbg"
+        android:orientation="horizontal" >
+
+        <com.lewa.player.ui.view.VerticalSeekBar
+            android:id="@+id/lowerSeekbar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="47dip"
+            
+            android:minHeight="3dip"
+            android:maxHeight="3dip"
+            android:progressDrawable="@drawable/eq_seekbar"
+            android:thumb="@drawable/eq_seek_btn" />
+
+        <com.lewa.player.ui.view.VerticalSeekBar
+            android:id="@+id/lowSeekbar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="51dip"
+            android:minHeight="3dip"
+            android:maxHeight="3dip"
+            android:progressDrawable="@drawable/eq_seekbar"
+            android:thumb="@drawable/eq_seek_btn" />
+
+        <com.lewa.player.ui.view.VerticalSeekBar
+            android:id="@+id/middleSeekbar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="56dip"
+            android:minHeight="3dip"
+            android:maxHeight="3dip"
+            android:progressDrawable="@drawable/eq_seekbar"
+            android:thumb="@drawable/eq_seek_btn" />
+
+        <com.lewa.player.ui.view.VerticalSeekBar
+            android:id="@+id/highSeekbar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="57dip"
+            android:minHeight="3dip"
+            android:maxHeight="3dip"
+            android:progressDrawable="@drawable/eq_seekbar"
+            android:thumb="@drawable/eq_seek_btn" />
+
+        <com.lewa.player.ui.view.VerticalSeekBar
+            android:id="@+id/higherSeekbar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="57dip"
+            android:minHeight="3dip"
+            android:maxHeight="3dip"
+            android:progressDrawable="@drawable/eq_seekbar"
+            android:thumb="@drawable/eq_seek_btn" />
+    </LinearLayout>
+    
+    <LinearLayout android:id="@+id/buttonPanel"
+        android:layout_below="@+id/eqSet"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:minHeight="48dip"
+        android:orientation="vertical"
+        android:divider="?android:attr/dividerHorizontal"        android:showDividers="beginning"
+        android:dividerPadding="0dip"
+        android:layout_alignParentBottom="true">
+        
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:measureWithLargestChild="true">
+            <Button android:id="@+id/cancelButton"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dip"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:maxLines="1"                android:textSize="14sp"
+                android:minHeight="48dip"
+                android:text="@android:string/cancel"
+                android:layout_height="wrap_content" />
+            <Button android:id="@+id/okayButton"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dip"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:minHeight="48dip"
+                android:textSize="14sp"
+                android:text="@android:string/ok"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

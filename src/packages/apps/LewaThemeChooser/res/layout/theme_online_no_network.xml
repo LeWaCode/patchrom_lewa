@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.lewa.themechooser.widget.PageGridView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/online_theme_grid"
+        android:layout_alignParentTop="true"
+        />
+
+    <com.lewa.themechooser.widget.LewaImageView
+        android:id="@+id/theme_err_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82.6dip"
+        android:src="@drawable/theme_err_img"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/theme_err_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/theme_err_img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13.3dip"
+        android:gravity="center"
+        android:singleLine="false"
+        android:text="@string/theme_err_msg_network"
+        android:textSize="16sp"
+        android:visibility="visible" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="@android:style/Widget.ProgressBar.Small.Inverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progress"
+        android:layout_centerInParent="true"
+        android:paddingLeft="10.0dip"
+        android:text="@string/theme_loading"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/theme_linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/theme_err_msg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dip"
+        android:orientation="vertical"
+        android:weightSum="2.0" >
+
+        <Button
+            android:id="@+id/theme_network_set_nonetwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:padding="20dp"
+            android:text="@string/theme_network_setting"
+            android:textSize="20sp"
+            android:singleLine="true"
+            android:layout_gravity="center"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/theme_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:padding="20dp"
+            android:text="@string/theme_refresh"
+            android:textSize="20.0sp"
+            android:singleLine="true"
+            android:layout_gravity="center"
+            android:visibility="visible" />
+    </LinearLayout>
+
+        <com.lewa.themechooser.widget.LewaImageView
+            android:id="@+id/iv_no_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/iv_error_padding"
+            android:gravity="center"
+            android:visibility="gone"
+            android:src="@drawable/theme_err_img" />
+
+        <TextView
+            android:id="@+id/theme_no_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/iv_no_data"
+            android:gravity="center"
+            android:singleLine="false"
+            android:text="@string/theme_no_data"
+            android:visibility="gone"
+            android:textSize="16sp" />
+
+</RelativeLayout>

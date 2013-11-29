@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/caculate_top_panel"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/caculate_top_height"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/memory_calculate_cache_bg"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/caculate_top_animation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/loading_animition"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:visibility="gone" />
+
+            <ProgressBar
+                android:id="@+id/loading_progressbar"
+                style="@style/MemoryProgressbar"
+                android:layout_width="40dip"
+                android:layout_height="40dip" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.76"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/calculate_status_summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/calculate_size"
+                android:textColor="#FFFFFF"
+                android:textSize="14dip"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cleanup_complete_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/caculate_top_panel"
+        android:orientation="vertical"
+        android:paddingLeft="12dip"
+        android:paddingRight="12dip" >
+
+        <TextView
+            android:id="@+id/clean_complete_size"
+            android:layout_width="match_parent"
+            android:layout_height="43dip"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7F000000"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/list_top_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cleanup_complete_view"
+        android:orientation="vertical"
+        android:paddingLeft="12dip"
+        android:paddingRight="12dip"
+        android:paddingTop="15dip" >
+
+        <TextView
+            android:id="@+id/clean_size_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="5dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FF33B5E5" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="#FF33B5E5" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/mainButton"
+        android:layout_width="168dp"
+        android:layout_height="58dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:text="@string/clean_btn_caculate_stop_summary"
+        android:textSize="12.5sp"
+         />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/mainButton"
+        android:layout_below="@id/list_top_view"
+        android:cacheColorHint="#00000000" />
+
+</RelativeLayout>

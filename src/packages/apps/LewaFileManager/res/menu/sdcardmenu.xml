@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/lewa_bt_folder_installed_normal" >
+    <item
+        android:id="@+id/menu_sort"
+        android:title="@string/menu_sort">
+        <menu>
+            <group
+                android:id="@+id/sort_check_group"
+                android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/menu_album_sort_artist"
+                    android:visibility="gone"
+                    android:title="@string/music_artist"/>
+                <item
+                    android:id="@+id/menu_cateogry_sort_name"
+                    android:checked="true"
+                    android:title="@string/menu_sort_name"/>
+                <item
+                    android:id="@+id/menu_cateogry_sort_size"
+                    android:title="@string/menu_sort_size"/>
+                <item
+                    android:id="@+id/menu_cateogry_sort_time"
+                    android:title="@string/menu_sort_time"/>
+                <item
+                    android:id="@+id/menu_cateogry_sort_type"
+                    android:title="@string/menu_sort_type"/>
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_new_dir"
+        android:title="@string/menu_new_dir"/>
+
+    <item
+        android:id="@+id/menu_refresh"
+        android:icon="@drawable/ic_refresh"
+        android:title="@string/menu_refresh"/>
+<!--        android:icon="@drawable/ic_menu_account_refresh"-->
+</menu>

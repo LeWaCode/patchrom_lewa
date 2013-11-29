@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="yellow">#FFF000</color>
+
+    <color name="orange">#ff9900</color>
+    <color name="deepcolor">#faaa5f</color>
+    <color name="shadowcolor">#333333</color>
+    <color name="naming">#ABABAB</color>
+    <color name="red">#FF0000</color>
+    <color name="background">#272727</color>
+    <color name="orange_yellow">#9b9ba0</color>
+
+    <drawable name="semi_black">#80000000</drawable>
+
+    <color name="remote_connect_text">#FFe78018</color>
+    <color name="remote_disconnect_text">#FF901821</color>
+
+    <color name="pagebg_color">#ebebeb</color>
+    <color name="home_2_0_color">#ececec</color>
+    <color name="default_text_color">#ff333333</color>
+    <color name="file_list_first_line_name_color">#ff333333</color>
+    <color name="file_list_first_line_num_color">#ff888888</color>
+    <color name="file_list_second_line_color">#ff888888</color>
+    
+    <color name="gray">#A6A6A0</color>    
+    
+    <!-- Search Colors  -->
+    <color name="main_text_color">#ff3b3b3b</color>
+    <color name="log_name">#ff262626</color>
+    <color name="log_number">#ff808080</color>
+    <color name="log_time">#ff808080</color>
+    <color name="dial_call_text">#ffffffff</color>
+    <color name="filter_text">#ff62cced</color>
+    <color name="transparent">#00000000</color>
+    <color name="highlight_blue">#ff007aff</color>
+
+    <!-- Activity background color -->
+    <drawable name="activity_background">#ffebebeb</drawable>
+    <drawable name="pim_detail_background">#ffebebeb</drawable>
+    <drawable name="pim_detail_content_background">#ffebebeb</drawable>
+    <drawable name="dialpad_view_background">#ffe2e2e2</drawable>
+    <drawable name="class_zero_background">#7f040000</drawable>
+    <drawable name="line_separator">#ff999999</drawable>
+    <drawable name="line_separator_with_translucent">#18999999</drawable>
+
+    <!-- Widget background -->
+    <drawable name="light_blue_background">#ffecfbff</drawable>
+    <drawable name="white_background">#ffffffff</drawable>
+    <color name="white_category">#ffffffff</color>
+    <drawable name="black_background">#ff000000</drawable>
+    <drawable name="softgrey_background">#ff181818</drawable>
+    <drawable name="lightgrey_background">#ff2f2f2f</drawable>
+
+    <!-- text color -->
+    <drawable name="text_color">#ffffffff</drawable>
+    <drawable name="text_color_red">#ffff0000</drawable>
+    <drawable name="text_color_black">#ff000000</drawable>
+    <drawable name="text_color_offwhite">#55ffffff</drawable>
+    <drawable name="text_color_green">#ff00ff00</drawable>
+    <drawable name="unavailable">#cbcbcb</drawable>
+
+    <!-- Chat "sent time" text background -->
+    <color name="timestamp_color">#bf000000</color>
+    <color name="timestamp_color_grey">#ffcccccc</color>
+
+    <!-- the background color used for unread conversation -->
+    <color name="unread_bgcolor">#ffffffff</color>
+    <color name="unread_bgcolor_dark">#ff333333</color>
+    <color name="read_bgcolor">#ffeeeeee</color>
+    <color name="read_bgcolor_black">#ff000000</color>
+    <color name="textColorIconOverlay">#fff</color>
+    <color name="textColorIconOverlayShadow">#000</color>
+    <color name="sect_secondary">#4fff</color>
+    <color name="quickcontact_disambig">#ebebeb</color>
+    <color name="quickcontact_disambig_divider">#18999999</color>
+    <color name="quickcontact_text_color">#ff515151</color>
+
+    <color name="edit_divider">#ff666666</color>
+    <color name="background_secondary">#ff202020</color>
+    <color name="pinned_header_background">#ff202020</color>
+
+    <color name="translucent_search_background">#cc000000</color>
+    <color name="itemview_label">#ff262626</color>
+    <color name="itemview_data">#ff808080</color>
+
+    <color name="text_color_kind_title">#ff007aff</color>
+    
+    <color name="activity_background">#ffebebeb</color>
+    <drawable name="bg_contactlistitem_header">#ff009be2</drawable>
+    <color name="bg_contactlistitem_divider">#ffc2c2c2</color>
+    <color name="scroll_text">#FF0098E2</color>
+    <drawable name="empty">@null</drawable>
+</resources>

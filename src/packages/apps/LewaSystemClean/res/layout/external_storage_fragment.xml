@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout 
+	        android:layout_width="@dimen/pieview_dimen"
+	        android:layout_height="@dimen/pieview_dimen"
+	        android:layout_marginTop="@dimen/pieview_top"
+	        android:layout_marginBottom="@dimen/pieview_bottom"
+	        android:layout_gravity="center"
+        >
+        <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/animator_bg1"
+	        android:layout_centerInParent="true"/>
+        <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/bg_mask"
+        android:layout_centerInParent="true"/>
+        <com.lewa.systemclean.storage.ExternalPieView
+            android:id="@+id/pieView"
+	        android:layout_width="@dimen/pieview_inner_dimen"
+	        android:layout_height="@dimen/pieview_inner_dimen"
+	        android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    
+	
+     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:id="@+id/textApplicationTitle"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:drawableLeft="@drawable/ic_application"
+        	android:text="@string/category_application"
+        	android:drawablePadding="@dimen/padding_medium"
+        	/>
+        <TextView 
+            android:id="@+id/textApplication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/storage_value_padding"
+            android:layout_marginBottom="@dimen/padding_medium"/>
+        
+         <TextView
+            android:id="@+id/textOthersTitle"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:drawablePadding="@dimen/padding_medium"
+        	android:drawableLeft="@drawable/ic_others"
+        	android:text="@string/category_others"/>
+        
+        <TextView 
+            android:id="@+id/textOthers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/storage_value_padding"/>
+     </LinearLayout>
+</LinearLayout>
+

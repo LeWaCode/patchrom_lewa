@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/fragment_padding_side"
+    android:layout_marginRight="@dimen/fragment_padding_side"
+    android:orientation="vertical"
+     >
+    <TextView
+        android:id="@+id/textCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:text="@string/data_config_title"
+        style="@style/Text.Title"/>
+</LinearLayout>

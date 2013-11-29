@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+    <FrameLayout
+        android:id="@+id/crop_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+            
+        <ImageView android:id="@+id/photo"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/drawable_default_sticker_photo"/>
+        
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+	        <view class="com.lewa.PIM.gallery2.GLRootView"
+	                android:id="@+id/gl_root_view"
+	                android:background="@null"
+	                android:layout_above="@+id/button_view"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content" 
+	                android:layout_marginTop="@dimen/contact_detail_cover_height"
+	                />
+	        
+	         <LinearLayout
+		            android:id="@+id/button_view"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:minHeight="48dip"
+		            android:orientation="vertical"
+		            android:divider="?android:attr/dividerHorizontal"
+		            android:layout_alignParentBottom="true"
+		            android:showDividers="beginning"
+		            android:background="#3f3f3f"
+		            android:dividerPadding="0dip">
+		            <LinearLayout
+			              android:layout_width="match_parent"
+			              android:layout_height="wrap_content"
+			              android:gravity="center_vertical"
+			              android:orientation="horizontal"
+			              android:background="#000000"
+			              style="?android:attr/buttonBarStyle">
+			              
+		             <Button android:id="@+id/crop_complete_btn"
+		                    android:layout_width="0dip"
+		                    android:layout_height="wrap_content"
+		                    android:layout_weight="1"
+		                    android:textColor="#ffffff"
+		                    android:textAppearance="?android:attr/textAppearanceMediumInverse"
+		                    android:text="@string/crop_complete"
+		                    style="?android:attr/buttonBarButtonStyle"
+		                />
+		          </LinearLayout>      
+		    </LinearLayout>
+        </RelativeLayout>
+        
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dip"
+            android:layout_marginLeft="15dip"
+            android:scaleType="center"
+            android:src="@drawable/bg_photo"
+            android:visibility="gone" />
+
+    </FrameLayout>
+    <!-- 
+    <LinearLayout
+            android:id="@+id/button_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dip"
+            android:orientation="vertical"
+            android:divider="?android:attr/dividerHorizontal"
+            android:layout_alignParentBottom="true"
+            android:showDividers="beginning"
+            android:dividerPadding="0dip">
+        
+          <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                style="?android:attr/buttonBarStyle"
+            >
+             <Button android:id="@+id/crop_complete_btn"
+                    android:layout_width="0dip"
+                    android:layout_height="48dip"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMediumInverse"
+                    android:text="@string/crop_complete"
+                    style="?android:attr/buttonBarButtonStyle"
+                />
+                
+         </LinearLayout>
+    </LinearLayout> -->
+    
+</RelativeLayout>

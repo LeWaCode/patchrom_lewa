@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label" msgid="6674495003718166674">ঘড়ি</string>
+    <string name="alarm_list_title" msgid="7589940465292950600">এলার্ম</string>
+    <string name="add_alarm" msgid="5976616107390962899">এলার্ম যোগ করুন</string>
+    <string name="menu_desk_clock" msgid="3241995064554071588">ডেস্ক ঘড়ি</string>
+    <string name="menu_edit_alarm" msgid="7204602994918829751"> এলার্ম সম্পাদনা করুন</string>
+    <string name="delete_alarm" msgid="3457780990646206817">এলার্ম মুছে ফেলুন</string>
+    <string name="enable_alarm" msgid="1834599140632142536">এলার্ম চালু করুন</string>
+    <string name="disable_alarm" msgid="5889378670229554109">এলার্ম বন্ধ করুন</string>
+    <string name="delete_alarm_confirm" msgid="4237696873219106907">এই এলার্মটি মুছে ফেলা হবে।</string>
+    <string name="show_clock" msgid="8358759982675616915">ঘড়ি দেখান</string>
+    <string name="hide_clock" msgid="3217727306480505694">ঘড়ি লুকান</string>
+    <string name="label" msgid="162189613902857319">লেবেল</string>
+    <string name="default_label" msgid="5590025289805630372">এলার্ম</string>
+    <string name="set_alarm" msgid="9148359866152726808">এলার্ম সেট করুন</string>
+    <string name="alarm_vibrate" msgid="3476686921490362230">কম্পন</string>
+    <string name="alarm_repeat" msgid="7242985466344233206">পুনরাবৃত্তি</string>
+    <string name="alert" msgid="6539852766423700221">রিংটোন</string>
+    <string name="time" msgid="8067216534232296518">সময়</string>
+    <string name="alarm_alert_dismiss_text" msgid="4942914605480888820">বাতিল করুন</string>
+    <string name="alarm_alert_alert_silenced" msgid="7918075929961104202"> <xliff:g id="minutes">%d</xliff:g> মিনিট পর এলার্ম নিশ্চুপ হয়ে যায়</string>
+    <string name="alarm_alert_snooze_text" msgid="1774416052207651584">স্নুজ</string>
+    <string name="alarm_alert_snooze_set" msgid="656470966696912087"> <xliff:g id="minutes">%d</xliff:g> মিনিট ধরে স্নুজ হবে।</string>
+    <string-array name="alarm_set">
+        <item msgid="5163476010406761625">এই এলার্ম এখন থেকে ১ মিনিটের কম সময়ের জন্য সেট করা হয়েছে।</item>
+        <item msgid="7110525731259629055">এই এলার্ম সেট করা হয়েছে এখন থেকে <xliff:g id="DAYS" example="2 days">%1$s</xliff:g>  দিনের জন্য।</item>
+        <item msgid="7003982794086186185">এই এলার্ম সেট করা হয়েছে এখন থেকে <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> জন্য।</item>
+        <item msgid="7311021123230077742">এই এলার্ম সেট করা হয়েছে এখন থেকে <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> এবং <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> জন্য।</item>
+        <item msgid="8431715191823114872">এই এলার্ম সেট করা হয়েছে এখন থেকে<xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g>জন্য।</item>
+        <item msgid="3244151088673185428">এই এলার্ম সেট করা হয়েছে এখন থেকে <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> এবং <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g>জন্য।</item>
+        <item msgid="3663661342600168814">এই এলার্ম সেট করা হয়েছে এখন থেকে <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> এবং <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> জন্য</item>
+        <item msgid="7779544127785487304">এই এলার্ম সেট করা হয়েছে এখন থেকে<xliff:g id="DAYS" example="2 days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>, এবং <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> জন্য।</item>
+    </string-array>
+    <string name="day" msgid="7984755014526510295">"১"</string>
+    <string name="days" msgid="2070509222727852210">"<xliff:g id="days">%s</xliff:g></string>
+    <string name="hour" msgid="2546819039651509323">১ ঘণ্টা</string>
+    <string name="hours" msgid="2071487018566991613"><xliff:g id="hours">%s</xliff:g>ঘণ্টা</string>
+    <string name="minute" msgid="2486157997434653710">"১ মিনিটের জন্য</string>
+    <string name="minutes" msgid="6115838729146292526">"<xliff:g id="minutes">%s</xliff:g> জন্য</string>
+    <string name="every_day" msgid="1058994798884544691">প্রতিদিন</string>
+    <string name="never" msgid="54104287800571769">কখনো নয়</string>
+    <string name="day_concat" msgid="971998564991636532">","</string>
+    <string name="clock_instructions" msgid="3118560284915857690">প্রদর্শনের জন্য একটি ঘড়ি নির্বাচন করুন</string>
+    <string name="analog_gadget" msgid="1670505720837152766">এনালগ ঘড়ি</string>
+    <string name="settings" msgid="5849739030579520686">সেটিং</string>
+    <string name="alarm_in_silent_mode_title" msgid="3892612644543516705">এলার্ম নিশ্চুপ মোডে আছে</string>
+    <string name="alarm_in_silent_mode_summary" msgid="6042500263899922832"> এলার্ম বাজান এমনকি ফোন যখন নিশ্চুপ মোডে থাকে তখনও</string>
+    <string name="snooze_duration_title" msgid="1471249885139952670">স্নুজের ব্যাপ্তিকাল</string>
+    <string-array name="snooze_duration_entries">
+        <item msgid="8337408933053603125">৫ মিনিট</item>
+        <item msgid="5294206441496024610">১০ মিনিট</item>
+        <item msgid="2165904039211935470">১৫ মিনিট</item>
+        <item msgid="7248236967714374250">২০ মিনিট</item>
+        <item msgid="738394723625179423">২৫ মিনিট</item>
+        <item msgid="1180222611308391616">৩০ মিনিট</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+        <item msgid="3655014754453084122">৫</item>
+        <item msgid="8939029597449573449">১০</item>
+        <item msgid="3922647341176353315">১৫</item>
+        <item msgid="5821804105985044459">২০</item>
+        <item msgid="6048861883552402852">২৫</item>
+        <item msgid="2740866721232379791">৩০</item>
+    </string-array>
+    <string name="done" msgid="6509722361933858451">সম্পন্ন</string>
+    <string name="revert" msgid="9100911171235162926">ফেরত যান</string>
+    <string name="delete" msgid="5732434972457000541">মুছুন</string>
+    <string name="alarm_volume_title" msgid="8506245173912428522">এলার্মের ভলিউম</string>
+    <string name="alarm_volume_summary" msgid="8957440373896242438">এলার্মের ভলিউম সেট করুন</string>
+    <string name="silent_alarm_summary" msgid="8605302849408279221">নিশ্চুপ</string>
+    <string name="alarm_notify_text" msgid="4146350965933990093">এই এলার্ম স্নুজ বা বাতিল করতে নির্বাচন করুন। </string>
+    <string name="alarm_notify_snooze_label" msgid="5404083762646377829"><xliff:g id="label">%s</xliff:g> (স্নুজ হয়েছে)</string>
+    <string name="alarm_notify_snooze_text" msgid="8004830999152609519"><xliff:g id="time">%s</xliff:g>এর জন্য এলার্ম সেট করা হয়েছে। বাতিলের জন্য নির্বাচন করা হয়েছে। </string>
+    <string name="volume_button_setting_title" msgid="8155275533660105161">ভলিউম এবং ক্যামেরা</string>
+    <string name="volume_button_dialog_title" msgid="8768042543750036853">বাটন ইফেক্ট</string>
+    <string name="volume_button_setting_summary" msgid="4776447991226047070">এলার্ম বাজার সময় চাপ দেয়া হলে এই বাটনগুলো কি করবে তা সেট করুন।</string>
+    <string-array name="volume_button_setting_entries">
+        <item msgid="4520420953175098625">কিছু নয়</item>
+        <item msgid="7111908302622811168">স্নুজ</item>
+        <item msgid="8573552194573068996">বাতিল</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item msgid="4851033050639608752">0</item>
+        <item msgid="3204893476515513084">1</item>
+        <item msgid="7687709558968154577">2</item>
+    </string-array>
+    <string name="alarm_button_description" msgid="740283647046258651">এলার্ম</string>
+    <string name="gallery_button_description" msgid="1151743663255257668">গ্যালারি</string>
+    <string name="music_button_description" msgid="1626593420810117999">মিউজিক</string>
+    <string name="nightmode_button_description" msgid="990894208217576381">ডিম</string>
+    <string name="home_button_description" msgid="3383859096809056157">লঞ্চার</string>
+    <string name="desk_clock_button_description" msgid="968868045496561043">ঘড়ি প্রদর্শন</string>
+    <string name="battery_charging_level" msgid="4391767951302394083"><xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+    <string name="weather_fetch_failure" msgid="7517010911981312358">আবহওয়ার তথ্য বর্তমানে পাওয়া যাচ্ছে না।</string>
+    <string name="menu_item_dock_settings" msgid="3524235151132971114">ডক সেটিং</string>
+    <string name="alarm_klaxon_service_desc" msgid="2153290655559916468">ডেস্কঘড়িতে সেট করা এলার্মের জন্য শব্দ প্লেব্যাক সেবা।</string>
+	<string name="power_on">বাতিল ও পাওয়ার চালু </string>
+	<string name="power_off">বাতিল ও পাওয়ার বন্ধ</string>
+	<string name="control_set_alarm">এলার্ম সেট করুন</string>
+    <string name="auto_silence_title">স্বয়ংক্রিয়-নীরবতা</string>  
+    <string name="auto_silence_summary">অ্যালার্ম 
+        <xliff:g id="minutes">%d</xliff:g> মিনিট পর নীরব হয়ে যাবে।
+    </string>  
+    <string-array name="auto_silence_entries"> 
+        <item>বন্ধ</item>  
+        <item>৫ মিনিট</item>  
+        <item>১০ মিনিট</item>  
+        <item>১৫ মিনিট</item>  
+        <item>২০ মিনিট</item>  
+        <item>২৫ মিনিট</item>  
+        <item>৩০ মিনিট</item> 
+    </string-array>  
+    <string name="default_ringtone_setting_title">ডিফল্ট রিংটোন হিসেবে সেট করুন</string>  
+    <string name="loading_ringtone">রিংটোন লোড হচ্ছে \u2026</string>
+</resources>
+

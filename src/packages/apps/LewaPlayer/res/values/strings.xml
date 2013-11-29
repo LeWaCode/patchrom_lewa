@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Music</string>
+    <string name="videobrowserlabel">Videos</string>
+    <string name="videos_title">Videos</string>
+    <string name="no_videos_title">No videos</string>
+    <string name="sdcard_missing_message">Your phone does not have an SD card inserted.</string>
+    <!-- Do not translate. Duration format for duration < 1 hour -->
+    <string translatable="false" name="durationformatshort"><xliff:g id="format">%2$d:%5$02d</xliff:g></string>
+    <!-- Do not translate. Duration format for duration >= 1 hour -->
+    <string translatable="false" name="durationformatlong"><xliff:g id="format">%1$d:%3$02d:%5$02d</xliff:g></string>
+    <string name="title_actionnow">Music</string>
+    <string name="title_mediaview">Playing</string>
+    <string name="title_lyricview">Album information</string>
+    <string name="tilte_playinglist">Playlists</string>
+    <string name="title_outer_playlist">Playlists</string>
+    <string name="title_outer_artist">Artists</string>
+    <string name="title_outer_album">Albums</string>
+    <string name="title_outer_alltrack">All Songs</string>
+    <string name="title_outer_genre">Genre</string>
+	<string name="title_playlist_create">New Playlist</string>
+	<string name="title_search_songs">Search songs</string>
+	<string name="music_setting">Settings</string>
+	<string name="setting_downInfo_summary">download singer information and album information</string>
+	
+	<string name="unknown_artist_name">Unknown artist</string>
+    <string name="unknown_album_name">Unknown album</string>
+    <string name="unknown_genre_name">Unknown genre</string>
+    <string name="fast_scroll_alphabet">\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="working_songs">Songs\u2026</string>
+    <string name="albumsongseparator">, </string>
+    <string name="working_albums">Albums\u2026</string>
+    <string name="working_artists">Artists\u2026</string>
+    <string name="songs_list">Song List</string>    
+    <string name="playlist_add">Add a new list</string>
+    <string name="playlist_add_list_cover_title">List cover art</string>
+    <string name="playlist_add_song">Song</string>
+    <string name="playlist_add_list_cover_sel">Select cover art for your list</string>
+    <string name="playlist_add_songs">Add songs</string>
+    <string name="menu_done">Done</string>
+    <string name="take_photo">Take photo</string>
+    <string name="pick_photo">Select photo from Gallery</string>
+    <string name="dialog_title_list_cover">Add list cover art</string>
+    <string name="title_add_songs">Add songs</string>
+    <string name="first_dialog_title">Welcome To The LeWa Music Player</string>
+    <string name="first_dialog_message">Please select your music folders</string>
+    <string name="dialog_positive">Yes</string>
+    <string name="dialog_negative">No</string>
+    <string name="setting_fade_title">Volume fade</string>
+    <string name="setting_fade_summary">Fade in and out when changing song</string>
+    
+    <string name="random_count_songs">21 songs</string>
+    <string name="play_selection">Play</string>
+    <string name="add_to_playlist">Add to playlist</string>
+    <string name="delete_item">Delete</string>
+    <string name="ringtone_menu">Set as ringtone</string>    
+    <string name="share_list">Share Playlist</string>
+    <string name="random_list_title">Random  List</string>
+    <string name="favourite_list_title">Most played</string>
+    <string name="confirm">OK</string>
+    <string name="delete_confirm_button_text">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="queue">Now playing list</string>
+    <string name="new_playlist">New</string>
+    <string name="create_playlist_create_text_prompt">Playlist Name</string>
+    <string name="create_playlist_create_text">Save</string>
+    <string name="create_playlist_overwrite_text">Overwrite</string>
+    <string name="new_playlist_name_template">New Playlist <xliff:g id="number">%d</xliff:g></string>
+    <string name="search_bar_hint_song">Search songs</string>
+    <string name="playlist_songs">songs</string>
+    <string name="playlist_deleted_message">Playlist deleted</string>
+    <string name="photoPickerNotFoundText">No pictures are available on the phone.</string>
+    <string name="description_playlist_cover">Playlist cover</string>
+    <string name="attachToPlaylist">Playlist cover</string>
+    <string name="use_photo_as_primary">Use this photo</string>
+    <string name="changePicture">Change icon</string>
+    <string name="removePicture">Remove icon</string>
+    <string name="title_dialog_xml">Delete</string> 
+    <string name="remove_from_playlist">Remove from playlist</string>
+    <string name="settings">Settings</string>
+    <string name="search">Search</string>
+    <string name="folder">Source</string>
+    <string name="remove_done">>Finished removing</string>
+    <string name="remove">remove</string>
+    <string name="goto_start">Library</string>
+    <string name="choose_folder">Filter the catalogue of small audio file manually</string>
+    <string name="select_folder">Select your music source</string>
+    <string name="no_network">Network not available</string>
+    <string name="download_lrc_off_hint">Get lyrics is off</string>
+    <string name="no_folder">Please select at least 1 folder</string>
+    <string name="synchron_title">Synchronize music</string>
+    <string name="synchron_message">Synchronizing music...</string>
+	<string name="edit_playlist">Edit</string>
+    <string name="no_matched_songs">No matched songs</string>
+    <string name="no_songs">No songs</string>
+    <string name="no_folders">No folders</string>
+    <string name="save_to_playlist">Save to playlist</string>
+    <string name="playlist_no_songs">Playlist has no songs</string>
+    <string name="save">Save</string>
+    <string name="menu_doNotSave">Cancel</string>
+    
+    <plurals name="Nsongs">
+        <!-- number of song is one -->
+        <item quantity="one">1 song</item>
+        <!-- number of song is not equal to one -->
+        <item quantity="other">%d songs</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <!-- number of albums is one -->
+        <item quantity="one">1 album</item>
+        <!-- number of albums is not equal to one -->
+        <item quantity="other">%d albums</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="one">1 song added to playlist</item> 
+        <item quantity="other"><xliff:g id="number">%d</xliff:g> songs added to playlist</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="one">1 song was deleted.</item>
+        <item quantity="other"><xliff:g id="songs_to_delete">%d</xliff:g> songs were deleted</item>
+    </plurals>
+    
+    <string name="delete_song_desc">\"<xliff:g id="song">%s</xliff:g>\" will be permanently deleted from the SD card</string>
+    <string name="delete_song_desc_nosdcard"><xliff:g id="song">%s</xliff:g> will be permanently deleted from USB storage</string>
+
+    <string name="ringtone_set">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" set as phone ringtone.</string>
+    <string name="delete_album_desc">The entire album \"<xliff:g id="album">%s</xliff:g>\" will be permanently deleted from the SD card</string>
+    <string name="delete_album_desc_nosdcard">The entire album \"<xliff:g id="album">%s</xliff:g>\" will be permanently deleted from USB storage</string>
+    	
+    <string name="delete_artist_desc">All songs by \"<xliff:g id="artist">%s</xliff:g>\" will be permanently deleted from the SD card</string>
+	<string name="delete_artist_desc_nosdcard">All songs by \"<xliff:g id="artist">%s</xliff:g>\" will be permanently deleted from USB storage</string>
+
+	<string name="delete_genre_desc">All songs in \"<xliff:g id="genre">%s</xliff:g>\" will be permanently deleted from the SD card</string>
+	<string name="delete_genre_desc_nosdcard">All songs in \"<xliff:g id="genre">%s</xliff:g>\" will be permanently deleted from USB storage</string>
+	<string name="setting_backlight_title">Always on</string>
+	<string name="setting_backlight_key">isbacklight</string>
+	<string name="setting_backlight_summary">Screen remains on while the song is playing</string>
+	<string name="setting_lewaid_title">LeWa ID</string>
+	<string name="setting_lewaid_key">lewaidkey</string>
+	<string name="setting_downimg_summary">Artist picture and album art</string>
+	<string name="setting_downlrc_title">Get lyrics</string>
+	   <string name="setting_downInfo_title">Download songs information</string>
+	<string name="setting_downlrc_summary">Get lyrics</string>
+	<string name="setting_downlrc_key">isdownlrc</string>
+	<string name="setting_downimg_title">Get artwork</string>
+	<string name="setting_downimg_key">isdownimg</string>
+	<string name="setting_downInfo_key">isdownInfo</string>
+	<string name="setting_flowhint_key">isflowhint</string>
+	<string name="setting_filtersongs_key">isfiltersongs</string>
+	<string name="setting_download_title">Download and Streaming</string>
+	<string name="setting_download_summary">WiFi Only</string>
+	<string name="setting_download_key">downloadmethod</string>
+	<string name="musicsettings">LeWa Player Settings</string>
+	<string name="setting_download">Download Setting</string>
+	<string name="setting_basic">Basic Setting</string>
+	<string name="file_filter">File Filter</string>
+	<string name="default_downloadmethod">0</string>
+
+	<string name="loadlrc">Loading......</string>
+	<string name="streamloadingtext">Streamload</string>
+	<string name="playback_failed">Unable to play music</string>
+	<string name="scanning_nosdcard">No SD card</string>
+	<string name="scanning">Scanning</string>
+	<string name="lrc_down_notfound">Lyrics not found</string>
+	<string name="repeat_mode_all">repeat all</string>
+	<string name="repeat_mode_one">repeating current song</string>
+	<string name="repeat_mode_off">repeat off</string>
+	<string name="shuffle_mode_on">shuffle on</string>
+	<string name="shuffle_mode_off">shuffle off</string>
+	<string name="about_title">About</string>
+	<string name="eq_setting_ok">OK</string>
+	<string name="eq_setting_cansl">Cancel</string>
+	<string name="eq_current">Current EQ:</string>
+	<string name="about">About LeWa Music Player</string>
+	<string name="id3_artist">Artist</string>
+	
+	<string name="id3_track">Title</string>
+	<string name="id3_album">Album</string>
+	<string name="memu_modifyID3">Edit Song Info</string>
+
+    <!-- Begin, added by zhumeiquan for ringtone picker, 20120228 -->
+	<string name="loading">Loading</string>
+	<string name="no_tracks_title">No songs</string>
+    <string name="sort_by_track">Tracks</string>
+    <string name="sort_by_album">Albums</string>
+    <string name="sort_by_artist">Artists</string>
+    <string name="music_picker_title">Select music track</string>
+    <!-- End -->
+    
+    <string name="nosd">SD card unmounted or unavaliable</string>
+    
+    <string name="playcurrent_failed">"<xliff:g id="TRACKNAME">%s</xliff:g>"cannot be played,format is not supported or file does not exist.</string>  
+	<string name="sleep_start">Sleep Timer</string>
+	<string name="sleep_close">close sleep timer</string>
+	<string name="sleep_tip">Please set the timer for stopping the player(in mins)</string>
+	<string name="sleep_set_ok">player will stop playing after %1$d minute(s)</string>
+	<string name="sleep_close_ok">Sleep timer stopped</string>
+	<string name="sleep_time_min">1</string>
+	<string name="sleep_time_max">90</string>
+	<string name="ok">OK</string>
+	<string name="sleep_set">%1$dmin(s)</string>
+	<string name="record">my record</string>
+	
+	<string name="setting_shake_title">Shake to skip</string>
+	<string name="setting_shake_summary">Shake phone to skip to the next track</string>
+	<string name="setting_shake_key">isshake</string>
+	<string name="shake_degree_title">Shake sensitivity</string>
+	<string name="shake_degree_summary">Adjust how much force is needed to skip songs</string>
+	<string name="shake_degree_key">shakedegree</string>
+	<string name="setting_fade_key">isfade</string>
+	<string name="shake_degree_gentle">Gentle</string>
+	<string name="shake_degree_easy"></string>
+	<string name="shake_degree_common"></string>
+	<string name="shake_degree_excited"></string>
+	<string name="shake_degree_force">Violent</string>
+	<string name="setting_show_spectrum">Show spectral View</string>
+	<string name="setting_show_spectrum_summary">Display the rhythm of the music beat, closed can improve performance</string>
+	<string name="setting_show_spectrum_key">isShowSpectrum</string>
+	   
+	<string name="id3_lable">Edit Song ID3</string>
+	<string name="more">More</string>
+	<string name="id3_empty">empty</string>
+	
+	<string name="click_to_shuffle">Shuffle play</string>
+	
+	<string name="search_bar_hint">Search songs</string>
+	<plurals name="NNNsearchsong">
+        <!-- number of song is one -->
+        <item quantity="one">find 1 song</item>
+        <!-- number of song is not equal to one -->
+        <item quantity="other">find %d songs</item>
+    </plurals>
+    
+    <string name="nosdcard_title">SD card unmounted</string>
+    <string name="nousb_title">USB storage unmounted</string>
+    <string name="emptyplaylist">Playlist is empty</string>
+    
+    <string name="unknownwidget">Unknown</string>
+    
+    <string name="setting_bg_title">Change background</string>
+	<string name="setting_bg_key">bgchanging</string>
+	
+	<string name="title_folder">Folders</string>
+	<plurals name="Nfolders">
+        <item quantity="one">1 folder</item>
+        <item quantity="other">%d folders</item>
+    </plurals>
+    
+    <string name="title_artist_alltrack">Songs</string>
+    <string name="title_artist_album">Albums</string>
+        <string name="title_artist_info">Infos</string>
+    <string name="eq_setting">Equalizer</string>
+    <string name="artist_blank">&#160;&#160;&#160;</string>
+    <string name="title_blank">&#160;&#160;&#160;</string>
+    <string name="music_exit">Exit</string>
+    <string name="download_menu">Get images</string>
+    <string name="downloading">Downloading&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="download_tip">WiFi not connected.If you continue,you may incur 3G data costs.\n\n Continue?</string>
+	<string name="set_network">Set network</string>
+	<string name="no_network_tip">no network connection,unable to get images</string>
+	<string name="getpicfinish"></string>
+    <string name="getpicbreak">stopped,</string>
+	<string name="download_finish"><xliff:g id="FINISHSTRING">%s</xliff:g>download <xliff:g id="TOTALCOUNT">%s</xliff:g> total images. <xliff:g id="ARTISTCOUNT">%s</xliff:g> Artist images, <xliff:g id="ALBUMCOUNT">%s</xliff:g> Album images.</string>
+	<string name="download_break_hint">Stop downloading images?</string>
+	
+	<string name="phone_no_songs">Your phone has no songs</string>
+	<string name="nowplaying_filter">The current songs are no longer selected in your music source</string>
+    <string name="refresh">Refresh</string>
+    <string name="title_artist_detail">Artist introduction</string>
+    <string name="album_releasedate">Issue date：</string>
+    <string name="album_intro">Album introduction:</string>
+    <string name="inland">mainland</string>
+    <string name="hk_tw">Hong Kong and Taiwan</string>
+    <string name="west">Europe</string>
+    <string name="japan_korea">Japan and South Korea</string>
+    <string name="other">other</string>
+    <string name="artist_area">area:</string>
+    <string name="artist_bloodtype">Blood type:</string>
+    <string name="artist_height">Height:</string>
+    <string name="artist_birthday">Birthday:</string>
+    <string name="artist_star">Star:</string>
+    <string name="artist_albumtotal">Album total:</string>
+    <string name="artist_company">Brokerage company:</string>
+    <string name="artist_intro">Artist introduction</string>
+    <string name="info_loading">Singer detail is coming~(@^_^@)~</string>
+    <string name="info_notfound">Singer detail not found-_-#</string>
+    <string name="info_neterror">Please check the network-_-!</string>
+    <string name="albumInfo">Album introduction</string>
+     <string name="artist_detail">Artist introduction</string>
+     <string name="notDownInfo">You chose not to download information(*^◎^*)</string>
+     <string name="music_online">Online music</string>
+     <string name="countless_songs">countless songs</string>
+     <string name="search_music">Search songs</string>
+     <string name="onlinedownload">download</string>
+     <string name="more_content">More content is wants to see you(*^◎^*)</string>
+     <string name="online_pause">pause</string>
+     <string name="online_newsongs_delivery">New songs</string>
+     <string name="ranklist">Ranking list</string>
+     <string name="hotsinger">Popularity singer</string>
+     <string name="hotalbums">Selected topic</string>
+     <string name="just_fifty">Only one hundred(⊙_⊙)</string>
+     <string name="five_onetime">One can only download five(∩_∩)</string>
+     <string name="downloaded">exist</string>
+     <string name="download_fail">Failed download</string>
+     <string name="sd_spaceerror">space_error</string>
+     <string name="more_content_loading">More content is loading</string>
+     <string name="just_fifity_artists">Only fifty(∩_∩)</string>
+     <string name="songs_loaded">Song finished loading</string>
+     <string name="online_downloading">progress</string>
+     <string name="special_info">Thematic information</string>
+     <string name="nonetworking">please check networking( T___T )</string>
+     <string name="not_in_wifi"> Currently not in wifi condition, into the online concert produce certain data flow.\n Sure to continue？</string>
+     <string name="enter_online_music">entry online music</string>
+     <string name="new_songs_rank">Baidu New songs ranklist</string>
+     <string name="hot_songs_rank">Baidu Hot songs ranklist</string>
+        
+     <string name="just_100_artists">Only one hundred(∩_∩)</string>
+        
+     <string name="url_notfound">Song ID not correct</string>
+     <string name="network_not_connect">network not connected</string>
+     <string name="set_firewall">Set networking access</string>
+     <string name="network_limited">Network restricted</string>
+     <string name="networking_limited">Network restricted( T___T )</string>
+     <string name="search_fail">sorry,your songs not found~(@^_^@)~</string>
+     <string name="enter_keys">Enter artist or song name</string>
+     <string name="flow_hint">flow hint</string>
+     <string name="filter_songs">Filter songs in one minute</string>
+     <string name="filter_songs_hint">Can filter out small audio file</string>
+     <string name="setting_flowhint_summary"> Download in data flow,popup window tip every time</string>
+     <string name="songs_download">Download songs</string>
+     <string name="Hearing_loss">If you want to reduce the risk of hearing loss,do not listen to music with high volume long time</string>
+     <string name="playlist_exists">Playlist already exists, please rename</string>
+     
+</resources>

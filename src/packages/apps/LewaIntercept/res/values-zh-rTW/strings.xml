@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">安全攔截</string>
+    <string name="init">初始化攔截數據</string>
+    <string name="reset">初始化夜間打擾模式</string>
+    <string name="app_title">安全攔截</string>
+    <string name="app_setting_name">攔截設定</string>
+    <string name="app_block_name">黑名單</string>
+    <string name="app_blocksms_name">短信攔截</string>
+    <string name="app_blockcall_name">電話攔截</string>
+    <string name="app_blockrule_name">攔截規則</string>
+    <string name="app_addblock_name">添加黑名單</string>
+    <string name="app_addwhite_name">添加白名單</string>
+    <string name="app_editblock_name">編輯</string>
+    <string name="app_msg_content_name">短信詳情</string>
+    <string name="app_blocktime_name">攔截時間</string>
+    <string name="intercept_mode_title">啟用攔截</string>
+    <string name="intercept_mode_summary">攔截黑名單里的聯系人</string>
+    <string name="intercept_rule">攔截規則</string>
+    <string name="intercept_time">攔截時間</string>
+    <string name="intercept_notification">攔截通知</string>
+    <string name="intercept_interruptPhone">攔截騷擾電話</string>
+    <string name="intercept_interruptPhone_summary">攔截響鈴一聲的陌生號碼</string>
+    <string name="intercept_time_allday">全天</string>
+    <string name="intercept_time_settingtime">設定時間</string>
+    <string name="intercept_time_startTime">開始時間</string>
+    <string name="intercept_time_endTime">結束時間</string>
+    <string name="intercept_blockmode_title">選擇攔截規則</string>
+    <string name="intercept_blacksmart">標准攔截</string>
+    <string name="intercept_blackname">攔截黑名單</string>
+    <string name="intercept_only_accept_whitelist">只接收白名單</string>
+    <string name="intercept_no">攔截陌生號碼</string>
+    <string name="intercept_nocontacts">攔截通訊錄及白名單以外的號碼</string>
+    <string name="intercept_allcall">攔截所有號碼</string>
+    <string name="intercept_blacksmart_summary">攔截黑名單，智能攔截陌生號碼信息</string>
+    <string name="intercept_blackname_summary">只攔截黑名單號碼的電話和短信</string>
+    <string name="intercept_whitelist_summary">會攔截除白名單號碼以外的電話和短信</string>
+    <string name="intercept_nocontacts_summary">攔截通訊錄以外所有號碼的電話和短信</string>
+    <string name="intercept_allcall_summary">攔截所有電話和信息</string>
+    <string name="intercept_blockcall">攔截電話</string>
+    <string name="intercept_blockmsg">攔截信息</string>
+    <string name="intercept_block_msgAndcall">攔截電話和短信</string>
+    <string name="intercept_btn_confirm">確定</string>
+    <string name="intercept_btn_cancel">取消</string>
+    <string name="intercept_cleardialog_title">清除</string>
+    <string name="intercept_cleardialog">即將清除%s</string>
+    <string name="intercept_cleardialog_block_content">黑名單</string>
+    <string name="intercept_cleardialog_msg_content">短信攔截列表</string>
+    <string name="intercept_cleardialog_call_content">電話攔截列表</string>
+    <string name="intercept_optionMenu">清除 %s</string>
+    <string name="intercept_recovery_about">衕時恢復相關數據</string>
+    <string name="intercept_recovery_msg">衕時恢復會話至短信列表</string>
+    <string name="intercept_recovery_call">衕時恢復會話至通話記錄</string>
+    
+    <string name="intercept_blockcalllist_emp">當前沒有通話攔截記錄</string>
+    <string name="intercept_blockmsglist_emp">當前沒有短信攔截記錄</string>
+    <string name="intercept_blocknamelist_emp">添加您要攔截的號碼</string>
+    <string name="intercept_white_namelist_emp">添加您信賴的號碼</string>
+    
+    <string name="block_num_out_of_all">攔截通訊錄和白名單以外的號碼</string>
+    <string name="intercept_setting_falied">設置失敗，請重新設置</string>
+    
+    
+    <string name="intercept_service_started">安全攔截正在保護您的手機安全</string>
+    <string name="intercept_service_label">安全攔截</string>
+    <string name="intercept_notification_text">已攔截 %1$s 條信息  %2$s 個電話</string>
+    <string name="intercept_unread_msg">已攔截：短信</string>
+    <string name="intercept_unseen_call">來電</string>
+    <string name="intercept_ringonce">響鈴一聲</string>
+    <string name="intercept_call">已攔截來電</string>
+    <string name="intercept_msg">已攔截短信</string>
+    
+<!--     added by yuzhijian 20120705 -->
+    <string name="add_to_white_name">添加到白名單</string>
+    <string name="add_to_black_name">添加到黑名單</string>
+    <string name="add_to_contacts">添加到通訊錄</string>
+    <string name="modify_black_name">修改黑名單</string>
+    <string name="modify_white_name">修改白名單</string>
+    <string name="msg_recovery_delete">刪除</string>
+    <string name="msg_recovery_add_toast">白名單中的來電和短信默認不攔截。是否將號碼 %S 添加到白名單？</string>
+    <string name="msg_recovery_delete_toast">號碼 %S 已存在於黑名單。是否將它從黑名單中刪除？</string>
+    <string name="msg_send_recovery_title">恢復</string>
+    <string name="msg_send_recovery_toast">是否將號碼 %s 的信息恢復到會話？</string>
+    <string name="dialog_item_byhand">手動添加</string>
+    <string name="dialog_item_from">從通訊記錄和聯系人添加</string>
+    <string name="app_sms_name">信息</string>
+    <string name="app_call_name">通話</string>
+    <string name="app_contact_name">聯系人</string>
+    <string name="app_import_black_name">添加黑名單</string>
+    <string name="app_import_white_name">添加白名單</string>
+    <string name="app_intercept_msg_delete_context">確定刪除整個會話記錄?</string>
+    <string name="app_intercept_msg_single_delete_context">將會刪除會話</string>
+    <string name="app_intercept_call_delete_context">將會刪除通話記錄</string>
+    <string name="app_intercept_delete_title">刪除</string>
+    <string name="intercept_call_data">已攔截：電話 %s</string>
+    <string name="intercept_msg_data">短信 %s</string>
+    <string name="addwhite_inwhite">號碼 %s 已存在於白名單。是否恢復該號碼的所有記錄？</string>
+    <string name="addwhite_inblack">號碼 %s 已存在於黑名單。確定刪除黑名單里重復的號碼？</string>
+    <string name="addwhite_ok">號碼 %s 已添加到白名單。是否恢復該號碼的所有短信記錄？</string>
+    <string name="addwhite_already_ok">號碼 %s 已添加到白名單。是否恢復該號碼的所有通話記錄？</string>
+    <string name="annoy_call">攔截騷擾電話</string>
+    <string name="ringonce_notice">陌生人來電第一聲響鈴靜音</string>
+    <string name="dialog_item_add2whitelist_also">衕時添加到白名單</string>
+    <string name="unknown">未知</string>
+   
+    <string name="twelve_hour_time_format">ah:mm</string>
+    
+    <string name="block_setting_start_time">07:00</string>
+    <string name="block_setting_end_time">23:00</string>
+    <string name="blocknumber">電話號碼</string>
+    <string name="block_prefix_number">攔截號碼段</string>
+    <string name="blockname">備注名稱(可選)</string>
+    <string name="blockmode">攔截模式</string>
+    <string name="edit_block">編輯</string>
+    <string name="hasblockwarning">不能添加相衕攔截號碼</string>
+    <string name="haswhitewarning">不能添加相衕白名單號碼</string>
+    <string name="setting_time_dialog_warning">開始時間不能比結束時間大或相等</string>
+    <string name="mode_prompt">攔截模式</string>
+    <string name="mode_check">至少選擇一項攔截模式</string>
+    <string name="unknowPhoneNum">未知號</string>
+    <string name="addBlockSuccessed">添加黑名單成功</string>
+    <string name="addBlockFailed">添加黑名單失敗</string>
+    <string name="noBlackName">請輸入黑名單電話號碼</string>
+    <string name="noWhiteName">請輸入白名單電話號碼</string>
+    <string name="delBlockSuccessed">刪除黑名單成功</string>
+    <string name="delBlockFailed">刪除黑名單失敗</string>
+    <string name="globalPhoneNumber_tip">請不要輸入非法字符</string>
+    <string name="modify_note">修改備注</string>
+    <string name="modify">修改</string>
+    
+    
+    <string name="app_white_name">白名單</string>
+    <string name="clear_menu_white_title">清除白名單</string>
+    <string name="white_adddialog_title">添加白名單</string>
+    <string name="white_number">白名單號碼</string>
+    <string name="white_name">白名單姓名</string>
+    <string name="input_white_name">請輸入白名單姓名</string>
+    <string name="input_white_number">請輸入白名單號碼</string>
+    <string name="white_btn_save">保存</string>
+    <string name="white_btn_cancel">取消</string>
+    <string name="guide_sms">導入聯系人的所有短信</string>
+    <string name="add_name_by_hand">手動添加</string>
+    <string name="add_name_from_calls">從通話記錄中添加</string>
+    <string name="add_name_from_constants">從聯系人中添加</string>
+
+    <string name="dialog_block_msg_title">信息選項</string>
+    <string name="dialog_block_call_title">通話選項</string>
+    <string name="send_message">發送短信</string>
+    <string name="make_call">撥打電話</string>
+    <string name="dialog_item_modify_remarks">編輯</string>
+    <string name="dialog_item_del_from_whitelist">從白名單刪除</string>
+    <string name="dialog_item_del_from_blacklist">從黑名單刪除</string>
+    <string name="send_to_whitelist">移動到白名單</string>
+    <string name="send_to_blacklist">移動到黑名單</string>
+    <string name="dialog_item_delete_msg">刪除</string>
+    <string name="dialog_item_delete_call">刪除</string>
+    <string name="recover_to_conversation">恢復到會話</string>
+    <string name="recover_to_call_conversation">恢復到通話記錄</string>
+    
+    <string name="menu_setting">設置</string>
+    <string name="menu_del_blacklist">清除黑名單</string>
+    <string name="menu_add_black">添加黑名單</string>
+    <string name="menu_clear_black">清空黑名單</string>
+    <string name="menu_add_black_prefix">添加黑名單號碼段</string>
+    <string name="menu_del_whitelist">清除白名單</string>
+    <string name="menu_add_white">添加白名單</string>
+    <string name="menu_clear_white">清空白名單</string>
+    <string name="menu_del_msglist">清除短信攔截列表</string>
+    <string name="menu_del_calllist">清除電話攔截列表</string>
+    
+    <string name="addWhiteSuccessed">添加白名單成功</string>
+    <string name="addWhiteFailed">添加白名單失敗</string>
+    
+    <string name="add2black_already_in_white">該規則已在白名單，繼續添加將刪除白名單中對應規則。是否繼續？</string>
+    <string name="add2white_already_in_black">該規則已在黑名單，繼續添加將刪除黑名單中對應規則。是否繼續？</string>
+
+    <string name="delete_selected_item">確認刪除所選號碼？</string>
+    <string name="dialog_tip">提示</string>
+    <string name="select">已選擇</string>
+    <string name="confirm_delete_select_msg_conversion">確認刪除%s個會話記錄？</string>
+    <string name="confirm_delete_select_call_conversion">確認刪除%s個通話記錄？</string>
+    <string name="confirm_recover_select_msg_conversion">確認恢復%s個會話至短信列表？</string>
+    <string name="confirm_recover_select_call_conversion">確認恢復%s個會話至通話記錄？</string>
+    <string name="confirm_to_add_to_whitelist">確認將號碼%s添加到白名單？</string>
+    <string name="confirm_to_delete_select_blackname">確認刪除%s個黑名單號碼?</string>
+    <string name="confirm_to_delete_select_whitename">確認刪除%s個白名單號碼?</string>
+    <string name="confirm_to_send_selected_to_whitename">確定將號碼%s移動到白名單?</string>
+    <string name="confirm_to_send_to_whitename">確定移動到白名單?</string>
+    <string name="confirm_to_send_selected_to_blackname">確定將號碼%s移動到黑名單?</string>
+    <string name="recover_all_info">衕時恢復會話和通話記錄至通訊錄列表</string>
+    <string name="import_all_info">衕時導入該號碼的所有會話和通話記錄</string>
+    <string name="confirm_to_send_to_blackname">確定移動到黑名單?</string>
+    <string name="import_msg">導入該號碼的所有短信</string>
+    <string name="import_call">導入該號碼的所有通話記錄</string>
+    <string name="intercept_not_open">未開啟</string>
+    <string name="msg_send_recovery">確定恢復會話到短信列表?</string>
+    <string name="call_send_recovery">確定恢復通話到通話記錄?</string>
+    <string name="setting">設置</string>
+    <string name="delete">刪除</string>
+    <string name="recover">恢復</string>
+    <string name="addblack_name">添加黑名單</string>
+    <string name="addWhite_name">添加白名單</string>
+    <string name="update_title">更新智能攔截庫</string>
+    <string name="update_message">當前智能攔截庫太舊，點擊確定更新</string>
+    <string name="confirm">確定</string>
+    <string name="cancel">取消</string>
+    <string name="noneedToUpdate">智能攔截庫已是最新，無需更新</string>
+    <string name="updating">正在更新智能攔截庫</string>
+    <string name="checking">正在檢查更新</string>
+    <string name="updateSuccess">更新成功</string>
+    <string name="noselectBlockMode">未選擇攔截模式,請選擇攔截電話或攔截短信</string>
+    <string name="selectBlockModePromt">親,至少選擇攔截電話/攔截短信中的一項</string>
+    <string name="networkError">網絡錯誤，請檢查網絡設置</string>
+    <string name="logo_notice">騰訊手機管家提供技朮支持</string>
+    <string name="intelligence_intercept_library_version">智能攔截庫版本: </string>
+    <string name="add_black_number_prefix_prompt">提示：將攔截此號碼開頭的號碼段，譬如輸入123，將攔截123開頭的所有號碼</string>
+    <string name="dialog_add_black_prefix">添加攔截號碼段</string>
+    <string name="dialog_add_black">添加攔截號碼</string>
+    <string name="block_type_number_default">攔截來電+短信</string>
+    <string name="block_type_number_call">只攔截來電</string>
+    <string name="block_type_number_msg">只攔截短信</string>
+    <string name="menu_actionbar_selected_items">已選擇%s 個</string>
+    <string name="select_all">全選</string>
+    <string name="operation_selectall">全選</string>
+    <string name="operation_cancel_selectall">取消全選</string>
+    <string name="number_fragment_title">黑白名單</string>
+    <string name="interceptinfo_fragment_title">攔截記錄</string>
+    <string name="setting_fragment_title">設置</string>
+    <string name="log_today">"今天"</string>
+    <string name="log_yesterday">"昨天"</string>
+    <string name="log_beforeyesterday">"更早"</string>
+    <string name="update_tone">哎呀~</string>
+    <string name="update_note_version">當前智能攔截庫%s已過時!</string>
+    <string name="update_notice">趕緊更新到最新版本：</string>
+    <string name="update_note_size">更新大小: %s</string>
+    <string name="recovering_to_msg_list">正在恢復到短信會話....</string>
+    <string name="recovering_to_calllog">正在恢復到通話記錄....</string>
+    <string name="title_unknown_number">未知號碼</string>
+    <string name="ic_more">更多</string>
+    <string-array name="modes_array">
+        <item>通話+短信攔截</item>
+        <item>通話攔截</item>
+        <item>短信攔截</item>
+    </string-array>
+
+    <string-array name="number_list">
+        <item>黑名單</item>
+        <item>白名單</item>
+    </string-array>
+
+    <string-array name="block_information_list">
+        <item>信息</item>
+        <item>來電</item>
+    </string-array>
+
+    <integer-array name="modes_array_int">
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+
+</resources>

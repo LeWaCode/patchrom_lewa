@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+       <string-array name="download_method">
+                <item>WIFI only</item>
+                <item>Allow all</item>
+       </string-array>
+       
+       <string-array name="download_method_value">
+                <item>0</item>
+                <item>1</item> 
+       </string-array>
+       
+       <string-array name="eq_genres">
+                <item>None</item>
+                <item>Common</item> 
+                <item>Classical</item>
+                <item>dance</item> 
+                <item>folk music</item>
+                <item>heavy metal</item> 
+                <item>hip hop</item>
+                <item>jazz</item> 
+                <item>Pop</item>
+                <item>Rock</item> 
+                <item>Custom</item>
+                 
+       </string-array>
+	<string-array name="bg_choise">
+		<item>Drops</item>
+		<item>Dream</item>
+		<item>Twilight</item>
+		<item>Amber</item>
+	</string-array>
+       
+	<string-array name="bg_choise_value">
+		<item>0</item>	
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+	<string-array name="shake_degree">
+	    <item >1.0f</item>
+	    <item >0.5f</item>
+	</string-array>
+    
+</resources>

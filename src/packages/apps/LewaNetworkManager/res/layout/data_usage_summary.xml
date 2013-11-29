@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/tabs_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        <com.lewa.netmgr.widget.FakeSimTab
+        android:id="@+id/sim_tab"
+        android:layout_margin="@dimen/fragment_padding_side"
+        android:paddingLeft="@dimen/item_padding_side"
+        android:paddingRight="@dimen/item_padding_side"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+        
+        <include layout="@layout/tab_widget"
+            android:layout_width="0dp"
+            android:layout_height="0dp" /> 
+
+        <!-- give an empty content area to make tabhost happy -->
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="0dip"
+            android:layout_height="0dip" />
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:scrollbarStyle="@integer/preference_fragment_scrollbarStyle"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:smoothScrollbar="false" />
+
+    </LinearLayout>
+
+</TabHost>

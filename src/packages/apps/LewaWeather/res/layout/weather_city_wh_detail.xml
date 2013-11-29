@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F0F1F2"
+    android:orientation="vertical" >
+
+    <com.lewa.weather.view.WeatherGallery
+        android:id="@+id/gallery"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/title"
+        android:fadeScrollbars="false"
+        android:fadingEdge="none"
+        android:scrollbars="none"
+        android:spacing="0dip" />
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/weather_weather_title_bar" />
+
+</RelativeLayout>

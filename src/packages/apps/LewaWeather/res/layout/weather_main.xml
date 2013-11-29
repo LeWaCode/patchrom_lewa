@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   >
+
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+      	android:layout_marginTop="10dp"
+        android:text="@string/weather_hot_city"
+        style="@lewa:style/Widget.Holo.Light.TextView.ListSeparator"
+        />
+    
+     
+
+     <ListView
+         android:id="@+id/city_list"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/titleText"
+         android:fadeScrollbars="false"
+         android:fadingEdge="none"
+         android:fadingEdgeLength="0dip"
+         android:paddingLeft="10dp"
+         android:paddingRight="10dp"
+         android:drawSelectorOnTop="false"
+         android:scrollbarAlwaysDrawVerticalTrack="true"
+         android:scrollbarStyle="outsideOverlay"
+         >
+     </ListView>
+
+</RelativeLayout>

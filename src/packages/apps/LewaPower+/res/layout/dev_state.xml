@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+   <ListView android:id="@+id/dev_list_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+  <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"> 
+        <TextView android:id="@+id/dev_lock_screen"
+            android:text="@string/spm_screen_timeout_show"
+            android:layout_marginLeft="10dip"
+            android:gravity="center_vertical" 
+            android:layout_width="180dip"
+            android:layout_height="50dip"/>
+        <TextView android:id="@+id/dev_lock_screen_value"
+            android:layout_toRightOf="@id/dev_lock_screen"
+            android:layout_marginLeft="80dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+  </RelativeLayout> 
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"> 
+        <TextView android:id="@+id/dev_light_of_screen"
+            android:text="@string/spm_screen_light_show"
+            android:layout_marginLeft="10dip"
+            android:gravity="center_vertical" 
+            android:layout_width="180dip"
+            android:layout_height="50dip"/>
+        <TextView android:id="@+id/dev_lock_light_of_value"
+            android:layout_toRightOf="@id/dev_light_of_screen"
+            android:layout_marginLeft="80dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+  </RelativeLayout> 
+</LinearLayout>

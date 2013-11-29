@@ -1,0 +1,73 @@
+<com.lewa.PIM.mms.slideshow.MmsSlideShowItem 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/listChoiceBackgroundIndicator"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginBottom="10dip"
+        android:textColor="@color/main_text_color"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>    
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:textColor="@color/main_text_color"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    
+    <LinearLayout 
+	    android:id="@+id/contact_image_parent"
+		android:gravity="center"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+    
+		<RelativeLayout 
+		    android:id="@+id/contact_image_layout"
+			android:gravity="center"
+			android:layout_gravity="center"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content">
+			
+		    <ImageView
+		        android:id="@+id/contact_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="4dip"
+		        android:layout_marginTop="4dip"
+		        android:layout_marginRight="4dip"
+		        android:layout_marginBottom="4dip"
+		        android:layout_gravity="center"/>
+		    
+	 		<ImageView
+	    	   android:id="@+id/play_slideshow_button"
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_gravity="center"
+	           android:layout_centerInParent="true"
+	           android:visibility="gone" 
+	           android:src="@drawable/ic_gallery_video_overlay" />	
+		</RelativeLayout>
+	</LinearLayout>
+	
+    <TextView
+        android:id="@+id/text_body"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginBottom="8dip"
+        android:gravity="center"       
+        android:textColor="@color/main_text_color"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</com.lewa.PIM.mms.slideshow.MmsSlideShowItem>

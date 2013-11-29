@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">鳥瞰</string>
+  <string name="mb">MB</string>
+  <string name="gb">GB</string>
+  <string name="nosim">無流量資料</string>
+  <string name="nosim_set">未設置流量套餐</string>
+  <string name="used">已用流量</string>
+  <string name="surplus">剩餘流量</string>
+  <string name="noalarm">添加鬧鈴</string>
+  <string name="off">關</string>
+  <string name="on">開</string>
+  <string name="alarm">鬧鈴</string>
+  <string name="power_on">節電</string>
+  <string name="power_surplus">剩餘</string>
+  <string name="power_full">充電中</string>
+  <string name="power_isfull">已充滿</string>
+  <string name="power_h">小時</string>
+  <string name="power_m">分</string>
+  <string name="torch">手電筒</string>
+  <string name="safe_scanning">掃描中...</string>
+  <string name="safe_scanning_error">掃描出錯,請稍後重試</string>
+  <string name="safe_status_one">健康</string>
+  <string name="safe_status_two">天未優化</string>
+  <string name="safe_status_three">從未優化</string>
+  <string name="clean_toast_str0">已優化至最佳</string>
+  <string name="clean_toast_str1">成功釋放了%1$dM記憶體\n當前可用記憶體為%2$dM</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appwidget-provider
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:initialLayout="@layout/widget_v5_time"
+	android:gravity="center_vertical"
+	android:minWidth="224dp" 
+	android:minHeight="144dp"
+	android:previewImage="@drawable/v5_time_thumbnail"
+	android:updatePeriodMillis="3600000"
+	>
+</appwidget-provider>

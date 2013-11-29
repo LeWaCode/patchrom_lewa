@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.lewa.themechooser.widget.TileLayout
+        android:id="@android:id/widget_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/fragment_margin"
+        android:layout_marginTop="@dimen/fragment_margin" >
+
+        <RelativeLayout
+            android:id="@+id/fl_desk_wallpaper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:background="@drawable/btn_holo_blue" >
+
+            <ImageView
+                android:id="@+id/iv_desk_wallpaper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+            	android:layout_marginRight="50dp"
+                android:contentDescription="@string/desk_wallpaper_change"
+                android:src="@drawable/ic_wallpaper" />
+
+            <TextView
+                style="@style/CustomStyleTextView"
+                android:id="@+id/tv_desk_wallpaper"
+                android:layout_toRightOf="@id/iv_desk_wallpaper"
+                android:padding="0dp"
+                android:layout_marginTop="35dp"
+                android:background="@null"
+                android:text="@string/desk_wallpaper_change" />
+
+            <TextView
+                style="@style/CustomStyleTextView"
+                android:layout_centerHorizontal="true"
+                android:layout_toRightOf="@id/iv_desk_wallpaper"
+                android:layout_below="@id/tv_desk_wallpaper"
+                android:padding="0dp"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:text="@string/some_live_wallpaper"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/fl_lockscreen_wallpaper"
+            android:paddingLeft="20dp"
+            android:paddingBottom="10dp"
+            style="@style/CustomStyleTextView"
+            android:drawableLeft="@drawable/ic_lock_wallpaper"
+            android:text="@string/lockscreen_wallpaper_change" />
+
+        <TextView
+            style="@style/CustomStyleTextView"
+            android:paddingLeft="20dp"
+            android:paddingBottom="10dp"
+            android:id="@+id/fl_dynamic_wallpaper"
+            android:drawableLeft="@drawable/ic_live_wallpaper"
+            android:text="@string/dynamic_wallpaper_change" />
+    </com.lewa.themechooser.widget.TileLayout>
+
+</ScrollView>

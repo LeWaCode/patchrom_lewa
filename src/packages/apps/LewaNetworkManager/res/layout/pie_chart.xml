@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/auto_adjust"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:layout_margin="@dimen/chart_cycle_width"
+    android:background="@drawable/pie" >
+
+    <TextView
+        android:id="@+id/usage_number"
+        android:includeFontPadding="false"
+        style="@style/TextAppearance.Shadow.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/item_padding_side" />
+
+    <TextView
+        android:id="@+id/usage_unit"
+        style="@style/TextAppearance.Shadow.Medium"
+        android:textSize="@dimen/text_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/usage_number"
+        android:layout_toRightOf="@id/usage_number"
+        android:layout_marginBottom="@dimen/item_padding_side"
+        android:paddingBottom="2dp" />
+
+    <TextView
+        android:id="@+id/usage_summary"
+        style="@style/TextAppearance.Shadow.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/usage_number"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/usage_default"
+        style="@style/TextAppearance.Shadow.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/usage_summary"
+        android:text="@string/usage_default"
+        android:textSize="12sp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/usage_function"
+        style="@style/TextAppearance.Shadow.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dip"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/pie_button"
+        android:text="@string/usage_adjust" />
+
+</RelativeLayout>

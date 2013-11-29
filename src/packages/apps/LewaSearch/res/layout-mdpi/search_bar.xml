@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:descendantFocusability="afterDescendants"
+    >
+
+    <!-- Outer layout defines the entire search bar at the top of the screen -->
+    <LinearLayout
+        android:id="@+id/search_plate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Inner layout contains the app icon, button(s) and EditText -->
+        <LinearLayout
+            android:id="@+id/search_edit_frame"
+            android:layout_width="match_parent"
+            android:layout_height="49dip"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+	       	android:paddingRight="8dip"
+	       	android:paddingLeft="8dip"
+            android:background="@drawable/bg_blk_search_contact"
+            android:orientation="horizontal">
+
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" 
+	            android:src="@drawable/magnifying_glass"
+	            android:scaleType="centerInside"/>  
+              
+            <view
+                class="com.lewa.search.view.SearchEditText"
+                android:id="@+id/search_edit_text"
+                android:layout_height="wrap_content"
+                android:layout_width="0dip"
+                android:layout_weight="1.0"
+                android:layout_marginLeft="10dip"
+                android:layout_marginBottom="0dip"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:inputType="textNoSuggestions"
+                android:imeOptions="flagNoExtractUi"
+                android:background="@null"/>
+                
+          <ImageView
+            android:id="@+id/delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:src="@drawable/magnifying_glass_cancel"
+            android:layout_marginLeft="10dip"
+            android:scaleType="centerInside"/>
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>

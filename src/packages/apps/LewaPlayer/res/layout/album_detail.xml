@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+    
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp" 
+        android:paddingRight="15dp"
+        android:scrollbars="vertical"
+        >
+    
+    <LinearLayout
+        android:id="@+id/albumdetail_line"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/albumdetail_albumname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" 
+            />
+       
+        
+         <TextView
+            android:id="@+id/albumdetail_releasedate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+         	style="@style/IntroText"
+            android:paddingBottom="10dp"
+            />
+        <ImageView android:layout_width="match_parent"
+            android:layout_height="0.15dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/line"
+            />
+          <com.lewa.player.ui.view.CustomGridView 
+              android:id="@+id/albumdetail_songslist"
+              android:paddingTop="10dp"
+              android:paddingBottom="10dp"
+              android:verticalSpacing="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              android:listSelector="@android:color/transparent"
+              >
+              
+          </com.lewa.player.ui.view.CustomGridView>
+          
+            <ImageView android:layout_width="match_parent"
+            android:layout_height="0.15dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/line"
+            />
+       
+        <TextView 
+            android:id="@+id/albumdetail_introduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            style="@style/IntroText"
+            android:lineSpacingExtra="5dp"
+            android:textSize="16sp"
+            />
+        </LinearLayout>
+        </ScrollView>
+    
+        <TextView 
+             android:id="@+id/albumdetail_notfound"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/info_notfound"
+             android:gravity="center"
+             android:layout_gravity="center"
+             style="@style/IntroText"
+              android:visibility="gone"
+             />
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/albumdetail_loading"
+            android:gravity="center"
+             android:layout_gravity="center"
+             android:visibility="gone"
+            >
+        <ProgressBar 
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            
+            />
+    
+        <TextView 
+             
+               android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+                android:layout_gravity="center"
+             android:text="@string/info_loading"
+             style="@style/IntroText"
+             />
+        
+        </LinearLayout>
+        
+         <TextView 
+             android:id="@+id/albumdetail_neterror"
+               android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:layout_gravity="center"
+             android:text="@string/info_neterror"
+             style="@style/IntroText"
+             android:visibility="gone"
+             />
+       <TextView 
+             android:id="@+id/albumdetail_notDownInfo"
+               android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:layout_gravity="center"
+             android:text="@string/notDownInfo"
+             style="@style/IntroText"
+             android:visibility="gone"
+             />
+ 
+ </FrameLayout>
+         

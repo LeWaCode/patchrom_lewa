@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme" parent="@lewa:style/V5.Theme" >
+        <item name="android:widgetLayout">@null</item>
+    </style>
+    <style name="TextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+    <style name="TextAppearance.Small">
+        <item name="android:textColor">@color/text_summary</item>
+        <item name="android:textSize">@dimen/text_number</item>
+    </style>
+    <style name="TextAppearance.Widget">
+        <item name="android:textColor">@color/text_widget</item>
+        <item name="android:textSize">@dimen/text_widget</item>
+    </style>
+    <style name="TextAppearance.Shadow">
+        <item name="android:shadowColor">@color/text_shadow</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+    </style>
+    <style name="TextAppearance.Shadow.Small">
+        <item name="android:textColor">@color/text_summary</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+    <style name="TextAppearance.Shadow.Medium">
+        <item name="android:textColor">@color/text_summary</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+    </style>
+    <style name="TextAppearance.Shadow.Large">
+        <item name="android:textColor">@color/text_title</item>
+        <item name="android:textSize">@dimen/text_large</item>
+    </style>
+    <style name="Checkbox">
+        <item name="android:focusable">true</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_height">@dimen/check_button_side</item>
+        <item name="android:layout_width">@dimen/check_button_side</item>
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="Checkbox.Net">
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/toggle_circle</item>
+    </style>
+    
+    <style name="Text.Title" parent="@android:attr/listSeparatorTextViewStyle">
+        <item name="android:minHeight">26dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingTop">6dip</item>
+    </style>
+    
+    <style name="DIALOG_WINDOW" parent="@lewa:style/V5.Theme.Holo.Light.Dialog">
+         <item name="android:windowNoTitle">true</item>
+         <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="Spinner.Lewa" parent="lewa:V5spinner">
+        <item name="lewa:isHideInputKeyBoard">false</item>
+    </style>
+</resources>

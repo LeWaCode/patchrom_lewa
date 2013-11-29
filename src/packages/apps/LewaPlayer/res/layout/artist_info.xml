@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/artistinfo_ll"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical"
+                     >
+
+                    <ImageView
+                        android:id="@+id/artistinfo_img"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:paddingLeft="5dp"
+                         android:layout_gravity="center_vertical"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/artisticon" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp" 
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center"
+                    >
+                    
+
+                    <TextView
+                        android:id="@+id/artistinfo_area"
+                        style="@style/IntroText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/artistinfo_bloodtype"
+                        style="@style/IntroText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/artistinfo_height"
+                        style="@style/IntroText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/artistinfo_birthday"
+                        style="@style/IntroText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/artistinfo_star"
+                        style="@style/IntroText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/artistinfo_albumstotal"
+                        style="@style/IntroText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+            </LinearLayout>
+            
+              
+            <LinearLayout 
+                android:id="@+id/artistinfo_introll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_below="@id/artistinfo_ll"
+                android:layout_marginTop="5dp"
+                 android:padding="5dp"
+                >
+                    <ImageView android:layout_width="match_parent"
+                      android:id="@+id/divider_line"
+                     android:layout_height="0.15dp"
+          
+                        android:scaleType="fitXY"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/line"
+            />
+                
+                <TextView
+                        android:id="@+id/artistinfo_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+            <TextView
+                android:id="@+id/artistinfo_intro"
+                style="@style/IntroText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:lineSpacingExtra="5dp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/artistinfo_notfound"
+        style="@style/IntroText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/info_notfound"
+        android:visibility="gone" />
+
+    <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+             android:id="@+id/artistinfo_loading"
+            android:gravity="center"
+             android:layout_gravity="center"
+             android:visibility="gone"
+            >
+        <ProgressBar 
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            
+            />
+    
+        <TextView 
+             
+               android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+                android:layout_gravity="center"
+             android:text="@string/info_loading"
+             style="@style/IntroText"
+             />
+        
+        </LinearLayout>
+    <TextView
+        android:id="@+id/artistinfo_neterror"
+        style="@style/IntroText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/info_neterror"
+        android:visibility="gone" />
+    
+     <TextView
+        android:id="@+id/artistinfo_notDownInfo"
+        style="@style/IntroText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/notDownInfo"
+        android:visibility="gone" />
+
+</FrameLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <LinearLayout
+        android:id="@+id/action_mode_close_button"
+        android:focusable="true"
+        android:clickable="true"
+        android:paddingLeft="8dip"
+        style="?android:attr/actionModeCloseButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="16dip">
+        <ImageView 
+            android:id="@+id/up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:scaleType="fitCenter"
+			android:src="?android:attr/actionModeCloseDrawable" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="16dip"
+        android:background="?android:attr/actionBarItemBackground"
+        android:layout_toRightOf="@id/action_mode_close_button" 
+        android:enabled="false">
+
+	    <Button android:id="@+id/action_bar_spinner"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:visibility="visible"
+	        android:textColor="@android:color/white"
+	        android:background="@lewa:drawable/action_mode_spinner_holo_light"
+	    />
+    </LinearLayout>
+    
+	
+    <ImageButton
+        android:id="@+id/quick_postion"
+        style="?android:attr/actionButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:src="@drawable/ic_index_normal_white"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

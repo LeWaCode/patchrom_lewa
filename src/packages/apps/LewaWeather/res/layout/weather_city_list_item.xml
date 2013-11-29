@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dip"
+    android:padding="10dip"
+    android:background="@drawable/weather_city_list_down_gray"
+    android:gravity="bottom" >
+
+    <ImageView
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/weather_del_city" />
+
+    <TextView
+        android:id="@+id/cityTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:layout_toRightOf="@+id/delete"
+        android:textColor="#4598c8"
+        android:textSize="13dip"
+        android:maxLength="5"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="#4598c8"
+         android:textSize="13dip"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/weather"
+        android:layout_width="35dip"
+        android:layout_height="25dip"
+        android:layout_centerVertical="true"
+        android:scaleType="centerInside"
+        android:layout_marginRight="8dip"
+        android:layout_toLeftOf="@+id/grabber"
+        android:src="@drawable/weather_cloudy"
+         />
+
+    <ImageView
+        android:id="@+id/grabber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:scaleType="centerInside"
+        android:src="@drawable/weather_dragger" />
+
+</RelativeLayout>

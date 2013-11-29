@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:background="@null"
+    android:visibility="gone"
+    android:layout_alignParentBottom="true" >
+
+    <ImageButton android:id="@+id/dial_key_tip_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:visibility="gone"
+            android:background="@drawable/dial_key_tip_bg" />
+                
+	<LinearLayout android:id="@+id/dial_key_tip_text"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:visibility="gone"
+	    android:paddingLeft="@dimen/mms_tip_left_right_size"
+	    android:paddingRight="@dimen/mms_tip_left_right_size"
+	    android:paddingTop="@dimen/mms_tip_top_size"
+	    android:paddingBottom="@dimen/mms_tip_bottom_size"
+	    android:background="@drawable/sms_tip_backgroud">
+	    
+	    <TextView 
+	        android:id="@+id/tip_top_text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="?android:attr/textColorPrimaryInverse"
+	        android:text="@string/mms_press_left_sliding" />
+	    
+	    <TextView 
+	        android:id="@+id/tip_bottom_text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:layout_marginBottom="10dip"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="?android:attr/textColorPrimaryInverse"
+	        android:text="@string/mms_switch_another_card" />
+	    
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"
+	        android:src="@drawable/sms_tip"/>
+	</LinearLayout>    
+</FrameLayout>
+

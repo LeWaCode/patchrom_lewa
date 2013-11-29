@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="animator_view_size">220dp</dimen>
+    <dimen name="margin_normal">9dp</dimen>
+    <dimen name="fragment_padding">10dp</dimen>
+    <dimen name="score_size">60dp</dimen>
+    <dimen name="main_button_width">180dp</dimen>
+    <dimen name="main_button_height">40dp</dimen>
+    <dimen name="main_button_margin_top">10dp</dimen>
+    
+    <dimen name="animator_margin">40dp</dimen>
+</resources>

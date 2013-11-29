@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="10dp" >
+	    <FrameLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1" >
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_vertical"
+	            android:orientation="vertical">
+	
+	            <ListView
+	                android:id="@android:id/list"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:cacheColorHint="@null"
+	                android:divider="@null"
+	                android:listSelector="@drawable/listitem_background" />
+	        </LinearLayout>
+	    </FrameLayout>
+
+	    <EditText
+	        android:id="@+id/descript_text"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="6dp"
+	        android:layout_marginBottom="8dp"
+	        android:hint="@string/addblack_dec" />
+	
+	    <CheckBox
+	        android:id="@+id/isaddsmstoblack"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="3dp"
+	        android:checked="true"
+	        android:text="@string/importsms_black"
+	        android:textColor="?android:attr/textColorSecondary"
+	        android:visibility="gone" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/buttonPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:divider="?android:attr/dividerHorizontal"
+        android:dividerPadding="0dip"
+        android:minHeight="48dip"
+        android:orientation="vertical"
+        android:showDividers="beginning" >
+
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_discard"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Cancel"
+                android:textAppearance="?android:attr/textAppearanceMediumInverse" />
+
+            <Button
+                android:id="@+id/btn_done"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/OK"
+                android:textAppearance="?android:attr/textAppearanceMediumInverse" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

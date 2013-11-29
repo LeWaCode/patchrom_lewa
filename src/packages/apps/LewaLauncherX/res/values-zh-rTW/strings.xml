@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="application_name" msgid="8424725141379931883">"啟動器"</string>
+    <string name="home" msgid="5921706419368316758">"住家"</string>
+    <string name="uid_name" msgid="3371120195364560632">"Android 核心應用程式"</string>
+    <string name="folder_name" msgid="8551881338202938211">"資料夾"</string>
+    <string name="chooser_wallpaper" msgid="6063168087625352235">"選擇桌布來源"</string>
+    <string name="wallpaper_instructions" msgid="4215640646180727542">"設定桌布"</string>
+    <string name="pick_wallpaper" msgid="5630222540525626723">"桌布"</string>
+    <string name="activity_not_found" msgid="217823393239365967">"應用程式未安裝。"</string>
+    <string name="widgets_tab_label" msgid="9145860100000983599">"小工具"</string>
+    <string name="external_drop_widget_error" msgid="2285187188524172774">"無法將項目拖放至這個主螢幕上。"</string>
+    <string name="external_drop_widget_pick_title" msgid="7040647073452295370">"選擇要建立的小工具"</string>
+    <string name="rename_folder_title" msgid="4544573104191526550">"重命名"</string>
+    <string name="menu_item_add_item" msgid="6233177331075781114">"新增至主螢幕"</string>
+    <string name="group_applications" msgid="2103752818818161976">"應用程式"</string>
+    <string name="group_shortcuts" msgid="9133529424900391877">"捷徑"</string>
+    <string name="group_widgets" msgid="6704978494073105844">"小工具"</string>
+    <string name="group_wallpapers" msgid="1568191644272224858">"桌布"</string>
+    <string name="completely_out_of_space" msgid="1759078539443491182">"主螢幕已無空間。"</string>
+    <string name="out_of_space" msgid="8365249326091984698">"主螢幕已無空間"</string>
+    <string name="hotseat_out_of_space" msgid="6304886797358479361">"停駐區已無可用空間。"</string>
+    <string name="invalid_hotseat_item" msgid="6545340627805449250">"這個小工具過大，超出可用的空間。"</string>
+    <string name="shortcut_installed" msgid="7071557296331322355">"已建立「<xliff:g id="NAME">%s</xliff:g>」捷徑。"</string>
+    <string name="shortcut_uninstalled" msgid="2129499669449749995">"已移除「<xliff:g id="NAME">%s</xliff:g>」捷徑。"</string>
+    <string name="shortcut_duplicate" msgid="4757756326465060694">"「<xliff:g id="NAME">%s</xliff:g>」捷徑已經存在。"</string>
+    <string name="title_select_shortcut" msgid="1873670208166882222">"選擇捷徑"</string>
+    <string name="title_select_application" msgid="1793455815754848652">"選擇應用程式"</string>
+    <string name="menu_theme">百變主題</string>
+    <string name="menu_wallpaper" msgid="5837429080911269832">"修改桌布"</string>
+    <string name="menu_settings" msgid="3946232973327980394">"系統設定"</string>
+    <string name="cab_menu_delete_app" msgid="4089398025537640349">"解除安裝應用程式"</string>
+    <string name="cab_menu_app_info" msgid="914548323652698884">"應用程式詳細資料"</string>
+    <string name="cab_app_selection_text" msgid="6378522164293415735">"已選取 1 個應用程式"</string>
+    <string name="cab_widget_selection_text" msgid="962527270506951955">"已選取 1 個小工具"</string>
+    <string name="cab_folder_selection_text" msgid="8916111874189565067">"已選取 1 個資料夾"</string>
+    <string name="cab_shortcut_selection_text" msgid="8115847384500412878">"已選取 1 個捷徑"</string>
+    <string name="permlab_install_shortcut" msgid="1201690825493376489">"安裝捷徑"</string>
+    <string name="permdesc_install_shortcut" msgid="8634424803272077038">"允許應用程式自動新增捷徑。"</string>
+    <string name="permlab_uninstall_shortcut" msgid="7696645932555926449">"解除安裝捷徑"</string>
+    <string name="permdesc_uninstall_shortcut" msgid="274355570620220977">"允許應用程式自動移除捷徑。"</string>
+    <string name="permlab_read_settings" msgid="3452408290738106747">"讀取主螢幕設定和捷徑"</string>
+    <string name="permdesc_read_settings" msgid="5788109303585403679">"允許應用程式讀取主螢幕中的設定與捷徑。"</string>
+    <string name="permlab_write_settings" msgid="1360567537236705628">"寫入主螢幕設定和捷徑"</string>
+    <string name="permdesc_write_settings" msgid="8530105489115785531">"允許應用程式變更主螢幕中的設定與捷徑。"</string>
+    <string name="gadget_error_text" msgid="8359351016167075858">"載入小工具時發生問題"</string>
+    <string name="folder_hint_text" msgid="8633351560105748141">"資料夾"</string>
+    <string name="workspace_description_format" msgid="2968608205939373034">"主螢幕 %1$d"</string>
+    <string name="default_scroll_format" msgid="4057140866420001240">"第 %1$d 頁，共 %2$d 頁"</string>
+    <string name="workspace_scroll_format" msgid="1704767047951143301">"主螢幕 %1$d，共 %2$d 個"</string>
+    <string name="folder_opened" msgid="1262064100943801533">"資料夾已開啟 (<xliff:g id="WIDTH">%1$d</xliff:g> x <xliff:g id="HEIGHT">%2$d</xliff:g>)"</string>
+    <string name="folder_tap_to_close" msgid="1335478160661137579">"輕觸即可關閉資料夾"</string>
+    <string name="folder_tap_to_rename" msgid="5201612989905472442">"輕觸即可儲存重新命名後的名稱"</string>
+    <string name="folder_closed" msgid="3130534551370511932">"已關閉資料夾"</string>
+    <string name="folder_renamed" msgid="7951233572858053642">"已將資料夾重新命名為 <xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <string name="folder_name_format" msgid="3051680259794759037">"資料夾：<xliff:g id="NAME">%1$s</xliff:g>"</string>
+
+    <string name="cannot_delete_more_screen">螢幕數已達最小，無法刪除.</string>
+    <string name="cannot_add_more_screen">無法添加更多螢幕</string>
+    <string name="menu_preview">荧幕縮略圖</string>
+    <string name="menu_edit">小工具</string>
+    <string name="menu_desktop_settings">啟動器設定</string>
+    <string name="pref_desktop_effect">螢幕滑動特效</string>
+    <string name="pref_screen_layout">螢幕佈局</string>
+    <string name="pref_screen_layout_summary">選擇圖標的佈局</string>
+	<string name="pref_desktop_effect_summary">選擇滾動螢幕時的過度效果</string>    
+    <string name="pref_title_wallpaper_scrolling">桌布滾動</string>
+    <string name="pref_summary_wallpaper_scrolling">允許桌布隨著螢幕移動</string>
+    <string name="pref_title_action_updown">手勢操作</string>
+    <string name="pref_summary_action_updown">快速打開通知欄</string>
+    <string name="pref_title_shake">甩動手機整理圖標</string>
+    <string name="pref_summary_shake">甩動手機可以快速整理當前屏幕的圖標</string>     
+    <string name="shake_degree_title">甩動靈敏度</string>
+    <string name="shake_degree_summary">調節甩動手機的靈敏度</string>  
+    <string name="shake_degree_gentle">輕柔</string>
+    <string name="shake_degree_common">普通</string>
+    <string name="shake_degree_force">困難</string>
+    <string name="pref_title_resetlauncher">重置啟動器</string>
+    <string name="message_resetlauncher">啟動器重置將恢復螢幕上的圖標、小工具及荧幕的初始狀態.</string>
+    <string name="pref_title_lewa_lockscreen">使用樂蛙鎖屏</string>
+    <string name="pref_hide_status_bar">鎖屏隱藏狀態欄</string>
+    <string name="pref_title_update">檢查更新</string>
+    <string name="pref_summary_update">檢查樂蛙啟動器是否有最新版本</string>
+    <string name="pref_summary_resetlauncher">恢復各螢幕上圖標的原始位置</string>
+    <string name="pref_label_settings">啟動器設定</string>
+    <string name="folder_full_hint">資料夾已滿.</string>
+    <string name="shortcut_phone">撥號</string>
+    <string name="shortcut_contacts">聯絡人</string>
+    <string name="shortcut_browser">瀏覽器</string>
+    <string name="shortcut_messaging">信息</string>
+    <string name="loading_prompt">加載中...</string>
+    <string name="uninstall_system_app_text">系統程式無法卸載.</string>
+    <string name="uninstall_widget_text">小工具無法卸載.</string>
+    <string name="cannot_delete_widget_text">小工具無法移除.</string>
+    <string name="cannot_delete_app_text">應用程式無法移除.</string>
+    <string name="system_tool_folder">小工具</string>
+    <string name="system_secrity_folder">系統与安全</string>
+    <string name="new_rom_hint">新</string>
+    <string name="onekey_lockscreen">一鍵鎖屏</string>
+    <string name="other_widgets">其它小工具</string>
+    <string name="admin_description">允許具有管理員權限的小工具在第一次運行時開啟鎖屏功能.</string>
+    <string name="add_widget">添加小工具</string>
+    <string name="folder_not_empty_hint">資料夾非空，請清空后重試。</string>
+    <!--start for uninstaller -->
+    <string name="ok" >"確定"</string>
+    <string name="cancel">"取消"</string>
+    <string name="uninstall_done">"解除安裝完成。"</string>
+    <string name="uninstall_failed">"解除安裝失敗。"</string>
+    <string name="uninstall_failed_msg">"無法解除安裝「<xliff:g id="APP_NAME">%1$s</xliff:g>」。"</string>
+    <string name="uninstall_application_text">"您要解除安裝這個應用程式嗎？"</string>
+    <string name="uninstall_failed_device_policy_manager">"這個套件是目前的裝置管理員，因此無法解除安裝。"</string>
+    <string name="uninstall_app_not_found_text">"在已安裝的應用程式清單中找不到這個應用程式。"</string>
+    <string name="uninstall_application_title" msgid="1860074100811653963">"解除安裝應用程式"</string>
+    <string name="uninstall_update_title" msgid="4146940097553335390">"解除安裝更新"</string>
+    <string name="uninstall_activity_text" msgid="6680688689803932550">"「<xliff:g id="ACTIVITY_NAME">%1$s</xliff:g>」屬於下列應用程式："</string>
+    <string name="uninstall_update_text" msgid="2056387942084605027">"您要將這個應用程式重設成原廠設定嗎？"</string>
+    <string name="app_not_found_dlg_text" msgid="6107465056055095930">"在已安裝的應用程式清單中找不到這個應用程式。"</string>
+    <!--end for uninstaller -->
+    <string name="pref_keep_persistent">常駐內存</string>
+    <string name="pref_summary_keep_persistent">確保可用內存低的時候也不會自動退出。</string>
+</resources>

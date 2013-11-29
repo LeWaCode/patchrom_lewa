@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<declare-styleable name="weather_TouchListView">
+		<attr name="weather_normal_height" format="dimension" />
+		<attr name="weather_expanded_height" format="dimension" />
+		<attr name="weather_grabber" format="reference" />
+		<attr name="weather_delete" format="reference" />
+		<attr name="weather_dragndrop_background" format="color" />
+		
+ 		<attr name="weather_remove_mode">
+			<enum name="weather_none" value="-1" />
+			<enum name="weather_fling" value="0" />
+			<enum name="weather_slide" value="1" />
+			<enum name="weather_slideRight" value="1" />
+			<enum name="weather_slideLeft" value="2" />
+		</attr>
+	</declare-styleable>
+	    
+	<declare-styleable name="com.madhouse.android.ads.AdView">
+		<attr name="weather_debug" format="boolean"/>
+		<attr name="weather_adPosition" format="string" />
+		<attr name="weather_adInterval" format="integer" />
+	</declare-styleable>
+</resources>

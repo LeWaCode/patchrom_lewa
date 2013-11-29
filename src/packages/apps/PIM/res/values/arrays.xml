@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2008 Esmertec AG.
+ * Copyright (C) 2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ -->
+<resources>
+  <string-array name="t9_sort_entries"
+    translatable="false">
+    <item>@string/t9_sort_name</item>
+    <item>@string/t9_sort_number</item>
+  </string-array>
+  <string-array name="t9_sort_values"
+    translatable="false">
+    <item>1</item>
+    <item>2</item>
+  </string-array>
+  <string-array name="t9_map"
+    translatable="false">
+    <item>0</item>
+    <item>1</item>
+    <item>@string/t9_map_row_2</item>
+    <item>@string/t9_map_row_3</item>
+    <item>@string/t9_map_row_4</item>
+    <item>@string/t9_map_row_5</item>
+    <item>@string/t9_map_row_6</item>
+    <item>@string/t9_map_row_7</item>
+    <item>@string/t9_map_row_8</item>
+    <item>@string/t9_map_row_9</item>
+    <item>*</item>
+    <item>#</item>
+    <item>+</item>
+  </string-array>
+    <string-array name="default_smiley_texts">
+      <item>:-)</item>   <!-- 0: Happy -->
+      <item>:-(</item>   <!-- 1: Sad -->
+      <item>;-)</item>   <!-- 2: Winking -->
+      <item>:-P</item>   <!-- 3: Tongue sticking out -->
+      <item>=-O</item>   <!-- 4: Surprised -->
+      <item>:-*</item>   <!-- 5: Kissing -->
+      <item>:O</item>    <!-- 6: Yelling -->
+      <item>B-)</item>   <!-- 7: Cool -->
+      <item>:-$</item>   <!-- 8: Money mouth -->
+      <item>:-!</item>   <!-- 9: Foot in mouth -->
+      <item>:-[</item>   <!-- 10: Embarrassed -->
+      <item>O:-)</item>  <!-- 11: Angel -->
+      <item>:-\\</item>  <!-- 12: Undecided -->
+      <item>:\'(</item>  <!-- 13: Crying -->
+      <item>:-X</item>   <!-- 14: Lips are sealed -->
+      <item>:-D</item>   <!-- 15: Laughing -->
+      <item>o_O</item>   <!-- 16: Confused -->
+      <item>&lt;3</item> <!-- 17: Heart -->
+      <item>x-(</item>   <!-- 18: Mad -->
+      <item>:-/</item>   <!-- 19: Smirk -->
+      <item>:-I</item>   <!-- 20: Poker face -->
+    </string-array>
+    
+    <string-array name="common_smiley_texts">
+      <item>[disappointed_but_relieved]</item>      <!-- 0: emoji_disappointed_but_relieved_face -->
+      <item>[Bad_smile]</item>                      <!-- 1: emoji_smir_ing_face -->
+      <item>[pensive]</item>                        <!-- 2: emoji_pensive_face -->
+      <item>[Bared_teeth_smile]</item>              <!-- 3: emoji_grinning_cat_face_with_smiling_eyes -->
+      <item>[winking]</item>                        <!-- 4: emoji_winking_face -->
+      <item>[persevering]</item>                    <!-- 5: emoji_persevering_face -->
+      <item>[confounded]</item>                     <!-- 6: emoji_confounded_face -->
+      <item>[sleepy]</item>                         <!-- 7: emoji_sleepy_face -->
+      <item>[Tongue]</item>                         <!-- 8: emoji_face_with_stuckout_tongue_and_tightlyclosed_eyes -->
+      <item>[tightly_closed_smiling]</item>         <!-- 9: emoji_smiling_face_with_open_mouth_and_tightlyclosed_eyes -->
+      <item>[fearful]</item>                        <!-- 10: emoji_fearful_face -->
+      <item>[Cold]</item>                           <!-- 11: emoji_face_with_medical_mask -->
+      <item>[flushed]</item>                        <!-- 12: emoji_flushed_face -->
+      <item>[unamused]</item>                       <!-- 13: emoji_unamused_face -->
+      <item>[Embarrassed]</item>                    <!-- 14: emoji_face_with_open_mouth_and_cold_sweat -->
+      <item>[astonished]</item>                     <!-- 15: emoji_astonished_face -->
+      <item>[loudly_crying]</item>                  <!-- 16: emoji_loudly_crying_face -->
+      <item>[tears_of_joy]</item>                   <!-- 17: emoji_face_with_tears_of_joy -->
+      <item>[crying]</item>                         <!-- 18: emoji_crying_face -->
+      <item>[Giggle]</item>                         <!-- 19: emoji_white_smiling_face -->
+      <item>[Laugh_out_loud]</item>                 <!-- 20: emoji_smiling_face_with_open_mouth_and_smiling_eyes -->
+      <item>[pouting]</item>                        <!-- 21: emoji_pouting_face -->
+      <item>[kissing]</item>                        <!-- 22: emoji_kissing_face_with_closed_eyes -->
+      <item>[kiss]</item>                           <!-- 23: emoji_face_throwing_a_kiss -->
+      <item>[meet]</item>                           <!-- 24: emoji_face_savouring_delicious_food -->
+      <item>[Grin]</item>                           <!-- 25: emoji_smiling_face_with_open_mouth -->
+      <item>[disappointed]</item>                   <!-- 26: emoji_disappointed_face -->
+      <item>[angry]</item>                          <!-- 27: emoji_angry_face -->
+      <item>[Grimace]</item>                        <!-- 28: emoji_face_with_stuckout_tongue_and_winking_eye -->
+      <item>[Leering]</item>                        <!-- 29: emoji_smiling_face_with_heartshaped_eyes -->
+      <item>[fear]</item>                           <!-- 30: emoji_face_screaming_in_fear -->
+      <item>[Cold_sweat]</item>                     <!-- 31: emoji_face_with_cold_sweat -->
+      <item>[mouth]</item>                          <!-- 32: emoji_mouth -->
+      <item>[cloud]</item>                          <!-- 33: emoji_cloud -->
+      <item>[sun]</item>                            <!-- 34: black_sun_with_rays -->
+      <item>[umbrella_rain]</item>                  <!-- 35: emoji_umbrella_with_rain_drops -->
+      <item>[moon]</item>                           <!-- 36: emoji_crescent_moon -->
+      <item>[angel]</item>                          <!-- 37: emoji_baby_angel -->
+      <item>[heart]</item>                          <!-- 38: emoji_heavy_black_heart -->      
+      <item>[broken_heart]</item>                   <!-- 39: emoji_broken_heart -->
+      <item>[beer]</item>                           <!-- 40: emoji_clinking_beer_mugs -->
+      <item>[present]</item>                        <!-- 41: emoji_wrapped_present -->
+      <item>[party_popper]</item>                   <!-- 42: emoji_party_popper -->
+      <item>[rice]</item>                           <!-- 43: emoji_cooked_rice -->
+      <item>[pot_of_food]</item>                    <!-- 44: emoji_pot_of_food -->      
+      <item>[birthday_cake]</item>                  <!-- 45: emoji_birthday_cake -->
+      <item>[Disagree]</item>                       <!-- 46: emoji_face_with_no_good_gesture -->
+      <item>[agree]</item>                          <!-- 47: emoji_face_with_ok_gesture -->      
+  </string-array>
+
+    <!-- NOTE: if you change anything about this array, you must make the corresponding change
+         to the array DEFAULT_SMILEY_RES_IDS in SmileyParser.java and to default_smiley_texts
+         above. -->
+    <string-array name="default_smiley_names">
+        <item>Happy</item>                   <!-- 0: :-) -->
+        <item>Sad</item>                     <!-- 1: :-( -->
+        <item>Winking</item>                 <!-- 2: ;-) -->
+        <item>Tongue sticking out</item>     <!-- 3: :-P -->
+        <item>Surprised</item>               <!-- 4: =-O -->
+        <item>Kissing</item>                 <!-- 5: :-* -->
+        <item>Yelling</item>                 <!-- 6: :O -->
+        <item>Cool</item>                    <!-- 7: B-) -->
+        <item>Money mouth</item>             <!-- 8: :-$ -->
+        <item>Foot in mouth</item>           <!-- 9: :-! -->
+        <item>Embarrassed</item>             <!-- 10: :-[ -->
+        <item>Angel</item>                   <!-- 11: O:-) -->
+        <item>Undecided</item>               <!-- 12: :-\\ -->
+        <item>Crying</item>                  <!-- 13: :\'( -->
+        <item>Lips are sealed</item>         <!-- 14: :-X -->
+        <item>Laughing</item>                <!-- 15: :-D -->
+        <item>Confused</item>                <!-- 16: o_O -->
+        <item>Heart</item>                   <!-- 17: <3 -->
+        <item>Mad</item>                     <!-- 18: x-( -->
+        <item>Smirk</item>                   <!-- 19: :-/ -->
+        <item>Poker face</item>              <!-- 20: :-I -->
+    </string-array>
+    <string-array name="default_quick_texts">
+      <item>Where are you?</item>
+      <item>What are you doing?</item>
+      <item>Call back!Please!</item>
+      <item>Sorry, I have a meeting now.</item>
+      <item>Call you soon.</item>
+      <item>Don\'t worry!I\'m fine.</item>
+      <item>On my way home.</item>
+      <item>Arrive soon.</item>
+      <item>Be there or be square!</item>
+    </string-array>
+    <string-array name="pref_mms_creation_mode_choices">
+        <item>Restricted mode</item>
+        <item>Warning mode</item>
+        <item>Free mode</item>
+    </string-array>
+    
+    
+    <!-- Do not translate -->
+    <string-array name="pref_mms_creation_mode_values" translatable="false">
+        <item>RESTRICTED</item>
+        <item>WARNING</item>
+        <item>FREE</item>
+    </string-array>    
+    <string-array name="pref_mms_size_limit_choices" translatable="false">
+        <item>100K</item>
+        <item>200K</item>
+        <item>300K</item>
+    </string-array>
+    <string-array name="pref_mms_size_limit_values" translatable="false">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+    </string-array>  
+    <string-array name="pref_key_mms_priority_choices">
+        <item>High</item>
+        <item>Normal</item>
+        <item>Low</item>
+    </string-array>
+    <string-array name="pref_key_mms_priority_values" translatable="false">
+        <item>High</item>
+        <item>Normal</item>
+        <item>Low</item>
+    </string-array>  
+    <string-array name="pref_sms_input_mode_choice">
+        <item>GSM alphabet</item>
+        <item>Unicode</item>
+        <item>Automatic</item>
+    </string-array>
+    <string-array name="pref_sms_input_mode_values" translatable="false">
+        <item>GSM alphabet</item>
+        <item>Unicode</item>
+        <item>Automatic</item>
+    </string-array> 
+        <string-array name="pref_sms_save_location_choices">
+        <item>Phone</item>
+        <item>SIM Card</item>
+    </string-array>
+    <string-array name="pref_sms_save_location_values">
+        <item>Phone</item>
+        <item>Sim</item>
+    </string-array>  
+
+     <string-array name="ip_call_location_provinces">
+        <item>BeiJing</item>
+        <item>ShangHai</item>
+        <item>TianJin</item>
+        <item>ChongQing</item>
+        <item>AnHui</item>
+        <item>FuJian</item>
+        <item>GanSu</item>
+        <item>GuangDong</item>
+        <item>GuangXi</item>
+        <item>GuiZhou</item>
+        <item>HaiNan</item>
+        <item>HeBei</item>
+        <item>HeNan</item>
+        <item>HeiLongJiang</item>
+        <item>HuBei</item>
+        <item>HuNan</item>
+        <item>JiLin</item>
+        <item>JiangXu</item>
+        <item>JiangXi</item>
+        <item>LiaoNing</item>
+        <item>NeiMengGu</item>
+        <item>NingXia</item>
+        <item>QingHai</item>
+        <item>ShanDong</item>
+        <item>Shan1Xi</item>
+        <item>Shan3Xi</item>
+        <item>SiChuan</item>
+        <item>XiZang</item>
+        <item>XinJiang</item>
+        <item>YunNan</item>
+        <item>ZheJiang</item>
+    </string-array>
+
+    <string-array name="ip_call_location_anhui_cities">
+        <item>HeFei</item>
+        <item>AnQing</item>
+        <item>BengBu</item>
+        <item>ChaoHu</item>
+        <item>ChiZhou</item>
+        <item>ChuZhou</item>
+        <item>FuYang/HaoZhou</item>
+        <item>HuaiBei</item>
+        <item>HuaiNan</item>
+        <item>HuangShan</item>
+        <item>LuAn</item>
+        <item>MaAnShan</item>
+        <item>SuZhou</item>
+        <item>TongLing</item>
+        <item>WuHu</item>
+        <item>XuanCheng</item>
+    </string-array>
+
+    <string-array name="ip_call_location_fujian_cities">
+        <item>FuZhou</item>
+        <item>LongYan</item>
+        <item>NanPing</item>
+        <item>NingDe</item>
+        <item>PuTian</item>
+        <item>QuanZhou</item>
+        <item>SanMing</item>
+        <item>XiaMen</item>
+        <item>ZhangZhou</item>
+    </string-array>
+
+    <string-array name="ip_call_location_gansu_cities">
+        <item>LanZhou</item>
+        <item>BaiYin</item>
+        <item>DingXi</item>
+        <item>GanNan</item>
+        <item>JiaYuGuan/JiuQuan</item>
+        <item>JinChan/WuWei</item>
+        <item>LinXia</item>
+        <item>LongNan</item>
+        <item>PingLiang</item>
+        <item>QingYang</item>
+        <item>TianShui</item>
+        <item>ZhangYe</item>
+    </string-array>
+
+    <string-array name="ip_call_location_guangdong_cities">
+        <item>GuangZhou</item>
+        <item>ChaoZhou</item>
+        <item>DongGuan</item>
+        <item>FoShan</item>
+        <item>HeYuan</item>
+        <item>HuiZhou</item>
+        <item>JiangMen</item>
+        <item>JieYang</item>
+        <item>MaoMing</item>
+        <item>MeiZhou</item>
+        <item>QingYuan</item>
+        <item>ShanTou</item>
+        <item>ShanWei</item>
+        <item>ShaoGuan</item>
+        <item>ShenZhen</item>
+    </string-array>
+
+    <string-array name="ip_call_location_guangxi_cities">
+        <item>NanNing</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="ip_call_location_guizhou_cities">
+        <item> </item>
+    </string-array>
+
+    <string-array name="ip_call_location_hainan_cities">
+        <item> </item>
+    </string-array>
+
+    <string-array name="ip_call_location_hebei_cities">
+        <item> </item>
+    </string-array>
+
+    <string-array name="ip_call_location_henan_cities">
+        <item> </item>
+    </string-array>
+
+    <string-array name="ip_call_location_heilongjiang_cities">
+        <item> </item>
+    </string-array>
+
+    <string-array name="ip_call_location_hubei_cities">
+        <item>WuHan</item>
+    </string-array>
+
+    <string-array name="ip_call_location_hunan_cities">
+        <item>ChangSha</item>
+    </string-array>
+
+    <string-array name="ip_call_location_jilin_cities">
+        <item>ChangChun</item>
+    </string-array>
+
+    <string-array name="ip_call_location_jiangsu_cities">
+        <item>NanJing</item>
+    </string-array>
+
+    <string-array name="ip_call_location_jiangxi_cities">
+        <item>NanChang</item>
+    </string-array>
+
+    <string-array name="ip_call_location_liaoning_cities">
+        <item>ShenYang</item>
+    </string-array>
+
+    <string-array name="ip_call_location_neimenggu_cities">
+        <item>HuHeHaoTe</item>
+    </string-array>
+
+    <string-array name="ip_call_location_ningxia_cities">
+        <item>YinChuan</item>
+    </string-array>
+
+    <string-array name="ip_call_location_qinghai_cities">
+        <item>XiNing</item>
+    </string-array>
+
+    <string-array name="ip_call_location_shandong_cities">
+        <item>JiNan</item>
+    </string-array>
+
+    <string-array name="ip_call_location_shan1xi_cities">
+        <item>TaiYuan</item>
+    </string-array>
+
+    <string-array name="ip_call_location_shan3xi_cities">
+        <item>XiAn</item>
+    </string-array>
+
+    <string-array name="ip_call_location_sichuan_cities">
+        <item>ChengDu</item>
+    </string-array>
+
+    <string-array name="ip_call_location_xizang_cities">
+        <item>LaSa</item>
+    </string-array>
+
+    <string-array name="ip_call_location_xinjiang_cities">
+        <item>WuLuMuQi</item>
+    </string-array>
+
+    <string-array name="ip_call_location_yunnan_cities">
+        <item>KungMing</item>
+    </string-array>
+
+    <string-array name="ip_call_location_zhejiang_cities">
+        <item>HangZhou</item>
+    </string-array>
+
+     <string-array name="ims_ip_call_setting_items">
+          <item>make long distance call</item>
+          <item>make all number call</item>
+    </string-array>
+    
+     <string-array name="pref_sms_backup_location_entries">
+        <item>sdcard</item>
+        <item>internal storage</item>
+    </string-array> 
+    <string-array name="pref_sms_backup_location" translatable="false">
+        <item>sdcard</item>
+        <item>sdcard1</item>
+    </string-array>         
+</resources>

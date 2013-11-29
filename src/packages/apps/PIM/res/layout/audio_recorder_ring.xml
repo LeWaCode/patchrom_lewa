@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout 
+	android:layout_gravity="center_vertical|center_horizontal"
+	android:gravity ="center_vertical|center_horizontal"
+	android:id="@+id/recorder_ring" 
+	android:visibility="invisible" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"	
+	android:orientation="vertical"
+	android:background="@drawable/message_voice" 
+  	xmlns:android="http://schemas.android.com/apk/res/android">
+  	
+  	<TextView android:id="@+id/recorder_text" 
+    	android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+    	android:layout_marginBottom="8dip"
+    	android:textColor="#ff333333"
+    	android:textSize="20sp"
+    />
+  	<FrameLayout
+  		android:layout_gravity="center_vertical|center_horizontal"
+  		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+  	>
+	    <ImageView 
+	    	android:id="@+id/background_image" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content" 
+	    	android:background="@drawable/message_voice_bg" />
+	    	
+		<ImageView 
+		  	android:id="@+id/foreground_image" 
+		  	android:layout_width="wrap_content" 
+		  	android:layout_height="wrap_content" />
+    </FrameLayout>
+    
+</LinearLayout>

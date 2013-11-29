@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lewa.PIM.mms.Recommend.SmsRecommendListItem
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left"    
+    android:orientation="vertical" >
+    
+    <LinearLayout android:id="@+id/body"
+        android:layout_width="fill_parent"      
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:background="?android:attr/listChoiceBackgroundIndicator">
+        
+        <LinearLayout
+            android:id="@+id/img_log_separator"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dip"
+            android:background="?android:attr/dividerHorizontal" />    
+                    
+	    <TextView
+	        android:id="@+id/text"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="19.5dip"
+	        android:layout_marginBottom="20dip"
+	        android:gravity="center|left"
+	        android:textColor="?android:textColorPrimary" 
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+</com.lewa.PIM.mms.Recommend.SmsRecommendListItem>

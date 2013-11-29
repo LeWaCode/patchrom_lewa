@@ -1,0 +1,88 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"データメーター"</string>
+    <string name="app_summary">"データメーター\u00a9LeWaTek株式会社"</string>
+
+    <string name="settings_safetylegal_activity_loading">"積載\u2026"</string>
+    <string name="no_applications">"いいえアプリはありません。"</string>
+    <string name="process_kernel_label">"Android OS"</string>
+    <string name="uninstalled_apps">"アンインストールしたアプリ"</string>
+    <string name="tethering">"テザリング"</string>
+    <string name="not_set">"未設定"</string>
+
+    <string name="mobile">"2G/3G"</string>
+    <string name="wifi">"無線LAN"</string>
+
+    <string name="mobile_usage">"2G/3Gの使用"</string>
+    <string name="wifi_usage">"WiFiの使用法"</string>
+
+    <string name="metered">"背景"</string>
+    <string name="card">"カード"</string>
+    <string name="zero">"0B"</string>
+    <plurals name="day">
+        <item quantity="other"><xliff:g id="count">%d</xliff:g>日</item>
+    </plurals>
+    <string name="monthday">"日"</string>
+    
+    <string name="time_today">"今日の使用状況データ"</string>
+    <string name="time_month">"今月の使用状況データ"</string>
+    <string name="time_all">"生涯使用状況データ"</string>
+
+    <string name="error_input">番号入力エラー</string>
+
+    <string name="usage_title">"使用状況データ"</string>
+    <string name="usage_today_usage">"今日"</string>
+    <string name="usage_daily_remain">"毎日の残り"</string>
+    <string name="usage_day_remain">"残り日"</string>
+    <string name="usage_cycle_day">"開始日"</string>
+    <string name="usage_exceed">"超える"</string>
+    <string name="usage_remain">"残数"</string>
+    <string name="usage_nocard">"--"</string>
+    <string name="usage_total">"総使用量"</string>
+    <string name="usage_plan">"データプランを編集"</string>
+    <string name="usage_adjust">"同期の使い方"</string>
+    <string name="usage_adjusting">"同期中"</string>
+    <string name="usage_adjust_success">"同期成功"</string>
+    <string name="usage_adjust_failure">"同期失敗"</string>
+    <string name="usage_adjust_later">"後で同期"</string>
+    <string name="usage_default">"（デフォルトカード）"</string>
+    
+    <string name="detail_title">"使用方法の詳細"</string>
+
+    <string name="firewall_title">"ファイアウォール"</string>
+    <plurals name="firewall_list_title">
+        <item quantity="other"><xliff:g id="count">%d</xliff:g>APP使用インターネット</item>
+    </plurals>
+
+    <string name="pref_title">"設定"</string>
+    <string name="pref_alert_title">"優しいヒント"</string>
+    <string name="pref_data_pack">"データプラン"</string>
+    <string name="pref_data_pack_title">"データプランを編集"</string>
+    <string name="pref_data_pack_summary"><xliff:g id="CARRIER">%1$s</xliff:g>，利用可能 <xliff:g id="REMAIN">%2$s</xliff:g>，毎月決済日 <xliff:g id="CYCLE_DAY">%3$s</xliff:g></string>
+    <string name="pref_monthly_usage">"月間使用量"</string>
+    <string name="pref_adjust_regularly">"使用状況データを同期"</string>
+    <string name="pref_data_warning">"低データ警告"</string>
+    <string name="pref_data_warning_prepend">"より小さいときに警告を表示\u0020"</string>
+    <string name="pref_data_warning_append">""</string>
+    <string name="pref_data_warning_unset">"データが最初に計画して設定してください"</string>
+    <string name="pref_category_common">"他の設定"</string>
+    <string name="pref_clear_history">"明確な使用状況データ履歴"</string>
+    <string name="pref_clear_history_confirm">"あなたはあなたのネットワークの使用状況の履歴を消去してもよろしいですか？\ nを（両方の携帯電話や無線LANの使用状況データは消去されます）"</string>
+
+    <string name="widget_disabled_mobile">"モバイルデータは無効"</string>
+    <string name="widget_today_usage">"今日"</string>
+    <string name="widget_exceed">"超える"</string>
+    <string name="widget_remain">"残り"</string>
+    <string name="widget_data_pack_warning">"データプランを設定してください"</string>
+
+    <string name="notify_data_pack_title">"低データ警告"</string>
+    <string name="notify_data_pack_summary">@string/widget_data_pack_warning</string>
+    
+    <string name="permlab_manageNetworkPolicy">"ネットワークポリシーの管理"</string>
+    <string name="permdesc_manageNetworkPolicy">"アプリは、ネットワークポリシーを管理し、アプリケーション固有のルールを定義することができます。"</string>
+    
+    <string-array name="pref_adjust_interval">
+        <item>"使用しない"</item>
+        <item>"デイリー"</item>
+        <item>"月次"</item>
+    </string-array>
+</resources>

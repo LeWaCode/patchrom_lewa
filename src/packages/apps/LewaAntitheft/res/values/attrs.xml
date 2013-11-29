@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <add-resource type="dimen" name="hintwidth" />
+    <add-resource type="dimen" name="hintheight" />
+</resources>

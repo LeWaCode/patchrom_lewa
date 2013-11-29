@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bv_tool_bg_1_off"
+    android:paddingBottom="@dimen/powerlevelview_paddingbottom"
+    android:paddingTop="@dimen/powerlevelview_paddingtop" 
+      >
+
+    <TextView
+        android:id="@+id/power_on"
+        android:layout_width="40dip"
+        android:layout_height="30dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/widget_bg"
+        android:gravity="center"
+        android:text="@string/power_on"
+        android:textSize="12dp" 
+        android:textColor="#FF707070"/>
+    
+    <TextView
+        android:id="@+id/power_time_m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="18dip"
+        android:layout_toLeftOf="@id/power_on"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/power_m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/power_time_m"
+        android:layout_marginRight="9dip"
+        android:layout_toLeftOf="@id/power_on"
+        android:gravity="center"
+        android:text="@string/power_m"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:paddingBottom="5dip" />
+
+    <TextView
+        android:id="@+id/power_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/power_time_m"
+        android:layout_toLeftOf="@id/power_time_m"
+        android:gravity="center"
+        android:text="@string/power_h"
+        android:textColor="@color/white"
+        android:textSize="10dp" 
+        android:paddingBottom="5dip"/>
+
+    <TextView
+        android:id="@+id/power_time_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/power_time_m"
+        android:layout_toLeftOf="@id/power_h"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/power_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/power_m"
+        android:layout_marginRight="12dip"
+        android:layout_marginTop="3dip"
+        android:layout_toLeftOf="@id/power_on"
+        android:drawablePadding="3dip"
+        android:gravity="center"
+        android:text="@string/power_full"
+        android:textColor="@color/white"
+        android:textSize="12dp" />
+
+</RelativeLayout>

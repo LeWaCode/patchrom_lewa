@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/onlinelist_ll"
+     >
+       <ImageView
+        android:id="@+id/baidu_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baidumusic_small_60per"
+        android:baselineAlignBottom="true"
+        android:alpha="0.7"
+        android:paddingBottom="74dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:visibility="invisible"
+        />
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+     <include 
+         android:id="@+id/page_header"
+         layout="@layout/pager_header" />
+     <ListView 
+         android:id="@android:id/list"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="54dip"
+         android:layout_below="@id/page_header"
+         android:visibility="gone"
+         ></ListView>
+     
+          <com.lewa.player.ui.NowPlayingController
+        android:id="@+id/music_commoncontrol"
+        android:layout_width="match_parent"
+        android:layout_height="54dip"
+        android:layout_alignParentBottom="true"
+        >    
+    </com.lewa.player.ui.NowPlayingController>
+   </RelativeLayout>
+   
+   <LinearLayout 
+       android:id="@+id/online_loading"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center_horizontal"
+       android:layout_gravity="center_horizontal"
+       android:paddingTop="210dp"
+       
+       >
+       
+        <ProgressBar 
+           android:id="@+id/hint_pb"
+           android:layout_width="20dp"
+           android:layout_height="20dp"
+           /> 
+       <TextView 
+           android:id="@+id/hint_tv"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/info_loading"
+           android:textColor="#ffffff"
+           />
+   </LinearLayout>
+   
+  
+
+</FrameLayout>

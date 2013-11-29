@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tape_margin_top"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.android.soundrecorder.Tape
+            android:id="@+id/left_tape"
+            android:layout_width="@dimen/tape_width"
+            android:layout_height="@dimen/tape_width"
+            android:background="@drawable/tape_small" />
+
+        <com.android.soundrecorder.Tape
+            android:id="@+id/right_tape"
+            android:layout_width="@dimen/tape_width"
+            android:layout_height="@dimen/tape_width"
+            android:layout_marginLeft="@dimen/tape_interval"
+            android:background="@drawable/tape" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/time_digit_margin_top"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/time_digit_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/digit_default" />
+
+        <ImageView
+            android:id="@+id/time_digit_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/digit_digit_interval"
+            android:src="@drawable/digit_default" />
+
+        <ImageView
+            android:id="@+id/left_dot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/digit_point_interval"
+            android:src="@drawable/point_default" />
+
+        <ImageView
+            android:id="@+id/time_digit_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/digit_point_interval"
+            android:src="@drawable/digit_default" />
+
+        <ImageView
+            android:id="@+id/time_digit_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/digit_digit_interval"
+            android:src="@drawable/digit_default" />
+
+        <ImageView
+            android:id="@+id/right_dot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/digit_point_interval"
+            android:src="@drawable/point_default" />
+
+        <ImageView
+            android:id="@+id/time_digit_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/digit_point_interval"
+            android:src="@drawable/digit_default" />
+
+        <ImageView
+            android:id="@+id/time_digit_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/digit_digit_interval"
+            android:src="@drawable/digit_default" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/volume_bar_margin_top"
+        android:gravity="center" >
+
+        <com.android.soundrecorder.VUMeter
+            android:id="@+id/volume_bar"
+            android:layout_width="@dimen/volume_bar_width"
+            android:layout_height="@dimen/volume_bar_height" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/button_margin_bottom"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/pause_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pause" />
+
+        <ImageButton
+            android:id="@+id/play_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/play" />
+
+        <ImageButton
+            android:id="@+id/record_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/record_button_interval"
+            android:background="@drawable/record" />
+
+        <ImageButton
+            android:id="@+id/stop_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/record_button_interval"
+            android:background="@drawable/stop_selector" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="small_button_width">76dp</dimen>
+    <dimen name="small_button_height">40dp</dimen>
+    
+    <dimen name="land_advanced_button_height">51dp</dimen>
+    
+    <dimen name="medium_button_width">74dp</dimen>
+    <dimen name="medium_button_height">72dp</dimen>
+    
+    <dimen name="large_button_width">103dp</dimen>
+    <dimen name="large_button_height">75dp</dimen>
+    
+    <dimen name="display_text_size_port">49dp</dimen>
+    <dimen name="display_text_size_land">33dp</dimen>
+    
+    <dimen name="small_button_text_size">33dp</dimen>
+    <dimen name="small_button_margin_top">6dp</dimen>
+    <dimen name="small_button_margin_left">5dp</dimen>    
+    
+    <dimen name="land_advanced_button_textsize">27dp</dimen>
+    
+    <dimen name="medium_button_text_size">50dp</dimen>
+    <dimen name="medium_button_margin_top">13dp</dimen>
+    <dimen name="medium_button_margin_left">11dp</dimen>
+    
+    
+    <dimen name="large_button_text_size">30dp</dimen>
+    <dimen name="large_button_margin_top">8dp</dimen>
+    <dimen name="large_button_margin_left">8dp</dimen>
+    
+    <dimen name="port_advanced_pad_padding_left">7dp</dimen>
+    <dimen name="port_advanced_pad_padding_top">6dp</dimen>
+    <dimen name="port_advanced_pad_long_symbol_textsize">27dp</dimen>
+    
+    <dimen name="port_display_margin_left">32dp</dimen>
+    <dimen name="port_display_margin_right">28dp</dimen>
+    <dimen name="port_display_margin_top">42dp</dimen>
+    
+    <dimen name="port_control_bt_margin_left">4dp</dimen>
+    <dimen name="port_control_bt_margin_top">40dp</dimen>
+    
+    
+    <dimen name="port_history_list_margin_left">49dp</dimen>
+    <dimen name="port_history_list_margin_right">25dp</dimen>
+    <dimen name="port_history_text_margin_right">10dp</dimen>
+    <dimen name="port_history_list_margin_top">45dp</dimen>
+    <dimen name="port_history_list_height">442dp</dimen>
+    
+    <dimen name="port_history_bt_ll_margin_left">7dp</dimen>
+    <dimen name="port_history_bt_ll_margin_right">7dp</dimen>
+    <dimen name="port_history_bt_ll_margin_top">52dp</dimen>   
+     
+    <dimen name="port_history_bt_margin_left">7dp</dimen>
+    <dimen name="port_history_bt_width">231dp</dimen>
+    <dimen name="port_history_bt_height">58dp</dimen>
+    <dimen name="port_history_bt_textsize">40dp</dimen>
+    
+    <dimen name="port_history_expr_textsize">40dp</dimen>
+    <dimen name="port_history_result_textsize">60dp</dimen>
+    
+    
+    <dimen name="land_simple_pad_margin_right">14dp</dimen>
+    <dimen name="land_simple_pad_margin_top">24dp</dimen>
+    <dimen name="land_simple_pad_padding_left">13dp</dimen>
+    <dimen name="land_advanced_pad_padding_left">10dp</dimen>
+    
+    <dimen name="land_advanced_pad_long_symbol_textsize">27dp</dimen>    
+    
+    <dimen name="land_display_margin_left">22dp</dimen>
+    <dimen name="land_display_margin_right">22dp</dimen>
+    <dimen name="land_display_margin_top">22dp</dimen>
+    
+    <dimen name="land_del_bt_margin_width">157dp</dimen>
+    
+    <dimen name="land_control_bt_margin_left">13dp</dimen>
+    <dimen name="land_control_bt_margin_top">54dp</dimen>
+    
+    <dimen name="land_history_list_margin_left">59dp</dimen>
+    <dimen name="land_history_list_margin_right">20dp</dimen>
+    <dimen name="land_history_text_margin_right">10dp</dimen>
+    <dimen name="land_history_list_margin_top">33dp</dimen>
+    <dimen name="land_history_list_height">215dp</dimen>
+    
+    <dimen name="land_history_bt_ll_margin_left">23dp</dimen>
+    <dimen name="land_history_bt_ll_margin_right">23dp</dimen>
+    <dimen name="land_history_bt_ll_margin_top">30dp</dimen>   
+     
+    <dimen name="land_history_bt_margin_left">21dp</dimen>
+    <dimen name="land_history_bt_width">356dp</dimen>
+    <dimen name="land_history_bt_height">51dp</dimen>
+    <dimen name="land_history_bt_textsize">30dp</dimen>
+    
+    <dimen name="land_history_expr_textsize">40dp</dimen>
+    <dimen name="land_history_result_textsize">60dp</dimen>
+    <dimen name="no_permanent_menu_key_offset">0dp</dimen>
+    <dimen name="no_permanent_menu_largekey_offset">1dp</dimen>
+    <dimen name="no_permanent_menu_key_top_offset">5dp</dimen>
+    <dimen name="no_permanent_menu_history_button_top_offset">48dp</dimen>
+
+
+</resources>

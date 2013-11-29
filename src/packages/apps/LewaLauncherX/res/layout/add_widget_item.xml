@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dip" >
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <TextView android:id="@+id/widget_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip" />
+        <TextView android:id="@+id/widget_dimen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/widget_title" />
+
+        <ImageView android:id="@+id/add_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/add_widget_btn"
+            android:scaleType="fitCenter" />
+    </RelativeLayout>
+    <ImageView android:id="@+id/widget_preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:paddingLeft="5dip"
+        android:adjustViewBounds="false"
+        android:src="@drawable/ic_launcher_application"
+        android:layout_gravity="left"
+        android:scaleType="fitStart" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.lewa.launcher.ShortcutIcon xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:visibility="gone" >
+    <com.lewa.launcher.BubbleTextView
+        android:id="@+id/app_icon_title"
+        style="@style/WorkspaceIcon"
+        android:focusable="true" />
+    <TextView android:id="@+id/app_unread"
+        style="@style/MsgHintAppearance" />
+</com.lewa.launcher.ShortcutIcon>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="theme_name_default">Default</string>
+    <string name="style_appearance_name">lewadefault</string>
+    <string name="author">Lewa OS</string>
+</resources>

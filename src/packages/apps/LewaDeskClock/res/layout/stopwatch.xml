@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/stopwatch_background" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="@dimen/stopwatch_time_padding_top" >
+
+        <include
+            android:id="@+id/stopwatch_time"
+            layout="@layout/timer_view" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="@dimen/stopwatch_anim_padding_left"
+        android:paddingTop="@dimen/stopwatch_anim_padding_top" >
+
+        <ImageView
+            android:id="@+id/stopwatch_anim_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/stopwatch_anim_12" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/stopwatch_reset_lap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="@dimen/stopwatch_reset_lap_padding_left"
+        android:paddingTop="@dimen/stopwatch_reset_lap_padding_top" >
+
+        <Button
+            android:id="@+id/stopwatch_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/stopwatch_reset_lap_selector"
+            android:text="@string/reset" />
+
+        <Button
+            android:id="@+id/stopwatch_lap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/stopwatch_reset"
+            android:background="@drawable/stopwatch_reset_lap_selector"
+            android:text="@string/lap" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/start_and_pause2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingRight="@dimen/stopwatch_start_pause_padding_right"
+        android:paddingTop="@dimen/stopwatch_start_pause_padding_top" >
+
+        <Button
+            android:id="@+id/start_and_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/stopwatch_start_pause_selector"
+            android:text="@string/start"
+            android:textColor="@color/white"
+            android:visibility="visible" >
+        </Button>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/start_and_pause2"
+        android:layout_marginTop="@dimen/stopwatch_scrollview_laptime_margin_top"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/stopwatch_scrollview_laptime_paddingBottom"
+        android:paddingLeft="@dimen/stopwatch_scrollview_laptime_paddingLeft"
+        android:paddingRight="@dimen/stopwatch_scrollview_laptime_paddingRight" >
+
+        <ListView
+            android:id="@android:id/list"
+            android:listSelector="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</RelativeLayout>

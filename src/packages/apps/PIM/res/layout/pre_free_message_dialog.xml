@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+	
+	<LinearLayout 
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical">
+			    
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:background="@drawable/top_bar"
+            android:gravity="center">
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/prefs_ims_service_title"    
+                android:textSize="22sp"
+                android:gravity="center_vertical"
+                android:shadowColor="#ff3b3b3b"   
+                android:shadowDy="1"     
+                android:shadowRadius="1"       
+                android:textColor="#ffffffff"/>
+        </LinearLayout>     	    
+			    	    
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:gravity="center_horizontal">
+            
+            <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal"
+               android:src="@drawable/ims_user_pre_view" />
+        </LinearLayout>	    
+		
+		<LinearLayout 
+	        android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="20dip"
+			android:layout_marginBottom="10dip"
+			android:layout_marginLeft="15dip"
+			android:layout_marginRight="10dip"
+			android:gravity="center_horizontal">
+			
+			<TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/message_ims_user_service_message_info"	
+		        android:textSize="12sp"
+		        android:gravity="center_vertical"
+		        android:layout_gravity="center_vertical"		        
+		        android:textColor="?android:textColorPrimary" />
+		</LinearLayout>		
+		
+		<LinearLayout 
+	        android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dip"
+			android:layout_marginBottom="10dip"
+			android:layout_marginLeft="20dip"
+			android:layout_marginRight="20dip"
+			android:gravity="left">
+			
+		    <TextView
+		       	android:id="@+id/check_user_protocl"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_vertical"
+		        android:layout_gravity="center_vertical"
+		        android:textAppearance="?android:attr/textAppearanceMediumInverse"
+		        android:textColor="#ff80C0E8"/>
+		</LinearLayout>		    
+	</LinearLayout>
+	
+    <LinearLayout android:id="@+id/buttonPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dip"
+        android:orientation="vertical"
+        android:divider="?android:attr/dividerHorizontal"
+        android:showDividers="beginning"
+        android:dividerPadding="0dip"
+        android:layout_alignParentBottom="true">
+		
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            style="?android:attr/buttonBarStyle">
+    
+            <Button android:id="@+id/free_message_to_later"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceMediumInverse"
+                android:text="@string/message_ims_user_service_to_later"
+                style="?android:attr/buttonBarButtonStyle"/>            
+            
+            <Button android:id="@+id/free_message_opening"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceMediumInverse"
+                android:textColor="#ff439e00"
+                android:text="@string/message_ims_user_service_open"
+                style="?android:attr/buttonBarButtonStyle"/>
+        </LinearLayout>
+    </LinearLayout>	    	    
+</RelativeLayout>

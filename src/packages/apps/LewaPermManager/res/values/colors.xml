@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+
+<color name="color_black">@lewa:color/android_primary_text_holo_light</color>
+<color name="color_gray">@lewa:color/android_secondary_text_holo_light</color>
+<!--  
+<color name="color_black">#000</color>
+<color name="color_gray">#CCC</color>
+-->
+<color name="color_red">#FF4D4D</color>
+<color name="color_blue">@android:color/holo_blue_light</color>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/linear_trackpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >     
+    
+    <LinearLayout 		
+		android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="100"
+	    android:layout_marginTop="0dip"
+	    android:orientation="vertical">
+	    
+        <include layout="@layout/pager_header" />
+	    
+	    <ListView 
+		    android:id="@android:id/list"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent">
+	    </ListView>   
+	    
+	</LinearLayout>
+	
+	<com.lewa.player.ui.NowPlayingController
+    	android:id="@+id/nowplaying_track"
+        android:layout_height="54dip"
+        android:layout_weight="1"
+        android:layout_width="match_parent">
+    </com.lewa.player.ui.NowPlayingController>
+
+</LinearLayout>

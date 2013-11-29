@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<ListView
+		android:id="@android:id/list"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:transcriptMode="normal"
+		android:smoothScrollbar="false"
+		android:stackFromBottom="true"
+		android:fadingEdge="none"
+		android:divider="@null"
+		android:listSelector="@drawable/listitem_slector_null_background" 
+		android:layout_marginBottom="1dip"
+		android:scrollbarAlwaysDrawVerticalTrack="false"
+		android:scrollbarStyle="insideOverlay" />
+    
+</FrameLayout>

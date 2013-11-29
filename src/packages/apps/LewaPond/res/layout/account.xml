@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<!-- 
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/title_bar" />
+
+    <TextView
+        android:id="@+id/account_email_address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="32dip"
+        android:textAppearance="?android:attr/textAppearanceMedium" >
+    </TextView>
+ -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/color_textview" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/account_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="24dip"
+        android:hint="@string/label_new_password"
+        android:inputType="textPassword"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="?android:attr/textColorPrimary"  >
+    </EditText>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:text="@string/dialog_enter_valid_password"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="?android:attr/textColorPrimary"  >
+    </TextView>
+
+    <EditText
+        android:id="@+id/account_password_confirm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:hint="@string/label_reenter"
+        android:inputType="textPassword"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="?android:attr/textColorPrimary"  >
+    </EditText>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="64dip" >
+
+        <Button
+            android:id="@+id/account_submit_changes"
+            android:layout_width="136dip"
+            android:layout_height="48dip"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/btn_download_bg"
+            android:text="@string/label_save_change"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_white" 
+            android:layout_marginRight="5dip"
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/account_cancel_changes"
+            android:layout_width="136dip"
+            android:layout_height="48dip"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn_update_bg"
+            android:text="@string/label_cancel_change"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_white" >
+        </Button>
+    </RelativeLayout>
+
+</LinearLayout>

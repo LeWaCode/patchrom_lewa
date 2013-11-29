@@ -1,0 +1,35 @@
+<cn.trinea.android.common.view.BorderScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/parent_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:minHeight="@dimen/topic_pager_min_height"
+            android:paddingBottom="@dimen/dp_8" >
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/layout_more"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/parent_layout"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="@string/drop_down_list_footer_default_text"
+            android:textColor="@color/drop_down_list_footer_font_color"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</cn.trinea.android.common.view.BorderScrollView>

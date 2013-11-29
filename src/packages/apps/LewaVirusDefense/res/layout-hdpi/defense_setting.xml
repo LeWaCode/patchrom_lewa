@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:key="Defense"
+	android:orderingFromXml="true">
+	
+    <PreferenceCategory android:title="@string/setting_install_monitor" >
+	    
+	    <SwitchPreference
+	        android:defaultValue="true"
+	        android:key="install_monitor"
+            android:summary="@string/setting_install_monitor_summary"
+	    
+            android:title="@string/install_monitor" />
+	    
+	</PreferenceCategory>
+	
+    <PreferenceCategory android:title="@string/setting_defense" >
+	    
+	    <SwitchPreference
+	        android:defaultValue="true"
+	        android:key="clound_scan"
+            android:summary="@string/setting_cloud_kill_summary"
+            android:title="@string/setting_scan_of_clound" />
+	    
+	    <SwitchPreference
+	        android:defaultValue="true"
+	        android:key="timer_scan"
+            android:summary="@string/setting_timer_scan_summary"
+            android:title="@string/timer_scan" />
+	    
+	    <Preference
+	        android:dependency="timer_scan"
+            android:key="kill_time"
+	        android:title="@string/setting_time" />
+	    
+	    <Preference	
+	        android:dependency="timer_scan"
+            android:key="kill_schedule"
+	        android:title="@string/setting_defense_schedule" />
+	    
+<!-- 	    <Preference -->
+<!-- 	        android:key="kill_date" -->
+<!-- 	        android:dependency="timer_scan" -->
+<!-- 	        android:title="@string/setting_defense_schedule_date" -->
+<!-- 	        android:summary="@string/sunday"/> -->
+	    
+	</PreferenceCategory>
+	
+    <PreferenceCategory android:title="@string/setting_update" >
+	    
+<!--         <CheckBoxPreference -->
+<!--             android:defaultValue="true" -->
+<!--             android:key="auto_update" -->
+<!--             android:title="@string/setting_auto_update" -->
+        <Preference
+            android:key="data_update"
+            android:summary="@string/setting_auto_update_summary"
+            android:title="@string/update_title" />
+	</PreferenceCategory>
+	
+</PreferenceScreen>
+

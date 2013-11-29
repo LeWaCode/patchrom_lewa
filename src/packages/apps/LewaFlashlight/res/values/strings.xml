@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FlashLight</string>
+    <string name="prompt">Hold HOME key to turn on light in lock screen mode.</string>
+    <!-- camera problem -->
+    <string name="errorCameraOpenTitle">Flashlight error</string>
+    <string name="errorCameraOpenMessage">"Can't open flashlight, some apps are using the camera interface"</string>
+</resources>

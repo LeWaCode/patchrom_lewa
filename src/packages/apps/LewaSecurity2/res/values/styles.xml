@@ -1,0 +1,27 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="TextAppearance.PagerTabs" parent="@android:style/TextAppearance.DeviceDefault.Small">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="Text.Medium" parent="@android:style/TextAppearance.Medium">
+    </style>
+    
+   	<style name="Text.Small" parent="@android:style/TextAppearance.Small">
+    </style>
+    
+    <style name="Text.Score" parent="@android:style/TextAppearance.Large">
+       <item name="android:textSize">@dimen/score_size</item>
+    </style>
+    
+    <style name="TextInfo" parent="Text.Small">
+		<item name="android:drawablePadding">@dimen/margin_normal</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:visibility">visible</item>
+		<item name="android:singleLine">true</item>
+    </style>
+    
+
+</resources>

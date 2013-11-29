@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+     Copyright (c) 2010-2012, The Linux Foundation. All rights reserved.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <item type="id" name="tag_notification_package"></item>
+    <item type="id" name="tag_notification_class"></item>
+    <item type="id" name="tag_notification_extras"></item>
+    <item type="id" name="tag_download_id"></item>
+    <!-- The name of the application that appears in the launcher [CHAR LIMIT=15] -->
+    <string name="app_label">Downloads</string>
+    <!-- The title that appears at the top of the activity listing downloads sorted by date [CHAR LIMIT=40] -->
+    <string name="download_title_sorted_by_date">Downloads - Sorted by date</string>
+    <!-- The title that appears at the top of the activity listing downloads sorted by size [CHAR LIMIT=40] -->
+    <string name="download_title_sorted_by_size">Downloads - Sorted by size</string>
+
+    <!-- Appears in lieu of the list of downloads if there are no downloads to view
+         [CHAR LIMIT=200] -->
+    <string name="no_downloads">No downloads</string>
+    <string name="no_downloading">No downloadings</string>
+    <string name="no_downloaded">No downloadeds</string>
+
+    <!-- Default title for an item in the download list for which no title was provided by the app.
+         [CHAR LIMIT=20] -->
+    <string name="missing_title">&lt;Unknown&gt;</string>
+
+    <!-- Button to display sort-by-size option [CHAR LIMIT=25] -->
+    <string name="button_sort_by_size">Sort by size</string>
+    <!-- Button to display sort-by-date option [CHAR LIMIT=25] -->
+    <string name="button_sort_by_date">Sort by date</string>
+
+    <!-- Status messages -->
+
+    <!-- Status indicating that the download has been queued to start in the future.  Appears for an
+         individual item in the download list.  [CHAR LIMIT=11] -->
+    <string name="download_queued">Queued</string>
+    <!-- Status indicating that the system is currently downloading the file.  Appears for an
+         individual item in the download list.  [CHAR LIMIT=11] -->
+    <string name="download_running">In progress</string>
+    <!-- Status indicating that the download has completed successfully. Appears for an individual
+         item in the download list.  [CHAR LIMIT=11] -->
+    <string name="download_success">Complete</string>
+    <!-- Status indicating that the download has ended without completing successfully.  Appears for
+         an individual item in the download list.  [CHAR LIMIT=11] -->
+    <string name="download_error">Failed</string>
+    <!--Status indicating that the download process is pause -->
+    <string name="download_pause">Paused</string>
+
+    <!-- Dialog/toast messages -->
+
+    <!-- Title of dialog that is shown when the user clicks a download for which no file is
+         available, either because the download hasn't started or because the download failed
+         [CHAR LIMIT=25] -->
+    <string name="dialog_title_not_available">Download Failed</string>
+    <!-- Text for dialog when user clicks on a download that failed [CHAR LIMIT=200] -->
+    <string name="dialog_failed_body">Do you want to retry downloading the file later
+          or delete it from the queue?</string>
+    <!-- Title for dialog when user clicks on a download that has not yet begun, but will be started
+         in the future. [CHAR LIMIT=25] -->
+    <string name="dialog_title_queued_body">File not yet available</string>
+    <!-- Text for dialog when user clicks on a download that has not yet begun, but will be started
+         in the future. [CHAR LIMIT=200] -->
+    <string name="dialog_queued_body">This file is queued for future download.</string>
+    <!-- Text for dialog when user clicks on a completed download but the file is missing
+         [CHAR LIMIT=200] -->
+    <string name="dialog_file_missing_body">The downloaded file cannot be found.</string>
+    <!-- Text for dialog when user clicks on a download that failed due to insufficient space on
+         external storage [CHAR LIMIT=200] -->
+    <string name="dialog_insufficient_space_on_external">Cannot finish download. There is not
+        enough space on external storage.</string>
+    <!-- Text for dialog when user clicks on a download that failed due to insufficient space on
+         the internal download cache [CHAR LIMIT=200] -->
+    <string name="dialog_insufficient_space_on_cache">Cannot finish download. There is not enough
+        space on internal download storage.</string>
+    <!-- Text for dialog when user clicks on a download that failed because it was interrupted and
+         the server doesn't support resuming downloads [CHAR LIMIT=200] -->
+    <string name="dialog_cannot_resume">Download interrupted. It cannot be resumed.</string>
+    <!-- Text for dialog when user clicks on a download that failed because the requested
+         destination file already exists [CHAR LIMIT=200] -->
+    <string name="dialog_file_already_exists">Cannot download. The destination file already exists.
+    </string>
+    <!-- Text for dialog when user clicks on a download that failed because it was requested to go
+         on the external media, which is not mounted [CHAR LIMIT=200] -->
+    <string name="dialog_media_not_found">Cannot download. The external media is not available.
+    </string>
+    <!-- Text for a toast appearing when a user clicks on a completed download, informing the user
+         that there is no application on the device that can open the file that was downloaded
+         [CHAR LIMIT=200] -->
+    <string name="download_no_application_title">Cannot open file</string>
+
+    <!-- Buttons -->
+
+    <!-- Text for button to remove the entry for a download that has not yet begun or that has
+         failed [CHAR LIMIT=25] -->
+    <string name="remove_download">Remove</string>
+    <!-- Text for button to delete a download that has completed, or to delete multiple download
+         entries [CHAR LIMIT=25] -->
+    <string name="delete_download">Delete</string>
+    <!-- Text for button to keep a download that has not yet begun [CHAR LIMIT=25] -->
+    <string name="keep_queued_download">Keep</string>
+    <!-- Text for button to cancel a download that is currently in progress [CHAR LIMIT=25] -->
+    <string name="cancel_running_download">Cancel</string>
+    <!-- Text for button appearing in a dialog to restart a download, either one that failed or one
+         for which the downloaded file is now missing [CHAR LIMIT=25] -->
+    <string name="retry_download">Retry</string>
+    <!-- Text for button appearing in the pop-up selection menu to deselect all currently selected
+    downloads in the download list [CHAR LIMIT=25] -->
+    <string name="deselect_all">Deselect All</string>
+    <!-- Text for menu to select all downloads in the download list [CHAR LIMIT=25] -->
+    <string name="select_all">Select All</string>
+    <!-- number of downloads selected [CHAR LIMIT=50] -->
+    <string name="selected_count">Selected <xliff:g id="number">%1$d</xliff:g></string>
+    <!-- title shown when displaying list of apps to choose from when share is clicked on
+        [CHAR LIMIT = 20] -->
+    <string name="download_share_dialog">Share via</string>
+
+    <!-- Short representation of download progress percentage. [CHAR LIMIT=8] -->
+    <string name="download_percent"><xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+    <!-- resume or pause dialog title,body message -->
+    <string name="dialog_title">Download</string>
+    <string name="paused_dialog_msg">Do you want to pause download?</string>
+    <string name="resume_dialog_msg">Do you want to resume download?</string>
+
+    <!-- Status messages -->
+    <string name="download_error_insufficient_memory">Insufficient memory</string>
+    <string name="download_error_invalid_descriptor">Invalid descriptor</string>
+    <string name="download_error_invalid_ddversion">Invalid DDversion</string>
+    <string name="download_error_attribute_mismatch">Attribute mismatch</string>
+    <string name="download_paused">Paused</string>
+
+    <!-- Dialog messages -->
+    <!-- ALert dialog title to show authenticate -->
+    <string name="authenticate_dialog_title">Please input username and password.</string>
+    <string name="username">Name</string>
+    <string name="password">Password</string>
+    <string name="action">Sign in</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <!-- Prompt dialog to show oma download information -->
+    <string name="confirm_oma_download_title">Confirm download?</string>
+    <string name="oma_download_name">Name:</string>
+    <string name="oma_download_vendor">Vendor:</string>
+    <string name="oma_download_type">Type:</string>
+    <string name="oma_download_size">Size:</string>
+    <string name="oma_download_description">Description:</string>
+    <string name="oma_download_content_not_supported" product="tablet">The content is not supported on the device. No application can be found to open this file. Do you still want to download it?</string>
+    <string name="oma_download_content_not_supported" product="default">The content is not supported on the phone. No application can be found to open this file. Do you still want to download it?</string>
+    <string name="confirm_oma_download_next_url">Download completed. Link to next URL?</string>
+
+    <!-- Add to support Reusme download  -->
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+
+    <!-- Add to show delete download failed  -->
+    <string name="delete_failed_with_SDcard">Fail to delete file. SD card is not available.</string>
+
+    <string name="share_download">Share</string>
+
+    <!-- Add to show share failed -->
+    <string name="share_failed_with_download_error">There is a file download failed, can not continue to share.</string>
+
+	<string name="downloading_title">Downloading</string>
+    <string name="downloaded_title">Downloaded</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_pause_all">Pause All</string>
+    <string name="menu_resume_all">Resume All</string>
+    <string name="menu_clear_all">Clear All</string>
+    <string name="message_open_app_fail">open app fail</string>
+    <string name="network_choice">choice network</string>
+    <string name="only_wifi_title">only wifi</string>
+    <string name="only_wifi_summary">save data</string>
+    <string name="download_remind_title">2G/3G network tips</string>
+    <string name="close_mobile_dialog_title">Tips</string>
+    <string name="close_mobile_dialog_content">If close reminds, no tip will be showed when download by mobile data network, may cause the flow rates.\r\n\r\nAre you sure to close the remind for 2G/3G network download.</string>
+    <string name="close_mobile_dialog_positive">OK</string>
+    <string name="close_mobile_dialog_negative">Cancel</string>
+    <string name="download_dialog_title">download tips</string>
+    <string name="mobile_dialog_content_prefix">Are you sure download via mobile network:\r\n</string>
+    <string name="mobile_dialog_content_suffix">\r\nit will cause the flow rates</string>
+    <string name="mobile_dialog_positive">download</string>
+    <string name="mobile_dialog_negative">connect wifi and download</string>
+    <string name="wifi_dialog_content">You have open download only via Wi-Fi, if you wish begin download, you need close download only via Wi-Fi.\r\n\r\nAre you sure close download only via Wi-Fi and download</string>
+    <string name="wifi_dialog_positive">OK</string>
+    <string name="wifi_dialog_negative">Cancel</string>
+    <string name="delete_dialog_title">delete</string>
+    <string name="delete_dialog_content">Are you sure to delete <xliff:g id="DELETE_NUMBER">%1$d</xliff:g> downloads?</string>
+    <string name="delete_dialog_content3">Are you sure to cancel and delete <xliff:g id="DELETE_NUMBER">%1$d</xliff:g> downloads?\r\n</string>
+    <string name="delete_dialog_content2">delete file on disk</string>
+    <string name="delete_dialog_positive">OK</string>
+    <string name="delete_dialog_negative">Cancel</string>
+    <string name="status_pending">pending</string>
+    <string name="status_pause">pause</string>
+    <string name="delete_all_dialog_title">clear all historys</string>
+    <string name="delete_all_dialog_content">Are you sure to clear all historys?</string>
+    <string name="delete_all_dialog_positive">OK</string>
+    <string name="delete_all_dialog_negative">Cancel</string>
+    <string name="net_work_disconnect">cannot connect network-_-!</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="last_month">Last Month</string>
+    <string name="older">Older</string>
+
+    <string name="status_pause_for_network">wait for network</string>
+</resources>

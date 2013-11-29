@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="Intercept"
+    android:orderingFromXml="true" >
+
+    <SwitchPreference
+        android:key="isIntercept"
+        android:title="@string/intercept_mode_title" />
+
+    <Preference
+        android:dependency="isIntercept"
+        android:key="blockMode"
+        android:layout="@lewa:layout/stateful_preference_holo_light"
+        android:summary="@string/intercept_blackname"
+        android:title="@string/intercept_rule" >
+    </Preference>
+    <Preference
+        android:dependency="isIntercept"
+        android:key="timeSetting"
+        android:widgetLayout="@lewa:layout/preference_widget"
+        android:layout="@lewa:layout/stateful_preference_holo_light"
+        android:summary="@string/intercept_time_allday"
+        android:title="@string/intercept_time" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.lewa.intercept.BlockTimeActivity"
+            android:targetPackage="com.lewa.intercept" />
+    </Preference>
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:dependency="isIntercept"
+        android:key="oneringIntercept"
+        android:summary="@string/intercept_interruptPhone_summary"
+        android:title="@string/intercept_interruptPhone" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:dependency="isIntercept"
+        android:key="isInterceptNotify"
+        android:title="@string/intercept_notification" />
+
+    <Preference
+        android:key="update"
+        android:layout="@lewa:layout/stateful_preference_holo_light"
+        android:title="@string/update_title"
+        android:dependency="isIntercept" />
+    <!-- <CheckBoxPreference -->
+    <!-- android:key="isIntercept" android:title="@string/intercept_mode" -->
+    <!-- android:persistent="false" android:disableDependentsState="true" /> -->
+
+</PreferenceScreen>

@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+ * Copyright (C) 2008 Esmertec AG.
+ * Copyright (C) 2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+  -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string-array name="default_smiley_texts">
+      <item>:-)</item>   <!-- 0: Happy -->
+      <item>:-(</item>   <!-- 1: Sad -->
+      <item>;-)</item>   <!-- 2: Winking -->
+      <item>:-P</item>   <!-- 3: Tongue sticking out -->
+      <item>=-O</item>   <!-- 4: Surprised -->
+      <item>:-*</item>   <!-- 5: Kissing -->
+      <item>:O</item>    <!-- 6: Yelling -->
+      <item>B-)</item>   <!-- 7: Cool -->
+      <item>:-$</item>   <!-- 8: Money mouth -->
+      <item>:-!</item>   <!-- 9: Foot in mouth -->
+      <item>:-[</item>   <!-- 10: Embarrassed -->
+      <item>O:-)</item>  <!-- 11: Angel -->
+      <item>:-\\</item>  <!-- 12: Undecided -->
+      <item>:\'(</item>  <!-- 13: Crying -->
+      <item>:-X</item>   <!-- 14: Lips are sealed -->
+      <item>:-D</item>   <!-- 15: Laughing -->
+      <item>o_O</item>   <!-- 16: Confused -->
+      <item>&lt;3</item> <!-- 17: Heart -->
+      <item>x-(</item>   <!-- 18: Mad -->
+      <item>:-/</item>   <!-- 19: Smirk -->
+      <item>:-I</item>   <!-- 20: Poker face -->
+  </string-array>
+  <string-array name="default_smiley_names">
+    <item msgid="1831934949361041701">"开心"</item>
+    <item msgid="1601611480575517120">"忧伤"</item>
+    <item msgid="1531181614218625881">"眨眼"</item>
+    <item msgid="3858808057949077894">"吐舌"</item>
+    <item msgid="7835238297967185651">"惊讶"</item>
+    <item msgid="1756223535005296033">"亲吻"</item>
+    <item msgid="1093906245140165107">"叫喊"</item>
+    <item msgid="888834839864150170">"酷"</item>
+    <item msgid="6320683740534773967">"财迷"</item>
+    <item msgid="6610111212478853990">"说错了话"</item>
+    <item msgid="1706035208563940251">"尴尬"</item>
+    <item msgid="9079275787422313427">"天使"</item>
+    <item msgid="4630490399784004880">"犹豫"</item>
+    <item msgid="7002574538342357456">"哭泣"</item>
+    <item msgid="850324578089267455">"保密"</item>
+    <item msgid="6334637439528489607">"大笑"</item>
+    <item msgid="7602915122893958066">"困惑"</item>
+    <item msgid="3939233701582771068">"感情"</item>
+    <item msgid="1414759480575851587">"鲁莽"</item>
+    <item msgid="8479809115158836070">"嘻嘻"</item>
+    <item msgid="638612939305162424">"一本正经"</item>
+  </string-array>
+  
+  <string-array name="common_smiley_texts">
+      <item>[失望宽慰]</item>           <!-- 0: emoji_disappointed_but_relieved_face -->
+      <item>[坏笑]</item>               <!-- 1: emoji_smir_ing_face-->
+      <item>[沉思]</item>               <!-- 2: emoji_pensive_face-->
+      <item>[呲牙笑]</item>             <!-- 3: emoji_grinning_cat_face_with_smiling_eyes -->
+      <item>[眨眼]</item>               <!-- 4: emoji_winking_face -->
+      <item>[坚忍]</item>               <!-- 5: emoji_persevering_face -->
+      <item>[燥乱]</item>               <!-- 6: emoji_confounded_face -->
+      <item>[困]</item>                 <!-- 7: emoji_sleepy_face -->
+      <item>[吐舌头]</item>             <!-- 8: emoji_face_with_stuckout_tongue_and_tightlyclosed_eyes -->
+      <item>[闭眼笑]</item>             <!-- 9: emoji_smiling_face_with_open_mouth_and_tightlyclosed_eyes -->
+      <item>[害怕]</item>               <!-- 10: emoji_fearful_face -->
+      <item>[感冒]</item>               <!-- 11: emoji_face_with_medical_mask -->
+      <item>[涨红]</item>               <!-- 12: emoji_flushed_face -->
+      <item>[不开心]</item>             <!-- 13: emoji_unamused_face -->
+      <item>[囧]</item>                 <!-- 14: emoji_face_with_open_mouth_and_cold_sweat -->
+      <item>[吃惊]</item>               <!-- 15: emoji_astonished_face -->
+      <item>[大哭]</item>               <!-- 16: emoji_loudly_crying_face -->
+      <item>[喜极而泣]</item>           <!-- 17: emoji_face_with_tears_of_joy -->
+      <item>[哭泣]</item>               <!-- 18: emoji_crying_face -->
+      <item>[憨笑]</item>               <!-- 19: emoji_white_smiling_face -->
+      <item>[开怀大笑]</item>           <!-- 20: emoji_smiling_face_with_open_mouth_and_smiling_eyes -->
+      <item>[愤怒]</item>               <!-- 21: emoji_pouting_face -->
+      <item>[亲吻]</item>               <!-- 22: emoji_kissing_face_with_closed_eyes -->
+      <item>[亲亲]</item>               <!-- 23: emoji_face_throwing_a_kiss -->
+      <item>[满足]</item>               <!-- 24: emoji_face_savouring_delicious_food -->
+      <item>[咧嘴笑]</item>             <!-- 25: emoji_smiling_face_with_open_mouth -->
+      <item>[失望]</item>               <!-- 26: emoji_disappointed_face -->
+      <item>[生气]</item>               <!-- 27: emoji_angry_face -->
+      <item>[鬼脸]</item>               <!-- 28: emoji_face_with_stuckout_tongue_and_winking_eye -->
+      <item>[色迷迷]</item>             <!-- 29: emoji_smiling_face_with_heartshaped_eyes -->
+      <item>[恐惧]</item>               <!-- 30: emoji_face_screaming_in_fear -->
+      <item>[冷汗]</item>               <!-- 31: emoji_face_with_cold_sweat -->
+      <item>[嘴唇]</item>               <!-- 32: emoji_mouth -->
+      <item>[云]</item>                 <!-- 33: emoji_cloud -->
+      <item>[太阳]</item>               <!-- 34: black_sun_with_rays -->
+      <item>[打伞]</item>               <!-- 35: emoji_umbrella_with_rain_drops -->
+      <item>[弯月]</item>               <!-- 36: emoji_crescent_moon -->
+      <item>[天使]</item>               <!-- 37: emoji_baby_angel -->
+      <item>[心]</item>                 <!-- 38: emoji_heavy_black_heart -->      
+      <item>[心碎]</item>               <!-- 39: emoji_broken_heart -->
+      <item>[啤酒]</item>               <!-- 40: emoji_clinking_beer_mugs -->
+      <item>[礼物]</item>               <!-- 41: emoji_wrapped_present -->
+      <item>[礼炮]</item>               <!-- 42: emoji_party_popper -->
+      <item>[米饭]</item>               <!-- 43: emoji_cooked_rice -->
+      <item>[炖锅]</item>               <!-- 44: emoji_pot_of_food -->      
+      <item>[生日蛋糕]</item>           <!-- 45: emoji_birthday_cake -->
+      <item>[不同意]</item>             <!-- 46: emoji_face_with_no_good_gesture -->
+      <item>[同意]</item>               <!-- 47: emoji_face_with_ok_gesture -->      
+  </string-array>
+
+    <!-- MTK Resources-->
+    <string-array name="pref_mms_creation_mode_choices">
+        <item>限制模式</item>
+        <item>警告模式</item>
+        <item>可用模式</item>
+    </string-array>
+  <string-array name="default_quick_texts">
+      <item>"你在哪里？"</item>
+      <item>"你在做什么？"</item>
+      <item>"急！请速回电。"</item>
+      <item>"抱歉，正在开会。"</item>
+      <item>"待会儿再回你电话。"</item>
+      <item>"我没事，别担心。"</item>
+      <item>"正在回家的路上。"</item>
+      <item>"我很快就到。"</item>
+      <item>"不见不散！"</item>
+    </string-array>
+    <string-array name="pref_key_mms_priority_choices">
+        <item>高</item>
+        <item>中</item>
+        <item>低</item>
+    </string-array>
+    <string-array name="pref_sms_save_location_choices">
+        <item>手机</item>
+        <item>SIM 卡</item>
+    </string-array>
+    <string-array name="pref_sms_save_location_values">
+        <item>Phone</item>
+        <item>Sim</item>
+    </string-array>
+    <string-array name="pref_sms_input_mode_choice">
+        <item>GSM字母表</item> 
+        <item>Unicode</item> 
+        <item>自动</item> 
+    </string-array>
+
+    <!-- added by chenqiang for Ip call Setting,20120814 -->
+<string-array name="ip_call_location_provinces">
+        <item>北京</item>
+        <item>上海</item>
+        <item>天津</item>
+        <item>重庆</item>
+        <item>安徽</item>
+        <item>福建</item>
+        <item>甘肃</item>
+        <item>广东</item>
+        <item>广西</item>
+        <item>贵州</item>
+        <item>海南</item>
+        <item>河北</item>
+        <item>河南</item>
+        <item>黑龙江</item>
+        <item>湖北</item>
+        <item>湖南</item>
+        <item>吉林</item>
+        <item>江苏</item>
+        <item>江西</item>
+        <item>辽宁</item>
+        <item>内蒙古</item>
+        <item>宁夏</item>
+        <item>青海</item>
+        <item>山东</item>
+        <item>山西</item>
+        <item>陕西</item>
+        <item>四川</item>
+        <item>西藏</item>
+        <item>新疆</item>
+        <item>云南</item>
+        <item>浙江</item>
+    </string-array>
+
+    <string-array name="ip_call_location_anhui_cities">
+        <item>合肥</item>
+        <item>安庆</item>
+        <item>蚌埠</item>
+        <item>巢湖</item>
+        <item>池州</item>
+        <item>滁州</item>
+        <item>阜阳/毫州</item>
+        <item>淮北</item>
+        <item>淮南</item>
+        <item>黄山</item>
+        <item>六安</item>
+        <item>马鞍山</item>
+        <item>宿州</item>
+        <item>铜陵</item>
+        <item>芜湖</item>
+        <item>宣城</item>
+    </string-array>
+
+    <string-array name="ip_call_location_fujian_cities">
+        <item>福州</item>
+        <item>龙岩</item>
+        <item>南平</item>
+        <item>宁德</item>
+        <item>莆田</item>
+        <item>泉州</item>
+        <item>三明</item>
+        <item>厦门</item>
+        <item>漳州</item>
+    </string-array>
+
+    <string-array name="ip_call_location_gansu_cities">
+        <item>兰州</item>
+        <item>白银</item>
+        <item>定西</item>
+        <item>甘南</item>
+        <item>嘉峪关/酒泉</item>
+        <item>金昌/武威</item>
+        <item>临夏</item>
+        <item>陇南</item>
+        <item>平凉</item>
+        <item>庆阳</item>
+        <item>天水</item>
+        <item>张掖</item>
+    </string-array>
+
+    <string-array name="ip_call_location_guangdong_cities">
+        <item>广州</item>
+        <item>潮州</item>
+        <item>东莞</item>
+        <item>佛山</item>
+        <item>河源</item>
+        <item>惠州</item>
+        <item>江门</item>
+        <item>揭阳</item>
+        <item>茂名</item>
+        <item>梅州</item>
+        <item>清远</item>
+        <item>汕头</item>
+        <item>汕尾</item>
+        <item>韶关</item>
+        <item>深圳</item>
+        <item>阳江</item>
+        <item>云浮</item>
+        <item>湛江</item>
+        <item>肇庆</item>
+        <item>中山</item>
+        <item>珠海</item>
+    </string-array>
+
+    <string-array name="ip_call_location_guangxi_cities">
+        <item>南宁/崇左</item>
+        <item>百色</item>
+        <item>北海</item>
+        <item>防城港</item>
+        <item>贵港/玉林</item>
+        <item>桂林</item>
+        <item>河池</item>
+        <item>贺州/梧州</item>
+        <item>来宾/柳州</item>
+        <item>钦州</item>
+    </string-array>
+
+    <string-array name="ip_call_location_guizhou_cities">
+        <item>贵阳</item>
+        <item>安顺</item>
+        <item>毕节</item>
+        <item>六盘水</item>
+        <item>黔东南/凯里</item>
+        <item>黔南/都匀</item>
+        <item>黔西南/兴义</item>
+        <item>铜仁</item>
+        <item>遵义</item>
+    </string-array>
+
+    <string-array name="ip_call_location_hainan_cities">
+        <item>海口/三亚</item>
+    </string-array>
+
+    <string-array name="ip_call_location_hebei_cities">
+        <item>石家庄</item>
+        <item>保定</item>
+        <item>沧州</item>
+        <item>承德</item>
+        <item>邯郸</item>
+        <item>衡水</item>
+        <item>廊坊</item>
+        <item>秦皇岛</item>
+        <item>唐山</item>
+        <item>邢台</item>
+        <item>张家口</item>
+    </string-array>
+
+    <string-array name="ip_call_location_henan_cities">
+        <item>郑州</item>
+        <item>安阳</item>
+        <item>鹤壁</item>
+        <item>焦作</item>
+        <item>开封</item>
+        <item>洛阳</item>
+        <item>漯河</item>
+        <item>南阳</item>
+        <item>平顶山</item>
+        <item>濮阳</item>
+        <item>三门峡</item>
+        <item>商丘</item>
+        <item>新乡</item>
+        <item>信阳/潢川</item>
+        <item>许昌</item>
+        <item>周口</item>
+        <item>驻马店</item>
+    </string-array>
+
+    <string-array name="ip_call_location_heilongjiang_cities">
+        <item>哈尔滨</item>
+        <item>大庆</item>
+        <item>大兴安岭</item>
+        <item>鹤岗</item>
+        <item>黑河</item>
+        <item>鸡西</item>
+        <item>佳木斯</item>
+        <item>牡丹江</item>
+        <item>七台河</item>
+        <item>齐齐哈尔</item>
+        <item>双鸭山</item>
+        <item>绥化</item>
+        <item>伊春</item>
+    </string-array>
+
+    <string-array name="ip_call_location_hubei_cities">
+        <item>武汉</item>
+        <item>鄂州</item>
+        <item>恩施</item>
+        <item>黄冈</item>
+        <item>黄石</item>
+        <item>荆门</item>
+        <item>荆州</item>
+        <item>江汉/仙桃</item>
+        <item>十堰</item>
+        <item>随州</item>
+        <item>咸宁</item>
+        <item>襄阳/襄樊</item>
+        <item>孝感</item>
+        <item>宜昌</item>
+    </string-array>
+
+    <string-array name="ip_call_location_hunan_cities">
+        <item>长沙/株洲/湘潭</item>
+        <item>常德</item>
+        <item>郴州</item>
+        <item>衡阳</item>
+        <item>怀化</item>
+        <item>娄底</item>
+        <item>邵阳</item>
+        <item>湘西/吉首</item>
+        <item>益阳</item>
+        <item>永州</item>
+        <item>岳阳</item>
+        <item>张家界</item>
+    </string-array>
+
+    <string-array name="ip_call_location_jilin_cities">
+        <item>长春</item>
+        <item>白城</item>
+        <item>白山</item>
+        <item>吉林</item>
+        <item>辽源</item>
+        <item>四平</item>
+        <item>松原</item>
+        <item>通化/梅河口</item>
+        <item>延边/延吉/珲春</item>
+    </string-array>
+
+    <string-array name="ip_call_location_jiangsu_cities">
+        <item>南京</item>
+        <item>常州</item>
+        <item>淮安</item>
+        <item>连云港</item>
+        <item>南通</item>
+        <item>宿迁</item>
+        <item>苏州</item>
+        <item>泰州</item>
+        <item>无锡</item>
+        <item>徐州</item>
+        <item>盐城</item>
+        <item>扬州</item>
+        <item>镇江</item>
+    </string-array>
+
+    <string-array name="ip_call_location_jiangxi_cities">
+        <item>南昌</item>
+        <item>抚州</item>
+        <item>赣州</item>
+        <item>吉安</item>
+        <item>景德镇</item>
+        <item>九江</item>
+        <item>萍乡</item>
+        <item>上饶</item>
+        <item>新余</item>
+        <item>宜春</item>
+        <item>鹰潭</item>
+    </string-array>
+
+    <string-array name="ip_call_location_liaoning_cities">
+        <item>沈阳/铁岭/抚顺</item>
+        <item>鞍山</item>
+        <item>本溪</item>
+        <item>朝阳</item>
+        <item>大连</item>
+        <item>丹东</item>
+        <item>阜新</item>
+        <item>葫芦岛</item>
+        <item>锦州</item>
+        <item>辽阳</item>
+        <item>盘锦</item>
+        <item>营口</item>
+    </string-array>
+
+    <string-array name="ip_call_location_neimenggu_cities">
+        <item>呼和浩特</item>
+        <item>阿拉善盟</item>
+        <item>巴彦淖尔/临河</item>
+        <item>包头</item>
+        <item>赤峰</item>
+        <item>鄂尔多斯</item>
+        <item>呼伦贝尔/海拉尔</item>
+        <item>通辽</item>
+        <item>乌海</item>
+        <item>乌兰察布/集宁</item>
+        <item>锡林郭勒盟/锡林浩特</item>
+        <item>兴安盟/乌兰浩特</item>
+    </string-array>
+
+    <string-array name="ip_call_location_ningxia_cities">
+        <item>银川</item>
+        <item>固原</item>
+        <item>石嘴山</item>
+        <item>吴忠</item>
+        <item>中卫</item>
+    </string-array>
+
+    <string-array name="ip_call_location_qinghai_cities">
+        <item>西宁</item>
+        <item>格尔木</item>
+        <item>果洛</item>
+        <item>海北/海晏</item>
+        <item>海东</item>
+        <item>海南</item>
+        <item>海西/德令哈</item>
+        <item>黄南</item>
+        <item>玉树</item>
+    </string-array>
+
+    <string-array name="ip_call_location_shandong_cities">
+        <item>济南</item>
+        <item>滨州</item>
+        <item>德州</item>
+        <item>东营</item>
+        <item>菏泽</item>
+        <item>济宁</item>
+        <item>莱芜</item>
+        <item>聊城</item>
+        <item>临沂</item>
+        <item>青岛</item>
+        <item>日照</item>
+        <item>泰安</item>
+        <item>威海</item>
+        <item>潍坊</item>
+        <item>烟台</item>
+        <item>枣庄</item>
+        <item>淄博</item>
+    </string-array>
+
+    <string-array name="ip_call_location_shan1xi_cities">
+        <item>太原</item>
+        <item>长治</item>
+        <item>大同</item>
+        <item>晋城</item>
+        <item>晋中</item>
+        <item>临汾</item>
+        <item>吕梁</item>
+        <item>朔州</item>
+        <item>忻州</item>
+        <item>阳泉</item>
+        <item>运城</item>
+    </string-array>
+
+    <string-array name="ip_call_location_shan3xi_cities">
+        <item>西安/咸阳</item>
+        <item>安康</item>
+        <item>宝鸡</item>
+        <item>汉中</item>
+        <item>商洛</item>
+        <item>铜川</item>
+        <item>渭南</item>
+        <item>延安</item>
+        <item>榆林</item>
+    </string-array>
+
+    <string-array name="ip_call_location_sichuan_cities">
+        <item>成都/眉山/资阳</item>
+        <item>阿坝</item>
+        <item>巴中</item>
+        <item>达州</item>
+        <item>德阳</item>
+        <item>甘孜</item>
+        <item>广安</item>
+        <item>广元</item>
+        <item>乐山</item>
+        <item>凉山/西昌</item>
+        <item>泸州</item>
+        <item>绵阳</item>
+        <item>南充</item>
+        <item>内江</item>
+        <item>攀枝花</item>
+        <item>遂宁</item>
+        <item>雅安</item>
+        <item>宜宾</item>
+        <item>自贡</item>
+    </string-array>
+
+    <string-array name="ip_call_location_xizang_cities">
+        <item>拉萨</item>
+        <item>阿里</item>
+        <item>昌都</item>
+        <item>林芝</item>
+        <item>那曲</item>
+        <item>日喀则</item>
+        <item>山南</item>
+    </string-array>
+
+    <string-array name="ip_call_location_xinjiang_cities">
+        <item>乌鲁木齐</item>
+        <item>阿克苏</item>
+        <item>阿勒泰</item>
+        <item>巴音郭楞/库尔勒</item>
+        <item>博尔塔拉/博乐</item>
+        <item>昌吉</item>
+        <item>哈密</item>
+        <item>和田</item>
+        <item>喀什</item>
+        <item>克拉玛依</item>
+        <item>克州</item>
+        <item>奎屯</item>
+        <item>石河子</item>
+        <item>塔城</item>
+        <item>吐鲁番</item>
+        <item>伊犁</item>
+    </string-array>
+
+    <string-array name="ip_call_location_yunnan_cities">
+        <item>昆明</item>
+        <item>保山</item>
+        <item>楚雄</item>
+        <item>大理</item>
+        <item>德宏</item>
+        <item>迪庆</item>
+        <item>红河</item>
+        <item>丽江</item>
+        <item>临沧</item>
+        <item>怒江</item>
+        <item>普洱/思茅</item>
+        <item>曲靖</item>
+        <item>文山</item>
+        <item>西双版纳</item>
+        <item>玉溪</item>
+        <item>昭通</item>
+    </string-array>
+
+    <string-array name="ip_call_location_zhejiang_cities">
+        <item>杭州</item>
+        <item>湖州</item>
+        <item>嘉兴</item>
+        <item>金华</item>
+        <item>丽水</item>
+        <item>宁波</item>
+        <item>衢州</item>
+        <item>绍兴</item>
+        <item>台州</item>
+        <item>温州</item>
+        <item>舟山</item>
+    </string-array>
+
+    <string-array name="ims_ip_call_setting_items">
+          <item>拨打长途时</item>
+          <item>拨打所有号码时</item>
+    </string-array>
+    
+    <string-array name="pref_sms_backup_location_entries">
+        <item>SD卡</item>
+        <item>内部存储</item>
+    </string-array>  
+        
+    <!-- Ip Call Setting End -->
+</resources>

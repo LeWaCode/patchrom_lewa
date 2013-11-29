@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">Power+</string>
+    <string name="spm_notification_tag_title">Friendly Tip:</string>
+    <string name="spm_notification_low_power_title">Your power has less than %s ,automatic into </string>
+    <string name="spm_notification_sleep_time_title">To sleep time, automatic into </string>
+    <string name="dev_bluetooth">Bluetooth</string>
+    <string name="dev_gps">GPS</string> 
+    <string name="dev_haptic">Haptic feedback</string>
+    <string name="dev_call_msg">Communication</string>
+    <string name="dev_wifi">WiFi</string>
+    <string name="dev_data">Data</string>
+    <string name="dev_airplane">Airplane mode</string>
+    <string name="dev_back_lights">BackLights</string>
+    <string name="spm_screen_sync_show">Auto-sync</string>
+    <string name="spm_screen_timeout_show">ScreenLock</string>
+    <string name="spm_screen_light_show">Brightness</string>
+    <string name="automatic_brightness">Automatic brightness</string>
+    <string name="dev_key_bglight">Button backlighting</string>
+    <string name="dev_clear_memory">Clear memory after lock screen</string>
+    
+    <string name="spm_date">&#160;d&#160;</string>
+    <string name="spm_hour">&#160;h&#160;</string>
+    <string name="spm_minute">&#160;m&#160;</string>
+    <string name="spm_seconds">&#160;s</string>
+    <string name="spm_auto">Auto</string>
+    <string name="spm_time_to_use">&#160;to apply</string>
+    
+    <string name="spm_remain_lower_one_hour">lower than 1 h</string>
+    <string name="spm_remain_lower_half_hour">lower than half hour</string>
+    <string name="spm_remain_lower_45_min">lower than 45 m</string>
+    
+    <string name="spm_mode_ordinary">General</string>
+    <string name="spm_mode_standby">Power Save</string>
+    <string name="spm_alarm_clock">Sleep alarm clock mode</string>
+    <string name="long_standby_check_explain">Enters Power Save mode, returns to user settings upon exit.</string>
+    <string name="spm_mode_standby_set_para">Power Save settings</string>
+    <string name="spm_mode_alarm_set_para">sleep alarm clock mode user defined</string>
+    
+    <string name="spm_class_title_mode_choose">whisper mode </string>
+    <string name="spm_class_title_app">Power Usage</string>
+    <string name="spm_class_title_intelligent">Smart Save</string>
+    
+    <string name="bedtime">Save power by schedule</string>
+    <string name="bedtime_set_time_title">Setting the time of save electricity</string>
+    <string name="bedtime_set_time">Setting the time of save electricity</string>
+    <string name="bedtime_check_title">Bedtime mode</string>
+    <string name="bedtime_auto_sp">Specify when to enter and exit Smart Save mode</string>
+    <string name="intelligent_time_set">Set Smart Save schedule</string>
+    <string name="intelligent_start_time">Start</string>
+    <string name="intelligent_end_time">End</string>
+    <string name="intelligent_start_time_value">23:00</string>
+    <string name="intelligent_end_time_value">07:00</string>
+    <string name="intelligent_time_frame_mode">Smart Save settings</string>
+    <string name="intelligent_time_frame_mode_summary">Specify what features are on/off during this mode</string>
+    <string name="save_power_based_on_battery_percent">Low power SVE</string>
+    <string name="low_power_save">Low power SVE</string>
+    <string name="low_power_save_auto_sp">Into long standby mode when battery is low</string>
+    <string name="low_power_value_set">Set low power</string>
+    <string name="set_low_power_value">Set low power value</string>
+    <string name="low_power_value_below">under %s </string>
+    <string name="low_power_below_mode">Less than %s use</string>
+    <string name="low_power_greater_mode">More than %s use</string>
+    <string name="low_power__mode_dialog_hint">power to %s </string>
+    <string name="low_power_mode_choice_sync">use %s mode</string>
+    <string name="regular_mode">General</string>
+    <string name="long_standby">Long standby mode</string>
+    <string name="sleep_alarm">Sleep alarm clock mode</string>
+    <string name="regular_mode_explain">Retain call,sms and basic network</string>
+    <string name="sleep_alarm_explain">Custom when you sleep needs to settings devices status</string>
+    <string name="spm_app_running">in use</string>
+    <string name="spm_app_not_started">not in use</string>
+    <string name="spm_mode_choice_normal_toast">Is entering into normal mode, will open data flow</string>
+    <string name="spm_mode_choice_standy_by_toast">Entered Power Save mode,</string>
+    <string name="spm_mode_choice_exit_standy_by_toast">Left Power Save mode already</string>
+    <string name="spm_mode_choice_alarm_toast">Is entering into the alarm clock mode, </string>
+    
+    <string name="sp_bedtime_dialog_start_title">Set start time</string>
+    <string name="sp_bedtime_dialog_end_title">Set end time</string>
+    <string name="sp_btn_finish">Finish</string>
+    <string name="sp_btn_ok">OK</string>
+    <string name="sp_btn_enter">Enter</string>
+    <string name="sp_btn_unenter">Keep out</string>
+    <string name="sp_btn_setting">Set</string>
+    <string name="sp_btn_no">Cancel</string>
+    <string name="spm_btn_amend">Amend</string>
+    <string name="spm_btn_save">Save</string>
+    <string name="sp_btn_calibration">Calibrate</string>
+    <string name="spm_mode_choice">Launch&#160;</string>
+     <string name="spm_mode_dev_shutdown">Shut</string>
+    <string name="spm_mode_choice_time_advance">you gained&#160;</string>
+    <string name="spm_mode_choice_time_reduce">you lost&#160;</string>
+    <string name="spm_mode_choice_dialog_content_before">Remaining&#160;</string>
+    <string name="spm_battery_life_time_has_no_changed">has no changed</string>
+    <string name="spm_life_time">Remaining</string>
+    <string name="spm_charging_time">Charging</string>
+     <string name="spm_charging_full">Completed</string>
+    <string name="spm_mode_ischanged">(has changed)</string>
+    <string name="spm_battery_calibration">Recalibrate battery</string>
+    <string name="spm_battery_calibration_summary">Please do not often calibrate your battery</string>
+    <string name="spm_battery_calibration_explain">The more accurate identification of the battery power</string>
+    <string name="spm_battery_life_calculator">Use time </string>
+    <string name="spm_battery_not_full_notification">Sorry, only when the power is full you can calibrate the battery, please try again after charging.</string>
+    <string name="spm_battery_calibration_notification_message">Correction battery can allows more durable</string>
+    <string name="spm_battery_calibration_notification_message_define">Cell phone battery time long will appear clearly have electricity, but mobile can lack of electricity and automatic shutdown. After correction accurate judgment of the mobile can power</string>
+	<string name="spm_battery_calibration_success">Calibrate success</string>
+	<string name="spm_battery_calibration_success_define">Often calibrate will cause error correction, every 3-4 months suggest a correction</string>
+	<string name="spm_notification_time">At midnight, if you want to start the intelligent Smart-Electricity?</string>
+	<string name="spm_notification_low_power">Fast without power, if you want to start the intelligent Smart-Electricity?</string>
+	<string name="spm_mode_same_toast">your setting is the same as long standby mode,there will be no change</string>
+	<string name="spm_in_the_time_title">Is entering time introspection electricity</string>
+	<string name="spm_in_the_time_message">Immediately enter Smart Save mode?</string>
+	<string name="spm_out_the_time_title">modify</string>
+	<string name="spm_out_the_time_message">The scheduled time has changed, you are now exiting Smart Save mode.</string>
+	<string name="spm_custom_settings_tip">Customize your devices closing choice</string>
+	<string name="spm_custom_settings_openning_title">Open it when in saving mode</string>
+	<string name="spm_custom_settings_closing_title">Close it when in saving mode</string>
+	<string name="spm_custom_settings_setting_max_title">Set its max value when in saving mode</string>
+	<string name="spm_custom_settings_openning_title_smart">Open it when in saving mode</string>
+	<string name="spm_custom_settings_closing_title_smart">Close it when in saving mode</string>
+	<string name="spm_custom_settings_setting_max_title_smart">Set its max value when in saving mode</string>
+	<string name="spm_custom_settings_intelli_other">Other</string>
+	<string name="spm_custom_settings_intelli_batterylow_title">Battery Low!</string>
+	<string name="spm_custom_settings_intelli_batterylow_summy">Set your battery low warnning value.Current value is </string>
+	<string name="spm_battery_low_warnnig_title">Battery too low!</string>
+	<string name="spm_battery_low_warnnig_msg">Attention please!Your battery is lower than </string>
+	<string name="spm_battery_low_warnnig_msg_1">.Would you need to open power saving?</string>	
+	<string name="spm_battery_low_warnnig_to_connect">Your battery is lower than </string>
+	<string name="spm_battery_low_warnnig_to_connect_1">! </string>
+
+	<string name="spm_inti_statusbar_in">Intilligent power saving mode in</string>
+	<string name="spm_inti_statusbar_out">Intilligent power saving mode out</string>
+	<string name="spm_inti_statusbar_time">Time interval </string>
+	<string name="spm_inti_statusbar_entry">Enter again</string>
+	<string name="spm_inti_statusbar_exit">Exit temporary</string>
+	<string name="spm_trickle_charge_title">Trickle charging</string>
+
+	
+		
+</resources>

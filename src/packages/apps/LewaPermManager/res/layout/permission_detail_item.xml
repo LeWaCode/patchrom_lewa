@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_height"
+    android:paddingLeft="@dimen/item_padding_side"
+    android:paddingRight="@dimen/item_padding_side" >
+	
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:scaleType="fitXY"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="@dimen/item_margin"/>
+    
+	<RelativeLayout
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/icon"
+        android:layout_centerVertical="true">
+        
+	    <TextView
+	        android:id="@+id/textTitle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        style="@style/Text.Medium.Black"/>
+	    
+	 	 <TextView
+	        android:id="@+id/textTitleSub"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:layout_below="@id/textTitle"
+			style="@style/Text.Small.Gray"/>
+ 	 </RelativeLayout>
+  
+	<RelativeLayout
+	    android:layout_width="@dimen/check_dimen"
+	    android:layout_height="@dimen/check_dimen"
+	    android:layout_centerVertical="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginRight="@dimen/item_margin"
+	    android:background="@drawable/checkbox_button" >
+	 	<ImageView
+	 	    android:id="@+id/checkState"
+	 	   	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:src="@drawable/check_state_enable"
+	    	android:layout_centerInParent="true"
+	    	/>
+	</RelativeLayout>
+</RelativeLayout>

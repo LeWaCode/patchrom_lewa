@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/file_browse_frame"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+
+    <!-- Lewa Path -->
+    <!-- android:background="#ebebeb" @drawable/button -->
+    <RelativeLayout
+        android:id="@+id/path_bar"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/bg_path"
+        android:paddingLeft="5dip"
+        android:orientation="horizontal" >
+<!-- android:layout_gravity="bottom" -->
+        <HorizontalScrollView
+            android:id="@+id/navigation_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_toLeftOf="@+id/refresh_loadingprogressbar"
+            android:layout_alignParentLeft="true"
+            android:fillViewport="true" >
+            <LinearLayout
+                android:id="@+id/tabs_holder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:textColor="?android:attr/textColorPrimary"
+                android:orientation="horizontal" />
+        </HorizontalScrollView>
+        <ProgressBar
+            android:id="@+id/refresh_loadingprogressbar"
+            style="@android:style/Widget.Holo.Light.ProgressBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            android:visibility="gone"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+             />
+    </RelativeLayout>
+<!-- 
+            android:divider="#D3D3D3"
+            android:dividerHeight="0dp"
+ -->
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+        <ListView
+            android:id="@+id/file_path_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_weight="120"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="false"
+            android:footerDividersEnabled="true"
+            android:headerDividersEnabled="true"
+            android:transcriptMode="normal"
+            android:layout_marginLeft="16dp"
+        	android:paddingRight="16dp"
+        	android:clipToPadding="false"
+        	android:drawSelectorOnTop="false"
+        	android:scrollbarAlwaysDrawVerticalTrack="true"
+        	android:scrollbarStyle="outsideOverlay"
+             />
+        <!-- android:listSelector="@drawable/listviewselector" -->
+        <LinearLayout
+            android:id="@+id/empty_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/no_file_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/no_file"                
+                android:textColor="?android:attr/textColorSecondary"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sd_not_available_page"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/no_file_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/sdcard_unavailable"
+                android:textColor="?android:attr/textColorSecondary"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <!-- Use default cancel style: 2012.11.05 -->
+    <LinearLayout android:id="@+id/layout_paste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dip"
+        android:orientation="vertical"
+        android:divider="?android:attr/dividerHorizontal"
+        android:showDividers="beginning"
+        android:dividerPadding="0dip"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true">        
+        <LinearLayout
+            
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:measureWithLargestChild="true">
+            <Button android:id="@+id/pastebar_cancel"
+                android:layout_width="0dip"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:maxLines="1"
+                style="?android:attr/buttonBarButtonStyle"
+                android:textSize="14sp"
+                android:minHeight="48dip"
+                
+                android:layout_height="wrap_content" />
+            <!-- android:text="@string/cancel" -->
+            <Button android:id="@+id/toolbar_paste"
+                android:layout_width="0dip"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:minHeight="48dip"
+                style="?android:attr/buttonBarButtonStyle"
+                android:textSize="14sp"
+                
+                android:layout_height="wrap_content" />
+            <!-- android:text="@string/paste" -->
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/pick_operation_bar"
+        style="@style/BottomButtonBar"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/button_pick_confirm"
+            style="@style/BottomButton.Left"
+            android:text="@string/confirm" />
+
+        <Button
+            android:id="@+id/button_pick_cancel"
+            style="@style/BottomButton.Right"
+            android:text="@string/operation_cancel" />
+    </LinearLayout>
+
+</LinearLayout>

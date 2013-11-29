@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ACCOUNT_TYPE">com.lewa.pond</string>
+    <string name="ACCOUNT_LABEL">乐蛙账户</string>
+    <string name="app_name">乐蛙账户</string>
+    <string name="placeholder">(temporary string)</string>
+    <string name="dialog_authentication_email_sent">您的邮箱将成为您的登录名</string>
+    <string name="dialog_check_your_registration_email">已经成功发送一封邮件到您的邮箱。请收取邮件，并完成验证</string>
+    <string name="dialog_check_your_email_change">请检查您新的邮箱，您将会收到一封需要验证的邮件。这会帮助您完成更换邮箱的工作</string>
+    <string name="dialog_check_your_email">注册马上完成了！请收取邮件，并完成验证</string>
+    <string name="dialog_enter_password">请先输入账户当前密码</string>
+    <string name="dialog_change_password_success">您的密码更变成功</string>
+    <string name="dialog_password_reset_success">您的密码将被重置，我们将会发送新的密码到您的邮件，请查收</string>
+    <string name="dialog_logged_in">您已经登入</string>
+    <string name="dialog_resetting_password">重设密码中…</string>
+    <string name="dialog_resend_verification_email">重新发送验证邮件的邮箱地址是:</string>
+    <string name="dialog_reset_password_email">请输入您的注册账户，我们将发送邮件来帮助您找回密码</string>
+    <string name="dialog_loading">载入中…</string>
+    <string name="dialog_saving_changes">保存设置中…</string>
+    <string name="dialog_already_registered">您已经登入，如果您想更换账号请先登出</string>
+    <string name="dialog_account_info_not_changed">您的信息未做修改</string>
+    <string name="dialog_your_email_address_is_your_signin">您的邮箱将成为您的登录名</string>
+    <string name="dialog_enter_valid_password">请输入6-20位数字或字母，勿含空格键</string>
+    <string name="error_already_registered">当前邮箱地址已经被注册了</string>
+    <string name="error_internet_connectivity">无法连接网络</string>
+    <string name="error_cannot_register_internet_connection">抱歉，现在无法继续注册。请检查网络</string>
+    <string name="error_cannot_login_internet_connection">抱歉，现在无法继续登录。请检查网络</string>
+    <string name="error_email_invalid">请使用正确的邮箱地址</string>
+    <string name="error_captcha_invalid">请输入图片中的数字</string>
+    <string name="error_password_invalid">密码至少6-20位</string>
+    <string name="error_password_incorrect">密码错误</string>
+    <string name="error_email_not_found">邮箱不存在，请输入正确邮箱地址</string>
+    <string name="error_connect_server_exception">服务器通讯异常</string>
+    <string name="label_login">登录</string>
+    <string name="label_register">注册</string>
+    <string name="label_my_account">账户设置</string>
+    <string name="label_register_sms">SMS registration</string>
+    <string name="label_almost_done">注册马上完成了</string>
+    <string name="label_internet_connection">网络连接</string>
+    <string name="label_email">电子邮件</string>
+    <string name="label_email_address">电子邮件地址</string>
+    <string name="label_email_verification">电子邮件验证</string>
+    <string name="label_password">密码</string>
+    <string name="label_reset_password">重设密码</string>
+    <string name="label_enter_password">输入密码</string>
+    <string name="label_new_password">新密码</string>
+    <string name="label_reenter">确认密码</string>
+    <string name="label_captcha">验证码</string>
+    <string name="label_ok">确定</string>
+    <string name="label_back">返回</string>
+    <string name="label_cancel">取消</string>
+    <string name="label_retry">重试</string>
+    <string name="label_close">关闭</string>
+    <string name="label_save_change">保存设置</string>
+    <string name="label_cancel_change">取消设置</string>
+    <string name="label_account_password_hint">新密码</string>
+    <string name="label_sendsms">Send SMS</string>
+    <string name="label_check_email">检查邮件</string>
+    <string name="label_go_to_inbox">转到电子邮箱</string>
+    <string name="label_later">稍后</string>
+    <string name="label_switch_users">切换用户</string>
+
+    <!-- 账户首选项（同步提供） -->
+    <string name="header_data_and_synchronization">数据与同步</string>
+    <string name="labi_sync_title">同步通讯录</string>
+    <string name="labi_sync_summary">同步通讯录到蜡笔云端</string>
+    <string name="labi_recovery_title">恢复通讯录</string>
+    <string name="labi_recovery_summary">从蜡笔云端恢复通讯录</string>
+    <string name="account_settings_title">账户设置</string>
+    <string name="account_manage_title">修改账户信息</string>
+    <string name="account_info_change">修改账户信息</string>
+
+    <!-- lewa ad 2012-04-16 -->
+    <string name="label_lewa_html_ad_blod">体验</string>
+    <string name="label_lewa_html_ad_title">乐蛙的云服务,</string>
+    <string name="label_lewa_html_ad_content">乐蛙账户也能登入乐蛙论坛。</string>
+    <string name="label_lewa_forum_user_can_use_eamil_login">乐蛙论坛用户可用乐蛙通行证登入</string>
+    <string name="label_forget_passwd_click_here">忘记密码，点击这里</string>
+    <string name="label_have_not_received_email">没有收到邮件</string>
+    <string name="label_click_here">点击这里</string>
+    <string name="label_security_code">验证码</string>
+    <string name="label_please_input_security_code">请输入验证码</string>
+    <string name="label_change_security_code">看不清楚，换一个</string>
+    <string name="progress_dialog_loading_data">正在加载数据，请稍候\.\.\.</string>
+    <string name="progress_dialog_logining">正在登录，请稍候\.\.\.</string>
+    <string name="alert_dialog_login_failed">登录失败</string>
+    <string name="alert_dialog_login_failed_result">请检查您的账号。</string>
+    <string name="error_email_is_not_null">电子邮箱不能为空</string>
+    <string name="error_password_is_not_equals">两次密码不一致</string>
+    <string name="error_captcha_is_not_null">请输入验证码</string>
+    <string name="error_captcha_input_wrong">验证码错误</string>
+
+</resources>

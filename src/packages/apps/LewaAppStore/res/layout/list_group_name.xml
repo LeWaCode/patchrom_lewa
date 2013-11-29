@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:drawableBottom="@drawable/bottom_drawable"
+    android:gravity="center_vertical"
+    android:minHeight="@dimen/group_name_height"
+    android:paddingLeft="@dimen/dp_8"
+    android:paddingRight="@dimen/dp_8"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="@color/bottom_drawable" >
+
+</TextView>

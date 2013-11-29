@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/file_listitem_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="4dip" >
+
+    <ImageView
+        android:id="@+id/file_listitem_thumb"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:layout_gravity="center_vertical"
+        android:background="@android:color/transparent"
+        android:padding="4dip"
+        android:src="@drawable/ic_folder_package" />
+
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.0"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/file_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/bg_updater_text_black_color" />
+
+        <TextView
+            android:id="@+id/file_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/file_name"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_below="@id/file_name"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/bg_updater_text_black_color" />
+
+        <TextView
+            android:id="@+id/file_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/file_size"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_marginLeft="4.0dip"
+            android:layout_toRightOf="@id/file_size"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/bg_updater_text_black_color" />
+    </RelativeLayout>
+
+    <RadioButton
+        android:id="@+id/check_file_listitem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="10.0dip"
+        android:focusable="false"
+        android:clickable="false"
+        android:focusableInTouchMode="false" />
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="search_setting"
+    android:orderingFromXml="true" >
+
+    <CheckBoxPreference
+        android:key="info_setting_message"
+        android:title="@string/info_setting_message"
+        android:summary="@string/info_setting_message_str"
+        android:defaultValue="true" android:selectable="true">
+        
+    </CheckBoxPreference>
+    
+    <CheckBoxPreference
+        android:key="info_setting_app"
+        android:title="@string/info_setting_app"
+        android:summary="@string/info_setting_app_str"
+        android:defaultValue="true">
+        
+    </CheckBoxPreference>
+     
+    <CheckBoxPreference
+        android:key="info_setting_image"
+        android:title="@string/info_setting_image"
+        android:summary="@string/info_setting_image_str"
+        android:defaultValue="true">
+        
+    </CheckBoxPreference>
+    
+    <CheckBoxPreference
+        android:key="info_setting_contact"
+        android:title="@string/info_setting_contact"
+        android:summary="@string/info_setting_contact_str"
+        android:defaultValue="true">
+        
+    </CheckBoxPreference>
+    
+    <CheckBoxPreference
+        android:key="info_setting_music"
+        android:title="@string/info_setting_music"
+        android:summary="@string/info_setting_music_str"
+        android:defaultValue="true">
+        
+    </CheckBoxPreference>
+    
+    <CheckBoxPreference
+        android:key="info_setting_setting"
+        android:title="@string/info_setting_setting"
+        android:summary="@string/info_setting_setting_str"
+        android:defaultValue="true">
+        
+    </CheckBoxPreference>
+    
+    <CheckBoxPreference
+        android:key="info_setting_file"
+        android:title="@string/info_setting_file"
+        android:summary="@string/info_setting_file_str"
+        android:defaultValue="true">
+        
+    </CheckBoxPreference>
+    
+</PreferenceScreen>
