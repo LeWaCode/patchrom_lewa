@@ -5,6 +5,7 @@
     <string name="reboot_system" product="tablet">"重啟平板"</string>
     <string name="reboot_system" product="default">"重啟手機"</string>
     <string name="global_action_screenshot">"截屏"</string>
+    <string name="global_action_toggle_silent_mode">靜音</string>
     <string name="global_action_screenshot_status">"長按音量下鍵+電源鍵截屏"</string>
     <string name="reboot_reboot">"重啟"</string>
     <string name="reboot_recovery">"恢復"</string>
@@ -15,11 +16,55 @@
     <string name="reboot_progress">"正在重啟..."</string>
     <string name="reboot_confirm">"您的手機会重啟。"</string>
     <string name="global_action_reboot">"重啟"</string>
+
+   <string name="progress_scanning">正在掃描</string>
+    <string name="profileNameDefault">默認模式</string>
+    <string name="profileNameWork">工作模式</string>
+    <string name="profileNameHome">室內模式</string>
+    <string name="profileNameSilent">靜音模式</string>
+    <string name="profileNameNight">夜間模式</string>
+    <string name="ringtone_custom">"自定義鈴聲..."</string>
+    <string name="ringtone_silent_summary">"靜音"</string>
+    <string name="copyAll">全部復制</string>
+    <string name="profileGroupPhone">電話</string>
+    <string name="profileGroupCalendar">日歷</string>
+    <string name="profileGroupGmail" translate="false">Gmail</string>
+    <string name="profileGroupEmail">電子郵件</string>
+    <string name="profileGroupSMS">短消息</string>
+    <string name="app_killed_message">應用程序已結束</string>
+    <string name="back_killed_message">已結束</string>
+    <string name="aerr_revoked_application" formatted="false">"%1$s 應用程序 (程序：%2$s) 異常終止。警告！
+            此應用程序有一個或多個權限被撤銷了，有可能因此而無法運行。請授予其所需權限然後再試一次。"</string>
+    <string name="aerr_revoked_process">"%1$s 異常終止。警告！
+            此應用程序有一個或多個權限被撤銷了，有可能因此而無法運行。請授予其所需權限然後再試一次。"</string>
+    <string name="reset_perms">重設權限</string>
+    <string name="phone_goggles_problem_count">問題 #%1$d: </string>
+    <string name="phone_goggles_description">在 %2$d 秒內解決 %1$d 個數學問題以執行您的通信。</string>
+    <string name="lock_screen_miss_call">%1$d 未接來電</string>
+    <string name="lock_screen_new_msg">%1$d 新信息</string>
+    <string name="lock_screen_miss_calls">%1$d 未接來電</string>
+    <string name="lock_screen_new_msgs">%1$d 新信息</string>
+    <string name="lock_screen_drag_down">向下拖動解鎖</string>
+    <string name="lock_screen_drag_here">拖至此處解鎖</string>
+    <string name="lock_screen_dismiss">取消</string>
+    <string name="lock_screen_snooze">暫停再響</string>
+    <string name="lock_screen_pm">下午</string>
+    <string name="lock_screen_am">上午</string>
+    <string name="fixed_line">固話</string>
+    <plurals name="phone_goggles_countdown">
+        <item quantity="one">還剩 %d 秒</item>
+        <item quantity="other">還剩 %d 秒</item>
+    </plurals>
+    <string name="cn_month">月</string>
+
     <string-array name="shutdown_reboot_options">
         <item>重啟模式</item>
         <item>刷機模式</item>
-        <item>引導模式</item>
+        <!-- <item>引导模式</item> -->
     </string-array>
+    <string name="data_usage_warning_title">"流量剩余不足提醒"</string>
+    <string name="data_usage_warning_body">"您本月剩余流量不足 <xliff:g id="SIZE">%s</xliff:g>，請謹慎使用。"</string>
+
     <!-- move from framework-res for patch rom -->
     <string name="hours">"小時"</string>
     <string name="minute">"分鐘"</string>

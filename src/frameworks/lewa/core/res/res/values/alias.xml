@@ -28,6 +28,7 @@
     <item type="bool" name="android_config_voice_capable">@*android:bool/config_voice_capable</item>
     <item type="bool" name="android_config_wimaxEnabled">@*android:bool/config_wimaxEnabled</item>
     <item type="bool" name="android_config_intrusiveNotificationLed">@*android:bool/config_intrusiveNotificationLed</item>
+    <item type="color" name="android_config_defaultNotificationColor">@*android:color/config_defaultNotificationColor</item>
 
     <color name="android_background_holo_dark">@*android:color/background_holo_dark</color>
     <color name="android_primary_text_holo_light">@*android:color/primary_text_holo_light</color>

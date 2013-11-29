@@ -60,4 +60,7 @@
                 169, 150, 169, 159, 170, 150, 160, 149, 179, 169, 149, 138, 140,
                 70, 130, 110, 80, 330, 200, 3446
                 </string>
+
+    <!-- Default LED freq time for notification LED in milliseconds. -->
+    <integer name="config_defaultNotificationLedFreq">4000</integer>
 </resources>

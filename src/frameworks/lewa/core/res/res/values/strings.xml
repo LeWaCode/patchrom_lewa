@@ -54,10 +54,11 @@
         <item quantity="one">%d second left</item>
         <item quantity="other">%d seconds left</item>
     </plurals>
-    <string name="data_usage_warning_body">"Warning, only <xliff:g id="SIZE">%s</xliff:g> left with your operator data pack."</string>
 
     <string name="selectNone">Cancel</string>
 
+    <string name="data_usage_warning_title">Data usage not enough warnning</string>
+    <string name="data_usage_warning_body">"Warning, only <xliff:g id="SIZE">%s</xliff:g> left with your operator data pack."</string>
     <!-- move from framework-res for patch rom -->
     <!-- Appened to express the value is this unit of time: singular hour -->
     <string name="hour">hour</string>

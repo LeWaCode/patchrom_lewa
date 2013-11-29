@@ -274,7 +274,7 @@
     <public type="string" name="android_lockscreen_pattern_instructions" id="0x09040026" />
     <public type="string" name="config_initial_charge_times_ac" id="0x09040027" />
     <public type="string" name="config_initial_charge_times_usb" id="0x09040028" />
-
+    <public type="string" name="data_usage_warning_title" id="0x09040029" />
     <!-- Public colors -->
     <public type="color" name="app_files" id="0x09050000" />
     <public type="color" name="pic_files" id="0x09050001" />
@@ -294,6 +294,8 @@
     <public type="color" name="android_primary_text_holo_light" id="0x0905000f" />
     <public type="color" name="android_secondary_text_holo_light" id="0x09050010" />
     <public type="color" name="holo_light_divider_color" id="0x09050011" />
+    <public type="color" name="android_config_defaultNotificationColor" id="0x09050012" />
+
     <!-- Public anim -->
     <public type="anim" name="android_fade_in" id="0x09060000" />
     <public type="anim" name="android_fade_out" id="0x09060001" />
@@ -527,6 +529,7 @@
     <public type="integer" name="config_longPressOnMenuBehavior" id="0x090c0005" />
     <public type="integer" name="config_extraSwithThumbPadding" id="0x090c0006" />
     <public type="integer" name="android_preference_fragment_scrollbarStyle" id="0x090c0007" />
+    <public type="integer" name="config_defaultNotificationLedFreq" id="0x090c0008" />
 
     <!-- Public array -->
     <public type="array" name="android_config_mobile_hotspot_provision_app" id="0x090d0000" />
