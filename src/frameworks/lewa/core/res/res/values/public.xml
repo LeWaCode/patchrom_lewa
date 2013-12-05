@@ -229,6 +229,8 @@
     <public type="style" name="android.Widget.Button.Transparent" id="0x0903001d" />
     <public type="style" name="TextAppearance.Holo.Widget.Switch" id="0x0903001e" />
     <public type="style" name="V5.Widget.Holo.Light.ProgressBar.Horizontal" id="0x0903001f" />
+    <!-- Toast -->
+    <public type="style" name="V5.Theme.Toast" id="0x09030020" />
     
     <!-- Public strings -->
     <public type="string" name="selectNone" id="0x09040000" />
@@ -445,7 +447,9 @@
     <public type="drawable" name="android_ic_lock_idle_lock" id="0x0908007f" />
     <public type="drawable" name="android_ic_menu_moreoverflow_holo_dark" id="0x09080080" />
     <public type="drawable" name="action_bar_tab_indicator"  id="0x09080081" />
-
+    <!-- Toast -->
+    <public type="drawable" name="toast_frame_holo"  id="0x09080082" />
+    
     <!-- Public layouts -->
     <public type="layout" name="stateful_preference_holo_light" id="0x09090000" />
     <public type="layout" name="preference_widget_switch_noclickable" id="0x09090001" />

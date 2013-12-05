@@ -20,6 +20,7 @@
 
         <item name="android:preferenceInformationStyle">@lewa:style/V5.Preference.Holo.Information</item>
         <item name="android:progressBarStyleHorizontal">@lewa:style/V5.Widget.Holo.Light.ProgressBar.Horizontal</item>
+        <item name="*android:toastFrameBackground">@lewa:drawable/toast_frame_holo</item>
     </style>
 
     <style name="V5.Theme.Holo" />
@@ -98,5 +99,10 @@
         <item name="android:windowAnimationStyle">@null</item>
         <item name="android:windowDisablePreview">true</item>
         <item name="android:windowNoDisplay">true</item>
+    </style>
+
+    <!-- Default theme for window that looks like a toast. -->
+    <style name="V5.Theme.Toast" parent="@*android:style/Theme.Toast">
+        <item name="android:windowBackground">@lewa:drawable/toast_frame_holo</item>
     </style>
 </resources>

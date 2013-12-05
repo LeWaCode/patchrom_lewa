@@ -15,6 +15,7 @@
     <package name="com.lewa.cleanmemory" />
     <package name="com.lewa.weather"/>
     <package name="com.lewa.antitheft"/>
+    <package name="com.lewa.flashlight"/>
     <package name="com.android.defcontainer" reason="get storage info"/>
     
     <!-- android providers -->

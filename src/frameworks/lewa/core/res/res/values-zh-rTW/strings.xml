@@ -80,4 +80,9 @@
     <string name="select">選擇</string>
 
     <string name="title_actionbar_selected_items">已選擇<xliff:g id="name">%s</xliff:g>个</string>
+    <string name="inadvertmode_title">口袋防誤觸模式</string>
+    <string name="inadvertmode_tip_msg1">請勿遮擋屏幕頂端</string>
+    <string name="inadvertmode_force_quit">強制退出:同時按住"home"和"音量+"鍵</string>
+    <string name="dianxinos_core">4核</string>
+    <string name="dianxinos_custom_core">8核</string>
 </resources>
