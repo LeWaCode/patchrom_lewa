@@ -94,5 +94,20 @@
     <string name="title_actionbar_selected_items"><xliff:g id="name">%s</xliff:g> selected</string>
     <string name="inadvertmode_title">Prevent misoperation</string>
     <string name="inadvertmode_tip_msg1">"Don't cover the top of screen"</string>
-    <string name="inadvertmode_force_quit">"Force to quit:press 'Home'+'Volume Up' key"</string>
+    <string name="inadvertmode_force_quit">"Force to quit:press 'Power'+'Volume Up' key"</string>
+    
+    <string name="translate">translate</string>
+    <string name="add">add</string>
+    <string name="call">call</string>
+    <string name="sms">SMS</string>
+    <string name="mail">Mail</string>
+    <string name="thumb_search_tip">You are using fingertip search, intelligent choice of words, readily translated and shortcuts, make reading more enjoyable. \ n If you do not want to use fingertip search, you can in the "Settings - Accessibility - fingertip search" turned off, you are now going to set the interface?</string>
+    <string name="go_to_setting">To set</string>
+    <string name="go_on_read">Back to Reading</string>
+    <string name="prompt_message">Prompt message</string>
+     <string name="new_contact">New contact</string>
+     <string name="add_to_contact">Add to existing contact</string>
+     <string name="no_network">Oops, you seems not connected to network</string>
+     <string name="suggest_to">Recommend that you go to</string>
+     <string name="check_network">check your network connection</string>
 </resources>

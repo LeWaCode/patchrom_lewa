@@ -150,7 +150,8 @@
     <item type="id" name="android_switch_ime_button">@*android:id/switch_ime_button</item>
 <!--     <item type="id" name="android_lockPattern">@*android:id/lockPattern</item> -->
     <item type="id" name="android_forgotPatternButton">@*android:id/forgotPatternButton</item>
-
+    <item type="id" name="android_title">@*android:id/title</item>
+    
     <item type="integer" name="android_config_lowBatteryCloseWarningLevel">@*android:integer/config_lowBatteryCloseWarningLevel</item>
     <item type="integer" name="android_config_lowBatteryWarningLevel">@*android:integer/config_lowBatteryWarningLevel</item>
     <item type="integer" name="android_config_criticalBatteryWarningLevel">@*android:integer/config_criticalBatteryWarningLevel</item>
@@ -212,4 +213,5 @@
     <style name="android.Theme.Dialog.Alert" parent="@*android:style/Theme.Dialog.Alert"></style>
     <style name="android.Theme.Holo.Light.Dialog.Alert" parent="@*android:style/Theme.Holo.Light.Dialog.Alert"></style>
     <style name="android.Widget.Button.Transparent" parent="@*android:style/Widget.Button.Transparent"></style>
+    <style name="android.Widget.Holo.TabText" parent="@*android:style/Widget.Holo.TabText"></style>
 </resources>

@@ -231,6 +231,8 @@
     <public type="style" name="V5.Widget.Holo.Light.ProgressBar.Horizontal" id="0x0903001f" />
     <!-- Toast -->
     <public type="style" name="V5.Theme.Toast" id="0x09030020" />
+    <!-- TagWidget -->
+    <public type="style" name="V5.Widget.Holo.Tab" id="0x09030021" />
     
     <!-- Public strings -->
     <public type="string" name="selectNone" id="0x09040000" />
@@ -497,7 +499,9 @@
     <public type="layout" name="android_keyguard_screen_password_landscape" id="0x09090028" />
     <public type="layout" name="android_keyguard_screen_unlock_portrait" id="0x09090029" />
     <public type="layout" name="android_keyguard_screen_unlock_landscape" id="0x0909002a" />
-
+    <!-- Toast layout -->
+    <public type="layout" name="transient_notification" id="0x0909002b" />
+    
     <!-- Public bool -->
     <public type="bool" name="android_config_automatic_brightness_available" id="0x090a0000" />
     <public type="bool" name="android_config_alwaysUseCdmaRssi" id="0x090a0001" />
@@ -549,4 +553,34 @@
 
     <!-- Public xml -->
     <public type="xml" name="android_apns" id="0x090e0000" />
+    
+     <!-- sousou -->
+    <java-symbol type="id" name="buttonSearch" />
+    <java-symbol type="id" name="buttonTranslate" />
+    <java-symbol type="id" name="buttonAddContact" />
+    <java-symbol type="id" name="buttonCall" />
+    <java-symbol type="id" name="buttonSMS" />
+    <java-symbol type="id" name="buttonMail" />
+    <java-symbol type="layout" name="sousou_float_panel" />
+    <java-symbol type="id" name="separator4" />
+    <java-symbol type="id" name="separator5" />
+    <java-symbol type="id" name="separator6" />
+    <java-symbol type="id" name="sousou_webview" />
+    <java-symbol type="layout" name="sousou_search" />
+    <java-symbol type="id" name="search_title" />
+    <java-symbol type="id" name="sousou_close" />
+    <java-symbol type="id" name="sousou_back" />
+    <java-symbol type="id" name="sousou_forward" />
+    <java-symbol type="id" name="sousou_refresh" />
+    <public type="string" name="thumb_search_tip" />
+    <public type="string" name="go_to_setting" />
+    <public type="string" name="go_on_read" />
+    <public type="string" name="prompt_message" />
+    <public type="string" name="new_contact" />
+    <public type="string" name="add_to_contact" />
+    <public type="string" name="no_network" />
+    <public type="string" name="suggest_to" />
+    <public type="string" name="check_network" />
+    <java-symbol type="id" name="check_network_link" />
+    <java-symbol type="id" name="sousou_nonet_tip" />
 </resources>

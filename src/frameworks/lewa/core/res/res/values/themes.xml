@@ -21,6 +21,7 @@
         <item name="android:preferenceInformationStyle">@lewa:style/V5.Preference.Holo.Information</item>
         <item name="android:progressBarStyleHorizontal">@lewa:style/V5.Widget.Holo.Light.ProgressBar.Horizontal</item>
         <item name="*android:toastFrameBackground">@lewa:drawable/toast_frame_holo</item>
+        <item name="android:tabWidgetStyle">@lewa:style/V5.Widget.Holo.TabWidget</item>
     </style>
 
     <style name="V5.Theme.Holo" />

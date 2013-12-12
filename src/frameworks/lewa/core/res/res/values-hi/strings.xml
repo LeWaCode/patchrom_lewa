@@ -1,0 +1,68 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="reboot_system" product="tablet">Reboot tablet</string>
+  <string name="reboot_system" product="default">"फ़ोन को रिबुट करें"</string>
+  <string name="global_action_screenshot">"स्क्रीन खींचना"</string>
+  <string name="global_action_toggle_silent_mode">मौन मोड</string>
+  <string name="global_action_screenshot_status">"निचे वॉल्यूम कुंजी और पॉवर कुंजि पर लंबे समय तक दबाने से स्क्रीन खींचें "</string>
+  <string name="reboot_reboot">"रिबुट"</string>
+  <string name="reboot_recovery">"पूनर्स्थापित करें"</string>
+  <string name="reboot_bootloader">"बुटलोडर"</string>
+  <string name="reboot_bootmenu">"बुटमिनु"</string>
+  <string name="reboot_fastboot">"तीव्रबुट"</string>
+  <string name="reboot_download">"डॉऊनलोड"</string>
+  <string name="reboot_progress">"रिबुट हो रहा है..."</string>
+  <string name="reboot_confirm">"आप का फ़ोन रिबुट होगा"</string>
+  <string name="global_action_reboot">"रिबुट"</string>
+  <string name="lockscreen_discharging">बैटरी मात्रा （<xliff:g id="number">%d</xliff:g>
+    <xliff:g id="percent">%%</xliff:g>)</string>
+  <string name="progress_scanning">स्कैन कर रहा है</string>
+  <string name="phone_goggles_problem_count">सवाल #%1$d: </string>
+  <string name="phone_goggles_description"> %2$d सैकेंडों में %1$d गणितीय सवालों को हल करने से आप केलिए संचार का चालन करें</string>
+  <string name="permlab_revokePermissions">Allows view and edit of revoked permissions. Not for use by normal applications.</string>
+  <string name="permdesc_revokePermissions">Allows read and write for revoked permissions. Not for use by normal applications.</string>
+  <string name="app_killed_message">अनुप्रयोग समाप्त हो गया है</string>
+  <string name="back_killed_message">समाप्त हो गया है</string>
+  <string name="lock_screen_miss_call">%1$d छूटी कॉल</string>
+  <string name="lock_screen_new_msg">%1$d नया संदेश</string>
+  <string name="lock_screen_miss_calls">%1$d छूटी कॉल</string>
+  <string name="lock_screen_new_msgs">%1$d नया संदेश</string>
+  <string name="lock_screen_drag_down">नीची ओर घसीटने से अनलॉक</string>
+  <string name="lock_screen_drag_here">इस तक घसीटने से अनलॉक</string>
+  <string name="lock_screen_dismiss">रद्द करें</string>
+  <string name="lock_screen_snooze">ऊंघ</string>
+  <string name="lock_screen_pm">दोपहर</string>
+  <string name="lock_screen_am">सुबह</string>
+  <string name="fixed_line">स्थिर लाइन</string>
+  <string name="ringtone_custom">"कास्टम ध्वनि..."</string>
+  <string name="ringtone_silent_summary">"मौन"</string>
+  <plurals name="phone_goggles_countdown">
+    <item quantity="one">%d second left</item>
+    <item quantity="other">%d seconds left</item>
+  </plurals>
+  <string name="data_usage_warning_body">"आप की बाकी बहाव काफ़ी नहीं है <xliff:g id="SIZE">%s</xliff:g> left with your operator data pack."</string>
+  <string name="selectNone">रद्द करें</string>
+  <string name="hour">"घंटा"</string>
+  <string name="minute">"मिनट"</string>
+  <string name="capital_on">"चालू करें"</string>
+  <string name="capital_off">"बंद करें"</string>
+  <string name="storage_phone">"आंतरिक स्मृति"</string>
+  <string name="global_actions_toggle_airplane_mode">"हवाई मोड"</string>
+  <string name="global_action_power_off">"पॉवरऑफ़"</string>
+  <string name="power_off">"पॉवरऑफ़"</string>
+  <string name="shutdown_progress">"पॉवरऑफ़ हो रहा है..."</string>
+  <string name="shutdown_confirm" product="tablet">Your tablet will shut down.</string>
+  <string name="shutdown_confirm" product="default">"आप की फ़ोन पॉवरऑफ़ होगी"</string>
+  <string name="text_pastelist">क्लिपबोर्ड</string>
+  <string name="select">चुनें</string>
+  <string name="lewa_date_picker_label_day" />
+  <string name="lewa_date_picker_label_month" />
+  <string name="lewa_date_picker_label_year" />
+  <string name="lewa_time_picker_label_hour" />
+  <string name="lewa_time_picker_label_minute" />
+  <string name="title_actionbar_selected_items">
+    <xliff:g id="name">%s</xliff:g> selected</string>
+  <string name="inadvertmode_title">जेब में रहने के समय गलत से स्पर्श करने से रोकनेवाला मोड</string>
+  <string name="inadvertmode_tip_msg1">स्क्रीन की चोटी को खंड मत कीजिये</string>
+  <string name="inadvertmode_force_quit">अनिवार्य से बाहर:कुंजि"मुख्यपेच"और"वॉल्यूम+" पर एकसाथ ही दबाएं </string>
+</resources>
