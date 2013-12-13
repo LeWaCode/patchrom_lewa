@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Text size for action bar titles; original size: 18dp -->
+    <dimen name="action_bar_title_text_size">18sp</dimen>
+    <!-- Text size for action bar subtitles -->
+    <!-- <dimen name="action_bar_subtitle_text_size">14dp</dimen> -->
+
+    <!-- height of an notification small icon -->
+    <!-- add by zhangxianjia 20120820 -->
+    <add-resource type="dimen" name="notification_small_icon" />
+    <dimen name="notification_small_icon">28px</dimen>
+
+    <dimen name="thumbnail_width">230dp</dimen>
+    <!-- The height that is used when creating thumbnails of applications. -->
+    <dimen name="thumbnail_height">135dp</dimen>
+    <!-- END -->
+
+    <!-- Dialog title height -->
+    <dimen name="alert_dialog_title_height">48dip</dimen>
+    <dimen name="preference_item_padding_side">0dp</dimen>
+    <dimen name="preference_screen_header_padding_side">0dip</dimen>
+    <dimen name="preference_fragment_padding_side">0dp</dimen>
+</resources>

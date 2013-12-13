@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- add by zhangxianjia, emergence string to no service string -->
+    <string name="emergency_calls_only">No service</string>
+
+    <string name="lockscreen_plugged_in">Charging (<xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g>)</string>
+
+    <!-- Storage description for internal storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Internal storage</string>
+    <string name="storage_phone" >"Internal Storage"</string>
+</resources>

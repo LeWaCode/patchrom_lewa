@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Woody Guo @ 2012/10/30 -->
+<!-- Remove the padding of the right edge -->
+<Switch xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+android:id/switchWidget"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:paddingTop="16dip"
+    android:paddingLeft="16dip"
+    android:paddingBottom="16dip"
+    android:focusable="false" />

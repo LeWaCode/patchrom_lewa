@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="grabber" />
+    <item type="id" name="button_title" />
+    <item type="id" name="button_left" />
+    <item type="id" name="button_right" />
+    <item type="id" name="slidebutton" />
+    <item type="id" name="month" />
+    <item type="id" name="day" />
+    <item type="id" name="year" />
+    <item type="id" name="calendar_view" />
+    <item type="id" name="pickers" />
+    <item type="id" name="hour" />
+    <item type="id" name="minute" />
+    <item type="id" name="amPm" />
+    <item type="id" name="action_mode_right_button" />
+    <item type="id" name="buttonSelectAll" />
+    <item type="id" name="buttonSelect" />
+    <item type="id" name="buttonPaste" />
+    <item type="id" name="buttonPasteList" />
+    <item type="id" name="buttonCut" />
+    <item type="id" name="buttonCopy" />
+    <item type="id" name="separator1" />
+    <item type="id" name="separator2" />
+    <item type="id" name="separator3" />
+    <item type="id" name="v5_spinner_iv" />
+    <item type="id" name="action_bar_spinner" />
+</resources>

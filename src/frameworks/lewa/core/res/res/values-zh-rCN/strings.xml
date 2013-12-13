@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lockscreen_discharging">电池电量 （<xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g>）</string>
+
+    <string name="reboot_system" product="tablet">"重启平板"</string>
+    <string name="reboot_system" product="default">"重启手机"</string>
+    <string name="global_action_screenshot">"截屏"</string>
+    <string name="global_action_toggle_silent_mode">静音</string>
+    <string name="global_action_screenshot_status">"长按音量下键+电源键截屏"</string>
+    <string name="reboot_reboot">"重启"</string>
+    <string name="reboot_recovery">"恢复"</string>
+    <string name="reboot_bootloader">"引导"</string>
+    <string name="reboot_bootmenu">"引导菜单"</string>
+    <string name="reboot_fastboot">"快速启动"</string>
+    <string name="reboot_download">"下载"</string>
+    <string name="reboot_progress">"正在重启..."</string>
+    <string name="reboot_confirm">"您的手机会重启。"</string>
+    <string name="global_action_reboot">"重启"</string>
+
+    <string name="progress_scanning">正在扫描</string>
+    <string name="profileNameDefault">默认模式</string>
+    <string name="profileNameWork">工作模式</string>
+    <string name="profileNameHome">室内模式</string>
+    <string name="profileNameSilent">静音模式</string>
+    <string name="profileNameNight">夜间模式</string>
+    <string name="ringtone_custom">"自定义铃声..."</string>
+    <string name="ringtone_silent_summary">"静音"</string>
+    <string name="copyAll">全部复制</string>
+    <string name="profileGroupPhone">电话</string>
+    <string name="profileGroupCalendar">日历</string>
+    <string name="profileGroupGmail" translate="false">Gmail</string>
+    <string name="profileGroupEmail">电子邮件</string>
+    <string name="profileGroupSMS">短消息</string>
+    <string name="app_killed_message">应用程序已结束</string>
+    <string name="back_killed_message">已结束</string>
+    <string name="aerr_revoked_application" formatted="false">"%1$s 应用程序 (程序：%2$s) 异常终止。警告！
+            此应用程序有一个或多个权限被撤销了，有可能因此而无法运行。请授予其所需权限然后再试一次。"</string>
+    <string name="aerr_revoked_process">"%1$s 异常终止。警告！
+            此应用程序有一个或多个权限被撤销了，有可能因此而无法运行。请授予其所需权限然后再试一次。"</string>
+    <string name="reset_perms">重设权限</string>
+    <string name="phone_goggles_problem_count">问题 #%1$d: </string>
+    <string name="phone_goggles_description">在 %2$d 秒内解决 %1$d 个数学问题以执行您的通信。</string>
+    <string name="lock_screen_miss_call">%1$d 未接来电</string>
+    <string name="lock_screen_new_msg">%1$d 新信息</string>
+    <string name="lock_screen_miss_calls">%1$d 未接来电</string>
+    <string name="lock_screen_new_msgs">%1$d 新信息</string>
+    <string name="lock_screen_drag_down">向下拖动解锁</string>
+    <string name="lock_screen_drag_here">拖至此处解锁</string>
+    <string name="lock_screen_dismiss">取消</string>
+    <string name="lock_screen_snooze">暂停再响</string>
+    <string name="lock_screen_pm">下午</string>
+    <string name="lock_screen_am">上午</string>
+    <string name="fixed_line">固话</string>
+    <plurals name="phone_goggles_countdown">
+        <item quantity="one">还剩 %d 秒</item>
+        <item quantity="other">还剩 %d 秒</item>
+    </plurals>
+    <string name="cn_month">月</string>
+
+    <string-array name="shutdown_reboot_options">
+        <item>重启模式</item>
+        <item>刷机模式</item>
+        <!-- <item>引导模式</item> -->
+    </string-array>
+
+    <string-array name="chineseMonthNames" translatable="false">
+        <item>正</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>十二</item>
+    </string-array>
+
+    <string-array name="chineseDateNames" translatable="false">
+        <item>初一</item>
+        <item>初二</item>
+        <item>初三</item>
+        <item>初四</item>
+        <item>初五</item>
+        <item>初六</item>
+        <item>初七</item>
+        <item>初八</item>
+        <item>初九</item>
+        <item>初十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>十三</item>
+        <item>十四</item>
+        <item>十五</item>
+        <item>十六</item>
+        <item>十七</item>
+        <item>十八</item>
+        <item>十九</item>
+        <item>二十</item>
+        <item>廿一</item>
+        <item>廿二</item>
+        <item>廿三</item>
+        <item>廿四</item>
+        <item>廿五</item>
+        <item>廿六</item>
+        <item>廿七</item>
+        <item>廿八</item>
+        <item>廿九</item>
+        <item>三十</item>
+    </string-array>
+    <string name="data_usage_warning_title">"流量剩余不足提醒"</string>
+    <string name="data_usage_warning_body">"您本月剩余流量不足 <xliff:g id="SIZE">%s</xliff:g>，请谨慎使用。"</string>
+
+    <!-- move from framework-res for patch rom -->
+    <string name="selectNone">取消全选</string>
+    <string name="hour">"小时"</string>
+    <string name="minute">"分钟"</string>
+    <string name="capital_on">"打开"</string>
+    <string name="capital_off">"关闭"</string>
+    <string name="storage_phone" >"内部存储"</string>
+    <string name="global_action_power_off">"关机"</string>
+    <string name="global_actions_toggle_airplane_mode">"飞行模式"</string>
+    <string name="power_off">"关机"</string>
+    <string name="shutdown_progress">"正在关机..."</string>
+    <string name="shutdown_confirm" product="tablet">"您的平板电脑会关闭。"</string>
+    <string name="shutdown_confirm" product="default">"您的手机会关机。"</string>
+    <string name="text_pastelist">剪贴板</string>
+    <string name="select">选择</string>
+
+    <string name="lewa_date_picker_label_day">日</string>
+    <string name="lewa_date_picker_label_month">月</string>
+    <string name="lewa_date_picker_label_year">年</string>
+    <string name="lewa_time_picker_label_hour">时</string>
+    <string name="lewa_time_picker_label_minute">分</string>
+    <string name="title_actionbar_selected_items">已选择<xliff:g id="name">%s</xliff:g>个</string>
+    <string name="inadvertmode_title">口袋防误触模式</string>
+    <string name="inadvertmode_tip_msg1">请勿遮挡屏幕顶端</string>
+    <string name="inadvertmode_force_quit">强制退出:同时按住"home"和"音量+"键</string>
+    
+     <string name="translate">翻译</string>
+     <string name="add">添加</string>
+     <string name="call">拨打</string>
+     <string name="sms">短信</string>
+     <string name="mail">邮件</string>
+     <string name="thumb_search_tip">您正在使用指尖搜索，智能选词，随手翻译和快捷操作，让阅读更加轻松愉快。\n如果您不想使用指尖搜索，可以在“设置-辅助功能-指尖搜索”中关闭，您现在要去设置界面吗？</string>
+     <string name="go_to_setting">去设置</string>
+     <string name="go_on_read">返回阅读</string>
+     <string name="prompt_message">消息提示</string>
+     <string name="new_contact">新建联系人</string>
+     <string name="add_to_contact">添加到现有联系人</string>
+     <string name="no_network">糟糕，您现在看起来没有联网</string>
+     <string name="suggest_to">建议您现在去</string>
+     <string name="check_network">检查网络连接</string>
+     
+</resources>

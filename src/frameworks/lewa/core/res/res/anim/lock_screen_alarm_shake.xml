@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@anim/lock_screen_alarm_cycleinterpolator"
+    android:fromXDelta="0"
+    android:toXDelta="30"
+    android:fromYDelta="-2"
+    android:toYDelta="2"
+    android:duration="700"
+    android:repeatCount="850"/>

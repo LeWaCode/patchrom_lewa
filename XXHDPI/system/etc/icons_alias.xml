@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<lewa_Icons_Alias>
+    <icon name="com_android_calendarx">com_when_android_calendar365</icon>
+    <icon name="com_android_galleryx" ddself="true">com_android_gallery3d_app_gallery</icon>
+    <icon name="com_android_galleryx" addself="true">com_android_gallery3d</icon>
+    <icon name="com_android_galleryx" addself="true">com_android_gallery3d_app_lewagalleryactivity</icon>
+    <icon name="com_android_gamex">com_socogame_ppc</icon>
+    <icon name="com_android_notesx">org_dayup_gnotes_lewa</icon>
+    <icon name="com_android_video">com_mediatek_videoplayer</icon>
+    <icon name="com_lewa_store">com_lewa_appstore</icon>
+    <icon name="com_android_camera">com_android_camera_cameralauncher</icon>
+    <icon name="com_android_mapx">com_baidu_baidumap</icon>
+    <icon name="com_lewa_movie">tv_huohua_android_movie_homeactivity</icon>
+    <icon name="com_lewa_fmradio">com_mediatek_fmradio</icon>
+    <icon name="com_lewa_books">com_chaozh_ireader</icon>
+
+    <icon name="com_lewa_pim_contacts_activities_dialtactsactivity" addself="true">com_android_phone</icon>
+    <icon name="com_lewa_pim_contacts_activities_dialtactsactivity" addself="true">com_android_providers_telephony</icon>
+    <icon name="com_lewa_pim_contacts_activities_contactsentryactivity" addself="true">com_android_providers_contacts</icon>
+    <icon name="com_lewa_pim_contacts_activities_contactsentryactivity" addself="true">com_lewa_pim</icon>
+    <icon name="com_android_calendarx" addself="true">com_android_providers_calendar</icon>
+    <icon name="com_android_settings" addself="true">com_android_providers_settings</icon>
+    <icon name="com_android_settings" addself="true">com_android_systemui</icon>
+    <icon name="com_lewa_themechooser" addself="true">com_lewa_thememanager</icon>
+</lewa_Icons_Alias>

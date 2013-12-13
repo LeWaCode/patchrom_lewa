@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+		<View 
+            android:layout_width="match_parent"
+            android:layout_height="0.5dip"
+            android:background="@color/holo_light_divider_color" />
+         />
+         
+         
+         <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dip"
+            android:background="@android:color/white"
+             >
+          <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_marginRight="48dp"
+		    android:layout_marginLeft="48dp"
+		    android:gravity="center"
+    	   >       
+            <TextView
+                android:id="@+id/search_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:singleLine="true"
+                android:textColor="@android:color/darker_gray"
+                android:layout_gravity="center"
+                 />
+   			 </LinearLayout>
+            
+            <ImageView
+                android:id="@+id/sousou_close"
+                android:layout_width="48dip"
+                android:layout_height="48dip"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="0dp"
+                android:scaleType="center"
+                android:src="@drawable/sousou_web_close" 
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                />
+          </FrameLayout>
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="0.5dip"
+            android:background="@color/holo_light_divider_color" />
+         />
+
+    <WebView
+        android:id="@+id/sousou_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2" />
+    
+    
+    <LinearLayout
+        android:id="@+id/sousou_nonet_tip"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical" 
+	    android:gravity="center_horizontal"
+	    android:layout_weight="2"
+	    android:visibility="gone"
+	    android:background="@android:color/white"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_network" 
+        android:textSize="17dp"
+        android:layout_marginTop="10dp"
+        />
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/no_net"
+        android:layout_marginTop="10dp"
+        />
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/suggest_to"
+            android:textSize="17dp"
+            />
+        <TextView 
+            android:id="@+id/check_network_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@*android:color/holo_blue_light"
+            android:textSize="17dp"
+            />
+        
+    </LinearLayout>
+
+</LinearLayout>
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+         >
+		<View 
+            android:layout_width="match_parent"
+            android:layout_height="0.5dip"
+            android:background="@color/holo_light_divider_color" />
+         />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:gravity="center_vertical" 
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" 
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:id="@+id/sousou_back"
+                    android:layout_width="48dip"
+                    android:layout_height="48dip"
+                    android:background="?android:attr/selectableItemBackground"
+        			android:scaleType="center"
+                    android:src="@drawable/sousou_web_back"
+                    android:clickable="true"
+                    android:layout_gravity="left"
+                     />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/sousou_forward"
+                    android:layout_width="48dip"
+                    android:layout_height="48dip"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:scaleType="center"
+                    android:src="@drawable/sousou_web_forward" 
+                    android:clickable="true"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:id="@+id/sousou_refresh"
+                    android:layout_width="48dip"
+                    android:layout_height="48dip"
+                    android:background="?android:attr/selectableItemBackground"
+        			android:scaleType="center"
+                    android:src="@drawable/sousou_web_refresh" 
+                    android:clickable="true"
+                    android:layout_gravity="right"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

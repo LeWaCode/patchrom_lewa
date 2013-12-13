@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    This file encapsulates all the reference to the android private resource.
+    We define an alias in lewa namespace for these resources.
+
+    (1) The naming rule is "android" + original android resource name. So that in the code
+        we can explictly tell which is reference to private android resource in lewa namespace.
+        eg. lewa.R.id.android_alertTitle.
+    (2) We should try to remove these references in this file
+        if the resource is used only by one app and the resource should not be affected by theme change.
+-->
+<resources>
+    <item type="anim" name="android_fade_in">@*android:anim/fade_in</item>
+    <item type="anim" name="android_fade_out">@*android:anim/fade_out</item>
+    <item type="anim" name="android_push_up_in">@*android:anim/push_up_in</item>
+    <item type="anim" name="android_push_down_out">@*android:anim/push_down_out</item>
+    <item type="anim" name="android_push_up_out">@*android:anim/push_up_out</item>
+    <item type="anim" name="android_push_down_in">@*android:anim/push_down_in</item>
+    <item type="anim" name="android_grow_fade_in_from_bottom">@*android:anim/grow_fade_in_from_bottom</item>
+    <item type="anim" name="android_shrink_fade_out_from_bottom">@*android:anim/shrink_fade_out_from_bottom</item>
+
+    <item type="bool" name="android_config_automatic_brightness_available">@*android:bool/config_automatic_brightness_available</item>
+    <item type="bool" name="android_config_alwaysUseCdmaRssi">@*android:bool/config_alwaysUseCdmaRssi</item>
+    <item type="bool" name="android_config_built_in_sip_phone">@*android:bool/config_built_in_sip_phone</item>
+    <item type="bool" name="android_config_cellBroadcastAppLinks">@*android:bool/config_cellBroadcastAppLinks</item>
+    <item type="bool" name="android_config_sf_slowBlur">@*android:bool/config_sf_slowBlur</item>
+    <item type="bool" name="android_config_use_strict_phone_number_comparation">@*android:bool/config_use_strict_phone_number_comparation</item>
+    <item type="bool" name="android_config_voice_capable">@*android:bool/config_voice_capable</item>
+    <item type="bool" name="android_config_wimaxEnabled">@*android:bool/config_wimaxEnabled</item>
+    <item type="bool" name="android_config_intrusiveNotificationLed">@*android:bool/config_intrusiveNotificationLed</item>
+    <item type="color" name="android_config_defaultNotificationColor">@*android:color/config_defaultNotificationColor</item>
+
+    <color name="android_background_holo_dark">@*android:color/background_holo_dark</color>
+    <color name="android_primary_text_holo_light">@*android:color/primary_text_holo_light</color>
+    <color name="android_secondary_text_holo_light">@*android:color/secondary_text_holo_light</color>
+
+    <item type="dimen" name="android_app_icon_size">@*android:dimen/app_icon_size</item>
+    <item type="dimen" name="android_navigation_bar_height">@*android:dimen/navigation_bar_height</item>
+    <item type="dimen" name="android_preference_fragment_padding_side">@*android:dimen/preference_fragment_padding_side</item>
+    <item type="dimen" name="android_preference_fragment_padding_bottom">@*android:dimen/preference_fragment_padding_bottom</item>
+    <item type="dimen" name="android_status_bar_icon_size">@*android:dimen/status_bar_icon_size</item>
+    <item type="dimen" name="android_system_bar_icon_size">@*android:dimen/system_bar_icon_size</item>
+    <item type="dimen" name="android_status_bar_height">@*android:dimen/status_bar_height</item>
+    <item type="dimen" name="android_system_bar_height">@*android:dimen/system_bar_height</item>
+    <item type="dimen" name="android_toast_y_offset">@*android:dimen/toast_y_offset</item>
+    <item type="dimen" name="android_glowpadview_inner_radius">@*android:dimen/glowpadview_inner_radius</item>
+    <item type="dimen" name="android_glowpadview_glow_radius">@*android:dimen/glowpadview_glow_radius</item>
+    <item type="dimen" name="android_navigation_bar_width">@*android:dimen/navigation_bar_width</item>
+
+    <item type="drawable" name="android_expander_ic_minimized">@*android:drawable/expander_ic_minimized</item>
+    <item type="drawable" name="android_expander_ic_maximized">@*android:drawable/expander_ic_maximized</item>
+    <item type="drawable" name="android_ic_contact_picture">@*android:drawable/ic_contact_picture</item>
+    <item type="drawable" name="android_ic_menu_close_clear_cancel">@*android:drawable/ic_menu_close_clear_cancel</item>
+    <item type="drawable" name="android_ic_menu_info_details">@*android:drawable/ic_menu_info_details</item>
+    <item type="drawable" name="android_ic_menu_archive">@*android:drawable/ic_menu_archive</item>
+    <item type="drawable" name="android_ic_menu_goto">@*android:drawable/ic_menu_goto</item>
+    <item type="drawable" name="android_sym_app_on_sd_unavailable_icon">@*android:drawable/sym_app_on_sd_unavailable_icon</item>
+    <item type="drawable" name="android_usb_android">@*android:drawable/usb_android</item>
+    <item type="drawable" name="android_usb_android_connected">@*android:drawable/usb_android_connected</item>
+    <item type="drawable" name="android_btn_code_lock_default_holo">@*android:drawable/btn_code_lock_default_holo</item>
+    <item type="drawable" name="android_btn_code_lock_touched_holo">@*android:drawable/btn_code_lock_touched_holo</item>
+    <item type="drawable" name="android_indicator_code_lock_point_area_default_holo">@*android:drawable/indicator_code_lock_point_area_default_holo</item>
+    <item type="drawable" name="android_indicator_code_lock_point_area_green_holo">@*android:drawable/indicator_code_lock_point_area_green_holo</item>
+    <item type="drawable" name="android_indicator_code_lock_point_area_red_holo">@*android:drawable/indicator_code_lock_point_area_red_holo</item>
+    <item type="drawable" name="android_indicator_code_lock_drag_direction_green_up">@*android:drawable/indicator_code_lock_drag_direction_green_up</item>
+    <item type="drawable" name="android_indicator_code_lock_drag_direction_red_up">@*android:drawable/indicator_code_lock_drag_direction_red_up</item>
+    <item type="drawable" name="android_platlogo">@*android:drawable/platlogo</item>
+    <item type="drawable" name="android_notification_item_background_color">@*android:drawable/notification_item_background_color</item>
+    <item type="drawable" name="android_notification_item_background_color_pressed">@*android:drawable/notification_item_background_color_pressed</item>
+    <item type="drawable" name="android_ic_lockscreen_handle_pressed">@*android:drawable/ic_lockscreen_handle_pressed</item>
+    <item type="drawable" name="android_scrubber_primary_holo">@*android:drawable/scrubber_primary_holo</item>
+    <item type="drawable" name="android_scrubber_track_holo_dark">@*android:drawable/scrubber_track_holo_dark</item>
+    <item type="drawable" name="android_notify_panel_notification_icon_bg">@*android:drawable/notify_panel_notification_icon_bg</item>
+    <item type="drawable" name="android_list_selector_pressed_holo_dark">@*android:drawable/list_selector_pressed_holo_dark</item>
+    <item type="drawable" name="android_ic_lockscreen_glowdot">@*android:drawable/ic_lockscreen_glowdot</item>
+    <item type="drawable" name="android_notify_panel_notification_icon_bg_tile">@*android:drawable/notify_panel_notification_icon_bg_tile</item>
+    <item type="drawable" name="android_list_divider_holo_light">@*android:drawable/list_selector_holo_light</item>
+    <item type="drawable" name="android_screen_background_selector_light">@*android:drawable/screen_background_selector_light</item>
+    <item type="drawable" name="android_cab_background_top_holo_light">@*android:drawable/cab_background_top_holo_light</item>
+    <item type="drawable" name="android_dialog_full_holo_dark">@*android:drawable/dialog_full_holo_dark</item>
+    <item type="drawable" name="android_ic_action_assist_generic">@*android:drawable/ic_action_assist_generic</item>
+    <item type="drawable" name="android_list_selector_background_disabled">@*android:drawable/list_selector_background_disabled</item>
+    <item type="drawable" name="android_list_selector_background_focused">@*android:drawable/list_selector_background_focused</item>
+    <item type="drawable" name="android_ic_lockscreen_outerring">@*android:drawable/ic_lockscreen_outerring</item>
+    <item type="drawable" name="android_list_selector_disabled_holo_dark">@*android:drawable/list_selector_disabled_holo_dark</item>
+    <item type="drawable" name="android_list_selector_holo_light">@*android:drawable/list_selector_holo_light</item>
+    <item type="drawable" name="android_list_selected_holo_light">@*android:drawable/list_selected_holo_light</item>
+    <item type="drawable" name="android_ic_text_dot">@*android:drawable/ic_text_dot</item>
+    <item type="drawable" name="android_ic_bullet_key_permission">@*android:drawable/ic_bullet_key_permission</item>
+    <item type="drawable" name="android_expander_close_holo_dark">@*android:drawable/expander_close_holo_dark</item>
+    <item type="drawable" name="android_expander_open_holo_dark">@*android:drawable/expander_open_holo_dark</item>
+    <item type="drawable" name="android_btn_keyboard_key_fulltrans">@*android:drawable/btn_keyboard_key_fulltrans</item>
+    <item type="drawable" name="android_code_lock_left">@*android:drawable/code_lock_left</item>
+    <item type="drawable" name="android_code_lock_top">@*android:drawable/code_lock_top</item>
+    <item type="drawable" name="android_ic_lock_idle_lock">@*android:drawable/ic_lock_idle_lock</item>
+    <item type="drawable" name="android_ic_menu_moreoverflow_holo_dark">@*android:drawable/ic_menu_moreoverflow_holo_dark</item>
+
+    <item type="id" name="android_action_context_bar">@*android:id/action_context_bar</item>
+    <item type="id" name="android_alertTitle">@*android:id/alertTitle</item>
+    <item type="id" name="android_alwaysUse">@*android:id/alwaysUse</item>
+    <item type="id" name="android_banner">@*android:id/banner</item>
+    <item type="id" name="android_body">@*android:id/body</item>
+    <item type="id" name="android_customPanel">@*android:id/customPanel</item>
+    <item type="id" name="android_clearDefaultHint">@*android:id/clearDefaultHint</item>
+    <item type="id" name="android_message">@*android:id/message</item>
+    <item type="id" name="android_mount_button">@*android:id/mount_button</item>
+    <item type="id" name="android_unmount_button">@*android:id/unmount_button</item>
+    <item type="id" name="android_radio">@*android:id/radio</item>
+    <item type="id" name="android_seekbar">@*android:id/seekbar</item>
+    <item type="id" name="android_time_current">@*android:id/time_current</item>
+    <item type="id" name="android_time">@*android:id/time</item>
+    <item type="id" name="android_switchWidget">@*android:id/switchWidget</item>
+    <item type="id" name="android_action_bar_container">@*android:id/action_bar_container</item>
+    <item type="id" name="android_split_action_bar">@*android:id/split_action_bar</item>
+    <item type="id" name="android_action_bar">@*android:id/action_bar</item>
+    <item type="id" name="android_action_bar_overlay_layout">@*android:id/action_bar_overlay_layout</item>
+    <item type="id" name="android_top_action_bar">@*android:id/top_action_bar</item>
+    <item type="id" name="android_action_bar_title">@*android:id/action_bar_title</item>
+    <item type="id" name="android_action_bar_subtitle">@*android:id/action_bar_subtitle</item>
+    <item type="id" name="android_action_mode_close_button">@*android:id/action_mode_close_button</item>
+    
+    <item type="id" name="android_parentPanel">@*android:id/parentPanel</item>
+    <item type="id" name="android_topPanel">@*android:id/topPanel</item>
+    <item type="id" name="android_titleDividerTop">@*android:id/titleDividerTop</item>
+    <item type="id" name="android_title_template">@*android:id/title_template</item>
+    <item type="id" name="android_icon">@*android:id/icon</item>
+    <item type="id" name="android_titleDivider">@*android:id/titleDivider</item>
+    <item type="id" name="android_contentPanel">@*android:id/contentPanel</item>
+    <item type="id" name="android_scrollView">@*android:id/scrollView</item>
+    <item type="id" name="android_custom">@*android:id/custom</item>
+    <item type="id" name="android_buttonPanel">@*android:id/buttonPanel</item>
+    <item type="id" name="android_button3">@*android:id/button3</item>
+    <item type="id" name="android_button2">@*android:id/button2</item>
+    <item type="id" name="android_button1">@*android:id/button1</item>
+    <item type="id" name="android_minute">@*android:id/minute</item>
+    <item type="id" name="android_hour">@*android:id/hour</item>
+    <item type="id" name="android_amPm">@*android:id/amPm</item>
+    <item type="id" name="android_day">@*android:id/day</item>
+    <item type="id" name="android_month">@*android:id/month</item>
+    <item type="id" name="android_year">@*android:id/year</item>
+    <item type="id" name="android_pickers">@*android:id/pickers</item>
+    <item type="id" name="android_calendar_view">@*android:id/calendar_view</item>
+    <item type="id" name="android_status">@*android:id/status</item>
+    <item type="id" name="android_option1">@*android:id/option1</item>
+    <item type="id" name="android_option2">@*android:id/option2</item>
+    <item type="id" name="android_option3">@*android:id/option3</item>
+    <item type="id" name="android_keyboard">@*android:id/keyboard</item>
+    <item type="id" name="android_passwordEntry">@*android:id/passwordEntry</item>
+    <item type="id" name="android_pinDel">@*android:id/pinDel</item>
+    <item type="id" name="android_switch_ime_button">@*android:id/switch_ime_button</item>
+<!--     <item type="id" name="android_lockPattern">@*android:id/lockPattern</item> -->
+    <item type="id" name="android_forgotPatternButton">@*android:id/forgotPatternButton</item>
+
+    <item type="integer" name="android_config_lowBatteryCloseWarningLevel">@*android:integer/config_lowBatteryCloseWarningLevel</item>
+    <item type="integer" name="android_config_lowBatteryWarningLevel">@*android:integer/config_lowBatteryWarningLevel</item>
+    <item type="integer" name="android_config_criticalBatteryWarningLevel">@*android:integer/config_criticalBatteryWarningLevel</item>
+    <item type="integer" name="android_config_screenBrightnessDim">@*android:integer/config_screenBrightnessDim</item>
+    <item type="integer" name="android_preference_fragment_scrollbarStyle">@*android:integer/preference_fragment_scrollbarStyle</item>
+
+    <item type="array" name="android_config_mobile_hotspot_provision_app">@*android:array/config_mobile_hotspot_provision_app</item>
+    <item type="array" name="android_config_virtualKeyVibePattern">@*android:array/config_virtualKeyVibePattern</item>
+
+    <item type="string" name="android_ringtone_unknown">@*android:string/ringtone_unknown</item>
+    <item type="string" name="android_ringtone_silent">@*android:string/ringtone_silent</item>
+    <item type="string" name="android_emergency_call_dialog_number_for_display">@*android:string/emergency_call_dialog_number_for_display</item>
+    <item type="string" name="android_gigabyteShort">@*android:string/gigabyteShort</item>
+    <item type="string" name="android_megabyteShort">@*android:string/megabyteShort</item>
+    <item type="string" name="android_PinMmi">@*android:string/PinMmi</item>
+    <item type="string" name="android_ssl_certificate">@*android:string/ssl_certificate</item>
+    <item type="string" name="android_report">@*android:string/report</item>
+    <item type="string" name="android_wifi_tether_configure_ssid_default">@*android:string/wifi_tether_configure_ssid_default</item>
+    <item type="string" name="android_fast_scroll_alphabet">@*android:string/fast_scroll_alphabet</item>
+    <item type="string" name="android_upgrading_title">@*android:string/android_upgrading_title</item>
+    <item type="string" name="android_lockscreen_access_pattern_cell_added">@*android:string/lockscreen_access_pattern_cell_added</item>
+    <item type="string" name="android_lockscreen_access_pattern_cleared">@*android:string/lockscreen_access_pattern_cleared</item>
+    <item type="string" name="android_lockscreen_access_pattern_detected">@*android:string/lockscreen_access_pattern_detected</item>
+    <item type="string" name="android_lockscreen_access_pattern_start">@*android:string/lockscreen_access_pattern_start</item>
+    <item type="string" name="android_usb_storage_activity_title">@*android:string/usb_storage_activity_title</item>
+    <item type="string" name="android_lockscreen_password_wrong">@*android:string/lockscreen_password_wrong</item>
+    <item type="string" name="android_lockscreen_too_many_failed_attempts_countdown">@*android:string/lockscreen_too_many_failed_attempts_countdown</item>
+    <item type="string" name="android_lockscreen_forgot_pattern_button_text">@*android:string/lockscreen_forgot_pattern_button_text</item>
+    <item type="string" name="android_lockscreen_pattern_wrong">@*android:string/lockscreen_pattern_wrong</item>
+    <item type="string" name="android_lockscreen_pattern_instructions">@*android:string/lockscreen_pattern_instructions</item>
+
+    <item type="layout" name="android_always_use_checkbox">@*android:layout/always_use_checkbox</item>
+    <item type="layout" name="android_notification_template_base">@*android:layout/notification_template_base</item>
+    <item type="layout" name="android_preference_header_item">@*android:layout/preference_header_item</item>
+    <item type="layout" name="android_preference_list_fragment">@*android:layout/preference_list_fragment</item>
+    <item type="layout" name="android_screen_action_bar">@*android:layout/screen_action_bar</item>
+    <item type="layout" name="android_screen_action_bar_overlay">@*android:layout/screen_action_bar_overlay</item>
+    <item type="layout" name="android_simple_list_item_single_choice">@*android:layout/simple_list_item_single_choice</item>
+    <item type="layout" name="android_simple_list_item_2_single_choice">@*android:layout/simple_list_item_2_single_choice</item>
+    <item type="layout" name="android_usb_storage_activity">@*android:layout/usb_storage_activity</item>
+    <item type="layout" name="android_action_mode_close_item">@*android:layout/action_mode_close_item</item>
+    <item type="layout" name="android_action_bar_title_item">@*android:layout/action_bar_title_item</item>
+    <item type="layout" name="android_time_picker">@*android:layout/time_picker</item>
+    <item type="layout" name="android_transient_notification">@*android:layout/transient_notification</item>
+    <item type="layout" name="android_action_menu_item_layout">@*android:layout/action_menu_item_layout</item>
+    <item type="layout" name="android_select_dialog_singlechoice_holo">@*android:layout/select_dialog_singlechoice_holo</item>
+    <item type="layout" name="android_simple_list_item_1">@*android:layout/simple_list_item_1</item>
+    <item type="layout" name="android_global_actions_item">@*android:layout/global_actions_item</item>
+    <item type="layout" name="android_global_actions_silent_mode">@*android:layout/global_actions_silent_mode</item>
+    <item type="layout" name="android_keyguard_screen_password_portrait">@*android:layout/keyguard_screen_password_portrait</item>
+    <item type="layout" name="android_keyguard_screen_password_landscape">@*android:layout/keyguard_screen_password_landscape</item>
+    <item type="layout" name="android_keyguard_screen_unlock_portrait">@*android:layout/keyguard_screen_unlock_portrait</item>
+    <item type="layout" name="android_keyguard_screen_unlock_landscape">@*android:layout/keyguard_screen_unlock_landscape</item>
+
+    <item type="xml" name="android_apns">@*android:xml/apns</item>
+
+    <style name="android.Animation.RecentApplications" parent="@*android:style/Animation.RecentApplications"></style>
+    <style name="android.Animation.ZoomButtons" parent="@*android:style/Animation.ZoomButtons"></style>
+    <style name="android.Theme.Dialog.Alert" parent="@*android:style/Theme.Dialog.Alert"></style>
+    <style name="android.Theme.Holo.Light.Dialog.Alert" parent="@*android:style/Theme.Holo.Light.Dialog.Alert"></style>
+    <style name="android.Widget.Button.Transparent" parent="@*android:style/Widget.Button.Transparent"></style>
+</resources>

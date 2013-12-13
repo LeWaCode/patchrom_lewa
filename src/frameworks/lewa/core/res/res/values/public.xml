@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <private-symbols package="com.lewa.internal" />
+
+    <java-symbol type="dimen" name="expanded_height" />
+    <java-symbol type="dimen" name="normal_height" />
+    <java-symbol type="drawable" name="dnd_list_drag" />
+    <java-symbol type="string" name="fixed_line" />
+
+    <!-- lewa lockscreen -->
+    <java-symbol type="array" name="chineseDateNames" />
+    <java-symbol type="array" name="chineseMonthNames" />
+    <java-symbol type="string" name="global_action_screenshot_status" />
+
+    <java-symbol type="xml" name="autostarts_intents" />
+    <java-symbol type="xml" name="apps_to_keep" />
+    <java-symbol type="xml" name="apps_alarm_persist" />
+    <java-symbol type="array" name="config_standaloneLockscreens" />
+
+    <!-- add by zhangxianjia -->
+    <!-- <public type="drawable" name="stat_sys_data_usb" /> -->
+    <java-symbol type="drawable" name="rounded_corner_top_right" />
+    <java-symbol type="drawable" name="rounded_corner_top_left" />
+    <java-symbol type="drawable" name="rounded_corner_bottom_right" />
+    <java-symbol type="drawable" name="rounded_corner_bottom_left" />
+    <!-- END -->
+    <java-symbol type="drawable" name="ic_lock_shutdown" />
+    <java-symbol type="layout" name="preference_holo" />
+
+    <!-- Woody Guo @ 2012/12/05: Add for Lewa added resources -->
+    <java-symbol type="string" name="hour" />
+    <java-symbol type="string" name="minute" />
+
+    <java-symbol type="layout" name="preference_holo" />
+
+    <!-- lewa filemanager -->
+<!--     <java-symbol type="drawable" name="list_selected_holo_light" /> -->
+    <!-- lewa music -->
+    <java-symbol type="color" name="primary_text_holo_light" />
+    <!-- lewa theme -->
+    <java-symbol type="color" name="background_holo_dark" />
+    <java-symbol type="color" name="dim_foreground_holo_light" />
+
+    <java-symbol type="drawable" name="ic_dialog_alert" />
+    <java-symbol type="drawable" name="ic_dialog_info" />
+    <java-symbol type="drawable" name="quickcontact_badge_overlay_dark" />
+
+    <!-- add by zhangxianjia -->
+    <!-- <public type="drawable" name="stat_sys_data_usb" /> -->
+    <java-symbol type="drawable" name="rounded_corner_top_right" />
+    <java-symbol type="drawable" name="rounded_corner_top_left" />
+    <java-symbol type="drawable" name="rounded_corner_bottom_right" />
+    <java-symbol type="drawable" name="rounded_corner_bottom_left" />
+
+    <!-- Alert Dialog -->	
+    <java-symbol type="drawable" name="magnifier" />
+    <java-symbol type="drawable" name="magnifier_mask" />
+    <java-symbol type="dimen" name="magnifier_finger_offset" /> 
+    <java-symbol type="drawable" name="textview_list_separator" />
+    <java-symbol type="drawable" name="textview_panel_bg" />
+    <java-symbol type="drawable" name="textview_floatpanel_button_bg" />
+    <java-symbol type="drawable" name="textview_panel_separator" />
+    <java-symbol type="drawable" name="textview_panel_arrow_up" />
+    <java-symbol type="drawable" name="textview_panel_arrow_down" />
+    <java-symbol type="drawable" name="textview_list_bg" />
+    <java-symbol type="drawable" name="textview_panel_button_bg_pressed" />
+    <java-symbol type="layout" name="text_copy_float_panel" />
+    <java-symbol type="layout" name="text_insertion_float_panel" />
+    <java-symbol type="layout" name="text_list_float_panel_item" />
+    <java-symbol type="layout" name="text_list_float_panel" />
+    <java-symbol type="layout" name="text_selection_float_panel" />
+    <java-symbol type="dimen" name="text_handle_visible_height" />
+    <java-symbol type="dimen" name="float_panel_arrow_top_offset" />
+    <java-symbol type="dimen" name="float_panel_arrow_bottom_offset" />
+    <java-symbol type="dimen" name="spinner_v5_width_offset" />
+    <java-symbol type="dimen" name="spinner_v5_vertical_offset" />
+    <java-symbol type="color" name="textview_floatpanel_button_text_color" />
+    <java-symbol type="style" name="TextViewFloatPanelButton" />
+    <java-symbol type="id" name="panel" />
+    <java-symbol type="id" name="arrow_up" />
+    <java-symbol type="id" name="arrow_down" />
+    <java-symbol type="id" name="action_mode_right_imageview" />
+
+    <!-- Public attrs -->
+    <!-- PagerHeader -->
+    <public type="attr" name="activeTextColor" id="0x09010000" />
+    <public type="attr" name="inactiveTextColor" id="0x09010001" />
+    <public type="attr" name="tabColor" id="0x09010002" />
+    <public type="attr" name="tabHeight" id="0x09010003" />
+    <public type="attr" name="tabPadding" id="0x09010004" />
+    <public type="attr" name="paddingPush" id="0x09010005" />
+    <public type="attr" name="fadingEdgeLengthX" id="0x09010006" />
+    <public type="attr" name="fadingEdgeColorHint" id="0x09010007" />
+    <public type="attr" name="backgroundColor" id="0x09010008" />
+    <public type="attr" name="showTopShadow" id="0x09010009" />
+    <public type="attr" name="showBottomBar" id="0x0901000a" />
+    <public type="attr" name="showTab" id="0x0901000b" />
+    <public type="attr" name="windowActionBarBottomOverlay" id="0x0901000c" />
+    <public type="attr" name="lockbackground" id="0x0901000d" />
+    <!-- Switch -->
+    <public type="attr" name="trackActive" id="0x0901000e" />
+    <public type="attr" name="forceground" id="0x0901000f" />
+
+    <!-- lewa V5 theme -->
+    <public type="attr" name="lewa_ui_version" id="0x09010010" />
+    <public type="attr" name="lewa_windowContentOverlay" id="0x09010011" />
+
+    <public type="attr" name="buttonBarOff" id="0x09010012" />
+    <public type="attr" name="buttonBarOn" id="0x09010013" />
+    <public type="attr" name="buttonFrame" id="0x09010014" />
+    <public type="attr" name="buttonMask" id="0x09010015" />
+    <public type="attr" name="buttonOffDisable" id="0x09010016" />
+    <public type="attr" name="buttonOnDisable" id="0x09010017" />
+    <public type="attr" name="buttonSlider" id="0x09010018" />
+    <public type="attr" name="buttonSliderPressed" id="0x09010019" />
+    <public type="attr" name="isV5Spinner" id="0x0901001a" />
+    <public type="attr" name="isHideInputKeyBoard" id="0x0901001b" />
+    <!-- Public IDs -->
+    <!-- DragableListView -->
+    <public type="id" name="grabber" id="0x09020000" />
+
+    <public type="id" name="button_title" id="0x09020001" />
+    <public type="id" name="button_left" id="0x09020002" />
+    <public type="id" name="button_right" id="0x09020003"/>
+    <!-- add for alias.xml -->
+    <public type="id" name="android_action_context_bar" id="0x09020004" />
+    <public type="id" name="android_alertTitle" id="0x09020005" />
+    <public type="id" name="android_alwaysUse" id="0x09020006" />
+    <public type="id" name="android_banner" id="0x09020007" />
+    <public type="id" name="android_body" id="0x09020008" />
+    <public type="id" name="android_customPanel" id="0x09020009" />
+    <public type="id" name="android_clearDefaultHint" id="0x0902000a" />
+    <public type="id" name="android_message" id="0x0902000b" />
+    <public type="id" name="android_mount_button" id="0x0902000c" />
+    <public type="id" name="android_unmount_button" id="0x0902000d" />
+    <public type="id" name="android_radio" id="0x0902000e" />
+    <public type="id" name="android_seekbar" id="0x0902000f" />
+    <public type="id" name="android_time_current" id="0x09020010" />
+    <public type="id" name="android_time" id="0x09020011" />
+    <public type="id" name="android_switchWidget" id="0x09020012" />
+    <public type="id" name="slidebutton" id="0x09020013" />
+    <!-- ActionBar -->
+    <public type="id" name="android_action_bar_container" id="0x09020014" />
+    <public type="id" name="android_action_bar" id="0x09020015" />
+    <public type="id" name="android_split_action_bar" id="0x09020016" />
+    <public type="id" name="android_action_mode_close_button" id="0x09020017" />
+    <public type="id" name="android_minute" id="0x09020018" />
+    <public type="id" name="android_hour" id="0x09020019" />
+    <public type="id" name="android_amPm" id="0x0902001a" />
+    <public type="id" name="action_mode_right_button" id="0x0902001b" />
+    <public type="id" name="month" id="0x0902001c" />
+    <public type="id" name="day" id="0x0902001d" />
+    <public type="id" name="year" id="0x0902001e" />
+    <public type="id" name="hour" id="0x0902001f" />
+    <public type="id" name="minute" id="0x09020020" />
+    <public type="id" name="amPm" id="0x09020021" />
+    <public type="id" name="calendar_view" id="0x09020022" />
+    <public type="id" name="pickers" id="0x09020023" />
+    <!-- magnifier -->
+    <public type="id" name="buttonSelectAll" id="0x09020024" />
+    <public type="id" name="buttonSelect" id="0x09020025" />
+    <public type="id" name="buttonPaste" id="0x09020026" />
+    <public type="id" name="buttonPasteList" id="0x09020027" />
+    <public type="id" name="buttonCut" id="0x09020028" />
+    <public type="id" name="buttonCopy" id="0x09020029" />
+    <public type="id" name="separator1" id="0x0902002a" />
+    <public type="id" name="separator2" id="0x0902002b" />
+    <public type="id" name="separator3" id="0x0902002c" />
+    <public type="id" name="v5_spinner_iv" id="0x0902002d" />
+    <public type="id" name="action_bar_spinner" id="0x0902002e" />
+    <public type="id" name="android_day" id="0x0902002f" />
+    <public type="id" name="android_month" id="0x09020030" />
+    <public type="id" name="android_year" id="0x09020031" />
+    <public type="id" name="android_pickers" id="0x09020032" />
+    <public type="id" name="android_calendar_view" id="0x09020033" />
+    <public type="id" name="android_action_bar_title" id="0x09020034" />
+    <public type="id" name="android_action_bar_subtitle" id="0x09020035" />
+    <public type="id" name="android_status" id="0x09020036" />
+    <public type="id" name="android_option1" id="0x09020037" />
+    <public type="id" name="android_option2" id="0x09020038" />
+    <public type="id" name="android_option3" id="0x09020039" />
+    <public type="id" name="android_keyboard" id="0x0902003a" />
+    <public type="id" name="android_passwordEntry" id="0x0902003b" />
+    <public type="id" name="android_pinDel" id="0x0902003c" />
+    <public type="id" name="android_switch_ime_button" id="0x0902003d" />
+<!--     <public type="id" name="android_lockPattern" /> -->
+    <public type="id" name="android_forgotPatternButton" id="0x0902003e" />
+
+    <!-- Public styles -->
+    <!-- PagerHeader -->
+    <public type="style" name="Widget.PagerHeader" id="0x09030000" />
+    <public type="style" name="Widget.LockPatternView" id="0x09030001" />
+    <!-- Wallpaper behind -->
+    <public type="style" name="Theme.Holo.Light.Wallpaper" id="0x09030002" />
+    <public type="style" name="Theme.Holo.Light.Wallpaper.NoTitleBar" id="0x09030003" />
+    <!-- add by zhangxianjia, holo light switch to public -->
+    <public type="style" name="Widget.Holo.Light.CompoundButton.Switch" id="0x09030004" />
+    <!-- Borderless Button -->
+    <public type="style" name="Widget.Holo.Light.Button.Borderless" id="0x09030005" />
+
+    <public type="style" name="Widget.Holo.Light.TextView.ListSeparator" id="0x09030006" />
+    <!-- add for alias.xml -->
+    <public type="style" name="android.Animation.RecentApplications" id="0x09030007" />
+    <public type="style" name="android.Animation.ZoomButtons" id="0x09030008" />
+    <public type="style" name="android.Theme.Dialog.Alert" id="0x09030009" />
+    <public type="style" name="android.Theme.Holo.Light.Dialog.Alert" id="0x0903000a" />
+    <!-- Activity theme -->
+    <public type="style" name="V5.Theme" id="0x0903000b" />
+    <public type="style" name="V5.Theme.Holo" id="0x0903000c" />
+    <public type="style" name="V5.Theme.Holo.Light" id="0x0903000d" />
+    <public type="style" name="V5.Theme.Holo.Light.NoActionBar" id="0x0903000e" />
+    <public type="style" name="V5.Theme.Holo.Light.Dialog" id="0x0903000f" />
+    <public type="style" name="V5.Theme.Holo.Light.Dialog.Alert" id="0x09030010" />
+    <public type="style" name="V5.Theme.Holo.Light.Dialog.NoActionBar.MinWidth" id="0x09030011" />
+    <public type="style" name="V5.Theme.Holo.Light.Dialog.MinWidth" id="0x09030012" />
+    <public type="style" name="V5.Theme.Holo.Light.Panel" id="0x09030013" />
+    <public type="style" name="V5.Theme.Holo.Light.Dialog.NoActionBar" id="0x09030014" />
+    <public type="style" name="V5.Theme.Translucent" id="0x09030015" />
+    <public type="style" name="V5.Theme.Translucent.NoTitleBar" id="0x09030016" />
+    <public type="style" name="V5.AlertDialog.Holo.Light" id="0x09030017" />
+    <!-- Button -->
+    <public type="style" name="V5.Widget.Holo.Light.Button.Borderless.Left" id="0x09030018" />
+    <public type="style" name="V5.Widget.Holo.Light.Button.Borderless.Right" id="0x09030019" />
+    <public type="style" name="V5.Widget.Holo.Light.Button.Borderless.Bottom" id="0x0903001a" />
+    <public type="style" name="Widget.SlidingButton" id="0x0903001b" />
+
+    <public type="style" name="V5spinner" id="0x0903001c" />
+
+    <public type="style" name="android.Widget.Button.Transparent" id="0x0903001d" />
+    <public type="style" name="TextAppearance.Holo.Widget.Switch" id="0x0903001e" />
+    <public type="style" name="V5.Widget.Holo.Light.ProgressBar.Horizontal" id="0x0903001f" />
+    <!-- Toast -->
+    <public type="style" name="V5.Theme.Toast" id="0x09030020" />
+    
+    <!-- Public strings -->
+    <public type="string" name="selectNone" id="0x09040000" />
+    <!-- add for alias.xml -->
+    <public type="string" name="android_ringtone_unknown" id="0x09040001" />
+    <public type="string" name="android_ringtone_silent" id="0x09040002" />
+    <public type="string" name="android_emergency_call_dialog_number_for_display" id="0x09040003" />
+    <public type="string" name="android_gigabyteShort" id="0x09040004" />
+    <public type="string" name="android_megabyteShort" id="0x09040005" />
+    <public type="string" name="android_PinMmi" id="0x09040006" />
+    <public type="string" name="android_report" id="0x09040007" />
+    <public type="string" name="android_ssl_certificate" id="0x09040008" />
+    <public type="string" name="android_wifi_tether_configure_ssid_default" id="0x09040009" />
+    <public type="string" name="android_fast_scroll_alphabet" id="0x0904000a" />
+    <public type="string" name="title_actionbar_selected_items" id="0x0904000b" />
+    <public type="string" name="back_killed_message" id="0x0904000c" />
+    <public type="string" name="config_deviceKeyHandlerClass" id="0x0904000d" />
+    <public type="string" name="config_deviceKeyHandlerLib" id="0x0904000e" />
+    <!-- Long pressing the MENU key -->
+    <public type="string" name="config_longPressOnMenuAction" id="0x0904000f" />
+    <public type="string" name="data_usage_warning_body" id="0x09040010" />
+    <public type="string" name="global_actions_toggle_airplane_mode" id="0x09040011" />
+    <public type="string" name="global_action_power_off" id="0x09040012" />
+    <public type="string" name="global_action_reboot" id="0x09040013" />
+    <public type="string" name="global_action_screenshot" id="0x09040014" />
+    <public type="string" name="global_action_toggle_silent_mode" id="0x09040015" />
+    <public type="string" name="reboot_progress" id="0x09040016" />
+    <public type="string" name="reboot_reboot" id="0x09040017" />
+    <public type="string" name="reboot_system" id="0x09040018" />
+    <public type="string" name="power_off" id="0x09040019" />
+    <public type="string" name="shutdown_progress" id="0x0904001a" />
+    <public type="string" name="shutdown_confirm" id="0x0904001b" />
+    <public type="string" name="android_upgrading_title" id="0x0904001c" />
+    <public type="string" name="android_lockscreen_access_pattern_cell_added" id="0x0904001d" />
+    <public type="string" name="android_lockscreen_access_pattern_cleared" id="0x0904001e" />
+    <public type="string" name="android_lockscreen_access_pattern_detected" id="0x0904001f" />
+    <public type="string" name="android_lockscreen_access_pattern_start" id="0x09040020" />
+    <public type="string" name="android_usb_storage_activity_title" id="0x09040021" />
+    <public type="string" name="android_lockscreen_password_wrong" id="0x09040022" />
+    <public type="string" name="android_lockscreen_too_many_failed_attempts_countdown" id="0x09040023" />
+    <public type="string" name="android_lockscreen_forgot_pattern_button_text" id="0x09040024" />
+    <public type="string" name="android_lockscreen_pattern_wrong" id="0x09040025" />
+    <public type="string" name="android_lockscreen_pattern_instructions" id="0x09040026" />
+    <public type="string" name="config_initial_charge_times_ac" id="0x09040027" />
+    <public type="string" name="config_initial_charge_times_usb" id="0x09040028" />
+    <public type="string" name="data_usage_warning_title" id="0x09040029" />
+    <!-- Public colors -->
+    <public type="color" name="app_files" id="0x09050000" />
+    <public type="color" name="pic_files" id="0x09050001" />
+    <public type="color" name="music_files" id="0x09050002" />
+    <public type="color" name="other_files" id="0x09050003" />
+    <public type="color" name="doc_files" id="0x09050004" />
+    <public type="color" name="video_files" id="0x09050005" />
+    <public type="color" name="theme_files" id="0x09050006" />
+    <public type="color" name="apk_files" id="0x09050007" />
+    <public type="color" name="zip_files" id="0x09050008" />
+    <public type="color" name="empty_files" id="0x09050009" />
+    <public type="color" name="download_files" id="0x0905000a" />
+    <public type="color" name="lewa_number_picker_text_bg" id="0x0905000b" />
+    <public type="color" name="lewa_number_picker_text_label" id="0x0905000c" />
+    <public type="color" name="lewa_number_picker_text_fg" id="0x0905000d" />
+    <public type="color" name="android_background_holo_dark" id="0x0905000e" />
+    <public type="color" name="android_primary_text_holo_light" id="0x0905000f" />
+    <public type="color" name="android_secondary_text_holo_light" id="0x09050010" />
+    <public type="color" name="holo_light_divider_color" id="0x09050011" />
+    <public type="color" name="android_config_defaultNotificationColor" id="0x09050012" />
+
+    <!-- Public anim -->
+    <public type="anim" name="android_fade_in" id="0x09060000" />
+    <public type="anim" name="android_fade_out" id="0x09060001" />
+    <public type="anim" name="android_push_up_in" id="0x09060002" />
+    <public type="anim" name="android_push_down_out" id="0x09060003" />
+    <public type="anim" name="android_push_up_out" id="0x09060004" />
+    <public type="anim" name="android_push_down_in" id="0x09060005" />
+    <public type="anim" name="android_grow_fade_in_from_bottom" id="0x09060006" />
+    <public type="anim" name="android_shrink_fade_out_from_bottom" id="0x09060007" />
+
+    <!-- Public drawables -->
+    <!-- Drawable of menu selection -->
+    <public type="drawable" name="ic_menu_done" id="0x09080000" />
+    <public type="drawable" name="ic_menu_clear_select" id="0x09080001" />
+    <public type="drawable" name="ic_menu_select_all" id="0x09080002" />
+
+    <!-- DragableListView -->
+    <public type="drawable" name="ic_grabber" id="0x09080003" />
+    <public type="drawable" name="btn_code_lock_default_settings_holo" id="0x09080004" />
+    <public type="drawable" name="action_mode_spinner_holo_light" id="0x09080005" />
+
+    <public type="drawable" name="sim1_large" id="0x09080006" />
+    <public type="drawable" name="sim1_medium" id="0x09080007" />
+    <public type="drawable" name="sim1_small" id="0x09080008" />
+    <public type="drawable" name="sim2_large" id="0x09080009" />
+    <public type="drawable" name="sim2_medium" id="0x0908000a" />
+    <public type="drawable" name="sim2_small" id="0x0908000b" />
+
+    <public type="drawable" name="ic_menu_cancel" id="0x0908000c" />
+    <public type="drawable" name="ic_menu_next" id="0x0908000d" />
+    <public type="drawable" name="ic_menu_up" id="0x0908000e" />
+    <public type="drawable" name="item_background_holo_light" id="0x0908000f" />
+    <public type="drawable" name="stat_sys_data_usb" id="0x09080010" />
+    <public type="drawable" name="list_selected_holo_light" id="0x09080011" />
+    <!-- add for alias.xml -->
+    <public type="drawable" name="android_expander_ic_minimized" id="0x09080012" />
+    <public type="drawable" name="android_expander_ic_maximized" id="0x09080013" />
+    <public type="drawable" name="android_ic_menu_close_clear_cancel" id="0x09080014" />
+    <public type="drawable" name="android_ic_menu_info_details" id="0x09080015" />
+    <public type="drawable" name="android_ic_menu_archive" id="0x09080016" />
+    <public type="drawable" name="android_ic_menu_goto" id="0x09080017" />
+    <public type="drawable" name="android_sym_app_on_sd_unavailable_icon" id="0x09080018" />
+    <public type="drawable" name="android_usb_android" id="0x09080019" />
+    <public type="drawable" name="android_usb_android_connected" id="0x0908001a" />
+    <public type="drawable" name="android_ic_contact_picture" id="0x0908001b" />
+    <public type="drawable" name="sim1_medium_inactive" id="0x0908001c" />
+    <public type="drawable" name="sim2_medium_inactive" id="0x0908001d" />
+    <public type="drawable" name="screen_on_proximity_sensor_hint" id="0x0908001e" />
+    <!-- BottomBarButton -->
+    <public type="drawable" name="button_selector_background_transition_holo_light_left" id="0x0908001f" />
+    <public type="drawable" name="button_selector_background_transition_holo_light_right" id="0x09080020" />
+    <public type="drawable" name="button_selector_background_transition_holo_light_bottom" id="0x09080021" />
+    <public type="drawable" name="button_background_holo_light_left" id="0x09080022" />
+    <public type="drawable" name="button_background_holo_light_right" id="0x09080023" />
+    <public type="drawable" name="button_background_holo_light_bottom" id="0x09080024" />
+    <public type="drawable" name="button_pressed_holo_light_left" id="0x09080025" />
+    <public type="drawable" name="button_pressed_holo_light_right" id="0x09080026" />
+    <public type="drawable" name="button_pressed_holo_light_bottom" id="0x09080027" />
+    <public type="drawable" name="list_longpressed_holo_left" id="0x09080028" />
+    <public type="drawable" name="list_longpressed_holo_right" id="0x09080029" />
+    <public type="drawable" name="list_longpressed_holo_bottom" id="0x0908002a" />
+    <!-- ActionBar -->
+    <public type="drawable" name="ic_cab_cancel_holo_dark" id="0x0908002b" />
+    <public type="drawable" name="ic_cab_cancel_holo_light" id="0x0908002c" />
+    <public type="drawable" name="ic_cab_ok_holo_dark" id="0x0908002d" />
+    <public type="drawable" name="split_action_bar_action_menu_background" id="0x0908002e" />
+    <public type="drawable" name="action_menu_item_holo_light_left" id="0x0908002f" />
+    <public type="drawable" name="action_menu_item_pressed_holo_light_left" id="0x09080030" />
+    <public type="drawable" name="action_menu_item_holo_light_middle" id="0x09080031" />
+    <public type="drawable" name="action_menu_item_pressed_holo_light_middle" id="0x09080032" />
+    <public type="drawable" name="action_menu_item_holo_light_right" id="0x09080033" />
+    <public type="drawable" name="action_menu_item_pressed_holo_light_right" id="0x09080034" />
+    <public type="drawable" name="action_menu_item_holo_light" id="0x09080035" />
+    <public type="drawable" name="action_menu_item_pressed_holo_light" id="0x09080036" />
+    <public type="drawable" name="action_menu_item_background_holo_light" id="0x09080037" />
+    <public type="drawable" name="action_menu_item_background_holo_light_left" id="0x09080038" />
+    <public type="drawable" name="action_menu_item_background_holo_light_middle" id="0x09080039" />
+    <public type="drawable" name="action_menu_item_background_holo_light_right" id="0x0908003a" />
+    <public type="drawable" name="lewa_number_picker_bg" id="0x0908003b" />
+    <public type="drawable" name="lewa_number_picker_divider" id="0x0908003c" />
+    <public type="drawable" name="lewa_number_picker_selector" id="0x0908003d" />
+    <public type="drawable" name="spinner_default_normal" id="0x0908003e" />
+    <public type="drawable" name="spinner_default_disabled" id="0x0908003f" />
+    <public type="drawable" name="spinner_default_pressed" id="0x09080040" />
+    <public type="drawable" name="spinner_popuwindow_bottom_bg" id="0x09080041" />
+    <public type="drawable" name="spinner_popuwindow_top_bg" id="0x09080042" />
+    <public type="drawable" name="spinner_selector" id="0x09080043" />
+    <public type="drawable" name="spinner_arrow_close" id="0x09080044" />
+    <public type="drawable" name="spinner_arrow_open" id="0x09080045" />
+    <public type="drawable" name="setting_icon_next" id="0x09080046" />
+    <public type="drawable" name="ic_bullet_key_permission_light" id="0x09080047" />
+    <public type="drawable" name="ic_text_dot_light" id="0x09080048" />
+    <public type="drawable" name="expander_close_holo_light" id="0x09080049" />
+    <public type="drawable" name="expander_open_holo_light" id="0x0908004a" />
+    <public type="drawable" name="flashlight_background_sos_on" id="0x0908004b" />
+    <public type="drawable" name="background_holo_light" />
+    <public type="drawable" name="jog_dial_bg_rev" id="0x0908004d" />
+    <public type="drawable" name="jog_dial_bg_rev_down" id="0x0908004e" />
+    <public type="drawable" name="jog_dial_dimple_dim_rev" id="0x0908004f" />
+    <public type="drawable" name="jog_dial_dimple_rev" id="0x09080050" />
+    <public type="drawable" name="lense_square_bg" id="0x09080051" />
+    <public type="drawable" name="ic_lock_airplane_mode" id="0x09080052" />
+    <public type="drawable" name="ic_lock_airplane_mode_off" id="0x09080053" />
+    <public type="drawable" name="ic_lock_power_off" id="0x09080054" />
+    <public type="drawable" name="ic_lock_reboot" id="0x09080055" />
+    <public type="drawable" name="ic_lock_screenshot" id="0x09080056" />
+    <public type="drawable" name="ic_lock_silent_mode_on" id="0x09080057" />
+    <public type="drawable" name="ic_lock_silent_mode_off" id="0x09080058" />
+    <public type="drawable" name="android_btn_code_lock_default_holo" id="0x09080059" />
+    <public type="drawable" name="android_btn_code_lock_touched_holo" id="0x0908005a" />
+    <public type="drawable" name="android_indicator_code_lock_point_area_default_holo" id="0x0908005b" />
+    <public type="drawable" name="android_indicator_code_lock_point_area_green_holo" id="0x0908005c" />
+    <public type="drawable" name="android_indicator_code_lock_point_area_red_holo" id="0x0908005d" />
+    <public type="drawable" name="android_indicator_code_lock_drag_direction_green_up" id="0x0908005e" />
+    <public type="drawable" name="android_indicator_code_lock_drag_direction_red_up" id="0x0908005f" />
+    <public type="drawable" name="android_platlogo" id="0x09080060" />
+    <public type="drawable" name="android_notification_item_background_color" id="0x09080061" />
+    <public type="drawable" name="android_notification_item_background_color_pressed" id="0x09080062" />
+    <public type="drawable" name="android_ic_lockscreen_handle_pressed" id="0x09080063" />
+    <public type="drawable" name="android_scrubber_primary_holo" id="0x09080064" />
+    <public type="drawable" name="android_scrubber_track_holo_dark" id="0x09080065" />
+    <public type="drawable" name="android_notify_panel_notification_icon_bg" id="0x09080066" />
+    <public type="drawable" name="android_list_selector_pressed_holo_dark" id="0x09080067" />
+    <public type="drawable" name="android_ic_lockscreen_glowdot" id="0x09080068" />
+    <public type="drawable" name="android_notify_panel_notification_icon_bg_tile" id="0x09080069" />
+    <public type="drawable" name="android_list_divider_holo_light" id="0x0908006a" />
+    <public type="drawable" name="android_screen_background_selector_light" id="0x0908006b" />
+    <public type="drawable" name="android_cab_background_top_holo_light" id="0x0908006c" />
+    <public type="drawable" name="android_dialog_full_holo_dark" id="0x0908006d" />
+    <public type="drawable" name="android_ic_action_assist_generic" id="0x0908006e" />
+    <public type="drawable" name="android_list_selector_background_disabled" id="0x0908006f" />
+    <public type="drawable" name="android_list_selector_background_focused" id="0x09080070" />
+    <public type="drawable" name="android_ic_lockscreen_outerring" id="0x09080071" />
+    <public type="drawable" name="android_list_selector_disabled_holo_dark" id="0x09080072" />
+    <public type="drawable" name="android_list_selector_holo_light" id="0x09080073" />
+    <public type="drawable" name="android_list_selected_holo_light" id="0x09080074" />
+    <public type="drawable" name="android_ic_text_dot" id="0x09080075" />
+    <public type="drawable" name="android_ic_bullet_key_permission" id="0x09080076" />
+    <public type="drawable" name="android_expander_close_holo_dark" id="0x09080077" />
+    <public type="drawable" name="android_expander_open_holo_dark" id="0x09080078" />
+    <public type="drawable" name="ab_bottom_solid_light_holo" id="0x09080079" />
+    <public type="drawable" name="tab_indicator_ab_holo" id="0x0908007a" />
+    <public type="drawable" name="ic_menu_cc" id="0x0908007b" />
+    <public type="drawable" name="android_btn_keyboard_key_fulltrans" id="0x0908007c" />
+    <public type="drawable" name="android_code_lock_left" id="0x0908007d" />
+    <public type="drawable" name="android_code_lock_top" id="0x0908007e" />
+    <public type="drawable" name="android_ic_lock_idle_lock" id="0x0908007f" />
+    <public type="drawable" name="android_ic_menu_moreoverflow_holo_dark" id="0x09080080" />
+    <public type="drawable" name="action_bar_tab_indicator"  id="0x09080081" />
+    <!-- Toast -->
+    <public type="drawable" name="toast_frame_holo"  id="0x09080082" />
+    
+    <!-- Public layouts -->
+    <public type="layout" name="stateful_preference_holo_light" id="0x09090000" />
+    <public type="layout" name="preference_widget_switch_noclickable" id="0x09090001" />
+    <public type="layout" name="preference_holo_fixed_icon_size" id="0x09090002" />
+    <public type="layout" name="buttons_with_title" id="0x09090003" />
+    <!-- add for alias.xml -->
+    <public type="layout" name="android_always_use_checkbox" id="0x09090004" />
+    <public type="layout" name="android_notification_template_base" id="0x09090005" />
+    <public type="layout" name="android_preference_header_item" id="0x09090006" />
+    <public type="layout" name="android_preference_list_fragment" id="0x09090007" />
+    <public type="layout" name="android_simple_list_item_single_choice" id="0x09090008" />
+    <public type="layout" name="android_simple_list_item_2_single_choice" id="0x09090009" />
+    <public type="layout" name="android_usb_storage_activity" id="0x0909000a" />
+    <public type="layout" name="android_screen_action_bar" id="0x0909000b" />
+    <public type="layout" name="android_screen_action_bar_overlay" id="0x0909000c" />
+    <public type="layout" name="android_action_mode_close_item" id="0x0909000d" />
+    <public type="layout" name="android_action_bar_title_item" id="0x0909000e" />
+    <public type="layout" name="android_time_picker" id="0x0909000f" />
+    <!-- add for V5 -->
+    <public type="layout" name="buttons_with_title_dark" id="0x09090010" />
+    <public type="layout" name="alert_dialog_holo" id="0x09090011" />
+    <public type="layout" name="preference_widget_slidingbutton" id="0x09090012" />
+    <public type="layout" name="lewa_date_picker" id="0x09090013" />
+    <public type="layout" name="lewa_time_picker" id="0x09090014" />
+    <!-- ActionBar -->
+    <public type="layout" name="action_menu_layout" id="0x09090015" />
+    <public type="layout" name="action_bar_title_item" id="0x09090016" />
+    <public type="layout" name="action_bar_title_item_multichoice" id="0x09090017" />
+    <public type="layout" name="action_mode_right_item" id="0x09090018" />
+    <public type="layout" name="action_mode_close_item" id="0x09090019" />
+    <public type="layout" name="v5_simple_spinner_item" id="0x0909001a" />
+    <public type="layout" name="preference_widget" id="0x0909001b" />
+    <public type="layout" name="screen_inadvert_view" id="0x0909001c" />
+    <public type="layout" name="screen_action_bar_bottom_overlay" id="0x0909001d" />
+    <public type="layout" name="action_bar_title_item_with_spinner" id="0x0909001e" />
+    <public type="layout" name="android_transient_notification" id="0x0909001f" />
+    <public type="layout" name="android_action_menu_item_layout" id="0x09090020" />
+    <public type="layout" name="android_select_dialog_singlechoice_holo" id="0x09090021" />
+    <public type="layout" name="android_simple_list_item_1" id="0x09090022" />
+    <public type="layout" name="android_global_actions_item" id="0x09090023" />
+    <public type="layout" name="android_global_actions_silent_mode" id="0x09090024" />
+    <public type="layout" name="screen_action_bar_overlay" id="0x09090025" />
+    <public type="layout" name="screen_action_bar" id="0x09090026" />
+    <public type="layout" name="android_keyguard_screen_password_portrait" id="0x09090027" />
+    <public type="layout" name="android_keyguard_screen_password_landscape" id="0x09090028" />
+    <public type="layout" name="android_keyguard_screen_unlock_portrait" id="0x09090029" />
+    <public type="layout" name="android_keyguard_screen_unlock_landscape" id="0x0909002a" />
+    <!-- Toast layout -->
+    <public type="layout" name="transient_notification" id="0x0909002b" />
+    
+    <!-- Public bool -->
+    <public type="bool" name="android_config_automatic_brightness_available" id="0x090a0000" />
+    <public type="bool" name="android_config_alwaysUseCdmaRssi" id="0x090a0001" />
+    <public type="bool" name="android_config_built_in_sip_phone" id="0x090a0002" />
+    <public type="bool" name="android_config_cellBroadcastAppLinks" id="0x090a0003" />
+    <public type="bool" name="android_config_sf_slowBlur" id="0x090a0004" />
+    <public type="bool" name="android_config_use_strict_phone_number_comparation" id="0x090a0005" />
+    <public type="bool" name="android_config_voice_capable" id="0x090a0006" />
+    <public type="bool" name="android_config_wimaxEnabled" id="0x090a0007" />
+    <public type="bool" name="enable_magnifier_when_input" id="0x090a0008" />
+    <public type="bool" name="android_config_intrusiveNotificationLed" id="0x090a0009" />
+
+    <!-- Public dimen -->
+    <public type="dimen" name="android_app_icon_size" id="0x090b0000" />
+    <public type="dimen" name="android_navigation_bar_height" id="0x090b0001" />
+    <public type="dimen" name="android_preference_fragment_padding_side" id="0x090b0002" />
+    <public type="dimen" name="android_preference_fragment_padding_bottom" id="0x090b0003" />
+    <public type="dimen" name="android_status_bar_height" id="0x090b0004" />
+    <public type="dimen" name="android_status_bar_icon_size" id="0x090b0005" />
+    <public type="dimen" name="android_system_bar_icon_size" id="0x090b0006" />
+    <public type="dimen" name="android_toast_y_offset" id="0x090b0008" />
+    <public type="dimen" name="android_glowpadview_glow_radius" id="0x090b0009" />
+    <public type="dimen" name="android_glowpadview_inner_radius" id="0x090b000a" />
+    <public type="dimen" name="android_system_bar_height" id="0x090b000b" />
+    <public type="dimen" name="android_navigation_bar_width" id="0x090b000c" />
+
+    <!-- Public integer -->
+    <public type="integer" name="android_config_lowBatteryCloseWarningLevel" id="0x090c0000" />
+    <public type="integer" name="android_config_lowBatteryWarningLevel" id="0x090c0001" />
+    <public type="integer" name="android_config_criticalBatteryWarningLevel" id="0x090c0002" />
+    <public type="integer" name="android_config_screenBrightnessDim" id="0x090c0003" />
+    <public type="integer" name="config_backKillTimeout" id="0x090c0004" />
+    <public type="integer" name="config_longPressOnMenuBehavior" id="0x090c0005" />
+    <public type="integer" name="config_extraSwithThumbPadding" id="0x090c0006" />
+    <public type="integer" name="android_preference_fragment_scrollbarStyle" id="0x090c0007" />
+    <public type="integer" name="config_defaultNotificationLedFreq" id="0x090c0008" />
+
+    <!-- Public array -->
+    <public type="array" name="android_config_mobile_hotspot_provision_app" id="0x090d0000" />
+    <public type="array" name="android_config_virtualKeyVibePattern" id="0x090d0001" />
+    <public type="array" name="config_autoBrightnessButtonBacklightValues" id="0x090d0002" />
+    <public type="array" name="shutdown_reboot_actions" id="0x090d0003" />
+    <public type="array" name="shutdown_reboot_options" id="0x090d0004" />
+    <public type="array" name="mobile_operator_display_names" id="0x090d0005" />
+    <public type="array" name="mobile_operator_numeric_equivalencies" id="0x090d0006" />
+    <public type="array" name="mobile_operator_numeric_values" id="0x090d0007" />
+    <public type="array" name="detailed_am_pm_segments" id="0x090d0008" />
+    <public type="array" name="detailed_am_pm_names" id="0x090d0009" />
+
+    <!-- Public xml -->
+    <public type="xml" name="android_apns" id="0x090e0000" />
+    
+     <!-- sousou -->
+    <java-symbol type="id" name="buttonSearch" />
+    <java-symbol type="id" name="buttonTranslate" />
+    <java-symbol type="id" name="buttonAddContact" />
+    <java-symbol type="id" name="buttonCall" />
+    <java-symbol type="id" name="buttonSMS" />
+    <java-symbol type="id" name="buttonMail" />
+    <java-symbol type="layout" name="sousou_float_panel" />
+    <java-symbol type="id" name="separator4" />
+    <java-symbol type="id" name="separator5" />
+    <java-symbol type="id" name="separator6" />
+    <java-symbol type="id" name="sousou_webview" />
+    <java-symbol type="layout" name="sousou_search" />
+    <java-symbol type="id" name="search_title" />
+    <java-symbol type="id" name="sousou_close" />
+    <java-symbol type="id" name="sousou_back" />
+    <java-symbol type="id" name="sousou_forward" />
+    <java-symbol type="id" name="sousou_refresh" />
+    <public type="string" name="thumb_search_tip" />
+    <public type="string" name="go_to_setting" />
+    <public type="string" name="go_on_read" />
+    <public type="string" name="prompt_message" />
+    <public type="string" name="new_contact" />
+    <public type="string" name="add_to_contact" />
+    <public type="string" name="no_network" />
+    <public type="string" name="suggest_to" />
+    <public type="string" name="check_network" />
+    <java-symbol type="id" name="check_network_link" />
+    <java-symbol type="id" name="sousou_nonet_tip" />
+</resources>
