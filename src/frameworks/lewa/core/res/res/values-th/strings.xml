@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="reboot_system" product="tablet">Reboot tablet</string>
+  <string name="reboot_system" product="default">ปิดแล้วเปิดเครื่องใหม่</string>
+  <string name="global_action_screenshot">บันทึกหน้าจอ</string>
+  <string name="global_action_toggle_silent_mode">โหมดเงียบ</string>
+  <string name="global_action_screenshot_status">กดปุ่มลดเสียงและปุ่มพาวเวอร์หน้าจอค้างไว้</string>
+  <string name="reboot_reboot">ปิดแล้วเปิดใหม่</string>
+  <string name="reboot_recovery">ฟื้นฟู</string>
+  <string name="reboot_bootloader">บูตโหลดเดอร์</string>
+  <string name="reboot_bootmenu">บูตเมนู</string>
+  <string name="reboot_fastboot">เริ่มต้นอย่างรวดเร็ว</string>
+  <string name="reboot_download">ดาวน์โหลด</string>
+  <string name="reboot_progress">กำลังเริ่มต้นใหม่</string>
+  <string name="reboot_confirm">เครื่องของคุณจะปิดแล้วเปิดใหม่</string>
+  <string name="global_action_reboot">ปิดแล้วเปิดใหม่</string>
+  <string name="lockscreen_discharging">แบตเตอรี่<xliff:g id="number">%d</xliff:g>
+    <xliff:g id="percent">%%</xliff:g>)</string>
+  <string name="progress_scanning">กำลังสแกน</string>
+  <string name="phone_goggles_problem_count">ปัญหา</string>
+  <string name="phone_goggles_description">แก้ไข%1$d ปัญหาคณิตศาสตร์ภายใน %2$d วินาทีเพื่อดำเนินการสื่อสารของคุณ</string>
+  <string name="permlab_revokePermissions">Allows view and edit of revoked permissions. Not for use by normal applications.</string>
+  <string name="permdesc_revokePermissions">Allows read and write for revoked permissions. Not for use by normal applications.</string>
+  <string name="app_killed_message">ปิดโปรแกรมเรียบร้อยแล้ว</string>
+  <string name="back_killed_message">เรียบร้อยแล้ว</string>
+  <string name="lock_screen_miss_call">%1$d สายที่ไม่ได้รับ</string>
+  <string name="lock_screen_new_msg">ข้อความใหม่</string>
+  <string name="lock_screen_miss_calls">%1$d สายที่ไม่ได้รับ</string>
+  <string name="lock_screen_new_msgs">%1$d ข้อความใหม่</string>
+  <string name="lock_screen_drag_down">ลากลงเพื่อปลดล๊อค</string>
+  <string name="lock_screen_drag_here">ลากไปที่นี่เพื่อปลดล๊อค</string>
+  <string name="lock_screen_dismiss">ยกเลิก</string>
+  <string name="lock_screen_snooze">หยุดเตือนชั่วคราว</string>
+  <string name="lock_screen_pm">บ่าย</string>
+  <string name="lock_screen_am">เช้า</string>
+  <string name="fixed_line">โทรศัพท์พื้นฐาน</string>
+  <string name="ringtone_custom">เสียงเรียกเข้าที่กำหนดเอง</string>
+  <string name="ringtone_silent_summary">เงียบ</string>
+  <plurals name="phone_goggles_countdown">
+    <item quantity="one">%d second left</item>
+    <item quantity="other">%d seconds left</item>
+  </plurals>
+  <string name="data_usage_warning_body">ปริมาณการใช้งานคงเหลือของคุณในเดือนนี้ไม่พอ<xliff:g id="SIZE">%s</xliff:g> left with your operator data pack."</string>
+  <string name="selectNone">ยกเลิกการเลือกทั้งหมด</string>
+  <string name="hour">ชั่วโมง</string>
+  <string name="minute">นาที</string>
+  <string name="capital_on">เปิดเครื่อง</string>
+  <string name="capital_off">ปิด</string>
+  <string name="storage_phone">เก็บข้อมูลภายใน</string>
+  <string name="global_actions_toggle_airplane_mode">โหมดเครื่องบิน</string>
+  <string name="global_action_power_off">ปิดเครื่อง</string>
+  <string name="power_off">ปิดเครื่อง</string>
+  <string name="shutdown_progress">กำลังปิดเครื่อง</string>
+  <string name="shutdown_confirm" product="tablet">Your tablet will shut down.</string>
+  <string name="shutdown_confirm" product="default">โทรศัพท์ของคุณจะปิดตัวลง</string>
+  <string name="text_pastelist">คลิปบอร์ด</string>
+  <string name="select">เลือก</string>
+  <string name="lewa_date_picker_label_day" />
+  <string name="lewa_date_picker_label_month" />
+  <string name="lewa_date_picker_label_year" />
+  <string name="lewa_time_picker_label_hour" />
+  <string name="lewa_time_picker_label_minute" />
+  <string name="title_actionbar_selected_items">
+    <xliff:g id="name">%s</xliff:g> selected</string>
+  <string name="inadvertmode_title">โหมดป้องกันการสัมผัสโดยไม่ได้ตั้งใจ</string>
+  <string name="inadvertmode_tip_msg1">ไม่คลุมด้านบนหน้าจอ</string>
+  <string name="inadvertmode_force_quit">"บังคับออก:กดปุ่ม 'Home' และปุ่มลดเสียงพร้อมกัน"</string>
+</resources>

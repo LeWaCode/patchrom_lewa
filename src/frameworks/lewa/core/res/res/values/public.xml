@@ -231,6 +231,8 @@
     <public type="style" name="V5.Widget.Holo.Light.ProgressBar.Horizontal" id="0x0903001f" />
     <!-- Toast -->
     <public type="style" name="V5.Theme.Toast" id="0x09030020" />
+    <!-- TagWidget -->
+    <public type="style" name="V5.Widget.Holo.Tab" id="0x09030021" />
     
     <!-- Public strings -->
     <public type="string" name="selectNone" id="0x09040000" />
@@ -297,7 +299,12 @@
     <public type="color" name="android_secondary_text_holo_light" id="0x09050010" />
     <public type="color" name="holo_light_divider_color" id="0x09050011" />
     <public type="color" name="android_config_defaultNotificationColor" id="0x09050012" />
-
+    <public type="color" name="holo_light_highlight_color" id="0x09050013" />
+    <public type="color" name="tab_text_holo_light" id="0x09050014" />
+    <public type="color" name="tab_text_bright_foreground_disabled_holo_light" id="0x09050015" />
+    <public type="color" name="tab_text_bright_foreground_holo_light" id="0x09050016" />
+    <public type="color" name="tab_text_highlight_holo_light" id="0x09050017" />
+    <public type="color" name="tab_text_focused_holo_light" id="0x09050018" />
     <!-- Public anim -->
     <public type="anim" name="android_fade_in" id="0x09060000" />
     <public type="anim" name="android_fade_out" id="0x09060001" />
@@ -449,7 +456,15 @@
     <public type="drawable" name="action_bar_tab_indicator"  id="0x09080081" />
     <!-- Toast -->
     <public type="drawable" name="toast_frame_holo"  id="0x09080082" />
-    
+    <public type="drawable" name="item_round_background_focused_holo_light"  id="0x09080083" />
+    <public type="drawable" name="item_round_background_holo_light"  id="0x09080084" />
+    <!-- Tab -->
+    <public type="drawable" name="tab_holo_light"  id="0x09080085" />
+    <public type="drawable" name="tab_pressed_holo_light"  id="0x09080086" />
+    <public type="drawable" name="list_selector_disabled_holo_light"  id="0x09080087" />
+    <public type="drawable" name="screen_background_light"  id="0x09080088" />
+    <public type="drawable" name="screen_background_selector_light"  id="0x09080089" />
+
     <!-- Public layouts -->
     <public type="layout" name="stateful_preference_holo_light" id="0x09090000" />
     <public type="layout" name="preference_widget_switch_noclickable" id="0x09090001" />

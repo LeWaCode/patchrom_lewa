@@ -139,7 +139,7 @@
     <string name="title_actionbar_selected_items">已选择<xliff:g id="name">%s</xliff:g>个</string>
     <string name="inadvertmode_title">口袋防误触模式</string>
     <string name="inadvertmode_tip_msg1">请勿遮挡屏幕顶端</string>
-    <string name="inadvertmode_force_quit">强制退出:同时按住"home"和"音量+"键</string>
+    <string name="inadvertmode_force_quit">强制退出:同时按住"电源"键和"音量+"键</string>
     
      <string name="translate">翻译</string>
      <string name="add">添加</string>
@@ -155,5 +155,4 @@
      <string name="no_network">糟糕，您现在看起来没有联网</string>
      <string name="suggest_to">建议您现在去</string>
      <string name="check_network">检查网络连接</string>
-     
 </resources>

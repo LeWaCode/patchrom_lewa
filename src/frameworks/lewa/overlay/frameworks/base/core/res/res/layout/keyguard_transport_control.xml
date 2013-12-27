@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.widget.TransportControlView android:id="@id/transport_controls" android:background="@drawable/transportcontrol_bg"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@drawable/ic_lockscreen_player_background">
+        <ImageView android:layout_gravity="fill" android:id="@id/albumart" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="false" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?textAppearanceMedium" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:singleLine="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:id="@id/btn_prev" android:background="?selectableItemBackground" android:padding="10.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_media_previous" android:contentDescription="@string/lockscreen_transport_prev_description" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:id="@id/btn_play" android:background="?selectableItemBackground" android:padding="10.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_media_play" android:contentDescription="@string/lockscreen_transport_play_description" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:id="@id/btn_next" android:background="?selectableItemBackground" android:padding="10.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_media_next" android:contentDescription="@string/lockscreen_transport_next_description" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.android.internal.widget.TransportControlView>

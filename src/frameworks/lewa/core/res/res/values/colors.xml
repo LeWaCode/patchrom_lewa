@@ -19,16 +19,21 @@
     <color name="zip_files">#8e8e8e</color>
     <color name="empty_files">#d4d4d4</color>
     <!-- move from framework-res for patch rom -->
-    <color name="bright_foreground_disabled_holo_light">#ffb2b2b2</color>
-    <color name="bright_foreground_holo_light">@*android:color/background_holo_dark</color>
+    <color name="bright_foreground_disabled_holo_light">#cbcbcb</color>
+    <color name="bright_foreground_holo_light">#38445c</color>
     <color name="transparent">#00000000</color>
-    <color name="background_holo_dark">@*android:color/background_holo_dark</color>
-    <color name="dim_foreground_holo_light">#323232</color>
+    <color name="background_holo_dark">#38445c</color>
+    <color name="dim_foreground_holo_light">#a6aab3</color>
     <!-- Woody Guo @ 2012-12-05: FaceLock: Add for Jelly Bean -->
     <color name="facelock_color_background">#000000</color>
     <color name="lewa_number_picker_text_bg">#7f000000</color>
     <color name="lewa_number_picker_text_label">#7f000000</color>
     <color name="lewa_number_picker_text_fg">#0087f9</color>
     <color name="holo_light_divider_color">#dadee6</color>
-
+    <!-- highlight color -->
+    <color name="holo_light_highlight_color">#088cff</color>
+    <color name="tab_text_bright_foreground_disabled_holo_light">#cbcbcb</color>
+    <color name="tab_text_bright_foreground_holo_light">#38445c</color>
+    <color name="tab_text_highlight_holo_light">#088cff</color>
+    <color name="tab_text_focused_holo_light">@android:color/white</color>
 </resources>

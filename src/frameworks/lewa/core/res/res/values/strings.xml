@@ -94,7 +94,7 @@
     <string name="title_actionbar_selected_items"><xliff:g id="name">%s</xliff:g> selected</string>
     <string name="inadvertmode_title">Prevent misoperation</string>
     <string name="inadvertmode_tip_msg1">"Don't cover the top of screen"</string>
-    <string name="inadvertmode_force_quit">"Force to quit:press 'Home'+'Volume Up' key"</string>
+    <string name="inadvertmode_force_quit">"Force to quit:press 'Power'+'Volume Up' key"</string>
     
     <string name="translate">translate</string>
     <string name="add">add</string>
