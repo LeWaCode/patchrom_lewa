@@ -115,6 +115,7 @@
 
     <style name="V5.Widget.Holo.Light.Button.Borderless" parent="Widget.Holo.Light.Button.Borderless">
         <item name="android:textColor">@lewa:color/primary_text_holo_light</item>
+        <item name="android:background">@lewa:drawable/button_background_holo_light</item>
     </style>
     
     <style name="V5.Widget.Holo.Light.Button.Borderless.Left">
@@ -152,4 +153,9 @@
     <style name="V5.Widget.Holo.Tab" parent="@android:style/Widget.Holo.Tab">
         <item name="android:background">@lewa:drawable/tab_indicator_holo</item>
     </style>
+
+    <style name="V5.Widget.Holo.Light.ActionBar.TabText" parent="@android:style/Widget.Holo.Light.ActionBar.TabText">
+        <item name="android:textColor">@lewa:color/tab_text_holo_light</item>
+    </style>
+    
 </resources>

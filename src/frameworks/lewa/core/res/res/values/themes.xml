@@ -17,11 +17,13 @@
         <item name="lewa_windowContentOverlay">@lewa:drawable/ab_solid_shadow_holo</item>
         <!-- <item name="android:actionModeSplitBackground">@null</item> -->
         <item name="android:actionBarTabStyle">@lewa:style/V5.Widget.Holo.ActionBar.TabView</item>
-
+        <item name="android:actionBarTabTextStyle">@lewa:style/V5.Widget.Holo.Light.ActionBar.TabText</item>
         <item name="android:preferenceInformationStyle">@lewa:style/V5.Preference.Holo.Information</item>
         <item name="android:progressBarStyleHorizontal">@lewa:style/V5.Widget.Holo.Light.ProgressBar.Horizontal</item>
         <item name="*android:toastFrameBackground">@lewa:drawable/toast_frame_holo</item>
         <item name="android:tabWidgetStyle">@lewa:style/V5.Widget.Holo.TabWidget</item>
+        <item name="android:selectableItemBackground">@lewa:drawable/item_background_holo_light</item>
+        <item name="android:windowBackground">@lewa:drawable/screen_background_selector_light</item>
     </style>
 
     <style name="V5.Theme.Holo" />
