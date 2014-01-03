@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item
+        android:drawable="@drawable/wheel_animal0"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal1"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal2"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal3"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal4"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal5"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal6"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal7"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal8"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal9"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal10"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal11"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal12"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal13"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal14"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal15"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal16"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal17"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal18"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal19"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal20"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal21"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal22"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal23"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal24"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal25"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal26"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal27"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal28"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal29"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal30"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal31"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal32"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal33"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal34"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal35"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal36"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal37"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal38"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal39"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal40"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal41"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal42"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal43"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal44"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal45"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal46"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal47"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal48"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal49"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal50"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal51"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal52"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal53"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal54"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal55"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal56"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal57"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal58"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal59"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal60"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal61"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal62"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal63"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal64"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal65"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal66"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal67"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal68"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal69"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal70"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal71"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal72"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal73"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal74"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal75"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal76"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal77"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal78"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal79"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal80"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal81"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal82"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal83"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal84"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal85"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal86"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal87"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal88"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal89"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal90"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal91"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal92"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal93"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal94"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal95"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal96"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal97"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal98"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal99"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal100"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal101"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal102"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal103"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal104"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal105"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal106"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal107"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal108"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal109"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal110"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal111"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal112"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal113"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal114"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal115"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal116"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal117"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal118"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal119"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal120"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal121"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal123"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal124"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal125"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal126"
+        android:duration="40"/>
+
+    <item
+        android:drawable="@drawable/wheel_animal127"
+        android:duration="40"/>
+
+</animation-list>

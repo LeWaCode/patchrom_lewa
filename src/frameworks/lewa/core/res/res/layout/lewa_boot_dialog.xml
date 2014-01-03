@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wheel_bg">
+
+    <ImageView
+        android:id="@+id/boot_animal"
+        android:layout_marginTop="175dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/wheel_animal"/>
+
+    <TextView
+        android:id="@+id/boot_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/boot_animal"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:layout_marginTop="65dp"
+        android:textColor="#FF38445C"/>
+</RelativeLayout>

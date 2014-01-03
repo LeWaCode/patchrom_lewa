@@ -157,5 +157,9 @@
     <style name="V5.Widget.Holo.Light.ActionBar.TabText" parent="@android:style/Widget.Holo.Light.ActionBar.TabText">
         <item name="android:textColor">@lewa:color/tab_text_holo_light</item>
     </style>
+
+    <style name = "dialog_exit_animal">
+        <item name="android:windowExitAnimation">@anim/dialog_exit_anim</item>
+    </style>
     
 </resources>
