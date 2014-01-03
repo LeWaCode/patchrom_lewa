@@ -98,4 +98,12 @@
         </fileset>
     </family>
 
+<family>
+        <nameset>
+            <name>neosans</name>   
+        </nameset>
+        <fileset>
+            <file>NeoSans-Light.otf</file>
+        </fileset>
+    </family>
 </familyset>

@@ -185,6 +185,9 @@
     <public type="id" name="android_switch_ime_button" id="0x0902003d" />
 <!--     <public type="id" name="android_lockPattern" /> -->
     <public type="id" name="android_forgotPatternButton" id="0x0902003e" />
+    <!--boot dialog-->
+    <public type="id" name="boot_animal" id ="0x09020040"/>
+    <public type="id" name="boot_text" id="0x09020041"/>
 
     <!-- Public styles -->
     <!-- PagerHeader -->
@@ -233,7 +236,9 @@
     <public type="style" name="V5.Theme.Toast" id="0x09030020" />
     <!-- TagWidget -->
     <public type="style" name="V5.Widget.Holo.Tab" id="0x09030021" />
-    
+    <!--boot dialog anim-->
+    <public type="style" name="dialog_exit_animal" id="0x09030022" />
+
     <!-- Public strings -->
     <public type="string" name="selectNone" id="0x09040000" />
     <!-- add for alias.xml -->
@@ -314,6 +319,8 @@
     <public type="anim" name="android_push_down_in" id="0x09060005" />
     <public type="anim" name="android_grow_fade_in_from_bottom" id="0x09060006" />
     <public type="anim" name="android_shrink_fade_out_from_bottom" id="0x09060007" />
+    <!--boot dialog anim-->
+    <public type="anim" name="dialog_exit_anim" id="0x09060008"/>
 
     <!-- Public drawables -->
     <!-- Drawable of menu selection -->
@@ -514,6 +521,8 @@
     <public type="layout" name="android_keyguard_screen_unlock_landscape" id="0x0909002a" />
     <!-- Toast layout -->
     <public type="layout" name="transient_notification" id="0x0909002b" />
+    <!-- boot dialog-->
+    <public type="layout" name="lewa_boot_dialog" id="0x0909002c"/>
     
     <!-- Public bool -->
     <public type="bool" name="android_config_automatic_brightness_available" id="0x090a0000" />
