@@ -102,12 +102,17 @@
         <item name="android:dropDownVerticalOffset">@lewa:dimen/spinner_v5_vertical_offset</item>
         <item name="lewa:isV5Spinner">true</item>
         <item name="lewa:isHideInputKeyBoard">true</item>
+        <item name="android:dropDownSelector">@drawable/list_view_item_expand_bg_light_last</item>
     </style>
 
     <style name="V5.Widget.Holo.Light.ActionBar.Solid" parent="android:Widget.Holo.Light.ActionBar.Solid">
         <item name="android:backgroundSplit">@lewa:drawable/ab_bottom_solid_light_holo</item>
+        <item name="android:titleTextStyle">@style/V5.TextAppearance.Holo.Widget.ActionBar.Title</item>
     </style>
 
+    <style name="V5.TextAppearance.Holo.Widget.ActionBar.Title" parent="@*android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/activity_title_text_color_holo_light</item>
+    </style>
     
     <style name="V5.AlertDialog.Holo.Light" parent="@*android:style/AlertDialog.Holo.Light">
         <item name="android:layout">@lewa:layout/alert_dialog_holo</item>
@@ -162,4 +167,36 @@
         <item name="android:windowExitAnimation">@anim/dialog_exit_anim</item>
     </style>
     
+    <style name="V5.Widget.Holo.Light.ListView" parent="@android:style/Widget.Holo.Light.ListView">
+        <item name="android:listSelector">@drawable/list_view_item_expand_bg_light_first</item>
+    </style>
+    
+    <style name="V5.Widget.Holo.Light.ListPopupWindow" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_holo_light</item>
+        <item name="android:dropDownSelector">@drawable/list_view_item_expand_bg_light</item>
+    </style>
+    
+    <style name="V5.Widget.Holo.Light.PopupMenu" parent="style/V5.Widget.Holo.Light.ListPopupWindow">
+    </style>
+    
+    <style name="V5.DialogWindowTitle.Holo.Light" parent="@*android:style/DialogWindowTitle.Holo.Light">
+        <item name="android:textColor">@color/dialog_title_text_color_holo_light</item>
+    </style>
+
+    <style name="V5.PanelMenu.ListItem.TextAppearance.Holo.Light.Medium" parent="*android:style/TextAppearance.Holo.Light.Medium">
+        <item name="android:textColor">@color/compact_menu_item_text_color_holo_light</item>
+    </style>
+
+    <style name="V5.Widget.Holo.Light.ActionMode.Inverse" parent="@*android:style/Widget.Holo.Light.ActionMode.Inverse">
+        <item name="android:titleTextStyle">@style/V5.TextAppearance.Holo.Widget.ActionMode.Title.Inverse</item>
+        <item name="android:subtitleTextStyle">@style/V5.TextAppearance.Holo.Widget.ActionMode.Subtitle.Inverse</item>
+    </style>
+    
+    <style name="V5.TextAppearance.Holo.Widget.ActionMode.Title.Inverse" parent="*android:style/TextAppearance.Holo.Widget.ActionMode.Title.Inverse">
+        <item name="android:textColor">@color/actionmode_title_text_color_holo_light</item>
+    </style>
+
+    <style name="V5.TextAppearance.Holo.Widget.ActionMode.Subtitle.Inverse" parent="*android:style/TextAppearance.Holo.Widget.ActionMode.Subtitle.Inverse">
+        <item name="android:textColor">@color/actionmode_title_text_color_holo_light</item>
+    </style>
 </resources>

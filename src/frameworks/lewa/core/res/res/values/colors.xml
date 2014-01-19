@@ -21,6 +21,7 @@
     <!-- move from framework-res for patch rom -->
     <color name="bright_foreground_disabled_holo_light">#cbcbcb</color>
     <color name="bright_foreground_holo_light">#38445c</color>
+    <color name="bright_foreground_holo_dark">@android:color/white</color>
     <color name="transparent">#00000000</color>
     <color name="background_holo_dark">#38445c</color>
     <color name="dim_foreground_holo_light">#a6aab3</color>
@@ -32,8 +33,15 @@
     <color name="holo_light_divider_color">#dadee6</color>
     <!-- highlight color -->
     <color name="holo_light_highlight_color">#088cff</color>
+    <color name="holo_light_focused_color">@android:color/white</color>
     <color name="tab_text_bright_foreground_disabled_holo_light">#cbcbcb</color>
-    <color name="tab_text_bright_foreground_holo_light">#38445c</color>
-    <color name="tab_text_highlight_holo_light">#088cff</color>
-    <color name="tab_text_focused_holo_light">@android:color/white</color>
+    <color name="tab_text_bright_foreground_holo_light">@color/bright_foreground_holo_light</color>
+    <color name="tab_text_highlight_holo_light">@color/holo_light_highlight_color</color>
+    <color name="tab_text_focused_holo_light">@color/holo_light_focused_color</color>
+    <!-- activity title text color -->
+    <color name="activity_title_text_color_holo_light">@color/bright_foreground_holo_light</color>
+    <color name="dialog_title_text_color_holo_light">@color/bright_foreground_holo_light</color>
+    <color name="compact_menu_item_text_color_normal_holo_light">@color/bright_foreground_holo_light</color>
+    <color name="compact_menu_item_text_color_focused_holo_light">@color/holo_light_focused_color</color>
+    <color name="actionmode_title_text_color_holo_light">@color/bright_foreground_holo_dark</color>
 </resources>

@@ -29,6 +29,6 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="?android:attr/textColorPrimary" />
+        android:textColor="@lewa:color/primary_text_holo_light" />
 
 </LinearLayout>

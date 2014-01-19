@@ -94,6 +94,7 @@
     <item type="drawable" name="android_code_lock_top">@*android:drawable/code_lock_top</item>
     <item type="drawable" name="android_ic_lock_idle_lock">@*android:drawable/ic_lock_idle_lock</item>
     <item type="drawable" name="android_ic_menu_moreoverflow_holo_dark">@*android:drawable/ic_menu_moreoverflow_holo_dark</item>
+    <item type="drawable" name="android_cab_background_bottom_holo_light">@*android:drawable/cab_background_bottom_holo_light</item>
 
     <item type="id" name="android_action_context_bar">@*android:id/action_context_bar</item>
     <item type="id" name="android_alertTitle">@*android:id/alertTitle</item>

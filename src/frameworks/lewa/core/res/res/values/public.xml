@@ -115,6 +115,13 @@
     <public type="attr" name="buttonSliderPressed" id="0x09010019" />
     <public type="attr" name="isV5Spinner" id="0x0901001a" />
     <public type="attr" name="isHideInputKeyBoard" id="0x0901001b" />
+    <!-- drawable state-->
+    <public type="attr" name="state_single" id="0x0901001c" />
+    <public type="attr" name="state_first" id="0x0901001d" />
+    <public type="attr" name="state_middle" id="0x0901001e" />
+    <public type="attr" name="state_last" id="0x0901001f" />
+    <public type="attr" name="children_sequence_state" id="0x09010020" />
+    
     <!-- Public IDs -->
     <!-- DragableListView -->
     <public type="id" name="grabber" id="0x09020000" />
@@ -238,7 +245,20 @@
     <public type="style" name="V5.Widget.Holo.Tab" id="0x09030021" />
     <!--boot dialog anim-->
     <public type="style" name="dialog_exit_animal" id="0x09030022" />
-
+    <public type="style" name="V5.Theme.Holo.Light.NoActionBar.Fullscreen" id="0x09030023" />
+    <!-- PanelMenu -->
+    <public type="style" name="V5.Theme.Holo.Light.CompactMenu" id="0x09030024" />
+    <public type="style" name="V5.Widget.Holo.Light.ListView" id="0x09030025" />
+    <public type="style" name="V5.Widget.Holo.Light.ListPopupWindow" id="0x09030026" />
+    <public type="style" name="V5.Widget.Holo.Light.PopupMenu" id="0x09030027" />
+    <public type="style" name="V5.TextAppearance.Holo.Widget.ActionBar.Title" id="0x09030028" />
+    <public type="style" name="V5.DialogWindowTitle.Holo.Light" id="0x09030029" />
+    <public type="style" name="V5.PanelMenu.ListItem.TextAppearance.Holo.Light.Medium" id="0x0903002a" />
+    <public type="style" name="V5.Widget.Holo.Light.ActionMode.Inverse" id="0x0903002b" />
+    <public type="style" name="V5.TextAppearance.Holo.Widget.ActionMode.Title.Inverse" id="0x0903002c" />
+    <public type="style" name="V5.TextAppearance.Holo.Widget.ActionMode.Subtitle.Inverse" id="0x0903002d" />
+    <public type="style" name="V5.Theme.Holo.Light.NoTitleBar" id="0x0903002e" />
+    <public type="style" name="V5.Widget.Holo.Light.ActionBar.Solid" id="0x0903002f" />
     <!-- Public strings -->
     <public type="string" name="selectNone" id="0x09040000" />
     <!-- add for alias.xml -->
@@ -310,6 +330,14 @@
     <public type="color" name="tab_text_bright_foreground_holo_light" id="0x09050016" />
     <public type="color" name="tab_text_highlight_holo_light" id="0x09050017" />
     <public type="color" name="tab_text_focused_holo_light" id="0x09050018" />
+    <public type="color" name="activity_title_text_color_holo_light" id="0x09050019" />
+    <public type="color" name="dialog_title_text_color_holo_light" id="0x0905001a" />
+    <public type="color" name="compact_menu_item_text_color_holo_light" id="0x0905001b" />
+    <public type="color" name="compact_menu_item_text_color_focused_holo_light" id="0x0905001c" />
+    <public type="color" name="compact_menu_item_text_color_normal_holo_light" id="0x0905001d" />
+    <public type="color" name="actionmode_title_text_color_holo_light" id="0x0905001e" />
+    <public type="color" name="holo_light_focused_color" id="0x0905001f" />
+    <public type="color" name="bright_foreground_holo_dark" id="0x09050020" />
     <!-- Public anim -->
     <public type="anim" name="android_fade_in" id="0x09060000" />
     <public type="anim" name="android_fade_out" id="0x09060001" />
@@ -471,7 +499,19 @@
     <public type="drawable" name="list_selector_disabled_holo_light"  id="0x09080087" />
     <public type="drawable" name="screen_background_light"  id="0x09080088" />
     <public type="drawable" name="screen_background_selector_light"  id="0x09080089" />
+    <public type="drawable" name="tab_selected_holo_light"  id="0x0908008a" />
+    <!-- ListView -->
+    <public type="drawable" name="list_view_item_expand_bg_light"  id="0x0908008b" />
+    <public type="drawable" name="list_view_item_expand_bg_light_first"  id="0x0908008c" />
+    <public type="drawable" name="list_view_item_expand_bg_light_last"  id="0x0908008d" />
+    <public type="drawable" name="list_focused_holo_single"  id="0x0908008e" />
+    <public type="drawable" name="list_focused_holo_first"  id="0x0908008f" />
+    <public type="drawable" name="list_focused_holo_last"  id="0x09080090" />
+    <!-- ListPopupWindow -->
+    <public type="drawable" name="menu_dropdown_panel_holo_light"  id="0x09080091" />
 
+    <public type="drawable" name="android_cab_background_bottom_holo_light" id="0x09080092" />
+    
     <!-- Public layouts -->
     <public type="layout" name="stateful_preference_holo_light" id="0x09090000" />
     <public type="layout" name="preference_widget_switch_noclickable" id="0x09090001" />
@@ -535,6 +575,7 @@
     <public type="bool" name="android_config_wimaxEnabled" id="0x090a0007" />
     <public type="bool" name="enable_magnifier_when_input" id="0x090a0008" />
     <public type="bool" name="android_config_intrusiveNotificationLed" id="0x090a0009" />
+    <public type="bool" name="config_use_screen_auto_brightness_adjustment" id="0x090a000a" />
 
     <!-- Public dimen -->
     <public type="dimen" name="android_app_icon_size" id="0x090b0000" />
