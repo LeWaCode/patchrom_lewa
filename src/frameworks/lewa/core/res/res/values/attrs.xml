@@ -66,4 +66,12 @@
     <attr name="numberPickerUpButtonStyle" format="reference" />
     <attr name="numberPickerDownButtonStyle" format="reference" />
     <attr name="numberPickerInputTextStyle" format="reference" />
+    
+    <declare-styleable name="DrawableStates">
+        <attr name="state_single" format="boolean" />
+        <attr name="state_first" format="boolean" />
+        <attr name="state_middle" format="boolean" />
+        <attr name="state_last" format="boolean" />
+        <attr name="children_sequence_state" format="boolean" />
+    </declare-styleable>
 </resources>

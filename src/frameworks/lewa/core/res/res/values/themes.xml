@@ -4,7 +4,7 @@
     <style name="V5.Theme" parent="android:Theme.Holo.Light">
         <item name="lewa_ui_version">5</item>
         <item name="android:actionBarStyle">@lewa:style/V5.Widget.Holo.Light.ActionBar.Solid</item>
-        <item name="android:actionModeStyle">@android:style/Widget.Holo.Light.ActionMode.Inverse</item>
+        <item name="android:actionModeStyle">@lewa:style/V5.Widget.Holo.Light.ActionMode.Inverse</item>
         <item name="android:actionModeCloseDrawable">@lewa:drawable/ic_cab_cancel_holo_dark</item>
         <item name="android:widgetLayout">@lewa:layout/preference_widget</item>        
         <item name="android:alertDialogTheme">@lewa:style/V5.Theme.Holo.Light.Dialog.Alert</item>
@@ -24,6 +24,9 @@
         <item name="android:tabWidgetStyle">@lewa:style/V5.Widget.Holo.TabWidget</item>
         <item name="android:selectableItemBackground">@lewa:drawable/item_background_holo_light</item>
         <item name="android:windowBackground">@lewa:drawable/screen_background_selector_light</item>
+        <item name="*android:panelMenuListTheme">@style/V5.Theme.Holo.Light.CompactMenu</item>
+        <item name="android:listPopupWindowStyle">@style/V5.Widget.Holo.Light.ListPopupWindow</item>
+        <item name="android:popupMenuStyle">@style/V5.Widget.Holo.Light.PopupMenu</item>
     </style>
 
     <style name="V5.Theme.Holo" />
@@ -51,12 +54,14 @@
     <style name="V5.Theme.Holo.Light.Dialog.Alert" parent="*android:Theme.Holo.Light.Dialog.Alert">
         <item name="lewa_ui_version">5</item>
         <item name="android:alertDialogStyle">@lewa:style/V5.AlertDialog.Holo.Light</item>
+        <item name="android:windowTitleStyle">@lewa:style/V5.DialogWindowTitle.Holo.Light</item>
     </style>
     
     <style name="V5.Theme.Holo.Light.Dialog" parent="android:Theme.Holo.Light.Dialog">
         <item name="lewa_ui_version">5</item>
         <item name="*android:dialogTitleDecorLayout">@lewa:layout/dialog_title_holo</item>
         <item name="android:alertDialogTheme">@lewa:style/V5.Theme.Holo.Light.Dialog.Alert</item>
+        <item name="android:windowTitleStyle">@lewa:style/V5.DialogWindowTitle.Holo.Light</item>
     </style>
 
     <style name="V5.Theme.Holo.Light.Dialog.MinWidth" parent="android:Theme.Holo.Light.Dialog.MinWidth">
@@ -107,5 +112,22 @@
     <!-- Default theme for window that looks like a toast. -->
     <style name="V5.Theme.Toast" parent="@*android:style/Theme.Toast">
         <item name="android:windowBackground">@lewa:drawable/toast_frame_holo</item>
+    </style>
+
+    <style name="V5.Theme.Holo.Light.NoActionBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    
+    <style name="V5.Theme.Holo.Light.CompactMenu">
+        <!-- Menu/item attributes -->
+        <item name="android:itemTextAppearance">@style/V5.PanelMenu.ListItem.TextAppearance.Holo.Light.Medium</item>
+        <item name="android:listViewStyle">@style/V5.Widget.Holo.Light.ListView</item>
+        <item name="android:windowAnimationStyle">@*android:style/Animation.DropDownUp</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="V5.Theme.Holo.Light.NoTitleBar" >
+        <item name="android:windowNoTitle">true</item>
     </style>
 </resources>

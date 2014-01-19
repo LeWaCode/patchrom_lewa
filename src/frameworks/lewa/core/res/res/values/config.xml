@@ -63,4 +63,7 @@
 
     <!-- Default LED freq time for notification LED in milliseconds. -->
     <integer name="config_defaultNotificationLedFreq">4000</integer>
+
+    <!-- Disable the screen auto-brightness adjustment setting  -->
+    <bool name="config_use_screen_auto_brightness_adjustment">true</bool>
 </resources>

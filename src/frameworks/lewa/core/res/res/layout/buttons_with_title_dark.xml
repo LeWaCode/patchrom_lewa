@@ -21,7 +21,8 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center"
-        android:textAppearance="?android:attr/textAppearanceLargeInverse"/>
+        android:textAppearance="?android:attr/textAppearanceLargeInverse"
+        android:textColor="@color/actionmode_title_text_color_holo_light" />
     
     <ImageButton 
         android:id="@+id/button_right"
