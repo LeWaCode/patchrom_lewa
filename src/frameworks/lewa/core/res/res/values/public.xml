@@ -24,7 +24,6 @@
     <java-symbol type="drawable" name="rounded_corner_bottom_right" />
     <java-symbol type="drawable" name="rounded_corner_bottom_left" />
     <!-- END -->
-    <java-symbol type="drawable" name="ic_lock_shutdown" />
     <java-symbol type="layout" name="preference_holo" />
 
     <!-- Woody Guo @ 2012/12/05: Add for Lewa added resources -->
@@ -72,7 +71,6 @@
     <java-symbol type="dimen" name="text_handle_visible_height" />
     <java-symbol type="dimen" name="float_panel_arrow_top_offset" />
     <java-symbol type="dimen" name="float_panel_arrow_bottom_offset" />
-    <java-symbol type="dimen" name="spinner_v5_width_offset" />
     <java-symbol type="dimen" name="spinner_v5_vertical_offset" />
     <java-symbol type="color" name="textview_floatpanel_button_text_color" />
     <java-symbol type="style" name="TextViewFloatPanelButton" />
@@ -511,6 +509,7 @@
     <public type="drawable" name="menu_dropdown_panel_holo_light"  id="0x09080091" />
 
     <public type="drawable" name="android_cab_background_bottom_holo_light" id="0x09080092" />
+    <public type="drawable" name="ic_lock_shutdown" id="0x09080093" />
     
     <!-- Public layouts -->
     <public type="layout" name="stateful_preference_holo_light" id="0x09090000" />
@@ -590,6 +589,7 @@
     <public type="dimen" name="android_glowpadview_inner_radius" id="0x090b000a" />
     <public type="dimen" name="android_system_bar_height" id="0x090b000b" />
     <public type="dimen" name="android_navigation_bar_width" id="0x090b000c" />
+    <public type="dimen" name="spinner_v5_width_offset" id="0x090b000d" />
 
     <!-- Public integer -->
     <public type="integer" name="android_config_lowBatteryCloseWarningLevel" id="0x090c0000" />
