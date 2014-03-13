@@ -257,6 +257,7 @@
     <public type="style" name="V5.TextAppearance.Holo.Widget.ActionMode.Subtitle.Inverse" id="0x0903002d" />
     <public type="style" name="V5.Theme.Holo.Light.NoTitleBar" id="0x0903002e" />
     <public type="style" name="V5.Widget.Holo.Light.ActionBar.Solid" id="0x0903002f" />
+    <public type="style" name="V5.Theme.Holo.Light.NoDisplay" id="0x09030030"/>
     <!-- Public strings -->
     <public type="string" name="selectNone" id="0x09040000" />
     <!-- add for alias.xml -->
