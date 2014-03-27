@@ -337,6 +337,8 @@
     <public type="color" name="actionmode_title_text_color_holo_light" id="0x0905001e" />
     <public type="color" name="holo_light_focused_color" id="0x0905001f" />
     <public type="color" name="bright_foreground_holo_dark" id="0x09050020" />
+    <public type="color" name="ab_bottom_solid_light_holo_start_color" id="0x09050021" />
+    <public type="color" name="ab_bottom_solid_light_holo_end_color" id="0x09050022" />
     <!-- Public anim -->
     <public type="anim" name="android_fade_in" id="0x09060000" />
     <public type="anim" name="android_fade_out" id="0x09060001" />

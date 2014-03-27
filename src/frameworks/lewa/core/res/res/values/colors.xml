@@ -44,4 +44,6 @@
     <color name="compact_menu_item_text_color_normal_holo_light">@color/bright_foreground_holo_light</color>
     <color name="compact_menu_item_text_color_focused_holo_light">@color/holo_light_focused_color</color>
     <color name="actionmode_title_text_color_holo_light">@color/bright_foreground_holo_dark</color>
+    <color name="ab_bottom_solid_light_holo_start_color">#ffe7e9ec</color>
+    <color name="ab_bottom_solid_light_holo_end_color">#00e7e9ec</color>
 </resources>
