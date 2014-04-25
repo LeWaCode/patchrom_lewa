@@ -155,4 +155,5 @@
      <string name="no_network">糟糕，您现在看起来没有联网</string>
      <string name="suggest_to">建议您现在去</string>
      <string name="check_network">检查网络连接</string>
+    <string name="safe_media_volume_warning">"将音量调高到安全级别以上？"\n"长时间聆听高音量可能会损伤听力。"</string>
 </resources>

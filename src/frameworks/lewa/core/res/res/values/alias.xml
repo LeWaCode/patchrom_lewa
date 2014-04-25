@@ -28,11 +28,16 @@
     <item type="bool" name="android_config_voice_capable">@*android:bool/config_voice_capable</item>
     <item type="bool" name="android_config_wimaxEnabled">@*android:bool/config_wimaxEnabled</item>
     <item type="bool" name="android_config_intrusiveNotificationLed">@*android:bool/config_intrusiveNotificationLed</item>
+    <item type="bool" name="android_config_useMasterVolume">@*android:bool/config_useMasterVolume</item>
+
     <item type="color" name="android_config_defaultNotificationColor">@*android:color/config_defaultNotificationColor</item>
 
     <color name="android_background_holo_dark">@*android:color/background_holo_dark</color>
     <color name="android_primary_text_holo_light">@*android:color/primary_text_holo_light</color>
     <color name="android_secondary_text_holo_light">@*android:color/secondary_text_holo_light</color>
+
+    <item type="color" name="android_dim_foreground_holo_light">@*android:color/dim_foreground_holo_light</item>
+    <item type="color" name="android_bright_foreground_dark">@*android:color/bright_foreground_dark</item>
 
     <item type="dimen" name="android_app_icon_size">@*android:dimen/app_icon_size</item>
     <item type="dimen" name="android_navigation_bar_height">@*android:dimen/navigation_bar_height</item>
@@ -46,7 +51,9 @@
     <item type="dimen" name="android_glowpadview_inner_radius">@*android:dimen/glowpadview_inner_radius</item>
     <item type="dimen" name="android_glowpadview_glow_radius">@*android:dimen/glowpadview_glow_radius</item>
     <item type="dimen" name="android_navigation_bar_width">@*android:dimen/navigation_bar_width</item>
-
+    <item type="dimen" name="android_alert_dialog_title_height">@*android:dimen/alert_dialog_title_height</item>
+    <item type="dimen" name="android_volume_panel_top">@*android:dimen/volume_panel_top</item>
+    
     <item type="drawable" name="android_expander_ic_minimized">@*android:drawable/expander_ic_minimized</item>
     <item type="drawable" name="android_expander_ic_maximized">@*android:drawable/expander_ic_maximized</item>
     <item type="drawable" name="android_ic_contact_picture">@*android:drawable/ic_contact_picture</item>
@@ -183,6 +190,12 @@
     <item type="string" name="android_lockscreen_forgot_pattern_button_text">@*android:string/lockscreen_forgot_pattern_button_text</item>
     <item type="string" name="android_lockscreen_pattern_wrong">@*android:string/lockscreen_pattern_wrong</item>
     <item type="string" name="android_lockscreen_pattern_instructions">@*android:string/lockscreen_pattern_instructions</item>
+    <item type="string" name="android_volume_alarm">@*android:string/volume_alarm</item>
+    <item type="string" name="android_volume_icon_description_bluetooth">@*android:string/volume_icon_description_bluetooth</item>
+    <item type="string" name="android_volume_icon_description_ringer">@*android:string/volume_icon_description_ringer</item>
+    <item type="string" name="android_volume_icon_description_incall">@*android:string/volume_icon_description_incall</item>
+    <item type="string" name="android_volume_icon_description_media">@*android:string/volume_icon_description_media</item>
+    <item type="string" name="android_volume_icon_description_notification">@*android:string/volume_icon_description_notification</item>
 
     <item type="layout" name="android_always_use_checkbox">@*android:layout/always_use_checkbox</item>
     <item type="layout" name="android_notification_template_base">@*android:layout/notification_template_base</item>
@@ -215,4 +228,20 @@
     <style name="android.Theme.Holo.Light.Dialog.Alert" parent="@*android:style/Theme.Holo.Light.Dialog.Alert"></style>
     <style name="android.Widget.Button.Transparent" parent="@*android:style/Widget.Button.Transparent"></style>
     <style name="android.Widget.Holo.TabText" parent="@*android:style/Widget.Holo.TabText"></style>
+    <style name="android.Theme.Panel.Volume" parent="@*android:style/Theme.Panel.Volume"></style>
+
+    <item type="id" name="android_visible_panel">@*android:id/visible_panel</item>
+    <item type="id" name="android_expand_button_divider">@*android:id/expand_button_divider</item>
+    <item type="id" name="android_expand_button">@*android:id/expand_button</item>
+    <item type="id" name="android_slider_group">@*android:id/slider_group</item>
+    <item type="id" name="android_stream_icon">@*android:id/stream_icon</item>
+    <item type="drawable" name="android_ic_sysbar_quicksettings">@*android:drawable/ic_sysbar_quicksettings</item>
+
+    <item type="id" name="android_edittext_container">@*android:id/edittext_container</item>
+    <item type="id" name="android_title_container">@*android:id/title_container</item>
+    <item type="id" name="android_left_icon">@*android:id/left_icon</item>
+    <item type="id" name="android_right_icon">@*android:id/right_icon</item>
+    <item type="id" name="android_content">@*android:id/content</item>
+    <item type="id" name="android_hard_keyboard_section">@*android:id/hard_keyboard_section</item>
+    <item type="id" name="android_hard_keyboard_switch">@*android:id/hard_keyboard_switch</item>
 </resources>

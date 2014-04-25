@@ -5,7 +5,6 @@
     <dimen name="normal_height">48dip</dimen>
     <!-- height of an expanded list item -->
     <dimen name="expanded_height">96dip</dimen>
-    <dimen name="preference_item_padding_side">8dip</dimen>
     <dimen name="preference_item_padding_inner">8dip</dimen>
     <!-- Minimum space to allocate to the left of a preference item for an icon.
         This helps in aligning titles when some items have icons and some don't. When space is
@@ -16,4 +15,41 @@
     <dimen name="text_handle_visible_height">40dip</dimen>
     <dimen name="float_panel_arrow_top_offset">2.667dip</dimen>
     <dimen name="float_panel_arrow_bottom_offset">6.667dip</dimen>
+
+    <!-- textSize -->
+    <dimen name="v5_text_font_size_small">14sp</dimen>
+    <dimen name="v5_text_font_size_medium">16sp</dimen>
+    <dimen name="v5_text_font_size_large">18sp</dimen>
+
+    <!-- Text size for action bar titles; original size: 18dp -->
+    <dimen name="action_bar_title_text_size">18sp</dimen>
+    <!-- Text size for action bar subtitles -->
+    <!-- <dimen name="action_bar_subtitle_text_size">14dp</dimen> -->
+
+    <!-- height of an notification small icon -->
+    <!-- add by zhangxianjia 20120820 -->
+    <add-resource type="dimen" name="notification_small_icon" />
+    <dimen name="notification_small_icon">28px</dimen>
+
+    <!-- Woody Guo @ 2012/12/03: Upgrade to Jelly Bean -->
+    <!-- BEGIN -->
+    <item type="dimen" name="dialog_fixed_width_major">320dp</item>
+    <item type="dimen" name="dialog_fixed_width_minor">320dp</item>
+    <item type="dimen" name="dialog_fixed_height_major">80%</item>
+    <item type="dimen" name="dialog_fixed_height_minor">100%</item>
+
+    <dimen name="thumbnail_width">230dp</dimen>
+    <!-- The height that is used when creating thumbnails of applications. -->
+    <dimen name="thumbnail_height">135dp</dimen>
+    <!-- END -->
+
+    <!-- Dialog title height -->
+    <dimen name="alert_dialog_title_height">48dip</dimen>
+    <dimen name="preference_item_padding_side">0dp</dimen>
+    <dimen name="preference_screen_header_padding_side">0dip</dimen>
+    <dimen name="preference_fragment_padding_side">0dp</dimen>
+    <dimen name="lw_abc_fast_index_bar_width">22dp</dimen>
+    <dimen name="lw_abc_fast_index_bar_text_size">12sp</dimen>
+    <dimen name="lw_abc_fast_index_pop_text_size">32sp</dimen>
+    <dimen name="lw_arrow_page_header_text_size">14sp</dimen>
 </resources>

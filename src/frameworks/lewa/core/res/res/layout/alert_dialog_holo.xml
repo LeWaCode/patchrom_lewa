@@ -34,13 +34,13 @@
             android:layout_width="match_parent"
             android:layout_height="2dip"
             android:visibility="gone"
-            android:background="@android:color/holo_blue_light" />
+            android:background="@lewa:color/holo_blue_light" />
         <LinearLayout android:id="@lewa:id/android_title_template"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_vertical|left"
-            android:minHeight="@*android:dimen/alert_dialog_title_height"
+            android:minHeight="@lewa:dimen/alert_dialog_title_height"
             android:layout_marginLeft="16dip"
             android:layout_marginRight="16dip">
             <ImageView android:id="@lewa:id/android_icon"
@@ -61,7 +61,7 @@
             android:layout_width="match_parent"
             android:layout_height="0.5dip"
             android:visibility="gone"
-            android:background="@*android:color/holo_light_divider_color" />
+            android:background="@lewa:color/holo_light_divider_color" />
         <!-- If the client uses a customTitle, it will be added here. -->
     </LinearLayout>
 

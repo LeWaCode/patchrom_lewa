@@ -28,4 +28,25 @@
     <!--boot dialog-->
     <item type="id" name="boot_animal"/>
     <item type="id" name="boot_text"/>
+    <item type="id" name="action_mode_right_imageview" />
+    <item type="id" name="arrow_down" />
+    <item type="id" name="arrow_up" />
+    <item type="id" name="buttonAddContact" />
+    <item type="id" name="buttonCall" />
+    <item type="id" name="buttonMail" />
+    <item type="id" name="buttonSMS" />
+    <item type="id" name="buttonSearch" />
+    <item type="id" name="buttonTranslate" />
+    <item type="id" name="check_network_link" />
+    <item type="id" name="panel" />
+    <item type="id" name="search_title" />
+    <item type="id" name="separator4" />
+    <item type="id" name="separator5" />
+    <item type="id" name="separator6" />
+    <item type="id" name="sousou_back" />
+    <item type="id" name="sousou_close" />
+    <item type="id" name="sousou_forward" />
+    <item type="id" name="sousou_nonet_tip" />
+    <item type="id" name="sousou_refresh"/>
+    <item type="id" name="sousou_webview"/>
 </resources>

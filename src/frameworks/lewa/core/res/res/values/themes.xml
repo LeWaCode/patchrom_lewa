@@ -6,25 +6,79 @@
         <item name="android:actionBarStyle">@lewa:style/V5.Widget.Holo.Light.ActionBar.Solid</item>
         <item name="android:actionModeStyle">@lewa:style/V5.Widget.Holo.Light.ActionMode.Inverse</item>
         <item name="android:actionModeCloseDrawable">@lewa:drawable/ic_cab_cancel_holo_dark</item>
-        <item name="android:widgetLayout">@lewa:layout/preference_widget</item>        
         <item name="android:alertDialogTheme">@lewa:style/V5.Theme.Holo.Light.Dialog.Alert</item>
         <item name="android:actionBarDivider">@null</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:textColorPrimary">@lewa:color/primary_text_holo_light</item>
         <item name="android:textColorSecondary">@lewa:color/secondary_text_holo_light</item>
         <item name="*android:editTextColor">@lewa:color/primary_text_holo_light</item>
+        <item name="android:textColorAlertDialogListItem">@lewa:color/primary_text_holo_light</item>
         <item name="android:borderlessButtonStyle">@lewa:style/V5.Widget.Holo.Light.Button.Borderless</item>
         <item name="lewa_windowContentOverlay">@lewa:drawable/ab_solid_shadow_holo</item>
-        <!-- <item name="android:actionModeSplitBackground">@null</item> -->
-        <item name="android:actionBarTabStyle">@lewa:style/V5.Widget.Holo.ActionBar.TabView</item>
-        <item name="android:actionBarTabTextStyle">@lewa:style/V5.Widget.Holo.Light.ActionBar.TabText</item>
+        <item name="android:actionModeSplitBackground">@lewa:drawable/cab_background_bottom_holo_light</item>
+        <item name="android:actionModeBackground">@lewa:drawable/cab_background_top_holo_light</item>
+        <!--  LEWA CTS BEGIN -->
+        <item name="android:buttonStyle">@lewa:style/V5.Widget.Holo.Light.Button</item>
+        <item name="android:progressBarStyle">@lewa:style/V5.Widget.Holo.ProgressBar</item>
+        <item name="android:progressBarStyleSmall">@lewa:style/V5.Widget.Holo.ProgressBar.Small</item>
+        <item name="android:progressBarStyleLarge">@lewa:style/V5.Widget.Holo.ProgressBar.Large</item>
+        <item name="android:listChoiceIndicatorMultiple">@lewa:drawable/btn_check_holo_light</item>
+        <item name="android:listChoiceIndicatorSingle">@lewa:drawable/btn_radio_holo_light</item>
+        <item name="android:seekBarStyle">@lewa:style/V5.Widget.Holo.Light.SeekBar</item>
+
+        <!-- Preference styles -->
+        <item name="android:preferenceScreenStyle">@lewa:style/V5.Preference.Holo.PreferenceScreen</item>
+        <item name="android:preferenceStyle">@lewa:style/V5.Preference.Holo</item>
+        <item name="*android:preferenceFragmentStyle">@lewa:style/V5.PreferenceFragment.Holo</item>
+        <item name="*android:preferenceFrameLayoutStyle">@lewa:style/V5.Widget.Holo.PreferenceFrameLayout</item>
+        <item name="android:checkBoxPreferenceStyle">@lewa:style/V5.Preference.Holo.CheckBoxPreference</item>
+        <item name="android:switchPreferenceStyle">@lewa:style/V5.Preference.Holo.SwitchPreference</item>
+        <item name="android:yesNoPreferenceStyle">@lewa:style/V5.Preference.Holo.DialogPreference.YesNoPreference</item>
+        <item name="android:dialogPreferenceStyle">@lewa:style/V5.Preference.Holo.DialogPreference</item>
+        <item name="android:editTextPreferenceStyle">@lewa:style/V5.Preference.Holo.DialogPreference.EditTextPreference</item>
+        <item name="android:ringtonePreferenceStyle">@lewa:style/V5.Preference.Holo.RingtonePreference</item>
+        <item name="android:preferenceCategoryStyle">@lewa:style/V5.Preference.Holo.Category</item>
         <item name="android:preferenceInformationStyle">@lewa:style/V5.Preference.Holo.Information</item>
+        <item name="android:widgetLayout">@lewa:layout/preference_widget</item>
+
+        <item name="android:listSeparatorTextViewStyle">@lewa:style/V5.Widget.Holo.Light.TextView.ListSeparator</item>
+        <item name="android:listDivider">@lewa:drawable/list_divider_holo_light</item>
+        <item name="android:dividerHorizontal">@lewa:drawable/list_divider_holo_light</item>
+        <item name="android:dividerVertical">@lewa:drawable/list_divider_holo_light</item>
+        <!--  LEWA CTS END --> 
+        <item name="android:actionBarTabStyle">@lewa:style/V5.Widget.Holo.ActionBar.TabView</item>
+        <item name="android:textAppearanceLarge">@lewa:style/V5.TextAppearance.Large</item>
+        <item name="android:textAppearanceMedium">@lewa:style/V5.TextAppearance.Medium</item>
+        <item name="android:textAppearanceSmall">@lewa:style/V5.TextAppearance.Small</item>
+        <item name="android:textAppearanceLargeInverse">@lewa:style/V5.TextAppearance.Large.Inverse</item>
+        <item name="android:textAppearanceMediumInverse">@lewa:style/V5.TextAppearance.Medium.Inverse</item>
+        <item name="android:textAppearanceSmallInverse">@lewa:style/V5.TextAppearance.Small.Inverse</item>
+        <item name="android:actionBarTabTextStyle">@lewa:style/V5.Widget.Holo.Light.ActionBar.TabText</item>
+        <item name="android:popupWindowStyle">@lewa:style/V5.Widget.Holo.Light.PopupWindow</item>
+        <item name="*android:actionModePopupWindowStyle">@lewa:style/V5.Widget.Holo.Light.PopupWindow.ActionMode</item>
+        <item name="android:mediaRouteButtonStyle">@lewa:style/V5.Widget.Holo.Light.MediaRouteButton</item>
+        <item name="android:windowTitleStyle">@lewa:style/V5.WindowTitle.Holo</item>
+        <item name="android:dialogTheme">@lewa:style/V5.Theme.Holo.Light.Dialog</item>
+        <!--<item name="android:presentationTheme">@lewa:style/V5.Theme.Holo.Light.Dialog.Presentation</item>-->
+        <item name="android:alertDialogStyle">@lewa:style/V5.AlertDialog.Holo.Light</item>
+        <item name="android:windowBackground">@lewa:drawable/screen_background_selector_light</item>
+        <item name="android:colorForeground">@lewa:color/bright_foreground_holo_light</item>
+        <item name="android:colorBackground">@lewa:color/background_holo_light</item>
+        <item name="android:textColorHint">@lewa:color/hint_foreground_holo_light</item>
+        <item name="android:colorPressedHighlight">@lewa:color/holo_blue_light</item>
+        <item name="android:textColorLink">@lewa:color/holo_blue_light</item>
+        <item name="android:textColorLinkInverse">@lewa:color/holo_blue_light</item>
+        <item name="android:listDividerAlertDialog">@lewa:drawable/list_divider_holo_light</item>
+        <item name="*android:searchViewTextField">@lewa:drawable/textfield_searchview_holo_light</item>
+        <item name="*android:searchViewTextFieldRight">@lewa:drawable/textfield_searchview_right_holo_light</item>
+        <item name="android:editTextBackground">@lewa:drawable/edit_text_holo_light</item>
+        <item name="*android:panelMenuListTheme">@lewa:style/V5.Theme.Holo.Light.CompactMenu</item>
+        <item name="*android:dialogTitleIconsDecorLayout">@lewa:layout/dialog_title_icons_holo</item>
         <item name="android:progressBarStyleHorizontal">@lewa:style/V5.Widget.Holo.Light.ProgressBar.Horizontal</item>
         <item name="*android:toastFrameBackground">@lewa:drawable/toast_frame_holo</item>
         <item name="android:tabWidgetStyle">@lewa:style/V5.Widget.Holo.TabWidget</item>
         <item name="android:selectableItemBackground">@lewa:drawable/item_background_holo_light</item>
-        <item name="android:windowBackground">@lewa:drawable/screen_background_selector_light</item>
-        <item name="*android:panelMenuListTheme">@style/V5.Theme.Holo.Light.CompactMenu</item>
+        <item name="android:listChoiceBackgroundIndicator">@lewa:drawable/list_selector_holo_light</item>
         <item name="android:listPopupWindowStyle">@style/V5.Widget.Holo.Light.ListPopupWindow</item>
         <item name="android:popupMenuStyle">@style/V5.Widget.Holo.Light.PopupMenu</item>
     </style>
@@ -51,17 +105,41 @@
         <item name="android:windowNoTitle">true</item>
     </style>
     
-    <style name="V5.Theme.Holo.Light.Dialog.Alert" parent="*android:Theme.Holo.Light.Dialog.Alert">
-        <item name="lewa_ui_version">5</item>
-        <item name="android:alertDialogStyle">@lewa:style/V5.AlertDialog.Holo.Light</item>
+    <style name="V5.Theme.Holo.Light.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="*android:windowMinWidthMajor">@*android:dimen/dialog_min_width_major</item>
+        <item name="*android:windowMinWidthMinor">@*android:dimen/dialog_min_width_minor</item>
         <item name="android:windowTitleStyle">@lewa:style/V5.DialogWindowTitle.Holo.Light</item>
     </style>
     
-    <style name="V5.Theme.Holo.Light.Dialog" parent="android:Theme.Holo.Light.Dialog">
-        <item name="lewa_ui_version">5</item>
+    <style name="V5.Theme.Holo.Light.Dialog">
         <item name="*android:dialogTitleDecorLayout">@lewa:layout/dialog_title_holo</item>
         <item name="android:alertDialogTheme">@lewa:style/V5.Theme.Holo.Light.Dialog.Alert</item>
         <item name="android:windowTitleStyle">@lewa:style/V5.DialogWindowTitle.Holo.Light</item>
+        <item name="android:borderlessButtonStyle">@lewa:style/V5.Widget.Holo.Light.Button.Borderless.Small</item>
+
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@lewa:drawable/dialog_full_holo_light</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@*android:style/Animation.Holo.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowCloseOnTouchOutside">@*android:bool/config_closeDialogWhenTouchOutside</item>
+
+        <item name="android:colorBackgroundCacheHint">@null</item>
+
+        <item name="android:buttonBarStyle">@android:style/Holo.Light.ButtonBar.AlertDialog</item>
+
+
+        <item name="android:listPreferredItemPaddingLeft">16dip</item>
+        <item name="android:listPreferredItemPaddingRight">16dip</item>
+
+        <item name="*android:preferencePanelStyle">@*android:style/PreferencePanel.Dialog</item>
+
+        <item name="lewa_windowContentOverlay">@null</item>
     </style>
 
     <style name="V5.Theme.Holo.Light.Dialog.MinWidth" parent="android:Theme.Holo.Light.Dialog.MinWidth">
@@ -79,6 +157,24 @@
         <item name="lewa_ui_version">5</item>
         <item name="*android:dialogTitleDecorLayout">@lewa:layout/dialog_title_holo</item>
         <item name="android:alertDialogTheme">@lewa:style/V5.Theme.Holo.Light.Dialog.Alert</item>
+    </style>
+
+    <style name="V5.Theme.Holo.Light.Dialog.FixedSize">
+        <item name="*android:windowFixedWidthMajor">@lewa:dimen/dialog_fixed_width_major</item>
+        <item name="*android:windowFixedWidthMinor">@lewa:dimen/dialog_fixed_width_minor</item>
+        <item name="*android:windowFixedHeightMajor">@lewa:dimen/dialog_fixed_height_major</item>
+        <item name="*android:windowFixedHeightMinor">@lewa:dimen/dialog_fixed_height_minor</item>
+    </style>
+
+    <!-- Variant of Theme.Holo.Light.Dialog.NoActionBar that has a fixed size. -->
+    <style name="V5.Theme.Holo.Light.Dialog.NoActionBar.FixedSize">
+        <item name="*android:windowFixedWidthMajor">@lewa:dimen/dialog_fixed_width_major</item>
+        <item name="*android:windowFixedWidthMinor">@lewa:dimen/dialog_fixed_width_minor</item>
+        <item name="*android:windowFixedHeightMajor">@lewa:dimen/dialog_fixed_height_major</item>
+        <item name="*android:windowFixedHeightMinor">@lewa:dimen/dialog_fixed_height_minor</item>
+    </style>
+
+    <style name="V5.Theme.Holo.Light.Dialog.Presentation" parent="@lewa:style/V5.Theme.Holo.Light.NoActionBar.Fullscreen" >
     </style>
 
     <!-- Theme for translucent activities (on API level 10 and lower). That is, windows
@@ -118,7 +214,7 @@
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowContentOverlay">@null</item>
     </style>
-    
+
     <style name="V5.Theme.Holo.Light.CompactMenu">
         <!-- Menu/item attributes -->
         <item name="android:itemTextAppearance">@style/V5.PanelMenu.ListItem.TextAppearance.Holo.Light.Medium</item>
