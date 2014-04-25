@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    android:background="@*android:drawable/cab_background_top_holo_light">
+    android:background="@lewa:drawable/cab_background_top_holo_light">
 
     <ImageButton 
         android:id="@+id/button_left"

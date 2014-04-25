@@ -93,4 +93,5 @@
     <string name="thumb_search_tip">您正在使用指尖搜索，智能選詞，隨手翻譯和快捷操作，讓閱讀更加輕鬆愉快。 \n如果您不想使用指尖搜索，可以在“設置-輔助功能-指尖搜索”中關閉，您現在要去設置界面嗎？</string>
     <string name="go_to_setting">去設置</string>
     <string name="go_on_read">返回閱讀</string>
+    <string name="safe_media_volume_warning">"要將音量調高到安全等級以上嗎？"\n"長時間聆聽偏高音量可能會損害您的聽力。"</string>
 </resources>

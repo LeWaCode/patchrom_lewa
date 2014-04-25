@@ -105,9 +105,14 @@
     <string name="go_to_setting">To set</string>
     <string name="go_on_read">Back to Reading</string>
     <string name="prompt_message">Prompt message</string>
-     <string name="new_contact">New contact</string>
-     <string name="add_to_contact">Add to existing contact</string>
-     <string name="no_network">Oops, you seems not connected to network</string>
-     <string name="suggest_to">Recommend that you go to</string>
-     <string name="check_network">check your network connection</string>
+    <string name="new_contact">New contact</string>
+    <string name="add_to_contact">Add to existing contact</string>
+    <string name="no_network">Oops, you seems not connected to network</string>
+    <string name="suggest_to">Recommend that you go to</string>
+    <string name="check_network">check your network connection</string>
+    <!-- Message shown in dialog when user is attempting to set the music volume above the
+    recommended maximum level for headphones -->
+    <string name="safe_media_volume_warning">
+       "Raise volume above safe level?\nListening at high volume for long periods may damage your hearing."
+    </string>
 </resources>

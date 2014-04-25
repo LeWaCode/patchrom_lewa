@@ -15,12 +15,12 @@
 -->
 
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_enabled="false" android:color="@*android:color/button_cancel_color"/>
-    <item android:state_window_focused="false" android:color="@*android:color/button_cancel_color"/>
-    <item android:state_pressed="true" android:color="@*android:color/button_cancel_color"/>
-    <item android:state_selected="true" android:color="@*android:color/button_cancel_color"/>
-    <item android:state_activated="true" android:color="@*android:color/button_cancel_color"/>
-    <item android:color="@*android:color/button_cancel_color"/> <!-- not selected -->
+    <item android:state_enabled="false" android:color="@lewa:color/button_cancel_color"/>
+    <item android:state_window_focused="false" android:color="@lewa:color/button_cancel_color"/>
+    <item android:state_pressed="true" android:color="@lewa:color/button_cancel_color"/>
+    <item android:state_selected="true" android:color="@lewa:color/button_cancel_color"/>
+    <item android:state_activated="true" android:color="@lewa:color/button_cancel_color"/>
+    <item android:color="@lewa:color/button_cancel_color"/> <!-- not selected -->
     
 </selector>
 

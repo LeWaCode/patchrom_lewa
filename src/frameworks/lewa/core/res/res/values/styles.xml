@@ -1,5 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="V5.TextAppearance.Large" parent="android:TextAppearance.Large">
+        <item name="android:textSize">@lewa:dimen/v5_text_font_size_large</item>
+    </style>
+    <style name="V5.TextAppearance.Large.Inverse" parent="android:TextAppearance.Large.Inverse">
+        <item name="android:textSize">@lewa:dimen/v5_text_font_size_large</item>
+    </style>
+
+    <style name="V5.TextAppearance.Medium" parent="android:TextAppearance.Medium">
+        <item name="android:textSize">@lewa:dimen/v5_text_font_size_medium</item>
+    </style>
+    <style name="V5.TextAppearance.Medium.Inverse" parent="android:TextAppearance.Medium.Inverse">
+        <item name="android:textSize">@lewa:dimen/v5_text_font_size_medium</item>
+    </style>
+
+    <style name="V5.TextAppearance.Small" parent="android:TextAppearance.Small">
+        <item name="android:textSize">@lewa:dimen/v5_text_font_size_small</item>
+    </style>
+    <style name="V5.TextAppearance.Small.Inverse" parent="android:TextAppearance.Small.Inverse">
+        <item name="android:textSize">@lewa:dimen/v5_text_font_size_small</item>
+    </style>
+
+    <!-- Size of tab text in ActionBar -->
+    <!--
+       - <style name="Widget.Holo.Light.ActionBar.TabText" parent="Widget.Holo.ActionBar.TabText">
+       -     <item name="android:textSize">14sp</item>
+       - </style>
+       -->
+    <style name="V5.Widget.Holo.ActionBar.TabText" parent="android:Widget.Holo.ActionBar.TabText">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">@lewa:dimen/v5_text_font_size_small</item>
+    </style>
+
+    <style name="V5.Widget.Holo.TabText" parent="V5.Widget.Holo.ActionBar.TabText">
+        <item name="android:maxWidth">180dip</item>
+    </style>
+    
+    <!-- Vertical divider between ActionBar tabs -->
+    <!-- list_divider_holo_light -->
+    <!--
+       - <style name="Widget.Holo.ActionBar.TabBar" parent="Widget.ActionBar.TabBar">
+       -     <item name="android:divider">@android:drawable/tab_ab_divider_holo_light</item>
+       -     <item name="android:showDividers">middle</item>
+       -     <item name="android:dividerPadding">12dip</item>
+       - </style>
+       -->
+
+    <style name="V5.Widget.Holo.Light.PopupWindow" parent="android:Widget.PopupWindow">
+        <item name="android:popupBackground">@*android:drawable/editbox_dropdown_background</item>
+    </style>
+
+    <style name="V5.Widget.Holo.Light.PopupWindow.ActionMode">
+        <item name="android:popupBackground">@android:color/white</item>
+        <item name="android:popupAnimationStyle">@*android:style/Animation.PopupWindow.ActionMode</item>
+    </style>
+
+    <style name="V5.TextAppearance.Theme.Dialog.AppError" parent="@*android:style/TextAppearance.Theme.Dialog.AppError">
+        <item name="android:textColor">@lewa:color/background_holo_dark</item>
+    </style>
+
+    <style name="V5.Theme.Dialog.AppError" parent="android:Theme.Holo.Light.Dialog.MinWidth">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowTitleStyle">@*android:style/DialogWindowTitle</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textAppearance">@lewa:style/V5.TextAppearance.Theme.Dialog.AppError</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+
+    <style name="V5.Widget.Holo.MediaRouteButton" parent="android:Widget.Holo.MediaRouteButton">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="*android:externalRouteEnabledDrawable">@lewa:drawable/ic_media_route_holo_dark</item>
+        <item name="android:minWidth">56dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+    <style name="V5.Widget.Holo.Light.MediaRouteButton" parent="android:Widget.Holo.Light.MediaRouteButton">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="*android:externalRouteEnabledDrawable">@lewa:drawable/ic_media_route_holo_light</item>
+        <item name="android:minWidth">56dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+    <style name="V5.TextAppearance.StatusBar.EventContent.Title" parent="android:TextAppearance.StatusBar.EventContent.Title">
+        <item name="android:textColor">@lewa:color/background_holo_dark</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="V5.TextAppearance.Holo.WindowTitle" parent="android:TextAppearance.Holo.WindowTitle">
+        <item name="android:textColor">#38445c</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="V5.WindowTitle.Holo" parent="@*android:style/WindowTitle.Holo">
+        <item name="android:textAppearance">@lewa:style/V5.TextAppearance.Holo.WindowTitle</item>
+    </style>
+
+    <style name="V5.TextAppearance.Holo.Light.DialogWindowTitle" parent="@*android:style/TextAppearance.Holo.Light.DialogWindowTitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@lewa:color/holo_black_light_primary</item>
+    </style>
+
+    <style name="V5.DialogWindowTitle.Holo.Light" parent="@*android:style/DialogWindowTitle.Holo.Light">
+        <item name="android:textAppearance">@lewa:style/V5.TextAppearance.Holo.Light.DialogWindowTitle</item>
+	<item name="android:textColor">@color/dialog_title_text_color_holo_light</item>
+    </style>
+
+    <style name="V5.TextAppearance.Holo.Widget.EditText" parent="android:TextAppearance.Holo.Widget.EditText">
+        <item name="android:textColor">@*android:color/bright_foreground_light</item>
+        <item name="android:textColorHint">@lewa:color/hint_foreground_holo_light</item>
+    </style>
+    
     <!-- PagerHeader Styles -->
     <style name="Widget.PagerHeader" parent="@android:style/Widget">
         <item name="lewa:activeTextColor">@lewa:color/pagerheader_text_active</item>
@@ -116,11 +231,25 @@
     
     <style name="V5.AlertDialog.Holo.Light" parent="@*android:style/AlertDialog.Holo.Light">
         <item name="android:layout">@lewa:layout/alert_dialog_holo</item>
+        <item name="android:fullDark">@lewa:drawable/dialog_full_holo_light</item>
+        <item name="android:topDark">@lewa:drawable/dialog_top_holo_light</item>
+        <item name="android:centerDark">@lewa:drawable/dialog_middle_holo_light</item>
+        <item name="android:bottomDark">@lewa:drawable/dialog_bottom_holo_light</item>
+        <item name="android:fullBright">@lewa:drawable/dialog_full_holo_light</item>
+        <item name="android:topBright">@lewa:drawable/dialog_top_holo_light</item>
+        <item name="android:centerBright">@lewa:drawable/dialog_middle_holo_light</item>
+        <item name="android:bottomBright">@lewa:drawable/dialog_bottom_holo_light</item>
+        <item name="android:bottomMedium">@lewa:drawable/dialog_bottom_holo_light</item>
+        <item name="android:centerMedium">@lewa:drawable/dialog_middle_holo_light</item>
     </style>
 
-    <style name="V5.Widget.Holo.Light.Button.Borderless" parent="Widget.Holo.Light.Button.Borderless">
-        <item name="android:textColor">@lewa:color/primary_text_holo_light</item>
-        <item name="android:background">@lewa:drawable/button_background_holo_light</item>
+    <style name="V5.Widget.Holo.Light.Button.Borderless"  parent="@*android:Widget.Holo.Light.Button.Borderless">
+        <item name="android:background">@lewa:drawable/button_background_holo_light</item> 
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="V5.Widget.Holo.Light.Button.Borderless.Small">
+        <item name="android:textSize">14sp</item>
     </style>
     
     <style name="V5.Widget.Holo.Light.Button.Borderless.Left">
@@ -142,9 +271,101 @@
         <item name="android:background">@lewa:drawable/tab_indicator_ab_holo</item>
     </style>
 
+    <!--  LEWA CTS BEGIN -->
+    <style name="V5.Widget.Holo.Light.Button" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/v5_btn_default_holo_light</item>
+        <item name="android:textColor">@lewa:color/primary_text_holo_light</item>
+    </style>
+    <style name="V5.Widget.Holo.ProgressBar" parent="android:Widget.Holo.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/progress_medium_holo</item>
+    </style>
+    <style name="V5.Widget.Holo.ProgressBar.Small" parent="android:Widget.Holo.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@drawable/progress_small_holo</item>
+    </style>
+    <style name="V5.Widget.Holo.ProgressBar.Large" parent="android:Widget.Holo.ProgressBar.Large">
+        <item name="android:indeterminateDrawable">@drawable/progress_large_holo</item>
+    </style>
+    <style name="V5.Widget.Holo.Light.SeekBar" parent="android:Widget.Holo.Light.SeekBar">
+        <item name="android:thumb">@drawable/scrubber_control_selector_holo</item>
+        <item name="android:progressDrawable">@drawable/scrubber_progress_horizontal_holo_light</item>
+        <item name="android:indeterminateDrawable">@drawable/scrubber_progress_horizontal_holo_light</item>
+    </style>
+    <style name="V5.Preference.Holo" parent="@*android:style/Preference.Holo">
+        <item name="android:layout">@lewa:layout/preference_holo</item>
+    </style>
+
+    <style name="V5.Preference.Holo.PreferenceScreen" parent="@lewa:style/V5.Preference.Holo">
+        <item name="android:widgetLayout">@lewa:layout/preference_widget</item>
+    </style>
+
+    <style name="V5.Preference.Holo.SwitchPreference" parent="@lewa:style/V5.Preference.Holo">
+    </style>
+
+    <style name="V5.Preference.Holo.Category" parent="@*android:style/Preference.Holo.Category">
+        <item name="android:layout">@lewa:layout/preference_category_holo</item>
+    </style>
+
     <style name="V5.Preference.Holo.Information" parent="@*android:style/Preference.Holo.Information">
+        <item name="android:layout">@lewa:layout/preference_information_holo</item>
         <item name="android:widgetLayout">@null</item>
     </style>
+
+    <style name="V5.Preference.Holo.CheckBoxPreference" parent="@lewa:style/V5.Preference.Holo">
+        <item name="android:widgetLayout">@*android:layout/preference_widget_checkbox</item>
+    </style>
+
+    <style name="V5.Preference.Holo.DialogPreference" parent="@lewa:style/V5.Preference.Holo">
+        <item name="android:positiveButtonText">@android:string/ok</item>
+        <item name="android:negativeButtonText">@android:string/cancel</item>
+        <item name="android:widgetLayout">@null</item>
+    </style>
+
+    <style name="V5.Preference.Holo.DialogPreference.YesNoPreference" parent="@lewa:style/V5.Preference.Holo.DialogPreference">
+        <item name="android:positiveButtonText">@android:string/yes</item>
+        <item name="android:negativeButtonText">@android:string/no</item>
+    </style>
+
+    <style name="V5.Preference.Holo.DialogPreference.EditTextPreference" parent="@lewa:style/V5.Preference.Holo.DialogPreference">
+        <item name="android:dialogLayout">@*android:layout/preference_dialog_edittext</item>
+    </style>
+
+    <style name="V5.Preference.Holo.RingtonePreference" parent="@lewa:style/V5.Preference.Holo">
+        <item name="android:ringtoneType">ringtone</item>
+        <item name="android:showSilent">true</item>
+        <item name="android:showDefault">true</item>
+    </style>
+
+    <style name="preferenceListFragment">
+            <item name="*android:layout_removeBorders">true</item>
+    </style>
+
+        <!-- Change text color and size -->
+    <style name="V5.Widget.Holo.Light.TextView.ListSeparator" parent="@*android:style/Widget.Holo.Light.TextView.ListSeparator">
+        <item name="android:background">@lewa:drawable/list_section_divider_holo_light</item>
+        <item name="android:textAllCaps">true</item>
+        <!-- <item name="android:textColor">#03b3fb</item> -->
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">22dp</item>
+        <item name="android:textColor">@lewa:color/listseparator_text_color_light</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="V5.PreferenceFragment.Holo" parent="@*android:style/PreferenceFragment.Holo">
+        <item name="android:paddingLeft">@dimen/preference_fragment_padding_side</item>
+        <item name="android:paddingRight">@dimen/preference_fragment_padding_side</item>
+    </style>
+
+    <style name="V5.Widget.Holo.PreferenceFrameLayout" parent="@*android:style/Widget.Holo.PreferenceFrameLayout">
+        <item name="*android:borderLeft">@dimen/preference_fragment_padding_side</item>
+        <item name="*android:borderRight">@dimen/preference_fragment_padding_side</item>
+    </style>
+
+    <style name="V5.Widget.Holo.Light.CompoundButton.CheckBox" parent="@android:style/Widget.Holo.Light.CompoundButton.CheckBox">
+        <item name="android:button">@lewa:drawable/btn_check_holo_light</item>
+    </style>
+    <!--  LEWA CTS END -->
 
     <style name="V5.Widget.Holo.Light.ProgressBar.Horizontal" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal">
         <item name="android:progressDrawable">@drawable/progress_horizontal_holo_light</item>
@@ -159,7 +380,7 @@
         <item name="android:background">@lewa:drawable/tab_indicator_holo</item>
     </style>
 
-    <style name="V5.Widget.Holo.Light.ActionBar.TabText" parent="@android:style/Widget.Holo.Light.ActionBar.TabText">
+    <style name="V5.Widget.Holo.Light.ActionBar.TabText" parent="style/V5.Widget.Holo.ActionBar.TabText">
         <item name="android:textColor">@lewa:color/tab_text_holo_light</item>
     </style>
 
@@ -178,12 +399,8 @@
     
     <style name="V5.Widget.Holo.Light.PopupMenu" parent="style/V5.Widget.Holo.Light.ListPopupWindow">
     </style>
-    
-    <style name="V5.DialogWindowTitle.Holo.Light" parent="@*android:style/DialogWindowTitle.Holo.Light">
-        <item name="android:textColor">@color/dialog_title_text_color_holo_light</item>
-    </style>
 
-    <style name="V5.PanelMenu.ListItem.TextAppearance.Holo.Light.Medium" parent="*android:style/TextAppearance.Holo.Light.Medium">
+    <style name="V5.PanelMenu.ListItem.TextAppearance.Holo.Light.Medium" parent="style/V5.TextAppearance.Medium">
         <item name="android:textColor">@color/compact_menu_item_text_color_holo_light</item>
     </style>
 
@@ -198,5 +415,17 @@
 
     <style name="V5.TextAppearance.Holo.Widget.ActionMode.Subtitle.Inverse" parent="*android:style/TextAppearance.Holo.Widget.ActionMode.Subtitle.Inverse">
         <item name="android:textColor">@color/actionmode_title_text_color_holo_light</item>
+    </style>
+
+    <style name="V5.Widget.ArrowPageHeader"  parent="@style/Widget.PagerHeader">
+        <item name="lewa:activeTextColor">@color/lw_arrow_page_header_active_text_color</item>
+        <item name="lewa:inactiveTextColor">@color/lw_arrow_page_header_inactive_text_color</item>
+        <item name="lewa:showBottomBar">false</item>
+        <item name="lewa:showTab">false</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="lewa:indicator_textsize">@dimen/lw_arrow_page_header_text_size</item>
+        <item name="lewa:indicator">@drawable/lw_arrow_page_header_indicator</item>
+        <item name="lewa:indicator_background">@drawable/lw_bg_arrow_page_header_indicator</item>
+        <item name="lewa:indicator_padding">10dip</item>
     </style>
 </resources>

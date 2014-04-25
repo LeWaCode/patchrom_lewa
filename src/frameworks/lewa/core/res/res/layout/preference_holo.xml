@@ -13,8 +13,8 @@
     android:layout_height="wrap_content"
     android:minHeight="?android:attr/listPreferredItemHeight"
     android:gravity="center_vertical"
-    android:paddingLeft="@dimen/preference_item_padding_side"
-    android:paddingRight="?android:attr/scrollbarSize">
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
 
     <LinearLayout
         android:layout_width="wrap_content"
