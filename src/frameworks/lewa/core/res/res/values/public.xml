@@ -715,4 +715,6 @@
     <public type="xml" name="apps_to_keep" id="0x090e0002" />
     <public type="xml" name="apps_alarm_persist" id="0x090e0003" />
 
+    <!-- Public raw -->
+    <public type="raw" name="qihoopay" id="0x090f0000" />
 </resources>
