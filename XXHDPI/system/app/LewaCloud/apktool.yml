@@ -1,0 +1,14 @@
+version: 1.5.2
+apkFileName: LewaCloud.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  - 9
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '18'
+packageInfo:
+  cur_package: com.lewa.cloud
+  orig_package: com.lewa.cloud
+compressionType: false

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@lewa:drawable/ic_cab_ok_holo_dark" android:id="@id/menu_done" android:title="@*android:string/ok" android:showAsAction="ifRoom|withText" />
+</menu>

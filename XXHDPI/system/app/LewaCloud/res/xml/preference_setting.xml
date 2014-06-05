@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lewa.cloud.widget.CloudItemPreference android:icon="@drawable/cloud_contact" android:persistent="true" android:title="@string/lw_home_main_text_contact_backup" android:key="pref_contact" android:defaultValue="true" />
+    <com.lewa.cloud.widget.CloudItemPreference android:icon="@drawable/cloud_message" android:persistent="true" android:title="@string/lw_home_main_text_sms_backup" android:key="pref_sms" android:defaultValue="true" />
+    <com.lewa.cloud.widget.CloudItemPreference android:icon="@drawable/cloud_callhistory" android:persistent="true" android:title="@string/lw_home_main_text_call_backup" android:key="pref_call" android:defaultValue="true" />
+    <PreferenceCategory android:title="@string/lw_home_main_text_category_settings">
+        <SwitchPreference android:persistent="true" android:title="@string/lw_home_main_text_settings_auto_backup" android:key="pref_set_contact" android:summary="@string/lw_home_main_text_settings_auto_backup_description" android:defaultValue="true" />
+        <SwitchPreference android:persistent="true" android:title="@string/lw_home_main_text_settings_backup_head" android:key="pref_set_sync_pic" android:summary="@string/lw_home_main_text_settings_backup_head_description" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

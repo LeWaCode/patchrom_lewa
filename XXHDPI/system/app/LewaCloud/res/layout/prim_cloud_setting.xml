@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Switch android:id="@id/switchWidget" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@lewa:style/Widget.Holo.Light.CompoundButton.Switch" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/item_title_text_color" android:ellipsize="marquee" android:id="@*android:id/title" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@id/switchWidget" android:layout_alignParentTop="true" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/item_summary_text_color" android:id="@*android:id/summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="4" android:layout_toLeftOf="@id/switchWidget" android:layout_below="@*android:id/title" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lewa.cloud.widget.PagerHeader android:id="@id/detail_pager_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.lewa.cloud.widget.CloudViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <Button android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/login_help_info_text_color" android:layout_gravity="bottom|center" android:id="@id/sync_button" android:paddingLeft="32.0dip" android:paddingTop="6.0dip" android:paddingRight="32.0dip" android:paddingBottom="6.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:drawableLeft="@lewa:drawable/ic_cab_ok_holo_dark" />
+    </FrameLayout>
+</LinearLayout>

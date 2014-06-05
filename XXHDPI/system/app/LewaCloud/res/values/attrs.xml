@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="arrow" format="reference" />
+    <attr name="textSize" format="dimension" />
+    <attr name="indicator" format="reference" />
+    <attr name="indicator_background" format="reference" />
+    <attr name="indicator_padding" format="dimension" />
+</resources>

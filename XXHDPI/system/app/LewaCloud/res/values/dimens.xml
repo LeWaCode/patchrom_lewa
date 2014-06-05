@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="cloud_contact_top_margin">48.0dip</dimen>
+    <dimen name="cloud_padding">16.0dip</dimen>
+    <dimen name="cloud_icon">40.0dip</dimen>
+    <dimen name="cloud_component_horizontal_margin">12.0dip</dimen>
+    <dimen name="app_icon_size">52.0dip</dimen>
+    <dimen name="login_button_vertical_margin">48.0dip</dimen>
+    <dimen name="powered_by_button_height">30.0dip</dimen>
+    <dimen name="powered_by_button_padding">8.0dip</dimen>
+    <dimen name="powered_by_button_bottom_margin">24.0dip</dimen>
+    <dimen name="prim_cloud_pic_dimen">120.0dip</dimen>
+    <dimen name="prim_cloud_user_text_height">168.0dip</dimen>
+    <dimen name="prim_cloud_bg_height">200.0dip</dimen>
+    <dimen name="button_padding">48.0dip</dimen>
+    <dimen name="padding_side">16.0dip</dimen>
+    <dimen name="sync_cloud_bg_height">360.0dip</dimen>
+    <dimen name="sync_attention_info_top_margin">450.0dip</dimen>
+    <dimen name="sync_base_top_margin">48.0dip</dimen>
+    <dimen name="loc_remote_icon_top_margine">110.0dip</dimen>
+    <dimen name="sync_icon_top_margine">135.0dip</dimen>
+    <dimen name="loc_remote_icon_dimen">110.0dip</dimen>
+    <dimen name="sync_icon_w">70.0dip</dimen>
+    <dimen name="sync_icon_h">60.0dip</dimen>
+    <dimen name="sync_component_gap">10.0dip</dimen>
+    <dimen name="num_text_size">36.0sp</dimen>
+    <dimen name="sync_bg_bottom_margin">50.0dip</dimen>
+    <dimen name="sync_bottom_padding">40.0dip</dimen>
+    <dimen name="sync_small_icon_size">25.0dip</dimen>
+    <dimen name="pager_header_text_size">6.0sp</dimen>
+    <dimen name="check_button_padding">2.0dip</dimen>
+    <dimen name="check_button_side">32.0dip</dimen>
+    <dimen name="text_small">12.0sp</dimen>
+</resources>

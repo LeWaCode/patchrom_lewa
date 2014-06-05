@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/cloud_padding" android:paddingTop="24.0dip" android:paddingRight="@dimen/cloud_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="left" android:id="@id/head" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lw_contact_backup_dlg_msg_contact_result_head" android:layout_centerHorizontal="true" android:color="@color/default_text_color" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_below="@id/head">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="top|left|center" android:id="@id/local_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:text="@string/lw_contact_backup_dlg_msg_contact_result_local" android:layout_alignParentLeft="true" android:color="@color/default_text_color" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="top|center" android:id="@id/local_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lw_contact_backup_dlg_msg_contact_result_local" android:layout_toRightOf="@id/local_text" android:color="@color/default_text_color" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="top|left|center" android:id="@id/remote_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/lw_contact_backup_dlg_msg_contact_result_remote" android:layout_alignParentRight="true" android:color="@color/default_text_color" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="top|center" android:id="@id/remote_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lw_contact_backup_dlg_msg_contact_result_remote" android:layout_toLeftOf="@id/remote_info" android:color="@color/default_text_color" />
+    </RelativeLayout>
+</RelativeLayout>

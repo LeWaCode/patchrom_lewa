@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/sync" android:layout_width="fill_parent" android:layout_height="@dimen/sync_cloud_bg_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#7fffffff" android:id="@id/sync_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sync_base_top_margin" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/sync_pic" android:layout_width="@dimen/sync_icon_w" android:layout_height="@dimen/sync_icon_h" android:layout_marginTop="@dimen/sync_icon_top_margine" android:scaleType="fitCenter" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:layout_width="@dimen/loc_remote_icon_dimen" android:layout_height="wrap_content" android:layout_marginTop="@dimen/loc_remote_icon_top_margine" android:layout_toLeftOf="@id/sync_pic">
+        <ImageView android:id="@id/loc_pic" android:layout_width="@dimen/loc_remote_icon_dimen" android:layout_height="@dimen/loc_remote_icon_dimen" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/login_help_info_text_color" android:id="@id/loc_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sync_component_gap" android:layout_below="@id/loc_pic" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/num_text_size" android:textColor="@color/login_help_info_text_color" android:id="@id/loc_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sync_component_gap" android:layout_below="@id/loc_text" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="@dimen/loc_remote_icon_dimen" android:layout_height="wrap_content" android:layout_marginTop="@dimen/loc_remote_icon_top_margine" android:layout_toRightOf="@id/sync_pic">
+        <ImageView android:id="@id/remote_pic" android:layout_width="@dimen/loc_remote_icon_dimen" android:layout_height="@dimen/loc_remote_icon_dimen" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/login_help_info_text_color" android:id="@id/remote_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sync_component_gap" android:layout_below="@id/remote_pic" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/num_text_size" android:textColor="@color/login_help_info_text_color" android:id="@id/remote_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sync_component_gap" android:layout_below="@id/remote_text" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

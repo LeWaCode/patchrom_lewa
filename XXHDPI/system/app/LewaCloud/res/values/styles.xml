@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NormalTheme" parent="@lewa:style/V5.Theme.Holo.Light">
+        <item name="android:widgetLayout">@null</item>
+        <item name="android:actionBarStyle">@style/NormalActionBarStyle</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:homeAsUpIndicator">@*android:drawable/emo_im_winking</item>
+        <item name="lewa:lewa_windowContentOverlay">@null</item>
+    </style>
+    <style name="SmsSyncTheme" parent="@lewa:style/V5.Theme.Holo.Light">
+        <item name="android:widgetLayout">@null</item>
+        <item name="android:actionBarStyle">@style/SmsSyncActionBarStyle</item>
+        <item name="android:homeAsUpIndicator">@*android:drawable/emo_im_winking</item>
+    </style>
+    <style name="NormalActionBarStyle" parent="@*android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">#00000000</item>
+        <item name="android:titleTextStyle">@*android:style/TextAppearance.Holo.Widget.ActionBar.Title.Inverse</item>
+        <item name="android:subtitleTextStyle">@*android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle.Inverse</item>
+    </style>
+    <style name="CloudItemStyle" parent="@*android:style/Preference">
+        <item name="arrow">@drawable/detail_enter_arrow</item>
+    </style>
+    <style name="SmsSyncActionBarStyle" parent="@*android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">#ff00ff00</item>
+    </style>
+    <style name="CloudButtonStyle">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:paddingLeft">48.0dip</item>
+        <item name="android:paddingTop">12.0dip</item>
+        <item name="android:paddingRight">48.0dip</item>
+        <item name="android:paddingBottom">12.0dip</item>
+    </style>
+    <style name="PagerHeader" parent="@lewa:style/Widget.PagerHeader">
+        <item name="android:background">@*android:color/transparent</item>
+        <item name="lewa:activeTextColor">@color/active_text_color</item>
+        <item name="lewa:inactiveTextColor">@color/inactive_text_color</item>
+        <item name="lewa:showBottomBar">false</item>
+        <item name="lewa:showTab">false</item>
+        <item name="textSize">@dimen/pager_header_text_size</item>
+        <item name="indicator">@drawable/pager_header_indicator</item>
+        <item name="indicator_background">@drawable/bg_pager_header_indicator</item>
+        <item name="indicator_padding">10.0dip</item>
+    </style>
+    <style name="Checkbox">
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">@dimen/check_button_side</item>
+        <item name="android:layout_height">@dimen/check_button_side</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Checkbox.Contact" parent="@style/Checkbox" />
+</resources>

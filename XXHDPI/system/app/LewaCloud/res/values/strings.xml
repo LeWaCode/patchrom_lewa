@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Synchronous assistant</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_summary">Data Meter© LeWaTek Limited.</string>
+    <string name="lw_login_text_power_by">Powered By</string>
+    <string name="lw_login_login_btn_login">立即登录</string>
+    <string name="lw_login_login_text_description">" "<Data> &lt;font color=#ffffff>同步备份服务由&lt;/font>&lt;font color=#b9e703>QQ同步助手&lt;/font>&lt;font color=#ffffff>提供技术支持&lt;br/> 帮你同步备份联系人、短信和通话记录&lt;br/> 从此再也不必担心信息丢失。&lt;br/> &lt;br/> 请用你的QQ号登录直接使用同步备份功能。&lt;/font> </Data>" "</string>
+    <string name="lw_login_login_btn_relogin">重新登录</string>
+    <string name="lw_login_relogin_text_description">" "<Data> &lt;font color=#ffffff>为了保证您的同步备份资料安全，&lt;br/> 我们需要您重新进行登录确认，&lt;br/> 登录确认有效期为一个月。&lt;br/> &lt;br/> 为此给您造成的不便，我们深表歉意！&lt;/font> </Data>" "</string>
+    <string name="lw_login_logout_text_description">" "<Data> 您使用云服务已经有%1$d个月%2$d天 &lt;br/> 我们在云端为您保存了： </Data>" "</string>
+    <string name="lw_contact_backup_text_tip_net_failed">连接网络失败，请确保网络的通畅。</string>
+    <string name="lw_home_main_text_category_settings">设置</string>
+    <string name="lw_home_main_text_contact_backup">联系人同步</string>
+    <string name="lw_home_main_text_sms_backup">短信备份</string>
+    <string name="lw_home_main_text_call_backup">通话记录备份</string>
+    <string name="lw_home_main_text_settings_auto_backup">随时进行联系人同步</string>
+    <string name="lw_home_main_text_settings_auto_backup_description">通讯录一有变动就随时同步，可能会消耗数据流量。关闭本项后，只能在连接wi-fi时同步或手动同步</string>
+    <string name="lw_home_main_text_settings_backup_head">仅在Wi-Fi下同步大头像</string>
+    <string name="lw_home_main_text_settings_backup_head_description">同步大图像会消耗较多流量，建议开启</string>
+    <string name="lw_home_main_text_settings_notify">同步提醒</string>
+    <string name="lw_home_main_text_settings_notify_description">开启后云服务会定时提醒你进行同步备份</string>
+    <string name="lw_home_main_text_auto_back_on">" "<Data> 开启随时同步 上次 %1$s </Data>" "</string>
+    <string name="lw_home_main_text_last">" "<Data> 上次 %1$s </Data>" "</string>
+    <string name="lw_home_main_text_never_backup">从未备份过</string>
+    <string name="lw_home_account_title">账户信息</string>
+    <string name="lw_home_account_btn_logout">退出登录</string>
+    <string name="lw_home_account_text_contact">联系人</string>
+    <string name="lw_home_account_text_sms">短信</string>
+    <string name="lw_home_account_text_call">通话记录</string>
+    <string name="lw_home_account_text_several_people">" "<Data> 云端%1$d人 </Data>" "</string>
+    <string name="lw_home_account_text_several_seal">" "<Data> 云端%1$d封 </Data>" "</string>
+    <string name="lw_home_account_text_several_item">" "<Data> 云端%1$d条 </Data>" "</string>
+    <string name="lw_contact_backup_text_remote_empty">本设备还没有进行过同步备份</string>
+    <string name="lw_contact_backup_text_contant_changed">本地和云端存在差异</string>
+    <string name="lw_contact_backup_text_contant_same">本地和云端联系人完全一致，可以不同步</string>
+    <string name="lw_contact_backup_text_contant_local_added">联系人有新增，快同步一下吧</string>
+    <string name="lw_contact_backup_btn_backup">立即同步</string>
+    <string name="lw_contact_backup_text_help">" "<Data> &lt;font color=#a6aab3>本服务由&lt;/font>&lt;font color=#088cff>QQ同步助手&lt;/font>&lt;font color=#a6aab3>提供技术支持 &lt;br/> 如果要管理云端联系人，或找回误删联系人 &lt;br/> 请访问http://ic.qq.com &lt;/font> </Data>" "</string>
+    <string name="lw_contact_backup_text_backup_at">" "<Data> &lt;font color=#7fffffff>上次同步于 %1$s&lt;/font> </Data>" "</string>
+    <string name="lw_backup_text_backup_at">" "<Data> &lt;font color=#7fffffff>上次备份于 %1$s&lt;/font> </Data>" "</string>
+    <string name="lw_restore_text_restore_at">" "<Data> &lt;font color=#7fffffff>上次恢复于 %1$s&lt;/font> </Data>" "</string>
+    <string name="lw_contact_backup_text_backup_local_contact">本地联系人</string>
+    <string name="lw_contact_backup_text_backup_remote_contact">云端联系人</string>
+    <string name="lw_sms_backup_text_backup_local_sms">本地短信</string>
+    <string name="lw_sms_backup_text_backup_remote_sms">云端短信</string>
+    <string name="lw_call_backup_text_backup_local_call">本地通话记录</string>
+    <string name="lw_call_backup_text_backup_remote_call">云端通话记录</string>
+    <string name="lw_sms_backup_text_backup_local_pick_none">你还没有选择要恢复的短信内容，请选择之后进行恢复</string>
+    <string name="lw_sms_backup_text_backup_remote_pick_none">你还没有选择要备份的短信内容，请选择之后进行备份</string>
+    <string name="lw_backup_btn_backup_cloud">备份到云端</string>
+    <string name="lw_backup_btn_backup_local">恢复到本地</string>
+    <string name="lw_sms_backup_text_help">" "<Data> &lt;font color=#a6aab3>本服务由&lt;/font>&lt;font color=#088cff>QQ同步助手&lt;/font>&lt;font color=#a6aab3>提供技术支持 &lt;br/> 如果要管理云端短信，请访问http://ic.qq.com &lt;/font> </Data>" "</string>
+    <string name="lw_contact_backup_dlg_msg_people_selected">已选择%d个</string>
+    <string name="lw_call_backup_text_help">" "<Data> &lt;font color=#a6aab3>本服务由&lt;/font>&lt;font color=#088cff>QQ同步助手&lt;/font>&lt;font color=#a6aab3>提供技术支持 &lt;br/> 如果要管理云端通话记录，请访问http://ic.qq.com &lt;/font> </Data>" "</string>
+    <string name="lw_sync_by_people">按联系人</string>
+    <string name="lw_sync_by_time">按时间</string>
+    <string name="lw_sms_sync_button">备份</string>
+    <string name="lw_sms_contact_item_name">" "<Data> &lt;font color=#38445c>%1$s&lt;/font> &lt;font color=#a6aab3>(%2$d)&lt;/font> </Data>" "</string>
+    <string name="lw_sms_last_month">" "<Data> &lt;font color=#38445c>最近一个月&lt;/font> &lt;font color=#a6aab3>(%1$d)&lt;/font> </Data>" "</string>
+    <string name="lw_sms_last_three_month">" "<Data> &lt;font color=#38445c>最近三个月&lt;/font> &lt;font color=#a6aab3>(%1$d)&lt;/font> </Data>" "</string>
+    <string name="lw_sms_last_half_year">" "<Data> &lt;font color=#38445c>最近半年&lt;/font> &lt;font color=#a6aab3>(%1$d)&lt;/font> </Data>" "</string>
+    <string name="lw_sms_last_year">" "<Data> &lt;font color=#38445c>最近一年&lt;/font> &lt;font color=#a6aab3>(%1$d)&lt;/font> </Data>" "</string>
+    <string name="lw_sms_sync_all">" "<Data> &lt;font color=#38445c>全部&lt;/font> &lt;font color=#a6aab3>(%1$d)&lt;/font> </Data>" "</string>
+    <string name="lw_menu_backup_done">" "<Data> &lt;font color=#38445c>备份&lt;/font> &lt;font color=#a6aab3>(%1$d)&lt;/font> </Data>" "</string>
+    <string name="lw_menu_restore_done">" "<Data> &lt;font color=#38445c>恢复&lt;/font> &lt;font color=#a6aab3>(%1$d)&lt;/font> </Data>" "</string>
+    <string name="lw_sync_progress">" "<Data> %1$d%% </Data>" "</string>
+    <string name="lw_contact_backup_dlg_msg_contact_head">同步联系人</string>
+    <string name="lw_contact_backup_dlg_msg_contact_backuping">正在同步你的联系人，请保持网络畅通</string>
+    <string name="lw_contact_backup_dlg_msg_contact_finish">同步完成</string>
+    <string name="lw_contact_backup_dlg_msg_contact_result_head">联系人同步完成，这次同步后：</string>
+    <string name="lw_contact_backup_dlg_msg_contact_result_local">本地</string>
+    <string name="lw_contact_backup_dlg_msg_contact_result_remote">云端</string>
+    <string name="lw_contact_backup_dlg_msg_contact_result_info">" "<Data> 新增：%1$d人&lt;br/> 删除：%2$d人&lt;br/> 修改：%3$d人&lt;br/> </Data>" "</string>
+    <string name="lw_sms_backup_dlg_msg_sms_head">短信备份</string>
+    <string name="lw_sms_backup_dlg_msg_sms_backuping">正在备份你的短信，请保持网络畅通</string>
+    <string name="lw_sms_backup_dlg_msg_sms_result_head">备份成功</string>
+    <string name="lw_sms_backup_dlg_msg_sms_result_info">" "<Data> 成功备份短信，云端新增%1$d条短信！ </Data>" "</string>
+    <string name="lw_sms_recover_dlg_msg_sms_head">短信恢复</string>
+    <string name="lw_sms_recover_dlg_msg_sms_backuping">正在恢复你的短信，请保持网络畅通</string>
+    <string name="lw_sms_recover_dlg_msg_sms_result_head">恢复成功</string>
+    <string name="lw_sms_recover_dlg_msg_sms_result_info">" "<Data> 成功恢复短信，本地新增%1$d条短信！ </Data>" "</string>
+    <string name="lw_call_backup_dlg_msg_call_head">备份通话记录</string>
+    <string name="lw_call_backup_dlg_msg_call_backuping">正在备份你的通话记录，请保持网络畅通</string>
+    <string name="lw_call_backup_dlg_msg_call_result_head">备份成功</string>
+    <string name="lw_call_backup_dlg_msg_call_result_info">" "<Data> 成功备份通话记录，云端新增%1$d条记录！ </Data>" "</string>
+    <string name="lw_call_recover_dlg_msg_call_head">恢复通话记录</string>
+    <string name="lw_call_recover_dlg_msg_call_backuping">正在恢复你的通话记录，请保持网络畅通</string>
+    <string name="lw_call_recover_dlg_msg_call_result_head">恢复成功</string>
+    <string name="lw_call_recover_dlg_msg_call_result_info">" "<Data> 成功恢复通话记录，本地新增%1$d条记录！ </Data>" "</string>
+    <string name="lw_sync_notify_title">同步备份服务正在运行</string>
+    <string name="lw_contact_sync_notify_body">正在进行联系人同步...</string>
+    <string name="lw_sms_backup_notify_body">正在备份短信到云端...</string>
+    <string name="lw_sms_restore_notify_body">正在从云端恢复短信...</string>
+    <string name="lw_calllog_backup_notify_body">正在备份通话记录到云端...</string>
+    <string name="lw_calllog_restore_notify_body">正在从云端恢复通话记录...</string>
+    <string name="lw_home_account_btn_logout_title">退出登录云服务</string>
+    <string name="lw_home_account_btn_logout_alert">"退出登录后，你的数据内容仍然会在云端保留，你可以登录ic.qq.com管理或彻底删除云端的数据。 
+
+你确认要退出登录吗？"</string>
+    <string name="lw_home_memu_account_info">账户信息</string>
+    <string name="lw_home_sync_pim_password_title">通讯录密码</string>
+    <string name="lw_home_sync_pim_password_admin">请输入通讯录密码</string>
+</resources>

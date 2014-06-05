@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="@dimen/cloud_padding" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/checkboxParent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/cloud_component_horizontal_margin" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <CheckBox android:id="@id/checkbox" android:focusable="false" android:clickable="false" android:layout_centerInParent="true" style="@style/Checkbox.Contact" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cloud_component_horizontal_margin" android:layout_toLeftOf="@id/checkboxParent" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:ellipsize="marquee" android:layout_gravity="fill_horizontal" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/item_summary_text_color" android:ellipsize="marquee" android:layout_gravity="fill_horizontal" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/item_summary_text_color" android:ellipsize="marquee" android:layout_gravity="fill_horizontal" android:id="@id/time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

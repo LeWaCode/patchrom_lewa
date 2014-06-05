@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/sync_base" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Button android:textAppearance="?android:textAppearanceMedium" android:id="@id/sync_to_cloud" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sync_bg_bottom_margin" android:layout_centerHorizontal="true" style="@style/CloudButtonStyle" />
+        <Button android:textAppearance="?android:textAppearanceMedium" android:id="@id/sync_to_local" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sync_component_gap" android:layout_below="@id/sync_to_cloud" android:layout_centerHorizontal="true" style="@style/CloudButtonStyle" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="center" android:id="@id/help_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sync_bottom_padding" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

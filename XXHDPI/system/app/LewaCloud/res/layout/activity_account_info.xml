@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/head" android:background="@drawable/user_bg" android:paddingTop="@dimen/cloud_contact_top_margin" android:layout_width="fill_parent" android:layout_height="@dimen/prim_cloud_bg_height" android:layout_alignParentTop="true">
+        <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="@dimen/prim_cloud_pic_dimen" android:layout_height="@dimen/prim_cloud_pic_dimen">
+            <ImageView android:id="@id/account_img" android:background="@*android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/contact_avatar_defaut" android:scaleType="centerInside" />
+        </FrameLayout>
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@color/login_help_info_text_color" android:layout_gravity="center_horizontal" android:id="@id/account_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/default_text_color" android:id="@id/summary" android:paddingLeft="@dimen/cloud_padding" android:paddingTop="@dimen/cloud_padding" android:paddingBottom="@dimen/cloud_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/head" />
+    <View android:id="@id/divider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/summary" />
+    <ListView android:id="@id/account_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/divider" android:layout_alignParentLeft="true" />
+    <Button android:textColor="@color/login_help_info_text_color" android:id="@id/log_out" android:background="@drawable/button" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/login_button_vertical_margin" android:text="@string/lw_home_account_btn_logout" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/CloudButtonStyle" />
+</RelativeLayout>

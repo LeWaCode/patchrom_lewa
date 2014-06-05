@@ -1,0 +1,86 @@
+.class public Lcom/tencent/qqpim/sdk/adaptive/dao/sms/SumSung_GT_T959_SMSV1;
+.super Lcom/tencent/qqpim/sdk/sync/sms/SYSSmsDaoV1;
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;)V
+    .locals 0
+
+    invoke-direct {p0, p1}, Lcom/tencent/qqpim/sdk/sync/sms/SYSSmsDaoV1;-><init>(Landroid/content/Context;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method protected getSmsEntityDefault_Draft(Lcom/tencent/qqpim/sdk/sync/contact/SYSContactDao;Ljava/util/List;Ljava/lang/String;Z)Ljava/lang/String;
+    .locals 4
+
+    if-eqz p2, :cond_0
+
+    if-eqz p3, :cond_0
+
+    if-nez p1, :cond_1
+
+    :cond_0
+    const/4 v0, 0x0
+
+    :goto_0
+    return-object v0
+
+    :cond_1
+    if-nez p4, :cond_2
+
+    invoke-super {p0, p1, p2, p3, p4}, Lcom/tencent/qqpim/sdk/sync/sms/SYSSmsDaoV1;->getSmsEntityDefault_Draft(Lcom/tencent/qqpim/sdk/sync/contact/SYSContactDao;Ljava/util/List;Ljava/lang/String;Z)Ljava/lang/String;
+
+    move-result-object v0
+
+    goto :goto_0
+
+    :cond_2
+    new-instance v2, Ljava/lang/StringBuffer;
+
+    invoke-direct {v2}, Ljava/lang/StringBuffer;-><init>()V
+
+    const/4 v0, 0x0
+
+    move v1, v0
+
+    :goto_1
+    invoke-interface {p2}, Ljava/util/List;->size()I
+
+    move-result v0
+
+    if-lt v1, v0, :cond_3
+
+    invoke-virtual {v2}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    goto :goto_0
+
+    :cond_3
+    invoke-interface {p2, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/String;
+
+    invoke-virtual {p1, v0}, Lcom/tencent/qqpim/sdk/sync/contact/SYSContactDao;->lookupFirstContactNameByPhone(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    move-result-object v0
+
+    const-string v3, ","
+
+    invoke-virtual {v0, v3}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    add-int/lit8 v0, v1, 0x1
+
+    move v1, v0
+
+    goto :goto_1
+.end method

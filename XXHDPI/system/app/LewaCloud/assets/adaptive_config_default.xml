@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 资源文件，resource的 name为机型名字Build.model ， dao的name值为机型对应名字的实现类
+-->
+<resources>
+	<!-- demo:逻辑为：没找到rom的value时。走默认没有value的rom。否则走value的rom。 -->
+	<!-- test -->
+	<dao model = "sdk">
+		<rom>
+			<contact>sdk_contact</contact>
+			<group>sdk_group</group>
+			<utils>sdk_utils</utils>
+			<edit>sdk_edit</edit>
+		</rom>
+		<rom value = "rom_A">
+			<contact>new_rom_A_dao</contact>
+		</rom>
+		<rom value = "rom_B">
+			<contact>new_rom_b_dao</contact>
+		</rom>
+	</dao>
+	<!-- 联想 O1 -->
+	<dao model = "OMS1_5">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.Lenovo_O1_ContactV1</contact>	
+		</rom>
+	</dao>
+	<!--酷派 D530 -->
+	<dao model = "D530">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.KUPAI_D530_ContactDaoV2</contact>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.KUPAI_F530_UtilsDao</utils>
+		</rom>
+	</dao>
+	<!--华为 C8500 -->
+	<dao model = "C8500">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.HW_C8500_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!--索爱 E10i -->
+	<dao model = "E10i">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SE_base_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!--中兴 N600 -->
+	<dao model = "ZTE-C N600">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.ZTE_N600_ContactDaoV2</contact>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.HTC_G13_UtilsDao</utils>
+		</rom>
+	</dao>
+	<!--宏基 S100 -->
+	<dao model = "Liquid">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.Acer_S100_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.Acer_S100_GrouptDaoV2</group>
+		</rom>
+	</dao>
+	<!--中兴 V880-->
+	<dao model = "ZTE-U V880">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.ZTE_V880_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!--中兴 R750 -->
+	<dao model = "ZTE-C R750">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.ZTE_N600_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!--天语 W606 -->
+	<dao model = "W606">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.KTouch_W606_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!--LG GT540-->
+	<dao model = "GT540">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.LG_GT540_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.LG_GT540_GroupDaoV2</group>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.LG_GT540_UtilsDao</utils>
+		</rom>
+	</dao>
+	<!--华为U8110 -->
+	<dao model = "Pulse Mini">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.HW_U8110_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.Base_GrouptDaoV2</group>
+		</rom>
+	</dao>
+	<!-- 索爱 Xperia Play -->
+	<dao model = "R800i">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SE_E16I_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.SE_E16I_GroupDaoV2</group>
+		</rom>	
+		<rom value="4.0.2.A.0.58"><!--官方2.3.4-->
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SonyEricsson_R800i_ContactDaoV2</contact>
+		</rom>
+	</dao>
+
+	<!--华为 C8600 -->
+	<dao model = "C8600">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SIM_Acount_Name_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!--华为U8150 -->
+	<dao model = "Ideos">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SE_E16I_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.SE_E16I_GroupDaoV2</group>
+		</rom>
+	</dao>
+	<!--中兴X850 -->
+	<dao model = "ZTE-U X850">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.ZTE_X850_ContactDaoV2</contact>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.ZTE_N700_UtilsDao</utils>
+		</rom>
+	</dao>
+	<!--多普达A6388 -->
+	<dao model = "A6388">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.HTC_G4_ContactDaoV1</contact>
+		</rom>
+	</dao>
+	<!--华为 C8800 -->
+	<dao model = "C8800">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SIM_Acount_Name_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!--中兴 N700-->
+	<dao model = "ZTE-C N700">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.ZTE_N600_ContactDaoV2</contact>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.ZTE_N700_UtilsDao</utils>
+		</rom>
+	</dao>
+	<!--LG-P970-->
+	<dao model = "LG-P970">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.LG_P970_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.LG_P970_GroupDaoV2</group>
+		</rom>
+	</dao>
+	<!--索爱E16i-->
+	<dao model = "E16i">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SE_E16I_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.SE_E16I_GroupDaoV2</group>
+		</rom>
+	</dao>
+	<!--宏基E400-->
+	<dao model = "E400">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.Acer_E400_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.Acer_E400_GrouptDaoV2</group>
+		</rom>
+	</dao>
+	<!--酷派 W711 -->
+	<dao model = "W711">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.KUPAI_W711_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!--欧胜 OT980 -->
+	<dao model = "Alcatel OT-980">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_XT701_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!--华为 A50 -->
+	<dao model = "Garmin-Asus A50">
+		<rom>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.HuaWei_A50_UtilsDao</utils>
+		</rom>
+	</dao>
+	<!--华硕 A10-->
+	<dao model = "Garmin-Asus A10">
+		<rom>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.HUASUO_A10_UtilsDao</utils>
+		</rom>
+	</dao>
+	<!--Lenovo XT928 -->
+	<dao model = "XT928">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.Lenovo_XT928_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!--SHARP SH8188U -->
+	<dao model = "SH8188U">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SHARP_SH8188U_ContactDaoV2</contact>
+	    	<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.SHARP_SH8188U_UtilsDao</utils>
+	    	<group>com.tencent.qqpim.sdk.adaptive.dao.group.Sharp_SH8188U_GroupDaoV2</group>
+		</rom>
+	</dao>
+	<!--Sharp SH7228U -->
+	<dao model = "SH72x8U">
+		<rom>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.Sharp_SH7228U_GroupDaoV2</group>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.Sharp_SH7228U_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!--酷派 9930 -->
+	<dao model = "9930">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.KUPAI_9930_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!--SHARP SH8268U -->
+	<dao model = "SH8268U">
+		<rom>
+	    	<group>com.tencent.qqpim.sdk.adaptive.dao.group.Sharp_SH8268U_GroupDaoV2</group>
+		</rom>
+	</dao>
+	<!--酷派 W770 -->
+	<dao model = "W770">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.KUPAI_W770_ContactDaoV2</contact>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.Coolpad_W770_UtilsDao</utils>
+		</rom>
+	</dao>
+	<!--LG P355 -->
+	<dao model = "LG-P355">
+		<rom>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.LG_P355_UtilsDao</utils>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.LG_P355_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!--酷派 N916 -->
+	<dao model = "N916">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.KUPAI_N916_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!--华为 T8100 -->
+	<dao model = "HUAWEI T8100">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.HW_T8100_ContactDaoV2</contact>
+		</rom>
+	</dao>	
+	<!--酷派 W721 -->
+	<dao model = "W721">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.KUPAI_W721_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!--酷派 5820 -->
+	<dao model = "Coolpad 5820">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.KUPAI_W721_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!-- 中恒 SX30 -->
+	<dao model = "DEC_800M">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.DEC_SX30_ContactDaoV2</contact>  
+	    	<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.DEC_SX30_UtilsDaoV2</utils>
+		</rom>
+	</dao>	
+	<!-- lg C660 -->
+	<dao model = "LG-C660">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.LG_C660_ContactDaoV2</contact>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.LG_C660_UtilsDao</utils>
+		</rom>
+	</dao>	
+	<!-- 步步高 VIVO S1 -->
+	<dao model = "vivo S1">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.BBK_VIVO_S1_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!-- 阿尔卡特 ot906 -->
+	<dao model = "one touch 906">
+		<rom>
+	    	<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.Alcatel_OT906_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!-- LG C550 -->
+	<dao model = "LG-C550">
+		<rom>
+	    	<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.LG_C550_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!-- 飞利浦 W632 -->
+	<dao model = "Philips W632">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.PHILIPS_W632_ContactDaoV2</contact>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.PHILIPS_W632_UtilsDao</utils>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.PHILIPS_W632_GroupDaoV2</group>
+		</rom>
+	</dao>
+	<!-- 华为 C8550 -->
+	<dao model = "HUAWEI C8550">
+		<rom>
+	    	<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.HW_C8550_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!-- 中兴 R750+ -->
+	<dao model = "ZTE-C R750+">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.ZTE_R750PLUS_ContactDaoV2</contact>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.ZTE_R750PLUS_UtilsDao</utils>
+		</rom>
+	</dao>
+	<!-- 酷派 N950 -->
+	<dao model = "N950">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.KUPAI_N950_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!-- 索爱 MT11i -->
+	<dao model = "MT11i">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SE_MT11i_ContactDaoV2</contact>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.LG_F160L_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!-- 索爱 ST27i -->
+	<dao model = "ST27i">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SE_ST27i_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!--LG-P690-->
+	<dao model = "LG-P690">
+		<rom>
+	    	<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.LG_P970_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.LG_P690_GroupDaoV2</group>
+		</rom>
+	</dao>
+	<!--LG-P693-->
+	<dao model = "LG-P693">
+		<rom>
+	    	<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.LG_P970_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.LG_P690_GroupDaoV2</group>
+		</rom>
+	</dao>
+	<!-- 联想 K800 -->
+	<dao model = "Lenovo K800">
+		<rom>
+	    	<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.Lenovo_K800_UtilsDao</utils>
+		</rom>
+	</dao>
+	<!-- 酷派 W713 -->
+	<dao model = "W713">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.KUPAI_W713_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!-- LG E405F -->
+	<dao model = "LG-E405f">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.LG_E405F_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!-- LG F160L -->
+	<dao model = "LG-F160">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.LG_F160L_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.LG_F160L_GroupDaoV2</group>
+		</rom>
+	</dao>
+	<!-- 酷派 N930 -->
+	<dao model = "N930">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.KUPAI_N930_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!-- oppo X903 -->
+	<dao model = "X903">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.Oppo_X903_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!-- 华为 T9200 -->
+	<dao model = "T9200">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.HW_T9200_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HW_T9200_GroupDaoV2</group>
+		</rom>
+	</dao>
+	<!-- 索爱LT26W -->
+	<dao model = "LT26w">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SE_LT26W_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.SE_LT26W_GroupDaoV2</group>
+		</rom>
+	</dao>
+	<!-- 康佳 E860 -->
+	<dao model = "E860">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.KONKA_E860_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.KONKA_E860_GroupDaoV2</group>
+		</rom>
+	</dao>
+	<!-- 康佳 E900 -->
+	<dao model = "E900">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.KONKA_E900_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!-- 康佳 E5670 -->
+	<dao model = "E5670">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.KONKA_E5670_ContactDaoV2</contact>	
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.KONKA_E5670_GroupDaoV2</group>	
+		</rom>
+	</dao>
+	<!-- Sony Ericsson X10i -->
+	<dao model = "X10i">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SonyEricsson_X10i_ContactDaoV2</contact>
+		</rom>	
+		<rom value="3.0.1.G.0.75">
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SonyEricsson_X10i_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!-- LT26i -->
+	<dao model = "LT26i">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SE_LT26i_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.SE_LT26i_GroupDaoV2</group>
+		</rom>
+		<rom value="6.1.A.2.45"><!-- 官网原版 -->
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SE_LT26i_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.SE_LT26i_GroupDaoV2</group>
+		</rom>
+	</dao>
+	<!-- MI ONE Plus-->
+	<dao model = "MI-ONE Plus">
+		<rom><!--官方ROM未做问题修改，添加一个空rom -->
+		</rom>
+		<rom value="IMM76D"><!--MIUI V2.5.4 ROM4.0.4 -->
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MI_ONEPlus_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!-- 华为 C8825D -->
+	<dao model = "HUAWEI C8825D">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.HW_C8825D_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HW_C8825D_GroupDaoV2</group>
+		</rom>
+		<rom value="C8825DV100R001C92B938"><!--官方4.0.4-->
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.HW_C8825D_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HW_C8825D_GroupDaoV2</group>
+		</rom>	
+	</dao>
+	<!-- 华为 U8660  -->
+	<dao model = "SONIC">
+		<rom><!--官方ROM未做问题修改，添加一个空rom -->
+		</rom>
+		<rom value="最傻最傻的人"><!-- 2.3.5 加强版 -->
+		</rom>
+	</dao>
+	<!-- 华为 U8950D -->
+	<dao model = "HUAWEI U8950D">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.HW_U8950D_ContactDaoV2</contact>
+		</rom>
+		<rom value="U8950DV100R001C17B939"><!-- 官方 Android OS 4.0 -->
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.HW_U8950D_ContactDaoV2</contact>
+		</rom>
+		<rom value="U8950DV100R001C17B949"><!-- 盖世英雄版 -->
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.HW_U8950D_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!-- 华为 C8812 -->
+	<dao model = "HUAWEI C8812">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.HW_C8812_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HW_C8812_GroupDaoV2</group>
+		</rom>
+		<rom value="C8812V100R001C92B930"><!-- 官方 Android OS 4.0 -->
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.HW_C8812_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HW_C8812_GroupDaoV2</group>
+		</rom>
+		<rom value="C8812V100R001C92B925"><!-- B925官方优化 -->
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.HW_C8812_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HW_C8812_GroupDaoV2</group>
+		</rom>
+		<rom value="C8812_R_2.1.11.171">
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.HW_C8812_ContactDaoV2</contact>
+		</rom>
+	</dao>	
+	<!-- 华为 U8812D -->
+	<dao model = "U8812D">
+		<rom value="U8812DV100R001CHNC00B100SP07">
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.HW_U8812D_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HW_U8812D_GroupDaoV2</group>
+		</rom>
+	</dao>	
+	<!-- OPPO U701 -->
+	<dao model = "U701">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.OPPO_U701_ContactDaoV2</contact>
+		</rom>
+	</dao>	
+</resources>

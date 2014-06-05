@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:orientation="vertical" android:id="@id/group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:textAppearance="?android:textAppearanceLarge" android:id="@id/last_month_button" android:padding="@dimen/cloud_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:button="@null" android:drawableRight="@*android:drawable/btn_lock_camera" />
+        <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <RadioButton android:textAppearance="?android:textAppearanceLarge" android:id="@id/last_three_month_button" android:padding="@dimen/cloud_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:button="@null" android:drawableRight="@*android:drawable/btn_lock_camera" />
+        <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <RadioButton android:textAppearance="?android:textAppearanceLarge" android:id="@id/last_half_yea_button" android:padding="@dimen/cloud_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:button="@null" android:drawableRight="@*android:drawable/btn_lock_camera" />
+        <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <RadioButton android:textAppearance="?android:textAppearanceLarge" android:id="@id/last_year_button" android:padding="@dimen/cloud_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:button="@null" android:drawableRight="@*android:drawable/btn_lock_camera" />
+        <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <RadioButton android:textAppearance="?android:textAppearanceLarge" android:id="@id/sync_all_button" android:padding="@dimen/cloud_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:button="@null" android:drawableRight="@*android:drawable/btn_lock_camera" />
+        <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </RadioGroup>
+</LinearLayout>

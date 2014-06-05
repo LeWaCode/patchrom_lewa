@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/login_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/cloud_pic_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/cloud_pic_bg" android:scaleType="fitXY" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:id="@id/log_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/cloud_pic_bg" android:layout_centerHorizontal="true" />
+    <Button android:id="@id/log_entry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/login_button_vertical_margin" android:layout_below="@id/log_info" android:layout_centerHorizontal="true" style="@style/CloudButtonStyle" />
+    <Button android:textAppearance="?android:textAppearanceMedium" android:id="@id/power_by" android:background="@*android:color/transparent" android:clickable="false" android:layout_width="wrap_content" android:layout_height="@dimen/powered_by_button_height" android:layout_marginBottom="@dimen/powered_by_button_bottom_margin" android:drawablePadding="@dimen/powered_by_button_padding" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

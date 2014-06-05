@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 资源文件，resource的 name为机型名字Build.model ， dao的name值为机型对应名字的实现类
+-->
+<resources>
+		<!--HTC Wildfire-->
+	<dao model = "HTC Wildfire">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.HTC_Wildfire_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HTC_G4_GroupDaoV2</group>
+		</rom>
+	</dao>
+		<!--HTC G4 -->
+	<dao model = "HTC Tattoo">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.HTC_G4_ContactDaoV1</contact>
+			<edit>com.tencent.qqpim.sdk.adaptive.dao.edit.HTC_G4_EditDao</edit>
+		</rom>
+	</dao>
+		<!--HTC G7-->
+	<dao model = "HTC Desire">
+		<rom>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HTC_G7_GroupDaoV2</group>
+		</rom>
+		<rom value = "GRI40"><!-- 官方2.3.3 -->
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HTC_G7_GroupDaoV2</group>
+		</rom>
+		<rom value = "I.2.8.1"><!-- 点心  过滤官方rom修改方法导致的问题 -->
+		</rom>
+		<rom value = "MIUI.2.3.7a"><!--MIUI-->
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HTC_G7_MIUI_GroupDaoV2</group>
+		</rom>
+	</dao>
+		<!--HTC G6 -->
+	<dao model = "HTC Legend">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.HTC_G6_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HTC_G6_GroupDaoV2</group>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.GetSIMFromDb_UtilsDao</utils>
+		</rom>
+	</dao>
+	<!--HTC HERO200-->
+	<dao model = "HERO200">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.ZTE_V880_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HTC_G6_GroupDaoV2</group>
+		</rom>
+	</dao>
+		<!--HTC myTouch -->
+	<dao model = "T-Mobile myTouch 3G Slide">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.HTC_myTouch_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HTC_Wildfire_GroupDaoV2</group>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.GetSIMFromDb_UtilsDao</utils>
+		</rom>
+	</dao>
+	<!--HTC Supersonic -->
+	<dao model = "PC36100">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.HTC_myTouch_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HTC_Wildfire_GroupDaoV2</group>
+		</rom>
+	</dao>
+		<!--HTC Sensation Z710e-->
+	<dao model = "HTC Sensation Z710e">
+		<rom>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HTC_G14_GroupDaoV2</group>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.HTC_G14_UtilsDao</utils>
+		</rom>
+		<rom value="htc_pyramid-userdebug 4.0.3 IML74K eng..20120119.015251 test-keys">
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HTC_G14_ROM_GroupDaoV2</group>
+		</rom>
+	</dao>
+			<!--HTC G14 情人节版ROM-->
+	<dao model = "HTC Sensation XE with Beats Audio Z715e">
+		<rom>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HTC_G14_ROMValentine_GroupDaoV2</group>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.HTC_G14_ROMValentine_ContactDaoV2</contact>
+		</rom>
+		<rom value="IML74K">
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HTC_G14_ROMValentine_GroupDaoV2</group>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.HTC_G14_ROMValentine_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!--HTC G14 欧洲RUU优化版ROM-->
+	<dao model = "HTC SensationXE Z715e with beats audio">
+		<rom>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HTC_G14_ROMRUU_GroupDaoV2</group>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.HTC_G14_ROMRUU_ContactDaoV2</contact>
+		</rom>
+		<rom value="IML74K">
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HTC_G14_ROMRUU_GroupDaoV2</group>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.HTC_G14_ROMRUU_ContactDaoV2</contact>
+		</rom>
+	</dao>	
+	<!--HTC G9 -->
+	<dao model = "HTC Aria A6380">
+		<rom>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HTC_Wildfire_GroupDaoV2</group>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.HTC_G13_UtilsDao</utils>
+		</rom>
+	</dao>
+	<!--HTC G4 -->
+	<dao model = "A6388">
+		<rom>
+			<edit>com.tencent.qqpim.sdk.adaptive.dao.edit.HTC_G4_EditDao</edit>
+		</rom>
+	</dao>
+		<!--HTC incredible-->
+	<dao model = "ADR6350">
+		<rom>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HTC_Wildfire_GroupDaoV2</group>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.HTC_G13_UtilsDao</utils>
+		</rom>
+	</dao>
+	<!--HTC Desire S-->
+	<dao model = "HTC Desire S">
+		<rom>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.HTC_G13_UtilsDao</utils>
+		</rom>
+	</dao>
+		<!--HTC ChaCha -->
+	<dao model = "HTC ChaCha A810e">
+		<rom>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HTC_Wildfire_GroupDaoV2</group>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.HTC_G13_UtilsDao</utils>
+		</rom>
+	</dao>
+		<!--HTC Touch4G -->
+	<dao model = "HTC Glacier">
+		<rom>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HTC_Wildfire_GroupDaoV2</group>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.HTC_G13_UtilsDao</utils>
+		</rom>
+	</dao>
+		<!--HTC G13 -->
+	<dao model = "HTC Wildfire S A510e">
+		<rom>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.HTC_G13_UtilsDao</utils>
+		</rom>
+	</dao>
+		<!--HTC A6390 -->
+	<dao model = "HTC A6390">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.HTC_A6390_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HTC_A6390_GroupDaoV2</group>
+		</rom>
+	</dao>
+		<!--HTC Desire-->
+	<dao model = "Desire HD">
+		<rom>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HTC_Wildfire_GroupDaoV2</group>
+		</rom>
+	</dao>
+		<!--HTC g10-->
+	<dao model = "HTC Desire HD">
+		<rom>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.HTC_G10_UtilsDao</utils>
+		</rom>
+	</dao>
+	<!--HTC A310e-->
+	<dao model = "HTC Explorer A310e">
+		<rom>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.HTC_A310e_UtilsDao</utils>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.Sharp_SH8188U_GroupDaoV2</group>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.HTC_A310_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!--HTC A320e-->
+	<dao model = "HTC A320e">
+		<rom>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HTC_A320e_GroupDaoV2</group>
+		</rom>
+	</dao>
+	<!-- HTC One X -->
+	<dao model = "HTC One X">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.HTC_One_X_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!--HTC  Z710t-->
+	<dao model = "HTC Z710t">
+		<rom>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HTC_Z710T_GroupDaoV2</group>
+		</rom>
+	</dao>
+	<!-- HTC G21 -->
+	<dao model = "HTC Sensation XL with Beats Audio X315e">
+		<rom>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HTC_G21_GroupDaoV2</group>
+		</rom>
+		<rom value = "IML74K"><!-- 官方 -->
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HTC_G21_GroupDaoV2</group>
+		</rom>
+		<rom value = "htc_runnymede-user 4.0.3 IML74K eng..20120201.192606 release-keys"><!-- ICE -->
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.HTC_G21_ICE_GroupDaoV2</group>
+		</rom>
+	</dao>
+</resources>

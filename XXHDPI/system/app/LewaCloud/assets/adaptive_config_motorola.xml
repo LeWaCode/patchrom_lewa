@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 资源文件，resource的 name为机型名字Build.model ， dao的name值为机型对应名字的实现类
+-->
+<resources>
+	<!-- MOTO xt800 -->
+	<dao model = "XT800">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_XT800_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.MOTO_XT800_GroupDaoV2</group>
+		</rom>
+	</dao>
+		<!--MOTO MB200 -->
+	<dao model = "MB200">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_MB200_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.MOTO_MB200_GroupDaoV2</group>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.MOTO_MB525_UtilsDao</utils>
+			<edit>com.tencent.qqpim.sdk.adaptive.dao.edit.MOTO_EditDao</edit>
+		</rom>
+	</dao>
+	<!--MOTO ME200 -->
+	<dao model = "ME200">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_MB200_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.MOTO_MB200_GroupDaoV2</group>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.MOTO_MB525_UtilsDao</utils>
+			<edit>com.tencent.qqpim.sdk.adaptive.dao.edit.MOTO_EditDao</edit>
+		</rom>
+	</dao>
+	<!--MOTO ME525 -->
+	<dao model = "ME525">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_ME525_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.MOTO_ME525_GroupDaoV2</group>
+			<edit>com.tencent.qqpim.sdk.adaptive.dao.edit.MOTO_EditDao</edit>
+		</rom>
+	</dao>
+		<!--MOTO ME722 -->
+	<dao model = "MotoA953">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_ME722_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.MOTO_ME722_GroupDaoV2</group>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.MOTO_MB525_UtilsDao</utils>
+			<edit>com.tencent.qqpim.sdk.adaptive.dao.edit.MOTO_EditDao</edit>
+		</rom>
+	</dao>
+		<!--MOTO ME501 -->
+	<dao model = "ME501">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_ME501_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.MOTO_ME501_GrooupDaoV2</group>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.MOTO_Base_UtilsDao</utils>
+			<edit>com.tencent.qqpim.sdk.adaptive.dao.edit.MOTO_EditDao</edit>
+		</rom>
+	</dao>
+		<!--MOTO XT701 -->
+	<dao model = "XT701">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_XT701_ContactDaoV2</contact>
+		</rom>
+	</dao>
+		<!--MOTO ME600-->
+	<dao model = "ME600">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_ME600_ContactDaoV1</contact>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.MOTO_ME600_UtilsDao</utils>
+			<ex>com.tencent.qqpim.sdk.adaptive.dao.ex.MOTO_ME600_ExDao</ex>
+		</rom>
+	</dao>
+	<!--MOTO XT882 -->
+	<dao model = "XT882">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_XT800_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.MOTO_XT800_GroupDaoV2</group>
+		</rom>
+	</dao>
+		<!--MOTO ME502 -->
+	<dao model = "MB502">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_ME_base_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.MOTO_ME722_GroupDaoV2</group>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.MOTO_MB525_UtilsDao</utils>
+			<edit>com.tencent.qqpim.sdk.adaptive.dao.edit.MOTO_EditDao</edit>
+		</rom>
+	</dao>
+	<!--MOTO ME511 -->
+	<dao model = "ME511">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_ME_base_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.MOTO_ME722_GroupDaoV2</group>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.MOTO_MB525_UtilsDao</utils>
+			<edit>com.tencent.qqpim.sdk.adaptive.dao.edit.MOTO_EditDao</edit>
+		</rom>
+	</dao>
+	<!--MOTO ME501-->
+	<dao model = "MB501">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_ME_base_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.MOTO_ME722_GroupDaoV2</group>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.MOTO_MB525_UtilsDao</utils>
+			<edit>com.tencent.qqpim.sdk.adaptive.dao.edit.MOTO_EditDao</edit>
+		</rom>
+	</dao>
+	<!--moto XT301 -->
+	<dao model = "XT301">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_XT800_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.MOTO_XT800_GroupDaoV2</group>
+		</rom>
+	</dao>
+		<!--MOTO MB525-->
+	<dao model = "MB525">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_MB525_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.MOTO_MB525_GroupDaoV2</group>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.MOTO_MB525_UtilsDao</utils>
+			<edit>com.tencent.qqpim.sdk.adaptive.dao.edit.MOTO_EditDao</edit>
+		</rom>
+	</dao>
+		<!--MOTO A1260 -->
+	<dao model = "A1260">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_A1260_ContactDaoV1</contact>
+		</rom>
+	</dao>
+	<!--MOTO XT806 -->
+	<dao model = "XT806">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_XT806_ContactV2</contact>
+		</rom>
+	</dao>
+		<!--moto  me 811-->
+	<dao model = "ME811">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_ME811_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.MOTO_XT811_GroupDaoV2</group>
+		</rom>
+	</dao>
+	<!--moto- MB855-->
+	<dao model = "MB855">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_ME855_ContactDaoV2</contact>
+		</rom>
+	</dao>
+		<!--MOTO XT300-->
+	<dao model = "XT300">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_XT701_ContactDaoV2</contact>
+		</rom>
+	</dao>
+		<!--MOTO XT883 -->
+	<dao model = "XT883">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_XT883_SYSContactDaoV2</contact>
+			<ex>com.tencent.qqpim.sdk.adaptive.dao.ex.MOTO_XT883_ExDao</ex>
+		</rom>
+	</dao>
+		<!--MOTO A1680 -->
+	<dao model = "A1680">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_A1680_ContactDaoV1</contact>
+			<ex>com.tencent.qqpim.sdk.adaptive.dao.ex.MOTO_A1680_ExDao</ex>
+		</rom>
+	</dao>	
+		<!-- MOTO XT553 -->
+	<dao model = "MOT-XT553">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_XT553_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.MOTO_XT553_GroupDaoV2</group>
+		</rom>
+	</dao>
+	<!-- MOTO XT553 -->
+	<dao model = "XT889">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_XT889_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.MOTO_XT889_GroupDaoV2</group>
+			<ex>com.tencent.qqpim.sdk.adaptive.dao.ex.MOTO_XT889_ExDao</ex>
+		</rom>
+	</dao>
+	<!-- MOTO XT685 -->
+	<dao model = "XT685">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_XT685_SYSContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.MOTO_XT685_GroupDaoV2</group>
+			<ex>com.tencent.qqpim.sdk.adaptive.dao.ex.MOTO_XT685_ExDao</ex>
+		</rom>
+	</dao>
+	<!-- MOTO XT532 -->
+	<dao model = "XT532">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_XT532_ContactDaoV2</contact>
+		</rom>
+	</dao>	
+	<!-- MOTO XT910 -->
+	<dao model = "XT910">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_XT910_ContactDaoV2</contact>
+			<ex>com.tencent.qqpim.sdk.adaptive.dao.ex.MOTO_XT910_ExDao</ex>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.MOTO_XT910_GroupDaoV2</group>
+		</rom>
+	</dao>
+	<!-- MOTO XT535 -->
+	<dao model="XT535">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_XT535_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!-- MOTO XT535 -->
+	<dao model="XT536">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_XT536_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!-- MOTO XT390 -->
+	<dao model="XT390">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_XT390_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.MOTO_XT390_GroupDaoV2</group>
+		</rom>
+	</dao>
+</resources>

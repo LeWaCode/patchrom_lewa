@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="login_bg_color">#ff1677c6</color>
+    <color name="logout_bg_color">#ffff0000</color>
+    <color name="login_help_info_text_color">#ffffffff</color>
+    <color name="login_powered_text_color">#ffb9e703</color>
+    <color name="default_text_color">#ff38445c</color>
+    <color name="item_title_text_color">#ff38445c</color>
+    <color name="item_summary_text_color">#ffa6aab3</color>
+    <item type="color" name="active_text_color">@*android:color/white</item>
+    <color name="inactive_text_color">#88ffffff</color>
+    <color name="association_sim_text">#ffffffff</color>
+    <color name="last_conversation_number">#ff4db800</color>
+    <color name="contact_detail_photo_bg">#88349dee</color>
+    <color name="start_color">#ff6b7da4</color>
+    <color name="end_color">#ff465a85</color>
+    <color name="alphabetfast_background">#00000000</color>
+    <color name="blue">#ff00a6ec</color>
+    <color name="red">#ffff0000</color>
+</resources>

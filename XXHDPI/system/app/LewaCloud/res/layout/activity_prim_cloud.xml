@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/user_bg" android:paddingTop="@dimen/cloud_contact_top_margin" android:layout_width="fill_parent" android:layout_height="@dimen/prim_cloud_bg_height">
+        <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="@dimen/prim_cloud_pic_dimen" android:layout_height="@dimen/prim_cloud_pic_dimen">
+            <ImageButton android:id="@id/lw_btn_account" android:background="@*android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/contact_avatar_defaut" android:scaleType="centerInside" />
+        </FrameLayout>
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@color/login_help_info_text_color" android:layout_gravity="center" android:id="@id/account_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:scrollbarSize="0.0dip" android:orientation="vertical" android:id="@id/pref_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

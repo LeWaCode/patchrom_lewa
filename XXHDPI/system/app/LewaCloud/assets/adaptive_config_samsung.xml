@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 资源文件，resource的 name为机型名字Build.model ， dao的name值为机型对应名字的实现类
+-->
+<resources>
+	<!-- 三星GT-T959 -->
+	<dao model = "GT-T959">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SumSung_GT_T959_ContactV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.SumSung_GT_T959_GroupDaoV2</group>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.Sumsung_I5508_UtilsDao</utils>
+		</rom>
+	</dao>
+	<!--三星  GT-I9000 -->
+	<dao model = "GT-I9000">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SumSung_GT_I9000_ContactV2</contact>
+		</rom>
+	</dao>
+	<!--三星 I909 -->
+	<dao model = "SCH-i909">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SumSung_GT_I9000_ContactV2</contact>
+		</rom>
+	</dao>
+	<!--三星 GT-I5508-->
+	<dao model = "GT-I5508">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.Sumsung_GT_I5508_ContactDaoV2</contact>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.Sumsung_I5508_UtilsDao</utils>
+		</rom>
+	</dao>
+	<!--三星 GT-I5801-->
+	<dao model = "GT-I5801">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SIM_Acount_Name_ContactDaoV2</contact>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.Sumsung_I5508_UtilsDao</utils>
+		</rom>
+	</dao>
+	<!--三星 i7500-->
+	<dao model = "Galaxy">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SumSung_I7500_ContactDaoV1</contact>
+		</rom>
+	</dao>
+	<!-- 三星SCH-W899-->
+	<dao model = "SCH-W899">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SumSung_GT_I9000_ContactV2</contact>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.Sumsung_W899_UtilsDao</utils>
+		</rom>
+	</dao>
+	<!--1.5的三星 -->
+	<dao model = "Galaxy">
+		<rom>
+			<edit>com.tencent.qqpim.sdk.adaptive.dao.edit.Blow1_5_EditDao</edit>
+		</rom>
+	</dao>
+	<!--三星GT-S5830-->
+	<dao model = "GT-S5830">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SumSung_GT_I9000_ContactV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.SumSung_GT_T959_GroupDaoV2</group>
+		</rom>
+	</dao>
+	<!--三星SCH-i569 -->
+	<dao model = "SCH-i569">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SumSung_GT_I9000_ContactV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.SumSung_GT_T959_GroupDaoV2</group>
+		</rom>
+	</dao>
+	<!--三星T959 -->
+	<dao model = "SGH-T959">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SumSung_GT_I9000_ContactV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.SumSung_GT_T959_GroupDaoV2</group>
+		</rom>
+	</dao>
+	<!--三星T959V -->
+	<dao model = "SGH-T959V">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SumSung_GT_I9000_ContactV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.SumSung_GT_T959_GroupDaoV2</group>
+		</rom>
+	</dao>
+	<!--三星 i6500u -->
+	<dao model = "GT-I6500U">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.MOTO_XT701_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!--三星  i579 -->
+	<dao model = "SCH-i579">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SumSung_I579_ContactV2</contact>
+		</rom>
+	</dao>
+	<!--三星i809 -->
+	<dao model = "SCH-i809">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.Sumsung_I809_ContactDaoV2</contact>
+			<utils>com.tencent.qqpim.sdk.adaptive.dao.utils.Sumsung_I809_UtilsDao</utils>
+		</rom>
+	</dao>
+	
+	<!--三星GT-S5570 -->
+	<dao model = "GT-S5570">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SumSung_GT_I9000_ContactV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.SumSung_GT_T959_GroupDaoV2</group>
+		</rom>
+	</dao>
+	
+	<!--三星GT-I9100 -->
+	<dao model = "GT-I9100">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SumSung_GT_I9100_ContactV2</contact>
+			<ex>com.tencent.qqpim.sdk.adaptive.dao.ex.SamSung_GT_9100_ExDao</ex>
+		</rom>
+	</dao>
+	<!--三星 GT-S5578  -->
+	<dao model = "GT-S5578">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SumSung_GT_S5578_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!--三星 GT-S5670  -->
+	<dao model = "GT-S5670">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SAMSUNG_S5670_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!--三星i919 -->
+	<dao model = "SCH-i919">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SumSung_i919_ContactV2</contact>
+			<ex>com.tencent.qqpim.sdk.adaptive.dao.ex.SamSung_i919_ExDao</ex>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.Sharp_SH8188U_GroupDaoV2</group>
+		</rom>
+	</dao>
+	<!--三星SCH-i509 -->
+	<dao model = "SCH-i509">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SumSung_GT_SCH_I509_ContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!--三星GT-S6102E -->
+	<dao model = "GT-S6102E">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SumSung_GT_S6102E_SYSContactDaoV2</contact>
+		</rom>
+	</dao>
+	<!--三星S5660 -->
+	<dao model = "GT-S5660">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.Samsung_S5660_ContactDaoV2</contact>
+			<ex>com.tencent.qqpim.sdk.adaptive.dao.ex.Samsung_S5660_ExDao</ex>
+		</rom>
+	</dao>
+	<!--三星S5360 -->
+	<dao model = "GT-S5360">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.Samsung_S5360_ContactDaoV2</contact>
+		</rom>
+	</dao>
+		<!--三星 GT-S5820 -->
+	<dao model = "GT-S5820">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SumSung_GT_I9100_ContactV2</contact>
+			<ex>com.tencent.qqpim.sdk.adaptive.dao.ex.SamSung_GT_9100_ExDao</ex>
+		</rom>
+	</dao>
+	<!--三星 GT-S7508 -->
+	<dao model = "GT-S7508">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SumSung_GT_I9100_ContactV2</contact>
+		</rom>
+	</dao>
+	<!--三星 galaxy s -->
+	<dao model = "GT-S7562i">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SumSung_GT_I9100_ContactV2</contact>
+			<ex>com.tencent.qqpim.sdk.adaptive.dao.ex.SamSung_GT_9100_ExDao</ex>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.SumSung_galaxy_GroupDaoV2</group>
+		</rom>
+	</dao>
+	<!--三星I977 -->
+	<dao model = "SAMSUNG-SGH-I997">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.Samsung_I977_ContactDaoV2</contact>
+			<ex>com.tencent.qqpim.sdk.adaptive.dao.ex.Samsung_I977_ExDao</ex>
+		</rom>
+	</dao>
+	<!--三星I8150 -->
+	<dao model = "GT-I8150">
+		<rom>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.SumSung_I8150_GroupDaoV2</group>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.Samsung_I8150_ContactDaoV2</contact>
+			<ex>com.tencent.qqpim.sdk.adaptive.dao.ex.SamSung_i8150_ExDao</ex>
+		</rom>
+	</dao>
+	<!--三星I779 -->
+	<dao model = "SCH-I779">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.Samsung_I8150_ContactDaoV2</contact>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.SumSung_I8150_GroupDaoV2</group>
+			<ex>com.tencent.qqpim.sdk.adaptive.dao.ex.SamSung_i8150_ExDao</ex>
+		</rom>
+	</dao>
+	<!--三星GT-I9300 -->
+	<dao model = "GT-I9300">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SumSung_GT_I9300_ContactV2</contact>
+			<ex>com.tencent.qqpim.sdk.adaptive.dao.ex.SamSung_GT_I9300_ExDao</ex>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.SumSung_GT_I9300_GroupDaoV2</group>
+		</rom>	
+		<rom value = "52samsung V5.8"><!-- 官方 4.0.4 -->
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SumSung_GT_I9300_ContactV2</contact>
+			<ex>com.tencent.qqpim.sdk.adaptive.dao.ex.SamSung_GT_I9300_ExDao</ex>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.SumSung_GT_I9300_GroupDaoV2</group>
+		</rom>
+		<rom value = "I9300XXDLIB by tuifei">
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SumSung_GT_I9300_ContactV2</contact>
+			<ex>com.tencent.qqpim.sdk.adaptive.dao.ex.SamSung_GT_I9300_ExDao</ex>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.SumSung_GT_I9300_GroupDaoV2</group>
+		</rom>
+	</dao>
+	<!--三星GT-I9100 -->
+	<dao model = "GT-I9100">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SumSung_GT_I9100_ContactV2</contact>
+			<ex>com.tencent.qqpim.sdk.adaptive.dao.ex.SamSung_GT_9100_ExDao</ex>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.SumSung_GT_I9100_GroupDaoV2</group>
+		</rom>
+		<rom value = "IML74K.ZSLPE"><!-- 官方 4.0.3 -->
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SumSung_GT_I9100_ContactV2</contact>
+			<ex>com.tencent.qqpim.sdk.adaptive.dao.ex.SamSung_GT_9100_ExDao</ex>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.SumSung_GT_I9100_GroupDaoV2</group>
+		</rom>
+		<rom value = "lidroid-official-i9100-v4.5"><!-- 力卓 v4.5 -->
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.SumSung_GT_I9100_ContactV2</contact>
+			<ex>com.tencent.qqpim.sdk.adaptive.dao.ex.SamSung_GT_9100_ExDao</ex>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.SumSung_GT_I9100_GroupDaoV2</group>
+		</rom>
+	</dao>
+	<!--三星Galasy NOTE 2 (GT-N7100) -->
+	<dao model = "GT-N7100">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.Samsung_GalaxyNOTE2_ContactDaoV2</contact>
+			<ex>com.tencent.qqpim.sdk.adaptive.dao.ex.Samsung_GalaxyNOTE2_ExDao</ex>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.Samsung_GalaxyNOTE2_GroupDaoV2</group>
+		</rom>
+		<rom value = "JRO03C.N7100ZCALJ6"><!-- 官方 4.1.1 -->
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.Samsung_GalaxyNOTE2_ContactDaoV2</contact>
+			<ex>com.tencent.qqpim.sdk.adaptive.dao.ex.Samsung_GalaxyNOTE2_ExDao</ex>
+			<group>com.tencent.qqpim.sdk.adaptive.dao.group.Samsung_GalaxyNOTE2_GroupDaoV2</group>
+		</rom>
+	</dao>
+	<!-- 三星 S5660 -->
+	<dao model = "GT-S5660">
+		<rom>
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.Samsung_S5660_ContactDaoV2</contact>
+		</rom>
+		<rom value="GINGERBREAD.ZCKP6"><!-- 官方2.3.4 -->
+			<contact>com.tencent.qqpim.sdk.adaptive.dao.contact.Samsung_S5660_ContactDaoV2</contact>
+		</rom>
+	</dao>
+</resources>
