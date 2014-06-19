@@ -717,4 +717,5 @@
 
     <!-- Public raw -->
     <public type="raw" name="qihoopay" id="0x090f0000" />
+    <public type="raw" name="white_app" id="0x090f0001" />
 </resources>
