@@ -60,7 +60,6 @@
     <!-- highlight color -->
     <color name="holo_light_highlight_color">#088cff</color>
     <color name="holo_light_focused_color">#ffffffff</color> <!-- @android:color/white -->
-    <drawable name="dialog_holo_light_frame">@drawable/dialog_full_holo_light</drawable>
     <color name="tab_text_bright_foreground_disabled_holo_light">#cbcbcb</color>
     <color name="tab_text_bright_foreground_holo_light">#38445c</color>  <!-- @color/bright_foreground_holo_light -->
     <color name="tab_text_highlight_holo_light">#088cff</color>  <!-- @color/holo_light_highlight_color -->
