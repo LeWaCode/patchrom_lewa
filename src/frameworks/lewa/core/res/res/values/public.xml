@@ -47,7 +47,7 @@
     <public type="attr" name="indicator" id="0x09010022" />
     <public type="attr" name="indicator_background" id="0x09010023" />
     <public type="attr" name="indicator_padding" id="0x09010024" />
-
+    <public type="attr" name="lewa_ActionbarTabIndicatorDrawalbe" id="0x09010025" />
     <!-- Public IDs -->
     <!-- DragableListView -->
     <public type="id" name="grabber" id="0x09020000" />

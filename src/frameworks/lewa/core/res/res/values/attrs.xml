@@ -49,6 +49,7 @@
     <declare-styleable name="V5.Theme">
         <attr name="lewa_ui_version" format="integer" />
         <attr name="lewa_windowContentOverlay" format="reference" />
+        <attr name="lewa_ActionbarTabIndicatorDrawalbe" format="reference" />
     </declare-styleable>
 
     <declare-styleable name="SlidingButton">

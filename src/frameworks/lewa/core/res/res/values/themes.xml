@@ -3,6 +3,7 @@
 <resources>
     <style name="V5.Theme" parent="android:Theme.Holo.Light">
         <item name="lewa_ui_version">5</item>
+        <item name="lewa_ActionbarTabIndicatorDrawalbe">@lewa:drawable/action_bar_tab_indicator</item>
         <item name="android:actionBarStyle">@lewa:style/V5.Widget.Holo.Light.ActionBar.Solid</item>
         <item name="android:actionModeStyle">@lewa:style/V5.Widget.Holo.Light.ActionMode.Inverse</item>
         <item name="android:actionModeCloseDrawable">@lewa:drawable/ic_cab_cancel_holo_dark</item>
