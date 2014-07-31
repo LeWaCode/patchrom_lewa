@@ -572,6 +572,11 @@
     <public type="drawable" name="ic_audio_vol_mute" id="0x090800c0"/>
     <public type="drawable" name="ic_media_route_on_holo_dark" id="0x090800c1"/>
     <public type="drawable" name="ic_media_route_disabled_holo_dark" id="0x090800c2"/>
+    <!-- dialog -->
+    <public type="drawable" name="dialog_top_holo_light" id="0x090800c3"/>
+    <public type="drawable" name="dialog_middle_holo_light" id="0x090800c4"/>
+    <public type="drawable" name="dialog_bottom_holo_light" id="0x090800c5"/>
+    <public type="drawable" name="dialog_full_holo_light" id="0x090800c6"/>
 
     <!-- Public layouts -->
     <public type="layout" name="stateful_preference_holo_light" id="0x09090000" />
