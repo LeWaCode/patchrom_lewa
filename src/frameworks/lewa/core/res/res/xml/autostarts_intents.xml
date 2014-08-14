@@ -20,7 +20,7 @@
     <intent action="android.intent.action.INPUT_METHOD_CHANGED" />
     <intent action="android.intent.action.MANAGE_PACKAGE_STORAGE" />
     <intent action="android.intent.action.CAMERA_BUTTON" />
-    <intent action="android.intent.action.MEDIA_BUTTON" />
+    <!--intent action="android.intent.action.MEDIA_BUTTON" /-->
     <intent action="android.intent.action.MEDIA_BAD_REMOVAL" />
     <intent action="android.intent.action.MEDIA_MOUNTED" />
     <intent action="android.intent.action.MEDIA_NOFS" />
