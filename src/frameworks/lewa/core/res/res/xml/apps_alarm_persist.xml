@@ -3,4 +3,9 @@
 <packages>
     <package name="com.android.deskclock" />
     <package name="com.lewa.netmgr" />
+
+    <!--add begin by renxg for bug48185 at 20140822-->
+    <package name="com.lewa.weather" />
+    <package name="android" />
+    <!--add end by renxg for bug48185 at 20140822-->
 </packages>
