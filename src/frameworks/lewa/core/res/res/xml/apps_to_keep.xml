@@ -41,4 +41,7 @@
     <!--End klliu -->
     <!-- 3rd party apps -->
     <package name="com.noshufou.android.su" type="kill"/>
+    <!--add begin by renxg for Bug 54815 at 20140915-->
+    <package name="com.android.bluetooth" type="kill"/>
+    <!--add end by renxg for Bug 54815 at 20140915-->
 </packages>

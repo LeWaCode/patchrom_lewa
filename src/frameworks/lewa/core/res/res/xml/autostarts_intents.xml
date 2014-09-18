@@ -16,7 +16,6 @@
     <intent action="android.intent.action.DEVICE_STORAGE_OK" />
     <intent action="android.intent.action.GTALK_CONNECTED" />
     <intent action="android.intent.action.GTALK_DISCONNECTED" />
-    <intent action="android.intent.action.HEADSET_PLUG" />
     <intent action="android.intent.action.INPUT_METHOD_CHANGED" />
     <intent action="android.intent.action.MANAGE_PACKAGE_STORAGE" />
     <intent action="android.intent.action.CAMERA_BUTTON" />
@@ -111,7 +110,10 @@
     <intent action="android.net.wifi.supplicant.STATE_CHANGE" />
     <intent action="android.media.RINGER_MODE_CHANGED" />
     <intent action="android.media.VIBRATE_SETTING_CHANGED" />
-    <intent action="android.media.AUDIO_BECOMING_NOISY" />
+    <!--del begin by renxg for Bug46939 lifting restrictions of Cecurity center-->
+        <!--intent action="android.intent.action.HEADSET_PLUG" /-->
+    <!--intent action="android.media.AUDIO_BECOMING_NOISY" /-->
+    <!--del end by renxg for Bug46939 lifting restrictions of Cecurity center-->
     <intent action="android.speech.tts.TTS_QUEUE_PROCESSING_COMPLETED" />
     <intent action="android.speech.tts.engine.TTS_DATA_INSTALLED" />
     <intent action="android.bluetooth.adapter.action.DISCOVERY_FINISHED" />
