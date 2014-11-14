@@ -27,10 +27,10 @@ the Action Bar enabled overlaying application content.
     <FrameLayout android:id="@android:id/content"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-    <LinearLayout android:id="@lewa:id/android_top_action_bar"
+<!--     <LinearLayout android:id="@lewa:id/android_top_action_bar"
                   android:layout_width="match_parent"
                   android:layout_height="wrap_content"
-                  android:layout_gravity="top">
+                  android:layout_gravity="top"> -->
         <com.android.internal.widget.ActionBarContainer android:id="@lewa:id/android_action_bar_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -49,11 +49,11 @@ the Action Bar enabled overlaying application content.
                 android:visibility="gone"
                 style="?android:attr/actionModeStyle" />
         </com.android.internal.widget.ActionBarContainer>
-        <ImageView android:src="?android:attr/windowContentOverlay"
+<!--         <ImageView android:src="?android:attr/windowContentOverlay"
                    android:scaleType="fitXY"
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content" />
-    </LinearLayout>
+    </LinearLayout> -->
     <lewa.internal.v5.widget.LewaActionBarContainer android:id="@lewa:id/android_split_action_bar"
                   android:layout_width="match_parent"
                   android:layout_height="wrap_content"

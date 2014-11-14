@@ -22,14 +22,5 @@
     <color name="holo_blue_light">#349dee</color>
 
     <!-- Woody Guo @ 2012-12-05: FaceLock: Add for Jelly Bean -->
-    <color name="facelock_color_background">#000000</color>
 
-    <color name="holo_gray_light_primary">#d7d9dd</color>
-    <color name="holo_gray_light_secondary">#e1e2e6</color>
-
-    <color name="holo_black_light_primary">#38445c</color>
-    <color name="holo_black_light_secondary">#a6aab3</color>
-    <color name="holo_black_light_disabled">#cbcbcb</color>
-    <color name="holo_light_divider_color">#dadee6</color> 
-    <color name="button_cancel_color">#798191</color>
 </resources>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="text_small">12sp</dimen>
-    <dimen name="text_number">11sp</dimen>
-    <dimen name="widget_icon">22dp</dimen>
-</resources>

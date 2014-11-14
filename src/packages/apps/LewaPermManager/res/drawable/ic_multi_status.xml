@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<level-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- allow state -->
-    <item android:maxLevel="0" android:drawable="@drawable/check_state_enable"/>
-    <!-- deny state -->
-    <item android:maxLevel="1" android:drawable="@drawable/check_state_disable"/>
-    <!-- ask state -->
-    <item android:maxLevel="2" android:drawable="@drawable/check_state_ask"/>
-</level-list>

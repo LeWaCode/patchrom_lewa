@@ -113,11 +113,12 @@
     <public type="id" name="android_option2" id="0x09020038" />
     <public type="id" name="android_option3" id="0x09020039" />
     <public type="id" name="android_keyboard" id="0x0902003a" />
-    <public type="id" name="android_passwordEntry" id="0x0902003b" />
+<!--LEWA DELETE -->
+    <!-- <public type="id" name="android_passwordEntry" id="0x0902003b" />
     <public type="id" name="android_pinDel" id="0x0902003c" />
     <public type="id" name="android_switch_ime_button" id="0x0902003d" />
-<!--     <public type="id" name="android_lockPattern" /> -->
-    <public type="id" name="android_forgotPatternButton" id="0x0902003e" />
+    <public type="id" name="android_lockPattern" />
+    <public type="id" name="android_forgotPatternButton" id="0x0902003e" /> -->
     <!--boot dialog-->
     <public type="id" name="boot_animal" id ="0x09020040"/>
     <public type="id" name="boot_text" id="0x09020041"/>
@@ -143,12 +144,6 @@
     <public type="id" name="sousou_refresh" id="0x09020054"/>
     <public type="id" name="check_network_link" id="0x09020055"/>
     <public type="id" name="sousou_nonet_tip" id="0x09020056"/>
-    <!-- volume panel -->
-    <public type="id" name="android_visible_panel" id="0x09020057"/>
-    <public type="id" name="android_slider_group" id="0x09020058"/>
-    <public type="id" name="android_expand_button" id="0x09020059"/>
-    <public type="id" name="android_expand_button_divider" id="0x0902005a"/>
-    <public type="id" name="android_stream_icon" id="0x0902005b"/>
 
     <!-- Public styles -->
     <!-- PagerHeader -->
@@ -225,8 +220,6 @@
     <public type="style" name="V5.Widget.ArrowPageHeader" id="0x09030038"/>
     <public type="style" name="V5.Widget.Holo.Light.SeekBar" id="0x09030039" />
 
-    <public type="style" name="android.Theme.Panel.Volume" id="0x0903003a" />
-
     <!-- Public strings -->
     <public type="string" name="selectNone" id="0x09040000" />
     <!-- add for alias.xml -->
@@ -285,13 +278,7 @@
     <public type="string" name="no_network" id="0x09040034" />
     <public type="string" name="suggest_to" id="0x09040035" />
     <public type="string" name="check_network" id="0x09040036" />
-    <public type="string" name="android_volume_alarm" id="0x09040037" />
-    <public type="string" name="android_volume_icon_description_bluetooth" id="0x09040038" />
-    <public type="string" name="android_volume_icon_description_ringer" id="0x09040039" />
-    <public type="string" name="android_volume_icon_description_incall" id="0x0904003a" />
-    <public type="string" name="android_volume_icon_description_media" id="0x0904003b" />
-    <public type="string" name="android_volume_icon_description_notification" id="0x0904003c" />
-    <public type="string" name="safe_media_volume_warning" id="0x0904003d" />
+    <public type="string" name="reboot_confirm" id="0x09040037" />
 
     <!-- Public colors -->
     <public type="color" name="app_files" id="0x09050000" />
@@ -327,20 +314,19 @@
     <public type="color" name="actionmode_title_text_color_holo_light" id="0x0905001e" />
     <public type="color" name="holo_light_focused_color" id="0x0905001f" />
     <public type="color" name="bright_foreground_holo_dark" id="0x09050020" />
-    <public type="color" name="ab_bottom_solid_light_holo_start_color" id="0x09050021" />
-    <public type="color" name="ab_bottom_solid_light_holo_end_color" id="0x09050022" />
-    <public type="color" name="lw_abc_fast_index_text_pop" id="0x09050023" />
-    <public type="color" name="lw_abc_fast_index_text_bar_choose" id="0x09050024" />
-    <public type="color" name="primary_text_holo_light" id="0x09050025" />
+    <public type="color" name="lw_abc_fast_index_text_pop" id="0x09050021" />
+    <public type="color" name="lw_abc_fast_index_text_bar_choose" id="0x09050022" />
+    <public type="color" name="primary_text_holo_light" id="0x09050023" />
     <!-- lewa theme -->
-    <public type="color" name="background_holo_dark" id="0x09050026" />
-    <public type="color" name="dim_foreground_holo_light" id="0x09050027" />
-    <public type="color" name="textview_floatpanel_button_text_color" id="0x09050028" />
-    <public type="color" name="lw_arrow_page_header_active_text_color" id="0x09050029" />
-    <public type="color" name="lw_arrow_page_header_inactive_text_color" id="0x0905002a" />
-    <public type="color" name="primary_text_holo_light_cancel" id="0x0905002b" />
-    <public type="color" name="secondary_text_holo_light" id="0x0905002c" />
-
+    <public type="color" name="background_holo_dark" id="0x09050024" />
+    <public type="color" name="dim_foreground_holo_light" id="0x09050025" />
+    <public type="color" name="textview_floatpanel_button_text_color" id="0x09050026" />
+    <public type="color" name="lw_arrow_page_header_active_text_color" id="0x09050027" />
+    <public type="color" name="lw_arrow_page_header_inactive_text_color" id="0x09050028" />
+    <public type="color" name="primary_text_holo_light_cancel" id="0x09050029" />
+    <public type="color" name="secondary_text_holo_light" id="0x09050030" />
+    <public type="color" name="ab_bottom_solid_light_holo_start_color" id="0x09050031" />
+    <public type="color" name="ab_bottom_solid_light_holo_end_color" id="0x09050032" />
     <!-- Public anim -->
     <public type="anim" name="android_fade_in" id="0x09060000" />
     <public type="anim" name="android_fade_out" id="0x09060001" />
@@ -451,13 +437,13 @@
     <public type="drawable" name="ic_lock_screenshot" id="0x09080056" />
     <public type="drawable" name="ic_lock_silent_mode_on" id="0x09080057" />
     <public type="drawable" name="ic_lock_silent_mode_off" id="0x09080058" />
-    <public type="drawable" name="android_btn_code_lock_default_holo" id="0x09080059" />
-    <public type="drawable" name="android_btn_code_lock_touched_holo" id="0x0908005a" />
-    <public type="drawable" name="android_indicator_code_lock_point_area_default_holo" id="0x0908005b" />
-    <public type="drawable" name="android_indicator_code_lock_point_area_green_holo" id="0x0908005c" />
-    <public type="drawable" name="android_indicator_code_lock_point_area_red_holo" id="0x0908005d" />
-    <public type="drawable" name="android_indicator_code_lock_drag_direction_green_up" id="0x0908005e" />
-    <public type="drawable" name="android_indicator_code_lock_drag_direction_red_up" id="0x0908005f" />
+    <public type="drawable" name="btn_code_lock_default_holo" id="0x09080059" />
+    <public type="drawable" name="btn_code_lock_touched_holo" id="0x0908005a" />
+    <public type="drawable" name="indicator_code_lock_point_area_default_holo" id="0x0908005b" />
+    <public type="drawable" name="indicator_code_lock_point_area_green_holo" id="0x0908005c" />
+    <public type="drawable" name="indicator_code_lock_point_area_red_holo" id="0x0908005d" />
+    <public type="drawable" name="indicator_code_lock_drag_direction_green_up" id="0x0908005e" />
+    <public type="drawable" name="indicator_code_lock_drag_direction_red_up" id="0x0908005f" />
     <public type="drawable" name="android_platlogo" id="0x09080060" />
     <public type="drawable" name="android_notification_item_background_color" id="0x09080061" />
     <public type="drawable" name="android_notification_item_background_color_pressed" id="0x09080062" />
@@ -515,69 +501,56 @@
 
     <public type="drawable" name="android_cab_background_bottom_holo_light" id="0x09080092" />
     <public type="drawable" name="ic_lock_shutdown" id="0x09080093" />
-    <!-- for voicemail -->
-    <public type="drawable" name="stat_notify_voicemail_sub1" id="0x09080094"/>
-    <public type="drawable" name="stat_notify_voicemail_sub2" id="0x09080095"/>
     <!-- abc fast indexer -->
-    <public type="drawable" name="lw_bg_abc_fast_index_bar" id="0x09080096" />
-    <public type="drawable" name="lw_bg_abc_fast_index_pop" id="0x09080097" />
+    <public type="drawable" name="lw_bg_abc_fast_index_bar" id="0x09080094" />
+    <public type="drawable" name="lw_bg_abc_fast_index_pop" id="0x09080095" />
     <!-- add by zhangxianjia -->
-    <public type="drawable" name="rounded_corner_top_right" id="0x09080098" />
-    <public type="drawable" name="rounded_corner_top_left" id="0x09080099" />
-    <public type="drawable" name="rounded_corner_bottom_right" id="0x0908009a" />
-    <public type="drawable" name="rounded_corner_bottom_left" id="0x0908009b" />
+    <public type="drawable" name="rounded_corner_top_right" id="0x09080096" />
+    <public type="drawable" name="rounded_corner_top_left" id="0x09080097" />
+    <public type="drawable" name="rounded_corner_bottom_right" id="0x09080098" />
+    <public type="drawable" name="rounded_corner_bottom_left" id="0x09080099" />
     <!-- END -->
-    <public type="drawable" name="dnd_list_drag" id="0x0908009c" />
-    <public type="drawable" name="ic_dialog_alert" id="0x0908009d" />
-    <public type="drawable" name="ic_dialog_info" id="0x0908009e" />
-    <public type="drawable" name="quickcontact_badge_overlay_dark" id="0x0908009f" />
+    <public type="drawable" name="dnd_list_drag" id="0x0908009a" />
+    <public type="drawable" name="ic_dialog_alert" id="0x0908009b" />
+    <public type="drawable" name="ic_dialog_info" id="0x0908009c" />
+    <public type="drawable" name="quickcontact_badge_overlay_dark" id="0x0908009d" />
 
-    <!-- Alert Dialog -->	
-    <public type="drawable" name="magnifier" id="0x090800a0" />
-    <public type="drawable" name="magnifier_mask" id="0x090800a1" />
-    <public type="drawable" name="textview_list_separator" id="0x090800a2" />
-    <public type="drawable" name="textview_panel_bg" id="0x090800a3" />
-    <public type="drawable" name="textview_floatpanel_button_bg" id="0x090800a4" />
-    <public type="drawable" name="textview_panel_separator" id="0x090800a5" />
-    <public type="drawable" name="textview_panel_arrow_up" id="0x090800a6" />
-    <public type="drawable" name="textview_panel_arrow_down" id="0x090800a7" />
-    <public type="drawable" name="textview_list_bg" id="0x090800a8" />
-    <public type="drawable" name="textview_panel_button_bg_pressed" id="0x090800a9" />
-    <public type="drawable" name="btn_check_holo_light" id="0x090800aa" />
-    <public type="drawable" name="btn_radio_holo_light" id="0x090800ab" />
-    <public type="drawable" name="lw_arrow_page_header_indicator" id="0x090800ac"/>
-    <public type="drawable" name="lw_bg_arrow_page_header_indicator" id="0x090800ad"/>
+    <!-- Alert Dialog -->
+    <public type="drawable" name="magnifier" id="0x090800a2" />
+    <public type="drawable" name="magnifier_mask" id="0x090800a3" />
+    <public type="drawable" name="textview_list_separator" id="0x090800a4" />
+    <public type="drawable" name="textview_panel_bg" id="0x090800a5" />
+    <public type="drawable" name="textview_floatpanel_button_bg" id="0x090800a6" />
+    <public type="drawable" name="textview_panel_separator" id="0x090800a7" />
+    <public type="drawable" name="textview_panel_arrow_up" id="0x090800a8" />
+    <public type="drawable" name="textview_panel_arrow_down" id="0x090800a9" />
+    <public type="drawable" name="textview_list_bg" id="0x090800aa" />
+    <public type="drawable" name="textview_panel_button_bg_pressed" id="0x090800ab" />
+    <public type="drawable" name="btn_check_holo_light" id="0x090800ac" />
+    <public type="drawable" name="btn_radio_holo_light" id="0x090800ad" />
+    <public type="drawable" name="lw_arrow_page_header_indicator" id="0x090800ae"/>
+    <public type="drawable" name="lw_bg_arrow_page_header_indicator" id="0x090800af"/>
 
-    <public type="drawable" name="sim_background_blue" id="0x090800ae" />
-    <public type="drawable" name="sim_background_orange" id="0x090800af" />
-    <public type="drawable" name="sim_background_sip" id="0x090800b0" />
-    <public type="drawable" name="sim_background_locked" id="0x090800b1" />
+    <public type="drawable" name="sim_background_blue" id="0x090800b0" />
+    <public type="drawable" name="sim_background_orange" id="0x090800b1" />
+    <public type="drawable" name="sim_background_sip" id="0x090800b2" />
+    <public type="drawable" name="sim_background_locked" id="0x090800b3" />
 
-    <public type="drawable" name="cab_background_top_holo_light" id="0x090800b2"/>
-    <public type="drawable" name="cab_background_bottom_holo_light" id="0x090800b3"/>    
-    <public type="drawable" name="dialog_holo_light_frame" id="0x090800b4"/>
-
-    <!-- Volume Panel -->
-    <public type="drawable" name="ic_audio_alarm" id="0x090800b5" />
-    <public type="drawable" name="ic_audio_alarm_mute" id="0x090800b6" />
-    <public type="drawable" name="ic_audio_bt" id="0x090800b7"/>
-    <public type="drawable" name="ic_audio_bt_mute" id="0x090800b8"/>
-    <public type="drawable" name="ic_audio_notification" id="0x090800b9" />
-    <public type="drawable" name="ic_audio_notification_mute" id="0x090800ba" />
-    <public type="drawable" name="ic_audio_phone" id="0x090800bb" />
-    <public type="drawable" name="ic_audio_ring_notif" id="0x090800bc" />
-    <public type="drawable" name="ic_audio_ring_notif_mute" id="0x090800bd" />
-    <public type="drawable" name="ic_audio_ring_notif_vibrate" id="0x090800be"/>
-    <public type="drawable" name="ic_audio_vol" id="0x090800bf"/>
-    <public type="drawable" name="ic_audio_vol_mute" id="0x090800c0"/>
-    <public type="drawable" name="ic_media_route_on_holo_dark" id="0x090800c1"/>
-    <public type="drawable" name="ic_media_route_disabled_holo_dark" id="0x090800c2"/>
-    <!-- dialog -->
-    <public type="drawable" name="dialog_top_holo_light" id="0x090800c3"/>
-    <public type="drawable" name="dialog_middle_holo_light" id="0x090800c4"/>
-    <public type="drawable" name="dialog_bottom_holo_light" id="0x090800c5"/>
-    <public type="drawable" name="dialog_full_holo_light" id="0x090800c6"/>
-
+    <public type="drawable" name="cab_background_top_holo_light" id="0x090800b4"/>
+    <public type="drawable" name="cab_background_bottom_holo_light" id="0x090800b5"/>    
+    <public type="drawable" name="dialog_holo_light_frame" id="0x090800b6"/>    
+    <!-- for voicemail -->
+    <public type="drawable" name="stat_notify_voicemail_sub1" id="0x090800b7"/>
+    <public type="drawable" name="stat_notify_voicemail_sub2" id="0x090800b8"/>
+    <!--  dialog -->
+    <public type="drawable" name="dialog_bottom_holo_light" id="0x090800b9"/>
+    <public type="drawable" name="dialog_full_holo_light" id="0x090800ba"/>
+    <public type="drawable" name="dialog_middle_holo_light" id="0x090800bb"/>
+    <public type="drawable" name="dialog_top_holo_light" id="0x090800bc"/>
+    <public type="drawable" name="lewa_ic_menu_copy_holo_light" id="0x090800bd"/>
+    <public type="drawable" name="ab_solid_light_holo" id="0x090800be"/>
+    <public type="drawable" name="ab_stacked_solid_light_holo" id="0x090800bf"/>
+    <public type="drawable" name="menu_hardkey_panel_holo_light" id="0x090800c0"/>
     <!-- Public layouts -->
     <public type="layout" name="stateful_preference_holo_light" id="0x09090000" />
     <public type="layout" name="preference_widget_switch_noclickable" id="0x09090001" />
@@ -592,7 +565,7 @@
     <public type="layout" name="android_simple_list_item_2_single_choice" id="0x09090009" />
     <public type="layout" name="android_usb_storage_activity" id="0x0909000a" />
     <public type="layout" name="android_screen_action_bar" id="0x0909000b" />
-    <public type="layout" name="android_screen_action_bar_overlay" id="0x0909000c" />
+    <!--<public type="layout" name="android_screen_action_bar_overlay" id="0x0909000c" />-->
     <public type="layout" name="android_action_mode_close_item" id="0x0909000d" />
     <public type="layout" name="android_action_bar_title_item" id="0x0909000e" />
     <public type="layout" name="android_time_picker" id="0x0909000f" />
@@ -621,10 +594,10 @@
     <public type="layout" name="android_global_actions_silent_mode" id="0x09090024" />
     <public type="layout" name="screen_action_bar_overlay" id="0x09090025" />
     <public type="layout" name="screen_action_bar" id="0x09090026" />
-    <public type="layout" name="android_keyguard_screen_password_portrait" id="0x09090027" />
+<!--     <public type="layout" name="android_keyguard_screen_password_portrait" id="0x09090027" />
     <public type="layout" name="android_keyguard_screen_password_landscape" id="0x09090028" />
     <public type="layout" name="android_keyguard_screen_unlock_portrait" id="0x09090029" />
-    <public type="layout" name="android_keyguard_screen_unlock_landscape" id="0x0909002a" />
+    <public type="layout" name="android_keyguard_screen_unlock_landscape" id="0x0909002a" /> -->
     <!-- Toast layout -->
     <public type="layout" name="transient_notification" id="0x0909002b" />
     <!-- boot dialog-->
@@ -645,6 +618,7 @@
     <public type="layout" name="input_method_switch_dialog_title" id="0x09090039"/>
     <public type="layout" name="simple_list_item_2_single_choice" id="0x0909003a"/>
     <public type="layout" name="preference_list_content" id="0x0909003b"/>
+    <public type="layout" name="action_bar_home" id="0x0909003c"/>
     
     <!-- Public bool -->
     <public type="bool" name="android_config_automatic_brightness_available" id="0x090a0000" />
@@ -658,7 +632,6 @@
     <public type="bool" name="enable_magnifier_when_input" id="0x090a0008" />
     <public type="bool" name="android_config_intrusiveNotificationLed" id="0x090a0009" />
     <public type="bool" name="config_use_screen_auto_brightness_adjustment" id="0x090a000a" />
-    <public type="bool" name="android_config_useMasterVolume" id="0x090a000b" />
 
     <!-- Public dimen -->
     <public type="dimen" name="android_app_icon_size" id="0x090b0000" />
@@ -680,13 +653,12 @@
     <public type="dimen" name="expanded_height" id="0x090b0011" />
     <public type="dimen" name="normal_height" id="0x090b0012" />
     <public type="dimen" name="magnifier_finger_offset" id="0x090b0013" />
-    
+
     <public type="dimen" name="text_handle_visible_height" id="0x090b0014" />
     <public type="dimen" name="float_panel_arrow_top_offset" id="0x090b0015" />
     <public type="dimen" name="float_panel_arrow_bottom_offset" id="0x090b0016" />
     <public type="dimen" name="spinner_v5_vertical_offset" id="0x090b0017" />
     <public type="dimen" name="lw_arrow_page_header_text_size" id="0x090b0018" />
-    <public type="dimen" name="android_volume_panel_top" id="0x090b0019" />
 
     <!-- Public integer -->
     <public type="integer" name="android_config_lowBatteryCloseWarningLevel" id="0x090c0000" />

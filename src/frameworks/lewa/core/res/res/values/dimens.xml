@@ -15,6 +15,7 @@
     <dimen name="text_handle_visible_height">40dip</dimen>
     <dimen name="float_panel_arrow_top_offset">2.667dip</dimen>
     <dimen name="float_panel_arrow_bottom_offset">6.667dip</dimen>
+    <dimen name="android_status_bar_height">25dip</dimen>
 
     <!-- textSize -->
     <dimen name="v5_text_font_size_small">14sp</dimen>

@@ -2,46 +2,32 @@
 
 <packages>
 
-	<!-- The following apps will be never killed or stoped -->
     <!-- system apps -->
-    <package name="system_process" type = "keep"/>
-    <package name="com.android.phone" type = "keep"/>
-    <package name="android.process.acore" type = "keep"/>
-    <package name="com.android.systemui" type = "keep"/>
-    <package name="android.process.media" type = "keep"/>
-    <package name="com.lewa.cleanmemory" type = "keep"/>
-   <!-- <package name="com.lewa.flashlight" type = "keep"/> -->
-    <package name="com.android.defcontainer" type = "keep" reason="get storage info" />
-    <!-- Add by klliu according bug:45425 -->
-    <package name="com.lewa.push" type="keep"/>
-    <package name="com.lewa.thememanager" type="keep"/>
-    <package name="android.process.acore" type="keep"/>
-    <package name="system_server" type="keep"/>
-    <package name="lewa" type="keep" />
-    <!-- end klliu -->
+    <package name="android" />
+    <package name="com.android.phone" />
+    <package name="com.android.systemui" />
+    <package name="com.android.settings" />
+    <package name="com.android.email" />
+    <package name="com.lewa.spm" />
+    <package name="com.lewa.intercept" />
+    <package name="com.lewa.PIM" />
+    <package name="com.lewa.virusdefense" />
+    <package name="com.lewa.cleanmemory" />
+    <package name="com.lewa.weather"/>
+    <package name="com.lewa.antitheft"/>
+    <package name="com.lewa.flashlight"/>
+    <package name="com.android.defcontainer" reason="get storage info"/>
+    
+    <!-- android providers -->
+    <package name="com.android.providers.calendar" />
+    <package name="com.android.providers.media" />
+    <package name="com.android.providers.downloads" />
+    <package name="com.android.providers.contacts" />
+    <package name="com.android.providers.telephony" />
+    <package name="com.android.providers.drm" />
+
     <!-- 3rd party apps -->
-    <!-- The following apps will be  killed, but not stopped -->
-    <!-- system apps -->
-	<package name="com.lewa.weather" type="kill"/>
-	<package name="com.when.android.calendar365" type="kill"/>
-	<package name="com.android.deskclock" type="kill"/>
-	<package name="com.lewa.virusdefense" type="kill"/>
-	<package name="com.lewa.antitheft" type="kill"/>
-	<!-- android providers -->
-    <package name="com.android.providers.calendar" type="kill"/>
-    <package name="com.android.providers.media" type="kill"/>
-    <package name="com.android.providers.downloads" type="kill"/>
-    <package name="com.android.providers.contacts" type="kill"/>
-    <package name="com.android.providers.telephony" type="kill"/>
-    <package name="com.android.providers.drm" type="kill"/>
-    <!-- Add by klliu according bug:45425 -->
-    <package name="com.lewa.permmanager" type="kill"/>
-    <package name="com.lewa.providers.sensor" type="kill"/>
-    <package name="com.android.exchange" type="kill" />
-    <!--End klliu -->
-    <!-- 3rd party apps -->
-    <package name="com.noshufou.android.su" type="kill"/>
-    <!--add begin by renxg for Bug 54815 at 20140915-->
-    <package name="com.android.bluetooth" type="kill"/>
-    <!--add end by renxg for Bug 54815 at 20140915-->
+    <package name="com.noshufou.android.su" />
+    <package name="com.when.android.calendar365" />
+    <package name="com.zdworks.android.zdclock" />
 </packages>

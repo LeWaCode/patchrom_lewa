@@ -5,6 +5,7 @@
         <item name="lewa_ui_version">5</item>
         <item name="lewa_ActionbarTabIndicatorDrawalbe">@lewa:drawable/action_bar_tab_indicator</item>
         <item name="android:actionBarStyle">@lewa:style/V5.Widget.Holo.Light.ActionBar.Solid</item>
+        <item name="android:actionBarSplitStyle">@lewa:style/V5.Widget.Holo.Light.ActionBar.Solid</item>
         <item name="android:actionModeStyle">@lewa:style/V5.Widget.Holo.Light.ActionMode.Inverse</item>
         <item name="android:actionModeCloseDrawable">@lewa:drawable/ic_cab_cancel_holo_dark</item>
         <item name="android:alertDialogTheme">@lewa:style/V5.Theme.Holo.Light.Dialog.Alert</item>
@@ -46,7 +47,7 @@
         <item name="android:listDivider">@lewa:drawable/list_divider_holo_light</item>
         <item name="android:dividerHorizontal">@lewa:drawable/list_divider_holo_light</item>
         <item name="android:dividerVertical">@lewa:drawable/list_divider_holo_light</item>
-        <!--  LEWA CTS END --> 
+        <!--  LEWA CTS END -->
         <item name="android:actionBarTabStyle">@lewa:style/V5.Widget.Holo.ActionBar.TabView</item>
         <item name="android:textAppearanceLarge">@lewa:style/V5.TextAppearance.Large</item>
         <item name="android:textAppearanceMedium">@lewa:style/V5.TextAppearance.Medium</item>
@@ -82,6 +83,7 @@
         <item name="android:listChoiceBackgroundIndicator">@lewa:drawable/list_selector_holo_light</item>
         <item name="android:listPopupWindowStyle">@style/V5.Widget.Holo.Light.ListPopupWindow</item>
         <item name="android:popupMenuStyle">@style/V5.Widget.Holo.Light.PopupMenu</item>
+        <item name="android:panelBackground">@lewa:drawable/menu_hardkey_panel_holo_light</item>
     </style>
 
     <style name="V5.Theme.Holo" />

@@ -28,8 +28,6 @@
     <item type="bool" name="android_config_voice_capable">@*android:bool/config_voice_capable</item>
     <item type="bool" name="android_config_wimaxEnabled">@*android:bool/config_wimaxEnabled</item>
     <item type="bool" name="android_config_intrusiveNotificationLed">@*android:bool/config_intrusiveNotificationLed</item>
-    <item type="bool" name="android_config_useMasterVolume">@*android:bool/config_useMasterVolume</item>
-
     <item type="color" name="android_config_defaultNotificationColor">@*android:color/config_defaultNotificationColor</item>
 
     <color name="android_background_holo_dark">@*android:color/background_holo_dark</color>
@@ -39,21 +37,22 @@
     <item type="color" name="android_dim_foreground_holo_light">@*android:color/dim_foreground_holo_light</item>
     <item type="color" name="android_bright_foreground_dark">@*android:color/bright_foreground_dark</item>
 
+
+
     <item type="dimen" name="android_app_icon_size">@*android:dimen/app_icon_size</item>
     <item type="dimen" name="android_navigation_bar_height">@*android:dimen/navigation_bar_height</item>
     <item type="dimen" name="android_preference_fragment_padding_side">@*android:dimen/preference_fragment_padding_side</item>
     <item type="dimen" name="android_preference_fragment_padding_bottom">@*android:dimen/preference_fragment_padding_bottom</item>
     <item type="dimen" name="android_status_bar_icon_size">@*android:dimen/status_bar_icon_size</item>
     <item type="dimen" name="android_system_bar_icon_size">@*android:dimen/system_bar_icon_size</item>
-    <item type="dimen" name="android_status_bar_height">@*android:dimen/status_bar_height</item>
+    <!-- <item type="dimen" name="android_status_bar_height">@*android:dimen/status_bar_height</item> -->
     <item type="dimen" name="android_system_bar_height">@*android:dimen/system_bar_height</item>
     <item type="dimen" name="android_toast_y_offset">@*android:dimen/toast_y_offset</item>
     <item type="dimen" name="android_glowpadview_inner_radius">@*android:dimen/glowpadview_inner_radius</item>
     <item type="dimen" name="android_glowpadview_glow_radius">@*android:dimen/glowpadview_glow_radius</item>
     <item type="dimen" name="android_navigation_bar_width">@*android:dimen/navigation_bar_width</item>
     <item type="dimen" name="android_alert_dialog_title_height">@*android:dimen/alert_dialog_title_height</item>
-    <item type="dimen" name="android_volume_panel_top">@*android:dimen/volume_panel_top</item>
-    
+
     <item type="drawable" name="android_expander_ic_minimized">@*android:drawable/expander_ic_minimized</item>
     <item type="drawable" name="android_expander_ic_maximized">@*android:drawable/expander_ic_maximized</item>
     <item type="drawable" name="android_ic_contact_picture">@*android:drawable/ic_contact_picture</item>
@@ -102,7 +101,7 @@
     <item type="drawable" name="android_ic_lock_idle_lock">@*android:drawable/ic_lock_idle_lock</item>
     <item type="drawable" name="android_ic_menu_moreoverflow_holo_dark">@*android:drawable/ic_menu_moreoverflow_holo_dark</item>
     <item type="drawable" name="android_cab_background_bottom_holo_light">@*android:drawable/cab_background_bottom_holo_light</item>
-    <item type="drawable" name="dialog_holo_light_frame">@drawable/dialog_full_holo_light</item>
+
     <item type="id" name="android_action_context_bar">@*android:id/action_context_bar</item>
     <item type="id" name="android_alertTitle">@*android:id/alertTitle</item>
     <item type="id" name="android_alwaysUse">@*android:id/alwaysUse</item>
@@ -122,11 +121,11 @@
     <item type="id" name="android_split_action_bar">@*android:id/split_action_bar</item>
     <item type="id" name="android_action_bar">@*android:id/action_bar</item>
     <item type="id" name="android_action_bar_overlay_layout">@*android:id/action_bar_overlay_layout</item>
-    <item type="id" name="android_top_action_bar">@*android:id/top_action_bar</item>
+<!--     <item type="id" name="android_top_action_bar">@*android:id/top_action_bar</item> -->
     <item type="id" name="android_action_bar_title">@*android:id/action_bar_title</item>
     <item type="id" name="android_action_bar_subtitle">@*android:id/action_bar_subtitle</item>
     <item type="id" name="android_action_mode_close_button">@*android:id/action_mode_close_button</item>
-    
+
     <item type="id" name="android_parentPanel">@*android:id/parentPanel</item>
     <item type="id" name="android_topPanel">@*android:id/topPanel</item>
     <item type="id" name="android_titleDividerTop">@*android:id/titleDividerTop</item>
@@ -153,13 +152,17 @@
     <item type="id" name="android_option2">@*android:id/option2</item>
     <item type="id" name="android_option3">@*android:id/option3</item>
     <item type="id" name="android_keyboard">@*android:id/keyboard</item>
+<!-- lewa delete
     <item type="id" name="android_passwordEntry">@*android:id/passwordEntry</item>
     <item type="id" name="android_pinDel">@*android:id/pinDel</item>
+
     <item type="id" name="android_switch_ime_button">@*android:id/switch_ime_button</item>
-<!--     <item type="id" name="android_lockPattern">@*android:id/lockPattern</item> -->
-    <item type="id" name="android_forgotPatternButton">@*android:id/forgotPatternButton</item>
+    <item type="id" name="android_lockPattern">@*android:id/lockPattern</item>
+    <item type="id" name="android_forgotPatternButton">@*android:id/forgotPatternButton</item> -->
     <item type="id" name="android_title">@*android:id/title</item>
-    
+
+    <item type="id" name="android_timePickerLayout">@*android:id/timePickerLayout</item>
+
     <item type="integer" name="android_config_lowBatteryCloseWarningLevel">@*android:integer/config_lowBatteryCloseWarningLevel</item>
     <item type="integer" name="android_config_lowBatteryWarningLevel">@*android:integer/config_lowBatteryWarningLevel</item>
     <item type="integer" name="android_config_criticalBatteryWarningLevel">@*android:integer/config_criticalBatteryWarningLevel</item>
@@ -190,19 +193,13 @@
     <item type="string" name="android_lockscreen_forgot_pattern_button_text">@*android:string/lockscreen_forgot_pattern_button_text</item>
     <item type="string" name="android_lockscreen_pattern_wrong">@*android:string/lockscreen_pattern_wrong</item>
     <item type="string" name="android_lockscreen_pattern_instructions">@*android:string/lockscreen_pattern_instructions</item>
-    <item type="string" name="android_volume_alarm">@*android:string/volume_alarm</item>
-    <item type="string" name="android_volume_icon_description_bluetooth">@*android:string/volume_icon_description_bluetooth</item>
-    <item type="string" name="android_volume_icon_description_ringer">@*android:string/volume_icon_description_ringer</item>
-    <item type="string" name="android_volume_icon_description_incall">@*android:string/volume_icon_description_incall</item>
-    <item type="string" name="android_volume_icon_description_media">@*android:string/volume_icon_description_media</item>
-    <item type="string" name="android_volume_icon_description_notification">@*android:string/volume_icon_description_notification</item>
 
     <item type="layout" name="android_always_use_checkbox">@*android:layout/always_use_checkbox</item>
     <item type="layout" name="android_notification_template_base">@*android:layout/notification_template_base</item>
     <item type="layout" name="android_preference_header_item">@*android:layout/preference_header_item</item>
     <item type="layout" name="android_preference_list_fragment">@*android:layout/preference_list_fragment</item>
     <item type="layout" name="android_screen_action_bar">@*android:layout/screen_action_bar</item>
-    <item type="layout" name="android_screen_action_bar_overlay">@*android:layout/screen_action_bar_overlay</item>
+   <!-- <item type="layout" name="android_screen_action_bar_overlay">@*android:layout/screen_action_bar_overlay</item>-->
     <item type="layout" name="android_simple_list_item_single_choice">@*android:layout/simple_list_item_single_choice</item>
     <item type="layout" name="android_simple_list_item_2_single_choice">@*android:layout/simple_list_item_2_single_choice</item>
     <item type="layout" name="android_usb_storage_activity">@*android:layout/usb_storage_activity</item>
@@ -215,11 +212,12 @@
     <item type="layout" name="android_simple_list_item_1">@*android:layout/simple_list_item_1</item>
     <item type="layout" name="android_global_actions_item">@*android:layout/global_actions_item</item>
     <item type="layout" name="android_global_actions_silent_mode">@*android:layout/global_actions_silent_mode</item>
-    <item type="layout" name="android_keyguard_screen_password_portrait">@*android:layout/keyguard_screen_password_portrait</item>
+    <!-- remove because 4.4-->
+    <!--<item type="layout" name="android_keyguard_screen_password_portrait">@*android:layout/keyguard_screen_password_portrait</item>
     <item type="layout" name="android_keyguard_screen_password_landscape">@*android:layout/keyguard_screen_password_landscape</item>
     <item type="layout" name="android_keyguard_screen_unlock_portrait">@*android:layout/keyguard_screen_unlock_portrait</item>
     <item type="layout" name="android_keyguard_screen_unlock_landscape">@*android:layout/keyguard_screen_unlock_landscape</item>
-
+    -->
     <item type="xml" name="android_apns">@*android:xml/apns</item>
 
     <style name="android.Animation.RecentApplications" parent="@*android:style/Animation.RecentApplications"></style>
@@ -228,7 +226,6 @@
     <style name="android.Theme.Holo.Light.Dialog.Alert" parent="@*android:style/Theme.Holo.Light.Dialog.Alert"></style>
     <style name="android.Widget.Button.Transparent" parent="@*android:style/Widget.Button.Transparent"></style>
     <style name="android.Widget.Holo.TabText" parent="@*android:style/Widget.Holo.TabText"></style>
-    <style name="android.Theme.Panel.Volume" parent="@*android:style/Theme.Panel.Volume"></style>
 
     <item type="id" name="android_visible_panel">@*android:id/visible_panel</item>
     <item type="id" name="android_expand_button_divider">@*android:id/expand_button_divider</item>

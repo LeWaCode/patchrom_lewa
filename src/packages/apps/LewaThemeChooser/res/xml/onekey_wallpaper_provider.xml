@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
-    android:initialLayout="@layout/onekey_wallpaper_remoteview"
-    android:minHeight="64dp"
-    android:minWidth="64dp"
-    android:previewImage="@drawable/onekey_wallpaper_normal" >
-
-</appwidget-provider>

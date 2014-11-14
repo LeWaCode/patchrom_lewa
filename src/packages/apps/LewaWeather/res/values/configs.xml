@@ -1,9 +1,0 @@
-<resources>
-
-    <!-- baidu location sdk app key -->
-    <string name="baidu_location_app_key">7825fe7ed97a39b2f9e8b36a136f0f5d</string>
-
-    <!-- baidu location scan interval, in seconds -->
-    <integer name="baidu_location_scan_interval">7200</integer>
-
-</resources>

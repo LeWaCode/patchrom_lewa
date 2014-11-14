@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">手电筒</string>
-    <string name="prompt">锁屏状态下，按住HOME键可以快速打开手电</string>
-    <!-- camera problem -->
-    <string name="errorCameraOpenTitle">手电筒错误</string>
-    <string name="errorCameraOpenMessage">不能打开手电筒，没有或者其他程序正在使用摄像头</string>
-</resources>

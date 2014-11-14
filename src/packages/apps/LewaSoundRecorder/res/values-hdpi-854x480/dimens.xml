@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<resources>
-    <dimen name="time_digit_margin_top">166px</dimen>
-    <dimen name="volume_bar_margin_top">70px</dimen>
-</resources>

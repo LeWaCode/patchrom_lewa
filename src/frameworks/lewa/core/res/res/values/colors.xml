@@ -2,7 +2,7 @@
 <resources>
     <!-- PagerHeader background -->
     <color name="pagerheader_background">#e7e7e7</color>
-    <color name="pagerheader_text_active">#38445c</color>  <!-- @*android:color/background_holo_dark -->
+    <color name="pagerheader_text_active">@*android:color/background_holo_dark</color>
     <color name="pagerheader_text_inactive">#848484</color>
 
     <!-- Colors of different types of file -->
@@ -19,23 +19,14 @@
     <color name="zip_files">#8e8e8e</color>
     <color name="empty_files">#d4d4d4</color>
     <!-- move from framework-res for patch rom -->
-    <color name="transparent">#00000000</color>
-    <!-- Woody Guo @ 2012-12-05: FaceLock: Add for Jelly Bean -->
-    <color name="lewa_number_picker_text_bg">#7f000000</color>
-    <color name="lewa_number_picker_text_label">#7f000000</color>
-    <color name="lewa_number_picker_text_fg">#0087f9</color>
-
     <!-- Activity background; original: #ffffff -->
     <drawable name="screen_background_light">#ffffffff</drawable>
-
-    <!-- primary_text_holo_light; original: #ff000000 -->
-    <color name="background_holo_dark">#38445c</color>
     <color name="bright_foreground_disabled_holo_light">#cbcbcb</color>
     <color name="bright_foreground_holo_light">#38445c</color>
-    <color name="bright_foreground_holo_dark">#ffffffff</color> <!-- @android:color/white -->
+    <color name="bright_foreground_holo_dark">@android:color/white</color>
+    <color name="transparent">#00000000</color>
+    <color name="background_holo_dark">#38445c</color>
     <color name="background_holo_light">#ffffff</color>
-    
-    <!-- secondary_text_holo_light; original: #323232 -->
     <color name="dim_foreground_holo_light">#a6aab3</color>
     <color name="dim_foreground_disabled_holo_light">#cbcbcb</color>
 
@@ -48,6 +39,9 @@
 
     <!-- Woody Guo @ 2012-12-05: FaceLock: Add for Jelly Bean -->
     <color name="facelock_color_background">#000000</color>
+    <color name="lewa_number_picker_text_bg">#7f000000</color>
+    <color name="lewa_number_picker_text_label">#7f000000</color>
+    <color name="lewa_number_picker_text_fg">#0087f9</color>
 
     <color name="holo_gray_light_primary">#d7d9dd</color>
     <color name="holo_gray_light_secondary">#e1e2e6</color>
@@ -55,21 +49,22 @@
     <color name="holo_black_light_primary">#38445c</color>
     <color name="holo_black_light_secondary">#a6aab3</color>
     <color name="holo_black_light_disabled">#cbcbcb</color>
-    <color name="holo_light_divider_color">#dadee6</color>
+    <color name="holo_light_divider_color">#dadee6</color> 
     <color name="button_cancel_color">#798191</color>
     <!-- highlight color -->
     <color name="holo_light_highlight_color">#088cff</color>
-    <color name="holo_light_focused_color">#ffffffff</color> <!-- @android:color/white -->
+    <color name="holo_light_focused_color">@android:color/white</color>
+    <drawable name="dialog_holo_light_frame">@drawable/dialog_full_holo_light</drawable>
     <color name="tab_text_bright_foreground_disabled_holo_light">#cbcbcb</color>
-    <color name="tab_text_bright_foreground_holo_light">#38445c</color>  <!-- @color/bright_foreground_holo_light -->
-    <color name="tab_text_highlight_holo_light">#088cff</color>  <!-- @color/holo_light_highlight_color -->
-    <color name="tab_text_focused_holo_light">#ffffffff</color>  <!-- @color/holo_light_focused_color -->
+    <color name="tab_text_bright_foreground_holo_light">@color/bright_foreground_holo_light</color>
+    <color name="tab_text_highlight_holo_light">@color/holo_light_highlight_color</color>
+    <color name="tab_text_focused_holo_light">@color/holo_light_focused_color</color>
     <!-- activity title text color -->
-    <color name="activity_title_text_color_holo_light">#38445c</color>  <!-- @color/bright_foreground_holo_light -->
-    <color name="dialog_title_text_color_holo_light">#38445c</color>  <!-- @color/bright_foreground_holo_light -->
-    <color name="compact_menu_item_text_color_normal_holo_light">#38445c</color>  <!-- @color/bright_foreground_holo_light -->
-    <color name="compact_menu_item_text_color_focused_holo_light">#ffffffff</color>  <!-- @color/holo_light_focused_color -->
-    <color name="actionmode_title_text_color_holo_light">#ffffffff</color>  <!-- @color/bright_foreground_holo_dark -->
+    <color name="activity_title_text_color_holo_light">@color/bright_foreground_holo_light</color>
+    <color name="dialog_title_text_color_holo_light">@color/bright_foreground_holo_light</color>
+    <color name="compact_menu_item_text_color_normal_holo_light">@color/bright_foreground_holo_light</color>
+    <color name="compact_menu_item_text_color_focused_holo_light">@color/holo_light_focused_color</color>
+    <color name="actionmode_title_text_color_holo_light">@color/bright_foreground_holo_dark</color>
     <color name="ab_bottom_solid_light_holo_start_color">#ffe7e9ec</color>
     <color name="ab_bottom_solid_light_holo_end_color">#00e7e9ec</color>
     <color name="lw_abc_fast_index_text_pop">#088cff</color>

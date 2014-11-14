@@ -1,5 +1,0 @@
-<resources>
-    <bool name="setting_key_delete_apk">true</bool>
-    <bool name="setting_key_update_noti">true</bool>
-    <bool name="setting_key_auto_update">false</bool>
-</resources>

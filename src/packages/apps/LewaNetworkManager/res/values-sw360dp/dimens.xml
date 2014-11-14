@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="widget_icon">26dp</dimen>
-    <dimen name="chart_side">310dp</dimen>
-    <dimen name="chart_margin">90dp</dimen>
-    <dimen name="text_large">18dp</dimen>
-    <dimen name="chart_padding">20dp</dimen>
-</resources>

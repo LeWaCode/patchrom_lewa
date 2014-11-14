@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<account-authenticator xmlns:android="http://schemas.android.com/apk/res/android"
-    android:accountType="com.lewa.pond"
-    android:contentAuthority="com.lewa.pond"
-    android:icon="@drawable/icon"
-    android:smallIcon="@drawable/icon"
-    android:label="@string/ACCOUNT_LABEL"
-    android:accountPreferences="@xml/account_preferences"
- />

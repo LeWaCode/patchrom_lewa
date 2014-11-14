@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>    
-<color name="color_black">@*android:color/primary_text_holo_light</color>
-<color name="color_gray">@*android:color/secondary_text_holo_light</color>
-<color name="color_red">#FF4D4D</color>
-<color name="color_blue">@android:color/holo_blue_light</color>
-</resources>
