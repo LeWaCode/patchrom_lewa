@@ -24,17 +24,19 @@
 
     Han languages (Chinese, Japanese, and Korean) share a common range of unicode characters;
     their ordering in the fallback or vendor files gives priority to the first in the list.
-    Locale-specific ordering can be configured by adding language and region codes to the end
-    of the filename (e.g. /system/etc/fallback_fonts-ja.xml). When no region code is used,
-    as with this example, all regions are matched. Use separate files for each supported locale.
-    The standard fallback file (fallback_fonts.xml) is used when a locale does not have its own
-    file. All fallback files must contain the same complete set of fonts; only their ordering
-    can differ.
+    Language-specific ordering can be configured by adding a BCP 47-style "lang" attribute to
+    a "file" element; fonts matching the language of text being drawn will be prioritised over
+    all others.
 -->
 <familyset>
     <family>
         <fileset>
-            <file>DroidNaskh-Regular-SystemUI.ttf</file>
+            <file variant="elegant">DroidNaskh-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file variant="compact">DroidNaskhUI-Regular.ttf</file>
         </fileset>
     </family>
     <family>
@@ -50,7 +52,14 @@
     </family>
     <family>
         <fileset>
-            <file>DroidSansThai.ttf</file>
+            <file variant="elegant">NotoSansThai-Regular.ttf</file>
+            <file variant="elegant">NotoSansThai-Bold.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file variant="compact">NotoSansThaiUI-Regular.ttf</file>
+            <file variant="compact">NotoSansThaiUI-Bold.ttf</file>
         </fileset>
     </family>
     <family>
@@ -65,33 +74,114 @@
     </family>
     <family>
         <fileset>
-            <file>DroidSansDevanagari-Regular.ttf</file>
+            <file variant="elegant">NotoSansDevanagari-Regular.ttf</file>
+            <file variant="elegant">NotoSansDevanagari-Bold.ttf</file>
         </fileset>
     </family>
     <family>
         <fileset>
-            <file>DroidSansTamil-Regular.ttf</file>
-            <file>DroidSansTamil-Bold.ttf</file>
+            <file variant="compact">NotoSansDevanagariUI-Regular.ttf</file>
+            <file variant="compact">NotoSansDevanagariUI-Bold.ttf</file>
         </fileset>
     </family>
     <family>
         <fileset>
-            <file>AnjaliNewLipi-light.ttf</file>
+            <file variant="elegant">NotoSansTamil-Regular.ttf</file>
+            <file variant="elegant">NotoSansTamil-Bold.ttf</file>
         </fileset>
     </family>
     <family>
         <fileset>
-            <file>Lohit-Bengali.ttf</file>
+            <file variant="compact">NotoSansTamilUI-Regular.ttf</file>
+            <file variant="compact">NotoSansTamilUI-Bold.ttf</file>
         </fileset>
     </family>
     <family>
         <fileset>
-            <file>Lohit-Kannada.ttf</file>
+            <file variant="elegant">NotoSansMalayalam-Regular.ttf</file>
+            <file variant="elegant">NotoSansMalayalam-Bold.ttf</file>
         </fileset>
     </family>
     <family>
         <fileset>
-            <file>Lohit-Telugu.ttf</file>
+            <file variant="compact">NotoSansMalayalamUI-Regular.ttf</file>
+            <file variant="compact">NotoSansMalayalamUI-Bold.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file variant="elegant">NotoSansBengali-Regular.ttf</file>
+            <file variant="elegant">NotoSansBengali-Bold.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file variant="compact">NotoSansBengaliUI-Regular.ttf</file>
+            <file variant="compact">NotoSansBengaliUI-Bold.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file variant="elegant">NotoSansTelugu-Regular.ttf</file>
+            <file variant="elegant">NotoSansTelugu-Bold.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file variant="compact">NotoSansTeluguUI-Regular.ttf</file>
+            <file variant="compact">NotoSansTeluguUI-Bold.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file variant="elegant">NotoSansKannada-Regular.ttf</file>
+            <file variant="elegant">NotoSansKannada-Bold.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file variant="compact">NotoSansKannadaUI-Regular.ttf</file>
+            <file variant="compact">NotoSansKannadaUI-Bold.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file variant="elegant">NotoSansKhmer-Regular.ttf</file>
+            <file variant="elegant">NotoSansKhmer-Bold.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file variant="compact">NotoSansKhmerUI-Regular.ttf</file>
+            <file variant="compact">NotoSansKhmerUI-Bold.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file variant="elegant">NotoSansLao-Regular.ttf</file>
+            <file variant="elegant">NotoSansLao-Bold.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file variant="compact">NotoSansLaoUI-Regular.ttf</file>
+            <file variant="compact">NotoSansLaoUI-Bold.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NanumGothic.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>Padauk-book.ttf</file>
+            <file>Padauk-bookbold.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansSymbols-Regular.ttf</file>
         </fileset>
     </family>
     <family>
@@ -101,12 +191,23 @@
     </family>
     <family>
         <fileset>
+            <file>NotoColorEmoji.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
             <file>DroidSansFallback.ttf</file>
         </fileset>
     </family>
     <family>
         <fileset>
-            <file>MTLmr3m.ttf</file>
+            <file lang="ja">MTLmr3m.ttf</file>
         </fileset>
     </family>
+    <!-- Note: complex scripts (i.e. those requiring shaping in Harfbuzz) have
+         a cumulative limit of 64k glyphs. Thus, if they are placed after the
+         large fonts such as DroidSansFallback, they are likely to render
+         incorrectly. Please use caution when putting fonts toward the end of
+         the list.
+    -->
 </familyset>
